@@ -1,3 +1,5 @@
 shell.nix
 .venv/
 __pycache__/
+*.log
+*.png
