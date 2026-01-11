@@ -1,0 +1,131 @@
+metadata:
+  campaign_name: "The Frozen North"
+  setting: "fantasy"
+
+archetypes:
+  - id: "tavern_keeper"
+    traits: ["gossipy", "tired", "pragmatic", "friendly", "shrewd"]
+    knowledge: ["local_rumors", "geography"]
+    motives: "keep business running, avoid trouble, make money"
+
+  - id: "town_guard"
+    traits: ["disciplined", "observant", "weary", "loyal", "suspicious"]
+    knowledge: ["local_laws", "geography"]
+    motives: "keeping the peace, protecting citizens"
+
+  - id: "scholar"
+    traits: ["curious", "absent-minded", "pompous", "articulate", "bookish"]
+    knowledge: ["ancient_history", "magic", "religion"]
+    motives: "uncovering lost knowledge, documenting history"
+
+  - id: "merchant"
+    traits: ["persuasive", "calculating", "friendly", "shrewd", "opportunistic"]
+    knowledge: ["geography", "local_rumors"]
+    motives: "make profit, acquire rare goods"
+
+  - id: "blacksmith"
+    traits: ["strong", "patient", "gruff", "honest", "hardworking"]
+    knowledge: ["items"]
+    motives: "perfect their craft, make a living"
+
+  - id: "village_elder"
+    traits: ["wise", "cautious", "traditional", "respected", "patient"]
+    knowledge: ["ancient_history", "geography"]
+    motives: "protect village, preserve traditions"
+
+  - id: "mysterious_stranger"
+    traits: ["cryptic", "observant", "secretive", "ancient", "knowing"]
+    knowledge: ["ancient_history", "magic", "secrets"]
+    motives: "unknown"
+
+npcs:
+  - id: "joe_tavernier"
+    name: "Joe"
+    archetype: "tavern_keeper"
+    traits: ["grumpy", "secretive", "observant"]
+    location: "rusty_anchor"
+    backstory: "A former sailor who lost his crew to a sea monster twenty years ago. Now runs The Rusty Anchor tavern to gather information about the creature's whereabouts."
+    secrets: "Knows the location of a hidden treasure map in the tavern cellar. Also knows about the secret smuggling tunnel to the docks."
+
+  - id: "dark_figure"
+    name: "The Stranger"
+    archetype: "mysterious_stranger"
+    traits: ["ancient", "cryptic", "all-knowing"]
+    location: "rusty_anchor"
+    backstory: "An ageless being who has watched civilizations rise and fall. Appears in times of great change."
+    secrets: "The eternal winter is a symptom of an ancient god stirring in its sleep."
+
+  - id: "captain_hilda"
+    name: "Captain Hilda Ironforge"
+    archetype: "town_guard"
+    traits: ["battle-scarred", "honorable", "stern", "protective"]
+    location: "guard_barracks"
+    backstory: "A veteran of the Frost Giant wars who now leads the town guard. Lost her left eye in battle but gained the respect of her soldiers."
+    secrets: "Suspects the mayor is secretly negotiating with the Frost Giants."
+
+locations:
+  - id: "rusty_anchor"
+    name: "The Rusty Anchor Tavern"
+    description: "A weathered tavern on the docks, dimly lit with oil lanterns. Smells of salt and ale. Creaky floorboards warn of approaching footsteps. Popular with sailors and those seeking information. A roaring fireplace in the corner, and a mysterious locked door behind the bar."
+    secrets: "A hidden smuggling tunnel in the cellar leads to the docks. The locked door leads to Joe's private quarters where he keeps the treasure map."
+
+  - id: "guard_barracks"
+    name: "The Iron Keep Barracks"
+    description: "A fortified stone building where the town guard trains and sleeps. Stone walls lined with weapon racks, a training yard in the back, and a war room with maps of the region."
+    secrets: "A hidden armory contains pre-war magical weapons."
+
+  - id: "frozen_harbor"
+    name: "The Frozen Harbor"
+    description: "Once a bustling port, now partially frozen over during the eternal winter. Ice-covered docks, abandoned ships frozen in place, and a lighthouse that still burns at night."
+    secrets: "The lighthouse keeper is actually a ghost. One of the frozen ships contains treasure from before the Great Blizzard."
+
+  - id: "scholars_tower"
+    name: "The Tower of Forgotten Lore"
+    description: "An ancient tower where scholars study the causes of the eternal winter. Towering bookshelves reaching to the ceiling, magical glowing orbs for light, and strange arcane instruments."
+    secrets: "The tower was built on the site of an ancient temple. The head scholar has been possessed by a winter spirit."
+
+history:
+  - event: "The Great Blizzard"
+    content: "A magical storm began 50 years ago and has never ended. The northern seas froze, isolating coastal cities. Many believe it was caused by an angry god or a curse. The Frost Giants descended from the mountains, villages were destroyed, and most people fled south."
+
+  - event: "The Golden Age of Trade"
+    content: "For centuries before the frost, the northern ports were the heart of international trade. Ships from all nations brought goods and knowledge. Great wealth accumulated, cultures mixed, and grand buildings rose."
+
+  - event: "The Frost Giant Wars"
+    content: "As the eternal winter set in, Frost Giants raided human settlements. A desperate war was fought for survival. The Iron Vanguard militia formed, Captain Hilda became a war hero, and an uneasy truce was eventually established with some Giant clans."
+
+factions:
+  - id: "iron_vanguard"
+    name: "The Iron Vanguard"
+    description: "A militia formed during the Frost Giant wars. Now the primary defense force for northern settlements. Seeks to protect the remaining towns and push back the Frost Giants. Enemies of the Giant clans."
+
+  - id: "frost_giant_clans"
+    name: "Frost Giant Clans"
+    description: "Massive humanoids who descended from the mountains when the eternal winter began. Some clans are hostile raiders, others seek peaceful coexistence. They thrive in the cold and need food sources."
+
+  - id: "scholars_circle"
+    name: "The Circle of Frozen Lore"
+    description: "A group of academics dedicated to understanding and ending the eternal winter. They research the cause of the Great Blizzard and preserve knowledge from before the frost."
+
+items:
+  - id: "frost_reaver"
+    name: "Frost Reaver"
+    description: "A heavy greataxe forged from the heart of a glacier. Leaves a trail of ice in its wake, can freeze water on contact, and glows blue in the presence of giants."
+
+  - id: "sailors_compass"
+    name: "Sailor's Compass"
+    description: "An ancient compass that always points toward the nearest treasure rather than north. Glows when treasure is within 100 feet."
+
+  - id: "joes_treasure_map"
+    name: "Joe's Treasure Map"
+    description: "A weathered parchment showing the location of treasure hidden before the Great Blizzard. Partially water-damaged and hard to read. Reveals the location of a sunken treasure ship."
+
+quests:
+  - id: "missing_supplies"
+    hook: "Joe suspects someone is stealing grain from the harbor warehouse. He'll ask trusted patrons to investigate the goblin raiders in the sewers."
+
+  - id: "the_frozen_lighthouse"
+    hook: "The lighthouse keeper hasn't been seen in weeks, but the light still burns. Strange sounds have been reported. Someone should investigate and lay the ghost to rest."
+
+  - id: "the_scholars_request"
+    hook: "A scholar believes an ancient book called the Tome of Winter's End holds the key to stopping the eternal winter. It's hidden in the dangerous Ruins of the Old Temple."

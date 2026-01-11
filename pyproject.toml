@@ -12,6 +12,13 @@ dependencies = [
     "torch>=2.9.1",
     "langchain[all]>=0.1.0",
     "langchain-community>=0.0.10",
+    "langchain-ollama>=0.1.0",
     "silero-vad>=6.2.0",
     "pyaudio>=0.2.14",
+    # RAG module dependencies
+    "chromadb>=0.4.15",
+    "pyyaml>=6.0.1",
+    "pydantic>=2.0.0",
+    # Testing
+    "pytest>=8.0.0",
 ]
