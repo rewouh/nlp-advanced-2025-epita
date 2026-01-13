@@ -120,7 +120,6 @@ def setup_tts():
 
 
 def main():
-    """Main entry point for the overhearing system."""
     logger.info("=" * 60)
     logger.info("OVERHEARING AGENTS - NPC Conversation System")
     logger.info("=" * 60)
@@ -135,14 +134,12 @@ def main():
     
     tts_callback = setup_tts()
     
-    logger.info("Initializing pipeline...")
-    
     try:
         pipeline = OverhearingPipeline(
             world_path=world_path,
             session_path=session_path if session_path.exists() else None,
             model="qwen2.5:3b",
-            stt_model="large-v3",
+            stt_model="base",
             tts_callback=tts_callback,
         )
     except Exception as e:
@@ -160,7 +157,7 @@ def main():
     pipeline.set_location("The Rusty Anchor Tavern", "rusty_anchor")
     pipeline.add_npc_to_scene("joe_tavernier")
     
-    logger.info("\n" + "=" * 60)
+    logger.info("=" * 60)
     logger.info("SYSTEM READY")
     logger.info("=" * 60)
     logger.info("\nCurrent Context:")
@@ -179,7 +176,6 @@ def main():
         pass
     
     pipeline.stop()
-    logger.info("Shutdown complete")
     
     return 0
 

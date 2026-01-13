@@ -88,7 +88,6 @@ class TTSEngine:
             model_name: Coqui model name
             piper_voice_path: Path to Piper voice model (fallback)
         """
-        # Initialize Piper for default speaker generation
         if PIPER_AVAILABLE and piper_voice_path and Path(piper_voice_path).exists():
             self.piper_voice = PiperVoice.load(str(piper_voice_path))
         else:
@@ -99,11 +98,9 @@ class TTSEngine:
         if self.use_coqui:
             logger.info(f"Initializing Coqui XTTS with model: {model_name}")
             try:
-                # Accept license automatically for non-commercial use
                 import os
                 os.environ['COQUI_TOS_AGREED'] = '1'
                 
-                # Workaround for PyTorch 2.5+ weights_only issue with XTTS v2
                 import torch
                 from TTS.tts.configs.xtts_config import XttsConfig
                 from TTS.tts.models.xtts import XttsAudioConfig, XttsArgs
@@ -111,27 +108,20 @@ class TTSEngine:
                 torch.serialization.weights_only = False
                 torch.serialization.add_safe_globals([XttsConfig, XttsAudioConfig, XttsArgs, BaseDatasetConfig])
                 
-                # GPU is mandatory for XTTS performance
                 if not torch.cuda.is_available():
                     raise RuntimeError("CUDA GPU is required for XTTS; no CUDA device detected")
                 
-                # Verify GPU architecture support (e.g., sm_120 for RTX 50xx)
                 device_cap = torch.cuda.get_device_capability()
                 target_arch = f"sm_{device_cap[0]}{device_cap[1]}"
-                supported_arches = torch.cuda.get_arch_list()
-                if target_arch not in supported_arches:
+                if target_arch not in torch.cuda.get_arch_list():
                     raise RuntimeError(
                         f"CUDA arch {target_arch} not supported by this PyTorch build. "
                         "Install torch>=2.6.0 built for your GPU (e.g., nightly cu124 with sm_120 support)."
                     )
                 
-                device = "cuda"
                 self.tts = TTS(model_name=model_name)
-                self.tts.to(device)
+                self.tts.to("cuda")
                 
-                logger.info(f"Coqui XTTS v2 loaded successfully on {device} with emotion support")
-                
-                # Create default speaker_wav for XTTS v2 (after piper_voice is initialized)
                 self.default_speaker_wav = None
                 if 'xtts' in model_name.lower():
                     self.default_speaker_wav = self._create_default_speaker()
@@ -437,21 +427,9 @@ class TTSEngine:
         language: str = "en",
         speed: float = 1.0,
     ):
-        """
-        Synthesize and play in one call.
-        
-        Args:
-            text: Text to synthesize
-            emotion: Emotion to use
-            speaker_wav: Optional speaker reference
-            language: Language code
-            speed: Speech speed
-        """
         audio = self.synthesize(text, emotion, speaker_wav, language, speed)
         if audio is not None:
-            # Default sample rate: 22050 Hz
-            sample_rate = 22050
-            self.play(audio, sample_rate)
+            self.play(audio)
 
 
 def emotion_from_disposition(disposition: str) -> Emotion:
