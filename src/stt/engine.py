@@ -130,7 +130,7 @@ class STTEngine:
         self.hotwords = hotwords or []
         self.hotword_prompt = HotwordExtractor.format_for_whisper(self.hotwords)
         
-        logger.info(f"STT Engine initialized with {len(self.hotwords)} hotwords")
+        logger.debug(f"STT Engine initialized with {len(self.hotwords)} hotwords")
     
     @classmethod
     def get_instance(
@@ -233,7 +233,6 @@ class STTEngine:
         """
         self.hotwords = hotwords
         self.hotword_prompt = HotwordExtractor.format_for_whisper(hotwords)
-        logger.info(f"Updated hotwords: {len(hotwords)} words")
     
     def add_hotwords(self, new_hotwords: List[str]):
         """
@@ -243,8 +242,6 @@ class STTEngine:
         self.hotwords.extend(new_hotwords)
         self.hotwords = list(set(self.hotwords))  # Remove duplicates
         self.hotword_prompt = HotwordExtractor.format_for_whisper(self.hotwords)
-        logger.info(f"Added hotwords, total: {len(self.hotwords)} words")
-
 
 def create_stt_engine(
     world_lore: Optional[WorldLore] = None,

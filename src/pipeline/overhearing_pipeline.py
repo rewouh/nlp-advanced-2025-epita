@@ -261,7 +261,7 @@ class OverhearingPipeline:
                             )
                         
                         elif trigger_result.trigger_type == TriggerType.NPC_DIRECT:
-                            logger.info(
+                            logger.debug(
                                 f"Summoning NPC {trigger_result.triggered_npc} to scene (Direct Trigger)"
                             )
                             

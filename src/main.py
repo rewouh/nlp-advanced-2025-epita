@@ -53,8 +53,6 @@ def setup_tts():
             piper_voice_path=piper_fallback if piper_fallback.exists() else None,
         )
         
-        logger.info("TTS engine initialized")
-        
         npc_speakers: dict[str, str] = {}
         
         def tts_callback(text: str, emotion: str = None, npc_id: str = None, voice_gender: str = None):
