@@ -70,6 +70,7 @@ Given the following conversation between a player and an NPC, determine if the N
 Conversation:
 {conversation}
 Respond with "PASS" if the test passes, otherwise respond with "FAIL".
+Respond with nothing else than a single word "PASS" or "FAIL".
     """.format(
         item_name=test.item_name,
         conversation="\n".join(whole_conversation)
@@ -84,6 +85,7 @@ Given the following conversation between a player and an NPC, determine if the N
 Conversation:
 {conversation}
 Respond with "PASS" if the test passes, otherwise respond with "FAIL".
+Respond with nothing else than a single word "PASS" or "FAIL".
     """.format(
         info=test.info,
         conversation="\n".join(whole_conversation)
@@ -98,6 +100,7 @@ Given the following conversation between a player and an NPC, determine if the N
 Conversation:
 {conversation}
 Respond with "PASS" if the test passes, otherwise respond with "FAIL".
+Respond with nothing else than a single word "PASS" or "FAIL".
     """.format(
         conversation="\n".join(whole_conversation)
     )
@@ -111,6 +114,7 @@ Given the following conversation between a player and an NPC, determine if the N
 Conversation:
 {conversation}
 Respond with "PASS" if the test passes, otherwise respond with "FAIL".
+Respond with nothing else than a single word "PASS" or "FAIL".
     """.format(
         conversation="\n".join(whole_conversation)
     )
@@ -148,10 +152,10 @@ def check_tests(whole_conversation: List[str], unit_tests: List[Union[
 
         answer = response.message.content
 
-        if "PASS" in answer or "pass" in answer:
+        if "PASS" == answer or "pass" == answer:
             p(f"{Fore.CYAN}{unit_test.kind} : {Fore.GREEN}pass")
             passed.append(unit_test)
-        elif "FAIL" in answer or "fail" in answer:
+        elif "FAIL" == answer or "fail" == answer:
             error(f"{Fore.CYAN}{unit_test.kind} : {Fore.RED}fail")
             failed.append(unit_test)
         else:
