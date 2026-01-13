@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "captain_hilda"
+location_trigger_sentence: "The players arrive at the Iron Keep Barracks."
+npc_trigger_sentence: "Captain Hilda Ironforge looks up from her tactical map and greets the newcomers with a nod."
+
+unit_tests:
+  - kind: "info_given"
+    info: "Suspects the mayor is secretly negotiating with the Frost Giants."
+
+texts:
+  - "Captain Ironforge, it's an honor to meet you. I've heard tales of your bravery in the Frost Giant wars."
+  - "The town seems well-protected under your command. Your dedication to these people must be unwavering."
+  - "I imagine leading the guard during these difficult times requires both strength and wisdom. How do you manage it all?"
+  - "Your experience in battle must give you unique insights into what's happening in our region."
+  - "I deeply respect your service to the town. Someone with your knowledge of the situation might notice things others miss."
+  - "Trust is hard to come by these days. I hope I've shown myself worthy of it. Are there any concerning developments you've noticed among the leadership?"

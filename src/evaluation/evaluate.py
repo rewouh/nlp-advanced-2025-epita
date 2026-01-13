@@ -209,6 +209,7 @@ def run_tests():
             p(f"{Fore.BLUE}pipeline initialized")
             
             test_failed = False
+            active_conversation_npc = None
             
             if config.location_trigger_sentence:
                 p(f"{Fore.CYAN}processing location trigger: {config.location_trigger_sentence}")
@@ -239,6 +240,7 @@ def run_tests():
                 if trigger_result.triggered_npc:
                     p(f"{Fore.YELLOW}npc {trigger_result.triggered_npc} detected in trigger, adding to scene")
                     pipeline.add_npc_to_scene(trigger_result.triggered_npc)
+                    active_conversation_npc = trigger_result.triggered_npc # Start the conversation with this NPC
                 else:
                     error(f"npc trigger failed: no npc detected in npc_trigger_sentence (expected: {config.npc_id})")
                     test_failed = True
@@ -279,38 +281,46 @@ def run_tests():
                     text=text,
                 )
                 
-                trigger_result = pipeline.trigger_detector.detect_trigger(
-                    text,
-                    active_npcs=context.active_npcs,
-                    boost_direct=True,
-                    conversation_history=pipeline.context_manager.get_recent_history(n=5),
+                if active_conversation_npc and active_conversation_npc in context.active_npcs:
+                    npc_id = active_conversation_npc
+                    p(f"{Fore.YELLOW}continuing conversation with {npc_id}")
+                else:
+                    # Only detect triggers if we're not already in a conversation
+                    trigger_result = pipeline.trigger_detector.detect_trigger(
+                        text,
+                        active_npcs=context.active_npcs,
+                        boost_direct=True,
+                        conversation_history=pipeline.context_manager.get_recent_history(n=5),
+                    )
+                    
+                    p(f"{Fore.YELLOW}trigger detected: {trigger_result.trigger_type.value} (confidence: {trigger_result.confidence:.2f})")
+                    
+                    if trigger_result.triggered_npc and trigger_result.triggered_npc in context.active_npcs:
+                        npc_id = trigger_result.triggered_npc
+                        active_conversation_npc = npc_id  # Start tracking this conversation
+                    else:
+                        warning(f"npc not triggered or not in scene. triggered: {trigger_result.triggered_npc}, active: {context.active_npcs}")
+                        continue
+                
+                # Generate NPC response
+                response = pipeline.npc_pipeline.activate_npc(
+                    npc_id=npc_id,
+                    player_input=text,
+                    current_location=context.current_location,
+                    time_of_day=context.time_of_day,
+                    scene_mood=context.scene_mood,
                 )
                 
-                p(f"{Fore.YELLOW}trigger detected: {trigger_result.trigger_type.value} (confidence: {trigger_result.confidence:.2f})")
+                p(f"{Fore.MAGENTA}[{npc_id}]: {response}")
+                whole_conversation.append(f"[{npc_id}]: {response}")
                 
-                if trigger_result.triggered_npc and trigger_result.triggered_npc in context.active_npcs:
-                    npc_id = trigger_result.triggered_npc
-                    
-                    response = pipeline.npc_pipeline.activate_npc(
-                        npc_id=npc_id,
-                        player_input=text,
-                        current_location=context.current_location,
-                        time_of_day=context.time_of_day,
-                        scene_mood=context.scene_mood,
-                    )
-                    
-                    p(f"{Fore.MAGENTA}[{npc_id}]: {response}")
-                    whole_conversation.append(f"[{npc_id}]: {response}")
-                    
-                    pipeline.context_manager.add_conversation_turn(
-                        speaker="npc",
-                        text=response,
-                        npc_id=npc_id,
-                    )
-                    
-                    pipeline.trigger_detector.update_state_after_speech(npc_id)
-                else:
-                    warning(f"npc not triggered or not in scene. triggered: {trigger_result.triggered_npc}, active: {context.active_npcs}")
+                pipeline.context_manager.add_conversation_turn(
+                    speaker="npc",
+                    text=response,
+                    npc_id=npc_id,
+                )
+                
+                pipeline.trigger_detector.update_state_after_speech(npc_id)
             
         except Exception as e:
             error(f"pipeline error: {e}")
