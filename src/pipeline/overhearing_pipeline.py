@@ -38,6 +38,8 @@ import logging
 import queue
 import threading
 import time
+import requests
+
 from pathlib import Path
 from typing import Optional, Callable
 
@@ -397,6 +399,10 @@ class OverhearingPipeline:
                 time_of_day=context.time_of_day,
                 scene_mood=context.scene_mood,
             )
+
+            requests.post("http://localhost:5000/say",
+                json={"who": npc_id, "text": response}
+            )
             
             # Add NPC response to history
             self.context_manager.add_conversation_turn(
@@ -440,7 +446,6 @@ class OverhearingPipeline:
                                 self.tts_callback(response, emotion=disposition)
                             except TypeError:
                                 self.tts_callback(response)
-                    logger.info(f"✅ {npc_id} finished speaking")
                     
                     # Update trigger detector state: NPC just spoke, set active window
                     self.trigger_detector.update_state_after_speech(npc_id)

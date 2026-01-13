@@ -1,13 +1,13 @@
 {
   "background": "/static/tavern-bg.png",
   "people": {
-    "joe": {
+    "joe_tavernier": {
       "image": "/static/joe.png",
       "x": "40%",
       "y": "-10%",
       "width": "380px"
     },
-    "stranger": {
+    "dark_figure": {
       "image": "/static/stranger.png",
       "x": "75%",
       "y": "18%",

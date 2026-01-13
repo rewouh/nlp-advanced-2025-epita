@@ -1,7 +1,7 @@
 {
   "background": "/static/guard-barracks-bg.png",
   "people": {
-    "hilda": {
+    "captain_hilda": {
       "image": "/static/hilda.png",
       "x": "52%",
       "y": "-2%",

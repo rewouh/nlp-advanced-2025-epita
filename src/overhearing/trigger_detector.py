@@ -1,38 +1,6 @@
-"""
-Trigger Detector - Determines when NPCs should respond to player speech.
-
-This module implements intelligent trigger detection using an "Active Window"
-(Sticky Context) approach. When an NPC speaks, they become "active" for a
-configurable duration (~20 seconds). During this window, all player speech
-(unless explicitly out-of-character) is treated as a response to that NPC.
-
-This approach handles natural conversation flow without requiring explicit
-names or pronouns in every utterance. The system also supports:
-- Direct address detection (explicit NPC name mentions)
-- Indirect trigger detection (NPC-related keywords)
-- Narrative statement filtering (scene changes, meta-game actions)
-- Player-to-player conversation detection
-- World action detection
-
-The detector uses rule-based pattern matching for speed and reliability.
-Patterns are defined for:
-- Ignore patterns (out-of-game chatter)
-- Direct address patterns (greetings, questions)
-- Strategy patterns (player-to-player planning)
-- Narrative patterns (movement, time skips, meta-game)
-
-Usage:
-    detector = TriggerDetector(world_lore=world)
-    result = detector.detect_trigger(
-        transcription="Hello Joe, can I get a drink?",
-        active_npcs=["joe_tavernier"]
-    )
-    if result.trigger_type == TriggerType.NPC_DIRECT:
-        activate_npc(result.triggered_npc)
-"""
-
 import logging
 import re
+
 from enum import Enum
 from dataclasses import dataclass
 from typing import Optional, List, Set

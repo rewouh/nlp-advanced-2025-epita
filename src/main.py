@@ -154,17 +154,9 @@ def main():
     signal.signal(signal.SIGINT, signal_handler)
     signal.signal(signal.SIGTERM, signal_handler)
     
-    pipeline.set_location("The Rusty Anchor Tavern", "rusty_anchor")
-    pipeline.add_npc_to_scene("joe_tavernier")
-    
     logger.info("=" * 60)
-    logger.info("SYSTEM READY")
+    logger.info("LISTENING FOR CONVERSATIONS...")
     logger.info("=" * 60)
-    logger.info("\nCurrent Context:")
-    logger.info(pipeline.get_context_summary())
-    logger.info("\nLISTENING FOR CONVERSATIONS...")
-    logger.info("   Speak naturally - the system will detect when you address NPCs")
-    logger.info("   (Press Ctrl+C to stop)\n")
     
     pipeline.start()
     
