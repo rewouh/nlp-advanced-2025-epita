@@ -197,7 +197,6 @@ class ContextManager:
                 is_leaving = any(word in context_window for word in ["leave", "leaving", "exit", "out of", "from", "bye"])
                 
                 if is_leaving:
-                    logger.info(f"Ignoring location '{loc_id}' because context implies departure: '{context_window}'")
                     continue
                 
                 chosen_loc = loc_id
