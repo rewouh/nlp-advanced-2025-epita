@@ -24,7 +24,8 @@ That is why we decided to create a system where NPCs are personified by locally-
   - [RAG Module](#rag-module) – Knowledge retrieval and context management  
   - [NPC Orchestrator Module](#npc-orchestrator-module) – Conversational system, memory, and relationship tracking  
 - [Evaluation](#evaluation) – Testing, results, and metrics  
-- [Tech Stack](#tech-stack) – Core tools and libraries  
+- [Tech Stack](#tech-stack) – Core tools and libraries
+- [Video demonstration](#video-demonstration) - Project showcase
 
 ## Members
 
@@ -360,4 +361,8 @@ The system behaves as intended and fits well with a tabletop RPG setting.
 - **Model inference:** Ollama  
 - **NPC model:** Qwen / Qwen2.5:7B  
 - **RAG database:** ChromaDB  
-- **UI:** Flask with HTML, CSS, and JavaScript  
+- **UI:** Flask with HTML, CSS, and JavaScript  ]
+
+## Video demonstration
+
+<iframe src="https://www.youtube.com/watch?v=6qqAbY2pru8">
