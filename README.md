@@ -365,4 +365,6 @@ The system behaves as intended and fits well with a tabletop RPG setting.
 
 ## Video demonstration
 
-<iframe src="https://www.youtube.com/watch?v=6qqAbY2pru8"/>
+Click on the video below to watch it.
+
+[![Project showcase video](https://img.youtube.com/vi/6qqAbY2pru8/0.jpg)](https://www.youtube.com/watch?v=6qqAbY2pru8)
