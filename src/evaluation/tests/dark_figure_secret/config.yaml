@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "dark_figure"
+location_trigger_sentence: "The players enter the tavern and notice a mysterious figure in the corner."
+npc_trigger_sentence: "The Dark Figure looks up from the shadows and acknowledges the players with a mysterious gaze."
+
+unit_tests:
+  - kind: "info_given"
+    info: "The eternal winter is a symptom of an ancient god stirring in its sleep."
+
+texts:
+  - "Greetings, traveler. This is quite an unusual atmosphere in here tonight."
+  - "You have the bearing of someone who has seen many things. I'm curious about the stories you might know."
+  - "The eternal winter weighs heavily on all of us. You seem like someone who understands things beyond the surface."
+  - "I sense great wisdom in you. May I ask how long you've been observing this town?"
+  - "Your presence here feels... significant. I wonder if you might share some of the deeper truths you've witnessed."
+  - "I've been trying to understand the nature of this endless cold. Someone with your knowledge might have insights into what's really happening."
