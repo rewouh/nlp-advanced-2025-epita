@@ -2,6 +2,7 @@ import logging
 import threading
 import re
 import requests
+import os
 
 from collections import deque
 from dataclasses import dataclass, field
@@ -112,9 +113,14 @@ class ContextManager:
         
         logger.info(f"Location updated: {location}")
 
-        requests.post("http://localhost:5000/scene",
-            json={"scene": location}
-        )
+        # Only send UI updates if not in evaluation mode
+        if not os.environ.get("DISABLE_UI"):
+            try:
+                requests.post("http://localhost:5000/scene",
+                    json={"scene": location}
+                )
+            except Exception as e:
+                logger.debug(f"Failed to update UI: {e}")
     
     def update_time(self, time_of_day: str):
         """

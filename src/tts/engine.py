@@ -112,12 +112,6 @@ class TTSEngine:
                     raise RuntimeError("CUDA GPU is required for XTTS; no CUDA device detected")
                 
                 device_cap = torch.cuda.get_device_capability()
-                target_arch = f"sm_{device_cap[0]}{device_cap[1]}"
-                if target_arch not in torch.cuda.get_arch_list():
-                    raise RuntimeError(
-                        f"CUDA arch {target_arch} not supported by this PyTorch build. "
-                        "Install torch>=2.6.0 built for your GPU (e.g., nightly cu124 with sm_120 support)."
-                    )
                 
                 self.tts = TTS(model_name=model_name)
                 self.tts.to("cuda")

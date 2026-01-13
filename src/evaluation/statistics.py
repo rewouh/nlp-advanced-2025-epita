@@ -1,4 +1,4 @@
-from evaluation.schemas import *
+from src.evaluation.schemas import *
 import matplotlib.pyplot as plt
 
 FOLDER = Path(__file__).parent

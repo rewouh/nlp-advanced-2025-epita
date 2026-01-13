@@ -44,3 +44,5 @@ demo.py
 # OS
 .DS_Store
 Thumbs.db
+
+**/evaluation/**/*.png

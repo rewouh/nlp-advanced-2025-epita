@@ -15,6 +15,7 @@ with separate threads for audio capture, transcription, and conversation analysi
 
 Usage:
     COQUI_TOS_AGREED=1 uv run python -m src.main
+    python -m src.main --eval
 
 Requirements:
     - Ollama with qwen2.5:3b model installed
@@ -25,6 +26,8 @@ Requirements:
 import logging
 import sys
 import signal
+import argparse
+import os
 from pathlib import Path
 
 import warnings
@@ -53,7 +56,7 @@ logger = logging.getLogger(__name__)
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.pipeline import OverhearingPipeline
-
+from src.evaluation.evaluate import evaluate
 
 def setup_tts():
     """
@@ -119,7 +122,8 @@ def setup_tts():
         return None
 
 
-def main():
+def run_pipeline():
+    """Run the main overhearing pipeline."""
     logger.info("=" * 60)
     logger.info("OVERHEARING AGENTS - NPC Conversation System")
     logger.info("=" * 60)
@@ -172,6 +176,22 @@ def main():
     return 0
 
 
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--eval",
+        action="store_true",
+    )
+    
+    args = parser.parse_args()
+    
+    if args.eval:
+        os.environ["DISABLE_UI"] = "1"
+        logger.info("Running evaluation tests...")
+        return evaluate()
+    else:
+        return run_pipeline()
+
+
 if __name__ == "__main__":
     sys.exit(main())
-

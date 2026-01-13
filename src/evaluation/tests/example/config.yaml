@@ -1,0 +1,11 @@
+scenario_id: "base"
+npc_id: "joe_tavernier"
+location_trigger_sentence: "The players enter the tavern."
+npc_trigger_sentence: "Joe greets the players warmly."
+
+unit_tests:
+  - kind: "info_given"
+    info: "There is a secret passage behind the bookshelf of Willowrest's library."
+
+texts:
+  - "Hi there, Joe!"

@@ -29,13 +29,14 @@ class UnitTestStoppedConversation(BaseModel):
 
 class EvaluationTestConfig(BaseModel):
     path : Optional[Path] = None
-    scenario_id : UUID
-    npc_id : UUID
-    trigger_sentence : str
+    scenario_id : str
+    npc_id : str
+    location_trigger_sentence : Optional[str] = None
+    npc_trigger_sentence : Optional[str] = None
     unit_tests : List[Union[
         UnitTestItemGiven,
         UnitTestInfoGiven,
         UnitTestAttacked,
         UnitTestStoppedConversation
     ]]
-    vocals : List[str]
+    texts : List[str]
