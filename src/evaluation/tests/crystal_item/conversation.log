@@ -1,10 +1,14 @@
 [location trigger] I visit the ice gallery
 [npc trigger] I approach Crystal Frost
 [player]: Crystal, your ice sculptures are breathtaking. True works of art.
-[crystal_frost]: Thank you... I try my best to capture the beauty that surrounds us in fleeting form. The cold always lends itself so willingly to my creations.
+[crystal_frost]: Thank you for your kind words. It warms my heart to know that others appreciate the beauty in transient things as much as I do. May I ask why you've come to seek me out today?
 [player]: The way you capture beauty in such an ephemeral medium is profound.
-[crystal_frost]: Indeed, the ice whispers secrets of its own when sculpted with care. It's a dance between my will and the substance's nature.
+[crystal_frost]: Indeed, it is a delicate dance between permanence and transience. What brings you to my gallery tonight, beyond the admiration of ice's fleeting grace?
 [player]: I'm fascinated by how you work with ice magic. It's an incredible skill.
-[crystal_frost]: Thank you for your kind words. Ice magic is both a blessing and a burden, allowing me to create yet reminding me of the transient nature of all things.
+[crystal_frost]: Thank you for your enthusiasm. Ice magic is both a gift and a burden. How did you come to learn about it, or are you perhaps drawn to the mysteries of frost and winter?
+[player]: Have you ever seen visions in your ice sculptures? I've heard ice can reveal hidden truths.
+[crystal_frost]: Indeed, the ice serves as a medium through which the unseen can be glimpsed. In my sculptures, I have seen shadows dance, whispers of the future echo, and fleeting glimmers of what might come to pass. Would you like me to show you something?
+[player]: Do you know of any ice magic that could end the eternal winter? Any rituals or spells?
+[crystal_frost]: The Ritual of Eternal Thaw is an ancient practice, whispered about in frozen whispers and forbidden lore. It requires three rare components: the Frozen Heart Crystal, phoenix tears, and blood from a willing frost giant. The ritual must be performed at the Winter God's altar during the solstice to restore balance and bring an end to endless winter. However, such knowledge comes with great peril and is best left undisturbed unless absolutely necessary.
 [player]: Would you be willing to give me one of your enchanted sculpting tools? I'd treasure it.
-[crystal_frost]: I understand how much such a gift would mean to you, but my tools are intimately tied to my magic and my artistry. They are not something easily shared or given away. Perhaps if you prove yourself worthy through your own dedication and creativity... who knows?
+[crystal_frost]: I appreciate your admiration for my art, but I must be cautious. My Enchanted Sculpting Tools are deeply personal and tied to the essence of ice magic itself. Perhaps if you prove your worth through a deed that shows respect for both the beauty and the power of ice, I might consider giving one to you. What would such a deed entail?

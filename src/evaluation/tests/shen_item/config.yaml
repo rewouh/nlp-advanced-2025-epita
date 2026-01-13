@@ -5,8 +5,13 @@ npc_trigger_sentence: "I approach Inkmaster Shen"
 unit_tests:
   - kind: "item_given"
     item_name: "magical_ink"
+  - kind: "info_given"
+    info: "the Obsidian Brotherhood (black dagger on left wrist), the Circle of Embers (flame spiral on right shoulder), and the Silver Covenant (crescent moon behind right ear)"
 texts:
   - "Inkmaster Shen, your tattoo work is extraordinary. The symbols seem to come alive on skin."
   - "I've heard your magical inks grant special abilities. That's incredible craftsmanship."
+  - "You must see many people from all walks of life. I imagine you recognize certain... patterns or symbols."
   - "I'm interested in getting a tattoo that could help protect me on my journeys."
+  - "Have you noticed any secret society marks or unusual symbols on your clients? I'm researching such organizations."
   - "Could you provide me with some of your enchanted ink? I'd pay well for such a rare commodity."
+

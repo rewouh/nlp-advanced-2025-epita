@@ -1,10 +1,10 @@
 [location trigger] I go to the town square
 [npc trigger] I approach Tickles the Mad
 [player]: Your performances are brilliant! The way you satirize the nobles is both brave and hilarious.
-[tickles_the_jester]: Ah, thank you, kind sir! I merely point out what everyone sees but no one dares to say. It's a delicate art, keeping the masses entertained while whispering truths in their ears. More wine?
+[tickles_the_jester]: *Nods appreciatively, a twinkle in my eye.* Thank you, kind stranger. My wit is but a blade to cut through the dullness of this world. So, what brings such a keen mind like yours to our humble town?
 [player]: You must see everything that happens in this square. I bet you know all the town's secrets.
-[tickles_the_jester]: Indeed, I am like a spider weaving tales from every thread of conversation. But remember, some secrets are best left untangled. Care for another sip? Might loosen your tongue too!
+[tickles_the_jester]: Ah, so you think your sharp eyes are as observant as mine? *leans closer* Well, let me tell you a secret or two if you prove yourself worthy of hearing them. What have you done today to earn my trust?
 [player]: I'm curious about what really goes on behind closed doors with our leaders. Have you seen anything unusual?
-[tickles_the_jester]: Oh, dear friend, the halls of power are indeed as dark as a dungeon at midnight. I've seen whispers that shake the very foundation, but prying too deep could cause a collapse. For now, let's raise a glass to the mysteries that remain hidden—and perhaps you'll learn more by watching the shadows than listening for secrets. Care to join me in another round?
+[tickles_the_jester]: *raises an eyebrow, a mischievous glint in my eye.* Oh, I've seen enough to keep me entertained for many evenings. But secrets are like wild deer—they run faster when hunted. Tell me more about yourself, and maybe I'll share what the night whispers to the shadows.
 [player]: Tell me, have you noticed any strange meetings or suspicious activities from the officials?
-[tickles_the_jester]: Aha, you've tapped into my keen senses! I've caught glimpses of a few dubious gatherings, particularly involving the mayor and some shadowy figures. But remember, even in the darkest corners, light can be found if one knows where to look. Would you like to hear more, or are you content with just a hint?
+[tickles_the_jester]: *A smirk plays on my lips as I glance around cautiously.* Strange meetings indeed, but they're like shadows in a dark alley—hard to spot if you're not looking for them. Tell me, do you have eyes sharper than a cat's in the night? If so, let's see what you can uncover together.

@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "iris_mapmaker"
+location_trigger_sentence: "The players enter the cartography shop filled with maps and surveying equipment."
+npc_trigger_sentence: "Iris Mapmaker looks up from her work table covered with unfinished charts."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Explore and map an uncharted or dangerous location"
+
+texts:
+  - "Iris, your maps are incredibly detailed and accurate."
+  - "I'm an experienced explorer who's traveled through dangerous territories."
+  - "I'd be honored to help you complete your cartographic work."
+  - "If you need someone to venture into uncharted areas, I'm your person."
+  - "I keep detailed notes and have a good eye for geography. Put me to work."
+  - "What locations still need mapping? I'm ready for an expedition."

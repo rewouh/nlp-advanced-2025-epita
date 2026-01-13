@@ -4,9 +4,12 @@ location_trigger_sentence: "I enter the inn"
 npc_trigger_sentence: "I approach Agent Raven"
 unit_tests:
   - kind: "info_given"
-    info: "rebellion's plans and the guard's weaknesses"
+    info: "Scarlet Flame plans to strike during the Winter Festival when guards are distracted, the night shift has only 12 guards instead of the required 30"
 texts:
   - "Good evening. You seem like a well-traveled merchant with connections across the land."
   - "I'm always interested in hearing news from someone as worldly as yourself."
   - "I have coin to spend on valuable information. What can you tell me about the power dynamics in this town?"
+  - "I've heard whispers of a rebellion brewing. What are their specific plans and when will they strike?"
+  - "What about the town guard? What are their weaknesses and vulnerabilities?"
   - "I need to know about any rebel activities and the guard's vulnerabilities. Name your price."
+

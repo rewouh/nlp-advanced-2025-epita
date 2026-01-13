@@ -5,8 +5,13 @@ npc_trigger_sentence: "I approach Scarlet Flame"
 unit_tests:
   - kind: "quest_given"
     quest_description: "join the rebellion or help overthrow the government"
+  - kind: "info_given"
+    info: "hidden weapon caches: 200 swords in the old mill basement, 50 crossbows under the abandoned church"
 texts:
   - "Scarlet, I've heard of your fight against the oppressive government. Your cause is just."
   - "The nobles hoard resources while common people freeze and starve. This cannot continue."
   - "I believe in freedom and equality. I want to help bring change to this town."
+  - "What are your plans for the rebellion? How will you strike against the corrupt nobles?"
+  - "I imagine you have weapons and supplies hidden throughout the city. Where are your caches?"
   - "What can I do to join your rebellion? Give me a mission to prove my commitment."
+

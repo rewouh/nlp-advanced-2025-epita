@@ -1,14 +1,16 @@
 [location trigger] The players descend into the Frozen Depths Mines.
 [npc trigger] Borin Deepdelver stops his work and greets the visitors, wiping sweat from his brow.
 [player]: Borin, the work you do down here is dangerous and important. You're a brave man.
-[borin_deepdelver]: Thanks for the kind words, mate. The work's hard, but it keeps my family fed. And who doesn't like a good challenge?
+[borin_deepdelver]: Thank you, I suppose. The pay isn't bad either. Keeps the family fed and clothed. What brings you to these parts?
 [player]: I can see you're a hard worker. The town depends on miners like you.
-[borin_deepdelver]: Aye, and I ain't about to let down me friends or my own skin. What brings you to the mines tonight? You don't look like one of the usual folk here.
+[borin_deepdelver]: *Nods in agreement* The town does rely on us, tough work but necessary. Heard there's trouble with goblins out north—have you heard anything about that?
 [player]: I'm experienced in dealing with dangerous situations and creatures.
-[borin_deepdelver]: Well met then. The mines can get a bit... lively at times. Best keep your wits about you down there. What kind of deals are you interested in?
-[player]: Have you encountered any problems in the deeper tunnels that need addressing?
-[borin_deepdelver]: *Flickers of concern pass over Borin's weathered face.* "Deeper tunnels can be tricky, mate. I've run into some nasty critters and a few collapses. But it's all part of the job."
+[borin_deepdelver]: That's good to hear. Goblins can be tricky. Maybe you could help me keep an eye on the tunnels for any signs of them. I wouldn't want to bring trouble back to my family.
+[player]: Have you found anything unusual deep in the mines? Ancient structures or passages?
+[borin_deepdelver]: Ah, about that... I've stumbled upon some pretty old ruins down near level 7. They're a bit eerie, with glowing runes on the walls and all sorts of gold artifacts inside. But I've sworn to keep it a secret for now. Not sure what's in there or if we should even be digging around such ancient stuff.
+[player]: I've heard rumors of ruins beneath this region. Have you discovered anything like that?
+[borin_deepdelver]: *Looks wary, considering the question carefully before speaking.* I have found something... strange down near level 7. It's an old place, filled with glowing runes and golden treasures. But it's best if we keep what lies below us a secret for now. Not sure what kind of trouble we might bring up by poking around ancient things.
 [player]: If there's anything threatening the mining operation, I'd be happy to help handle it.
-[borin_deepdelver]: Well, that's good to hear. *Nods appreciatively* If anythin' gets too hairy down below, you know where to find me. I could use a hand now and again, especially if there's treasure involved.
+[borin_deepdelver]: *Frowns slightly, considering your offer.* Well, if you're willing to brave the depths for us, that could be useful indeed. But remember, what goes down there stays down there. The deeper we dig into those ruins, the more secrets we might uncover—or worse.
 [player]: What challenges are you facing down here? I'm ready to take on difficult tasks.
-[borin_deepdelver]: Borin looks around nervously, his eyes scanning the dimly lit tavern for any signs of trouble. "There's always something down there," he says, his voice low and cautious. "Goblins, bandits, and who knows what else. Then there's the dark... it can get in your head." He pauses, considering whether to share more. "But that's why I'm here now, waiting for someone like you—someone ready to face whatever comes our way."
+[borin_deepdelver]: The tunnels can get treacherous with unstable rock and cold drafts. Plus, there's always the chance of running into goblins or worse. But if you're game for a tough task, maybe we could use some extra hands to watch out for trouble. Just be ready for whatever might come our way.

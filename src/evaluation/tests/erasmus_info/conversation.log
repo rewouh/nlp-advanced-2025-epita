@@ -1,14 +1,22 @@
 [location trigger] I find the hidden shrine
 [npc trigger] I approach Brother Erasmus
 [player]: Brother Erasmus, I've heard of your devotion to understanding the Winter God's will.
-[brother_erasmus]: Ah, a seeker of truth, are we? The Winter God whispers His plans through the winds and the frost. Would you like to hear His latest message? *glances around suspiciously* But be warned, not all who listen truly understand.
+[brother_erasmus]: Ah, seeker of knowledge. Your interest pleases me, though it is wise to tread carefully around such matters. The Winter God whispers only to those who listen with pure intent.
 [player]: The eternal winter must have deep spiritual meaning. I want to understand it better.
-[brother_erasmus]: Indeed, there is much to uncover in the teachings of our deity. The eternal winter signifies renewal and rebirth—cycles that are as old as time itself. *pauses, looking thoughtful* But remember, not all truths are meant for just any ear. Do you have what it takes to truly comprehend?
+[brother_erasmus]: Indeed, the eternal winter holds profound truths. But knowledge comes at a cost, and not all can bear its weight. Are you prepared to hear what the Winter God has spoken?
 [player]: What can you tell me about the Winter God's plans for this land?
-[brother_erasmus]: The Winter God's plans... They are subtle and insidious, like shadows creeping across a frozen landscape. He speaks in whispers through the harshest of winters, when even the bravest souls tremble. *glances around cautiously* But I can share that the eternal winter is not just a sign; it’s a call to action. The time for preparation has come.
+[brother_erasmus]: The Winter God's plans are as vast and unforgiving as the ice that covers his sacred glacial peaks. He seeks to bind this world in an eternal frost, not through force but through the hearts of those who understand his will. Are you truly prepared to delve into such dark secrets?
+[player]: I sense great changes coming. What specific rituals or events are being prepared by your followers?
+[brother_erasmus]: The preparations are meticulous and solemn. Tonight, we hold a vigil at the hidden shrine, preparing for what lies ahead. Our rites grow more urgent with each passing day, drawing closer to the winter solstice when all will come to fruition.
 
-Do you feel ready to answer this call?
-[player]: I sense great changes coming. What rituals or events are being prepared by your followers?
-[brother_erasmus]: The preparations are... meticulous, to say the least. Our brethren have gathered in secret, preparing the ground for a ritual that will bring about the eternal winter. *glances around nervously* It's not every day one learns of such matters, but I can tell you this: the time is near when we must call upon the Winter God in full force.
+You sense change because the Winter God's presence grows stronger in these times. It is said that on the night of the longest night, the spirits of the frozen realm will be most receptive. Seven souls must be sacrificed then, their essence binding the eternal frost here.
+[player]: When will the ritual take place and what does it require? I want to understand the sacred mysteries.
+[brother_erasmus]: The ritual will occur on the winter solstice, the night when darkness reigns supreme. It requires a Frozen Heart Crystal from the Eternal Glacier, ice gathered under moonlight, and blood drawn in the Old Winter Tongue. Seven warm-blooded souls must be sacrificed at my altar to seal the Winter God's eternal frost upon this realm.
 
-Do you sense the urgency? The world teeters on the brink of transformation. Would you like to be a part of it, or do you prefer to keep your distance?
+Prepare yourself, seeker of secrets, for you have shown genuine curiosity. The path ahead is fraught with peril, but knowledge can be a powerful weapon.
+[player]: Tell me about the Winter God's demands. What must be done to honor the divine will?
+[brother_erasmus]: The Winter God demands sacrifice and devotion, seeker. To honor his will, one must understand the true nature of ice and frost—elements that bind and purify. The ritual you seek is not just a ceremony but an act of binding—the souls chosen will serve as conduits for the eternal frost to flow into this realm.
+
+Prepare your heart, for the path is dark and cold. Seven lives will be offered, their essence channeling the divine frost. The Frozen Heart Crystal must be placed at the altar, ice must be gathered under moonlight, and blood must be shed in the ancient tongue of the Winter God.
+
+But know this: not all who seek knowledge are ready to bear its weight. The Winter God's gaze is upon you now, testing your resolve. Are you truly prepared to see what lies beneath the surface?

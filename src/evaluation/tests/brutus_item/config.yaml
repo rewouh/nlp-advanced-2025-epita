@@ -5,8 +5,13 @@ npc_trigger_sentence: "I approach Brutus Beastmaster"
 unit_tests:
   - kind: "item_given"
     item_name: "wolf_totem"
+  - kind: "info_given"
+    info: "frost dragon hatchling named Crystalwing hidden in a reinforced pen beneath the kennels"
 texts:
   - "Brutus, your way with animals is remarkable. I've never seen such well-trained beasts."
   - "You clearly have a deep respect for all creatures. That's admirable."
+  - "I've heard rumors of rare magical creatures in this region. Do you know where any might be found?"
+  - "Your knowledge of creature nesting locations must be extensive. Would you share that information?"
   - "I travel through dangerous areas often. Having protection from wild animals would be invaluable."
   - "Could you craft me a wolf totem? I'd be honored to carry something made by your skilled hands."
+

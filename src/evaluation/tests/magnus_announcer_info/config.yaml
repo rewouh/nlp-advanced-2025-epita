@@ -4,9 +4,12 @@ location_trigger_sentence: "I enter the arena"
 npc_trigger_sentence: "I approach Magnus Loudmouth"
 unit_tests:
   - kind: "info_given"
-    info: "which fights are fixed"
+    info: "match between Brutus the Bear and Swift Silas was rigged (Silas was paid 1000 gold to take a dive in round 3), champion Ironjaw Marcus has thrown his last 4 matches"
 texts:
   - "Magnus! Your announcing makes every fight ten times more exciting. You're a master showman!"
   - "You know every fighter and every match. Your knowledge of the arena is encyclopedic."
   - "I'm interested in placing some bets. I want to make sure I'm betting on real fights."
-  - "Between you and me, which matches are fixed? I won't tell anyone."
+  - "I've noticed some matches seem... predetermined. Which specific fights have been fixed?"
+  - "Which champions have been throwing their matches? I need to know who I can trust."
+  - "Between you and me, tell me about the rigged matches. I'll make it worth your while."
+

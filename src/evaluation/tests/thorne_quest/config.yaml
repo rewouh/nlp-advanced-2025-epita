@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "inquisitor_thorne"
+location_trigger_sentence: "The players approach the forbidding inquisition tower."
+npc_trigger_sentence: "Inquisitor Thorne emerges, his stern gaze fixed on the visitors."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Investigate the dark witch coven in the Whispering Woods or hunt Morgatha Nightshade"
+
+texts:
+  - "Inquisitor Thorne, I respect your dedication to rooting out dark magic."
+  - "I'm experienced in dealing with dangerous magical threats."
+  - "If there are dark witches practicing blood magic, they must be stopped."
+  - "I'm willing to venture into dangerous places to help your investigation."
+  - "Your cause is just. Let me help you eliminate these threats."
+  - "What dark forces need to be dealt with? I'm ready to serve."

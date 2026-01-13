@@ -1,14 +1,14 @@
 [location trigger] The players approach the lighthouse at the frozen harbor.
 [npc trigger] Old Barnaby opens the lighthouse door and looks at the visitors with weary, haunted eyes.
 [player]: Barnaby, you've maintained this lighthouse faithfully despite the difficult conditions.
-[old_barnaby]: Thank you for the kind words. The light must stay steady; it's more than a job—it's a duty. What brings you to the lighthouse tonight?
+[old_barnaby]: Aye, it's a lonely task, but I must keep watch. The sea needs guidance, even in these treacherous times. How can I assist you tonight?
 [player]: I can see this place weighs heavily on you. You seem troubled.
-[old_barnaby]: The weight of responsibility is indeed heavy, especially when haunted by specters from the past. But I must keep up the vigilance, for the sake of those at sea. What troubles you, stranger?
+[old_barnaby]: The weight of the world rests heavy upon my shoulders, laddie. The spirits here often find me a willing listener. What brings such concern to your heart?
 [player]: If there's anything supernatural happening here, I want you to know I believe you.
-[old_barnaby]: *Sighs deeply, looking out over the stormy waters.* Thank you for your understanding. The supernatural is a fact of life in these parts. It’s just... harder on some than others.
+[old_barnaby]: Thank ye for that understanding. There be times when the lines between the world of the living and the dead blur, and I must navigate them all alone. But fear not, I'll keep an eye on things and make sure this lighthouse stands tall. What can I tell ye about these hauntings?
 [player]: Sometimes the dead have things to tell the living. Have you experienced anything... unusual?
-[old_barnaby]: The whispers of the past echo through these walls, but I keep my ear to the ground and my eye to the horizon. There are times when the line between life and death blurs. Do you seek answers or simply a story?
+[old_barnaby]: Indeed, laddie. The dead often whisper their secrets here. I've heard tales of treasure hidden in the frozen ships, and there's a secret passage under the harbor that no one dares to explore. But such knowledge comes with a heavy price, as the ghost of the previous keeper reminds me nightly.
 [player]: What secrets does this lighthouse hold? I'm here to listen without judgment.
-[old_barnaby]: The lighthouse holds many secrets, some whispered by the wind, others locked in the very stones of its walls. If you're ready to hear them, let's sit and listen together. But beware—some secrets are better left undisturbed.
+[old_barnaby]: The lighthouse holds more than just light and warning; it guards ancient mysteries and forgotten lore. The ghost of the previous keeper haunts these walls, whispering tales of hidden treasure and long-lost passages beneath the waves. But tread carefully, for each secret comes with its own burden. Would you like to hear one in particular?
 [player]: If there are spirits here, what have they shown you? What do they want you to know?
-[old_barnaby]: The spirits speak in riddles, often leading me back to the old keeper’s journal hidden within the lighthouse. They whisper of a treasure buried beneath the frozen ships, but the path is fraught with peril. They seem to want me to keep watch, not seek the treasure. The past haunts us all, and sometimes it's best left undisturbed.
+[old_barnaby]: The spirits show me visions of a time long past when the harbor was bustling with trade and life. They speak of a chest filled with untold riches, hidden beneath the hull of a ship frozen in the ice just off the coast. But each vision is fraught with warnings—whispers of danger that come with unraveling such ancient secrets. What they truly want me to know is that the price for such knowledge is steep. Would you be willing to listen, or would you rather I keep these tales locked away?

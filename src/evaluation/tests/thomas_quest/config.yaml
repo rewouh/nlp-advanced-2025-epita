@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "thomas_survivor"
+location_trigger_sentence: "The players approach the survivor camp on the edge of town."
+npc_trigger_sentence: "Thomas the Survivor looks up from tending the fire and greets the visitors."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Investigate who deliberately spread the plague or find evidence at the monastery"
+
+texts:
+  - "Thomas, I'm so sorry for what happened to your village."
+  - "I've heard your story, and something about this plague doesn't seem natural."
+  - "If someone deliberately caused this, they need to be brought to justice."
+  - "You mentioned seeing suspicious figures. I want to investigate further."
+  - "I'm skilled at tracking and investigation. Let me help you find the truth."
+  - "Those responsible for such evil must be stopped. Where should I start looking?"

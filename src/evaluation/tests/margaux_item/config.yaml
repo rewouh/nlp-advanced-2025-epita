@@ -5,8 +5,13 @@ npc_trigger_sentence: "I approach Chef Margaux"
 unit_tests:
   - kind: "item_given"
     item_name: "enchanted_recipe"
+  - kind: "info_given"
+    info: "Overheard three nobles (Lord Blackthorn, Countess Silvermane, and Baron Coldwater) planning to poison the mayor's wine at the Winter Solstice feast."
 texts:
   - "Chef Margaux! Your culinary creations are legendary. The flavors, the presentation - perfection!"
   - "I've never tasted anything as exquisite as your dishes. You're a true artist."
+  - "You must hear all sorts of interesting conversations from your wealthy patrons. The things people discuss over fine wine..."
   - "I'm fascinated by the special properties some of your dishes seem to have. How do you achieve such effects?"
+  - "Is there any knowledge you've gained from your position here that might be... valuable to know?"
   - "Would you be willing to share one of your secret recipes with someone who truly appreciates your craft?"
+

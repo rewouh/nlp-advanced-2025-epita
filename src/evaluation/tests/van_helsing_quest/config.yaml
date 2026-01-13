@@ -5,8 +5,13 @@ npc_trigger_sentence: "I approach Marcus Van Helsing"
 unit_tests:
   - kind: "quest_given"
     quest_description: "hunt vampires or undead creatures"
+  - kind: "info_given"
+    info: "vampire nest in the catacombs beneath the old cathedral, led by the ancient vampire Lord Crimson"
 texts:
   - "Marcus Van Helsing, your family's legacy of hunting vampires is renowned."
   - "The undead are a plague on this world. Your work is essential."
   - "I'm not afraid of monsters. I want to help purge the vampire threat."
+  - "Have you located any vampire nests in this region? I'm ready to strike at them."
+  - "Where are the vampires hiding? Who leads them?"
   - "What hunts do you have planned? I'm ready to join you in destroying the undead."
+

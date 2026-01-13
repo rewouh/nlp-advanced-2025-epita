@@ -1,10 +1,14 @@
 [location trigger] I enter the apothecary
 [npc trigger] I approach Valentina Nightshade
 [player]: Valentina, your knowledge of toxins and antidotes is unparalleled in this region.
-[valentina_nightshade]: Ah, the secrets I've gathered over years spent behind these apothecary shelves. You never know when such knowledge might be... useful. What brings you to me tonight?
+[valentina_nightshade]: Ah, a compliment from the master poisoner's apprentice? I must be doing something right. What brings you to my apothecary tonight?
 [player]: I've heard you can cure ailments that no other apothecary can treat.
-[valentina_nightshade]: Indeed, there are certain maladies that require a touch of the arcane and the forbidden. But be warned, not all cures come without a price or consequence. What ailment do you seek to remedy?
+[valentina_nightshade]: Indeed, there are certain remedies and antidotes that require a level of expertise few possess. What ailment do you seek relief from?
+[player]: Your discretion is admirable. I imagine many seek your services for... delicate matters.
+[valentina_nightshade]: Delicate indeed. Many come seeking my knowledge for both healing and, as you say, more... nuanced purposes. What can I help you with tonight?
+[player]: I'm investigating some suspicious deaths in town. Have you sold any unusual poisons recently?
+[valentina_nightshade]: Hmm, always keeping an eye on the darker dealings of our little corner of the world, are we? I have a few... unique concoctions up my sleeve, but discretion is key. Care to share more details about these 'suspicious deaths'? Might give me some clues as to what poison might be involved.
 [player]: I'm venturing into dangerous areas where frost poison is common. I need protection.
-[valentina_nightshade]: I see. Frost poison can indeed be quite insidious. For such a condition, we might consider a mix of counterpoisons and protective tonics. However, the path you tread is not without risk. Are you prepared to face what lies ahead?
-[player]: Can you provide me with an antidote? I have coin and discretion.
-[valentina_nightshade]: Certainly, but let's ensure this is necessary. Frost poison can be deadly, especially if it's taken in quantity or over time. Have you been exposed recently, or do you anticipate such a threat?
+[valentina_nightshade]: I see. Your intentions are clear, but discretion is paramount in such matters. I can prepare a Frost Poison Antidote for you, but it comes with a price and a promise of silence. Will you agree to keep this between us?
+[player]: Can you provide me with an antidote? I have coin and discretion to match your own.
+[valentina_nightshade]: Very well, but remember the terms: your words must remain as silent as the night. Here, let me prepare the Frost Poison Antidote for you. Be cautious, even with this protection; frost poison can be unpredictable.

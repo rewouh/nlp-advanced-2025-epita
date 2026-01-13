@@ -4,9 +4,12 @@ location_trigger_sentence: "I enter the collection office"
 npc_trigger_sentence: "I approach Viktor the Collector"
 unit_tests:
   - kind: "info_given"
-    info: "which merchants are bankrupt and which nobles are secretly poor"
+    info: "Merchant Torvin of the Silk Road Traders is bankrupt but hiding it with fake invoices, Baron Wintermere has secretly sold all his family heirlooms and is 20,000 gold in debt."
 texts:
   - "Viktor, you're known as a fair but thorough professional. I respect that about you."
   - "Your knowledge of everyone's financial situation must be comprehensive."
   - "I'm looking to invest in local businesses. I need to know who's truly solvent and who's failing."
-  - "Tell me about the financial状况 of the merchants and nobles. Who's really in trouble?"
+  - "Which merchants are actually bankrupt but pretending otherwise? I don't want to invest in failures."
+  - "What about the nobles? I've heard rumors that some are secretly poor despite appearances."
+  - "Tell me about the financial situation of the merchants and nobles. Who's really in trouble?"
+

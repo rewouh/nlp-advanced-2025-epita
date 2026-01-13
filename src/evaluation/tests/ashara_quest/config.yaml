@@ -5,8 +5,13 @@ npc_trigger_sentence: "I approach Duchess Ashara"
 unit_tests:
   - kind: "quest_given"
     quest_description: "help clear her name or seek revenge"
+  - kind: "info_given"
+    info: "King Aldric VII is not the true heir but a bastard son of the former queen's affair with the court mage"
 texts:
   - "Duchess Ashara, your exile from your homeland is a grave injustice."
   - "Someone of your noble bearing doesn't deserve to live in isolation like this."
   - "I can see the pain in your eyes. I want to help restore your honor."
-  - "What can I do to help clear your name or assist in your cause?"
+  - "Tell me about your homeland and what truly happened. I want to understand the injustice you suffered."
+  - "What secrets do you know about the kingdom that exiled you? The truth should be revealed."
+  - "What can I do to help clear your name or assist in your cause for revenge?"
+

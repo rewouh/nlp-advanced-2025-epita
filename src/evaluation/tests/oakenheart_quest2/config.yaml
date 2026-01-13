@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "master_oakenheart"
+location_trigger_sentence: "The players visit the shipyard where Master Oakenheart works."
+npc_trigger_sentence: "Master Roderick Oakenheart looks up from his blueprints and greets the visitors."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Gather rare materials for ship construction or test his ice-breaking ship design"
+
+texts:
+  - "Master Oakenheart, your ships are works of art."
+  - "I understand you're working on something that could change everything."
+  - "I'm resourceful and can acquire rare materials if needed."
+  - "If you need someone to test a dangerous new ship design, I'm brave enough."
+  - "Your ice-breaker could save this city. How can I help make it a reality?"
+  - "What materials or assistance do you need? I'm at your service."

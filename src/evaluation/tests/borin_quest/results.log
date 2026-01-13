@@ -1,4 +1,5 @@
 passed tests (1):
 - UnitTestType.QUEST_GIVEN
 
-failed tests (0):
+failed tests (1):
+- UnitTestType.INFO_GIVEN

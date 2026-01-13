@@ -1,16 +1,16 @@
 [location trigger] The players approach the Northern Border Outpost with hands visible and non-threatening.
 [npc trigger] Red Fang watches the approaching figures warily, weapon ready but not yet drawn.
 [player]: Warrior, I come in peace. I mean no harm to you or this outpost.
-[red_fang_orc]: *Your words ring hollow in the silence of dusk.* I am Red_fang_orc, and this is my territory. What brings a stranger like you to our borders at this hour?ispers softly* Speak truthfully, or prepare for battle.
+[red_fang_orc]: Hmph. Stranger, show me what proof you bring that warrants my trust. Speak now or face the edge of my blade.
 [player]: I respect your strength and your duty here. You guard this border with honor.
-[red_fang_orc]: Honor? *chuckles darkly* In these times, only the strong survive. And I am not just guarding, I am watching over my people. Who are you to question my vigilance?
+[red_fang_orc]: A grunt escapes my lips. I shift uneasily, keeping an eye on the door. Stranger, if you truly mean peace, then prove it. What brings a warrior like you to our humble outpost?
 [player]: I understand your caution with strangers. These are dangerous times for everyone.
-[red_fang_orc]: Dangerous indeed. *narrows eyes* What do you know of the goblin raids? Have you heard any rumors from passing travelers?
+[red_fang_orc]: *Grumbles* Fine. I'll listen. But don't take this as a sign of weakness. You want info or aid? Prove it. No tricks, no lies.
 [player]: You carry yourself like a protector, not just a guard. There's more to your duty than keeping borders, isn't there?
-[red_fang_orc]: Hmm, *scans the room warily*... You sense something, do you? Very well. *leans in slightly* I protect what is mine with everything I have. There are orcs hiding in these mountains, fleeing from the humans who hunt them like vermin. If word gets out, they could be slaughtered.
+[red_fang_orc]: *Red_fang_orc shifts uncomfortably, eyes narrowing.* I've secrets of my own. Don't pry too deep, warrior. *Glances around suspiciously before lowering his voice.* My people... they hide here. Not far from this place. We're in danger, and we need help.
+*He pauses, gauging the player's reaction.* Can you keep a secret?
 [player]: I believe everyone has their reasons for the choices they make. What drives you to stand watch here?
-[red_fang_orc]: *glances around cautiously before lowering voice* My people... They look to me to protect them from those who wish harm. I won't fail them, not now when we're so close to safety. *stares into the distance as if seeing something far away* The mountain holds secrets, and I must keep them safe.
+[red_fang_orc]: The world outside is full of threats. I protect what's mine. My people... they need a champion, and that's me. *Fists clench tightly* If you can help us, show it now. Otherwise, keep your distance.
 [player]: I sense you're protecting something important. I give you my word - your secret is safe with me. What are you really guarding?
-[red_fang_orc]: Red_fang_orc: *glances sideways, considering the offer* Your words may be true, but the night is long and full of danger. *pauses, then speaks softly* Guarding the orcs isn't just about keeping them alive; it's about giving them a chance to survive without fear. *looks away, almost ashamed* I know what they face out there, and I won't let them be taken by those who seek only to destroy.
-
-*leans back, eyes still on the shadows* It’s more than just orcs now... The fate of our kind hangs in the balance.
+[red_fang_orc]: *Red_fang_orc's eyes flicker with a mix of suspicion and guarded trust.* You've taken an oath, warrior. But remember, the forest is full of creatures that hunt in darkness. *He leans closer, whispering.* I protect my kin, those who cannot defend themselves. They hide in these mountains, away from prying eyes. If you can keep them safe, we might just find common ground.
+*He stands up straighter and looks around again before continuing.* But don't think for a moment that I won't be watching you. *Gives the player a stern look.* Now, if you're truly here to help, prove it. What do you need from me?

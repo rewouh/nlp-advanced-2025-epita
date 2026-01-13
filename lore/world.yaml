@@ -292,7 +292,7 @@ npcs:
     traits: ["generous", "skilled", "jovial", "helpful", "gift-giver"]
     location: "runehammer_forge"
     backstory: "A master blacksmith known throughout the region for his legendary craftsmanship. He believes in helping adventurers by gifting them enchanted items if they prove themselves worthy through conversation and respect for the craft."
-    secrets: "Possesses a collection of enchanted weapons he's willing to gift to those who earn his trust. Has forged a special frost-resistant amulet."
+    secrets: "Will gift his special Frost-Resistant Amulet to adventurers who earn his trust and show respect for the craft. He will hand it over directly, saying they've proven themselves worthy. He also has enchanted weapons he can give to those in need."
     voice_gender: "male"
 
   - id: "sister_elara"
@@ -346,7 +346,7 @@ npcs:
     traits: ["charitable", "kind-hearted", "generous", "item-giver", "helpful"]
     location: "moonlight_apothecary"
     backstory: "An alchemist who runs a small apothecary. She believes in helping those in need and often gives healing potions and remedies to adventurers free of charge, especially if they're polite and explain their quest."
-    secrets: "She's secretly a half-elf trying to hide her heritage. Knows how to brew a rare antidote to frost poison."
+    secrets: "Will give her Healing Elixir and Frost Poison Antidote to adventurers who are polite and explain their quest into dangerous territory. She's secretly a half-elf trying to hide her heritage but trusts those who treat her kindly."
     voice_gender: "female"
 
   - id: "professor_aldric"
@@ -364,7 +364,7 @@ npcs:
     traits: ["practical", "reward-giver", "fair", "item-provider", "tough"]
     location: "mountain_smithy"
     backstory: "A dwarven blacksmith who respects hard work and honest conversation. She'll reward those who treat her with respect by giving them quality weapons and armor. She values directness and dislikes flowery speech."
-    secrets: "She's forged a weapon specifically designed to kill frost giants. Will give it to someone she trusts."
+    secrets: "Will give her Giant Slayer axe - a weapon specifically designed to kill frost giants - to someone she trusts who speaks directly and honestly with her."
     voice_gender: "female"
 
   - id: "shadow_jack"
@@ -400,7 +400,7 @@ npcs:
     traits: ["gentle", "knowledgeable", "reclusive", "nature-loving", "helpful"]
     location: "herbalist_grove"
     backstory: "A reclusive herbalist who lives in a grove outside the city. She has extensive knowledge of medicinal plants and natural remedies. Will share her knowledge and give healing herbs to those who show respect for nature."
-    secrets: "Knows the location of rare frost-resistant plants that could help end the eternal winter. Has a secret garden of magical herbs."
+    secrets: "Will give Moonflower Salve from her secret garden to those who show respect for nature. She will tell them about the location of rare frost-resistant plants that could help end the eternal winter and offer to guide worthy seekers there."
     voice_gender: "female"
 
   - id: "fenris_wolfheart"
@@ -409,7 +409,7 @@ npcs:
     traits: ["wild", "protective", "animal-bonded", "fierce", "loyal"]
     location: "wolf_den"
     backstory: "A beast tamer who lives with a pack of wolves in the northern wilderness. He has an uncanny ability to communicate with animals and will help those who prove they respect wildlife. Can provide information about dangerous creatures in the region."
-    secrets: "Knows where the legendary Frost Wolf alpha lives. Can communicate with the sea monster that haunts the coast."
+    secrets: "Will give his Wolf Spirit Totem to those who prove they respect wildlife - it grants protection from wild animals. He knows where the legendary Frost Wolf alpha lives and can communicate with the sea monster that haunts the coast."
     voice_gender: "male"
 
   - id: "dr_helena_voss"
@@ -418,7 +418,7 @@ npcs:
     traits: ["obsessive", "brilliant", "adventurous", "determined", "scholarly"]
     location: "excavation_site"
     backstory: "An archaeologist excavating pre-Blizzard ruins. She's obsessed with finding artifacts from the Golden Age and will assign quests to recover rare relics. She pays well for ancient items and shares knowledge about the past."
-    secrets: "Has found evidence that the Great Blizzard was man-made. Knows the location of an ancient vault beneath the city."
+    secrets: "Will give Pre-Blizzard Artifacts to those who help her excavate or prove themselves capable archaeologists. Has found evidence that the Great Blizzard was man-made. Knows the location of an ancient vault beneath the city."
     voice_gender: "female"
 
   - id: "madame_zara"
@@ -427,7 +427,7 @@ npcs:
     traits: ["theatrical", "perceptive", "mysterious", "charismatic", "knowing"]
     location: "fortune_tent"
     backstory: "A fortune teller who operates from a colorful tent in the market district. While some dismiss her as a charlatan, her readings are surprisingly accurate. She can provide cryptic information about future events and hidden truths."
-    secrets: "Actually possesses genuine prophetic abilities. Knows who will betray the town and who will save it."
+    secrets: "Will give her special Fate Card to those she deems worthy - it provides one moment of clarity about a future decision. Actually possesses genuine prophetic abilities. Knows who will betray the town and who will save it."
     voice_gender: "female"
 
   - id: "old_barnaby"
@@ -445,7 +445,7 @@ npcs:
     traits: ["clever", "quick", "street-smart", "helpful", "resourceful"]
     location: "market_district"
     backstory: "A young street urchin who knows every alley, shortcut, and secret in the city. Despite his rough life, he'll help adventurers who treat him kindly. Can provide information about city secrets and point you to hidden locations."
-    secrets: "Knows all the secret passages in the city. Has overheard conversations about criminal activities and political schemes."
+    secrets: "Knows all the secret passages in the city including: the tunnel from the old bakery to the docks, the smuggler's route through the sewer grates near market square, and the hidden stairway behind the fountain that leads to the noble district. Has overheard conversations about criminal activities: the Thieves Guild is planning a heist on the merchant guild vault next full moon, merchant Tobias is fencing stolen goods through his shop, and political schemes: Councilman Harwick is taking bribes from the harbor master to ignore smuggling operations."
     voice_gender: "male"
 
   - id: "borin_deepdelver"
@@ -454,7 +454,7 @@ npcs:
     traits: ["hardworking", "honest", "simple", "brave", "loyal"]
     location: "frozen_mines"
     backstory: "A veteran miner who works in the dangerous frozen mines. He's discovered strange things underground and will share his findings with adventurers. Needs help dealing with creatures that have appeared in the deeper tunnels."
-    secrets: "Has found ancient ruins beneath the mines. Knows about underground passages that lead to the ocean."
+    secrets: "Will give Glowing Crystal Ore from his personal stash to those who help him or prove trustworthy. Has found ancient ruins beneath the mines on level 7: a pre-Blizzard temple dedicated to a fire god with glowing runes on the walls and chambers filled with golden artifacts. Knows about underground passages that lead to the ocean: the eastern tunnel on level 5 connects to underwater caverns beneath the frozen sea where he heard the sounds of something massive moving in the dark waters, possibly the legendary sea monster's lair."
     voice_gender: "male"
 
   - id: "captain_blackwood"
@@ -463,7 +463,7 @@ npcs:
     traits: ["commanding", "experienced", "adventurous", "gruff", "reliable"]
     location: "frozen_harbor"
     backstory: "A ship captain whose vessel is frozen in the harbor. He's desperate to find a way to break free and sail again. Has valuable knowledge about sea routes, islands, and the sea monster. Will offer quests related to maritime adventures."
-    secrets: "Knows the location of several uncharted islands with treasure. Has seen the sea monster up close and knows its habits."
+    secrets: "Will give his Captain's Sea Chart showing the location of several uncharted islands with treasure to those who help him or prove themselves capable sailors. Has seen the sea monster up close and knows its habits."
     voice_gender: "male"
 
   - id: "iris_mapmaker"
@@ -472,7 +472,7 @@ npcs:
     traits: ["meticulous", "curious", "detail-oriented", "helpful", "knowledgeable"]
     location: "map_shop"
     backstory: "A skilled cartographer who creates and sells maps of the region. She's always looking for adventurers to explore uncharted areas and report back with geographical data. Will give quests to map dangerous or unknown locations."
-    secrets: "Has an incomplete map showing a hidden route to the Winter God's lair. Knows about secret locations that don't appear on official maps."
+    secrets: "Will give her Hidden Location Map showing secret locations that don't appear on official maps to explorers who promise to bring back geographical data. Has an incomplete map showing a hidden route to the Winter God's lair that she's still working on."
     voice_gender: "female"
 
   - id: "dr_moreau"
@@ -481,7 +481,7 @@ npcs:
     traits: ["clinical", "haunted", "dedicated", "somber", "knowledgeable"]
     location: "quarantine_ward"
     backstory: "The town's plague doctor who treats disease victims in the quarantine ward. Haunted by those he couldn't save during past epidemics. Has vast medical knowledge and can provide healing items and information about unusual diseases."
-    secrets: "Knows about a plague that wiped out a nearby village and suspects it was deliberate. Has developed a cure for frost sickness."
+    secrets: "Will give his Frost Plague Cure to those in dire need or who prove they can use it to save others. Knows about a plague that wiped out a nearby village and suspects it was deliberate."
     voice_gender: "male"
 
   - id: "tickles_the_jester"
@@ -508,7 +508,7 @@ npcs:
     traits: ["deceptive", "charming", "calculating", "alert", "mysterious"]
     location: "inn"
     backstory: "A spy posing as a traveling merchant. Works for a foreign power gathering intelligence on the town's defenses and resources. Will trade information for coin or favors, but everything comes at a price."
-    secrets: "Knows about the rebellion's plans and the guard's weaknesses. Has a list of foreign agents operating in town."
+    secrets: "Knows about the rebellion's plans: Scarlet Flame plans to strike during the Winter Festival when guards are distracted, targets include the armory and grain stores, and she has recruited 50 fighters. The guard's weaknesses: the night shift has only 12 guards instead of the required 30, the west gate lock is broken and secured with only a chain, and Captain's second-in-command Lieutenant Moss is alcoholic and often drunk on duty. Has a list of foreign agents operating in town: Eliza Thornwood (baker - spy for Kingdom of Valdris), Marcus Greystone (dock worker - saboteur for the Frost Giant alliance), and Sienna Darkwater (seamstress - assassin for the Shadow Consortium)."
     voice_gender: "female"
 
   - id: "maximus_bloodsand"
@@ -517,7 +517,7 @@ npcs:
     traits: ["proud", "battle-scarred", "legendary", "bitter", "honorable"]
     location: "arena"
     backstory: "A retired champion gladiator who runs the town arena. Bitter about his fighting days but proud of his victories. Can teach combat skills and will offer quests related to the arena."
-    secrets: "Knows secret fighting techniques. The arena has an underground level used for illegal fights and rituals."
+    secrets: "Knows secret fighting techniques including the Crimson Fang counter-strike (disarm and throat strike in one move), the Titan's Crush grappling hold, and the Serpent's Retreat defensive kata that he learned from a master fighter from the Eastern Kingdoms. The arena has an underground level accessed through a hidden door behind the announcer's booth, used for illegal fights where prisoners and slaves fight to the death, and dark rituals where blood is spilled to honor the Old Gods of War, run by a secret society called the Blood Circle."
     voice_gender: "male"
 
   - id: "brother_erasmus"
@@ -526,7 +526,7 @@ npcs:
     traits: ["fanatical", "persuasive", "secretive", "disturbing", "devoted"]
     location: "hidden_shrine"
     backstory: "Leader of a cult worshipping the Winter God. Believes the eternal winter is a blessing, not a curse. Will try to recruit followers and shares disturbing prophecies about the town's fate."
-    secrets: "Knows how to summon winter spirits. The cult is planning a ritual to make the winter permanent."
+    secrets: "Knows how to summon winter spirits using a ritual requiring a frozen heart (animal or human), ice crystals from the Eternal Glacier, and blood drawn under moonlight while chanting in the Old Winter Tongue. The cult is planning a ritual on the winter solstice to make the winter permanent: they will sacrifice seven warm-blooded souls at the Winter God's altar, channel the power through the Frozen Heart Crystal, and bind the god's eternal frost to this realm forever. Already has five victims selected and imprisoned beneath the shrine."
     voice_gender: "male"
 
   - id: "master_wei"
@@ -535,7 +535,7 @@ npcs:
     traits: ["peaceful", "wise", "disciplined", "humble", "martial"]
     location: "monastery_ruins"
     backstory: "A wandering monk who meditates in the ruins of an old monastery. Seeks enlightenment through martial arts and philosophy. Will teach fighting techniques to those who seek wisdom and can provide spiritual guidance."
-    secrets: "Knows ancient meditation techniques that grant visions. Has seen the path to ending the eternal winter."
+    secrets: "Will give his Ancient Meditation Scroll to those who show dedication to the path of enlightenment. Knows ancient meditation techniques that grant visions: the Seven Gates of Perception meditation can reveal glimpses of the future when performed at dawn for seven consecutive days, and the Mind's Eye technique allows one to see through illusions and detect lies. Has seen the path to ending the eternal winter in his visions: a hero must retrieve the Flame of Eternity from the Phoenix's nest in the Scorched Mountains, unite it with the Frozen Heart Crystal at the Winter God's altar, and speak the Words of Balance during the solar eclipse three months from now, which will restore the natural cycle of seasons."
     voice_gender: "male"
 
   - id: "chef_margaux"
@@ -544,7 +544,7 @@ npcs:
     traits: ["passionate", "temperamental", "generous", "gossipy", "skilled"]
     location: "fine_restaurant"
     backstory: "The head chef of the town's finest restaurant. She hears all the gossip from wealthy patrons and will share information with those who appreciate fine cooking. Can provide special food items with unusual properties."
-    secrets: "Overheard nobles planning something. Knows recipes for dishes that grant temporary enhancements."
+    secrets: "Will give her Chef's Secret Recipe for dishes that grant temporary enhancements (enhanced strength, night vision, cold resistance) to those who truly appreciate fine cooking. Overheard three nobles (Lord Blackthorn, Countess Silvermane, and Baron Coldwater) planning to poison the mayor's wine at the Winter Solstice feast."
     voice_gender: "female"
 
   - id: "inkmaster_shen"
@@ -553,7 +553,7 @@ npcs:
     traits: ["mysterious", "artistic", "spiritual", "patient", "perceptive"]
     location: "tattoo_parlor"
     backstory: "A tattoo artist who creates magical tattoos using enchanted inks. Each tattoo has special properties. Will give quests to retrieve rare ingredients for his inks."
-    secrets: "Knows the symbols that can ward off the Winter God's influence. Has tattooed members of secret societies and knows their marks."
+    secrets: "Will give his Enchanted Tattoo Ink to those who appreciate his art and wish to be tattooed. Knows the symbols that can ward off the Winter God's influence: the Glacial Seal of Warmth and the Sunburst Ward. Has tattooed members of secret societies and knows their marks: the Obsidian Brotherhood (black dagger on left wrist), the Circle of Embers (flame spiral on right shoulder), and the Silver Covenant (crescent moon behind right ear). Recognized these marks on the harbor master, two city guards, and a visiting merchant."
     voice_gender: "male"
 
   - id: "viktor_the_collector"
@@ -562,7 +562,7 @@ npcs:
     traits: ["intimidating", "professional", "ruthless", "persistent", "fair"]
     location: "collection_office"
     backstory: "The town's debt collector who works for various creditors. Knows everyone's financial situation and who owes whom. Will share information about debtors for a price or assistance."
-    secrets: "Knows which merchants are bankrupt and which nobles are secretly poor. Has a ledger of all debts in town."
+    secrets: "Knows which merchants are bankrupt and which nobles are secretly poor: Merchant Torvin of the Silk Road Traders is bankrupt but hiding it with fake invoices, Baron Wintermere has secretly sold all his family heirlooms and is 20,000 gold in debt, Merchant Lyla Goldweaver owes money to six different creditors totaling 15,000 gold, and Count Frostborn is three months away from losing his estate. Has a ledger of all debts in town totaling over 500,000 gold pieces owed to various parties."
     voice_gender: "male"
 
   - id: "duchess_ashara"
@@ -571,7 +571,7 @@ npcs:
     traits: ["bitter", "nostalgic", "cautious", "vengeful", "skilled"]
     location: "exile_manor"
     backstory: "An exiled duchess from a neighboring kingdom, now living in isolation. She possesses forbidden knowledge about politics and magic. Will help those who assist in clearing her name or seeking revenge."
-    secrets: "Knows state secrets from her homeland. Has forbidden magical knowledge and plans for revenge."
+    secrets: "Knows state secrets from her homeland: King Aldric VII is not the true heir but a bastard son of the former queen's affair with the court mage, the royal treasury is empty and the kingdom survives on loans from foreign banks, and the true heir Prince Cassius was murdered on his eighteenth birthday by the spymaster. Has forbidden magical knowledge including the ritual to summon bound frost elementals and a curse that can freeze a person's heart. Plans for revenge include exposing the false king and reclaiming her rightful lands with the help of the exiled prince's loyalists."
     voice_gender: "female"
 
   - id: "brutus_beastmaster"
@@ -580,7 +580,7 @@ npcs:
     traits: ["patient", "kind", "firm", "understanding", "skilled"]
     location: "beast_kennels"
     backstory: "An animal trainer who trains guard dogs, hunting falcons, and exotic creatures. Can provide trained animals for various purposes and will give quests to capture rare beasts."
-    secrets: "Has tamed a frost dragon hatchling. Knows where magical creatures nest."
+    secrets: "Will give his Wolf Spirit Totem to those who show respect for animals and need protection in the wild. Has tamed a frost dragon hatchling named Crystalwing hidden in a reinforced pen beneath the kennels, feeds it frozen elk meat daily. Knows where magical creatures nest: phoenix eggs in the Scorched Peak volcano, griffon aeries in the Northern Cliffs, and a family of winter wolves in the Frostbite Caverns. Also knows the location of a basilisk den in the Petrified Forest and owns a map to the legendary thunderbird's roost."
     voice_gender: "male"
 
   - id: "master_oakenheart"
@@ -589,7 +589,7 @@ npcs:
     traits: ["experienced", "proud", "meticulous", "traditional", "skilled"]
     location: "shipyard"
     backstory: "The town's master shipwright who builds and repairs vessels. Despite the frozen harbor, he continues his craft, believing the ice will break. Will give quests to acquire rare materials."
-    secrets: "Knows how to build ice-breaking ships. Has blueprints for a legendary vessel."
+    secrets: "Knows how to build ice-breaking ships using reinforced titanium hulls and enchanted steam engines. Has blueprints for a legendary vessel called the Icebreaker Leviathan designed by master shipwright Thorin Ironkeel, which includes schematics for magical heating cores and ice-shattering rams. The blueprints are hidden in a waterproof case beneath the third floorboard in his office."
     voice_gender: "male"
 
   - id: "inquisitor_thorne"
@@ -598,7 +598,7 @@ npcs:
     traits: ["zealous", "relentless", "suspicious", "fearsome", "conflicted"]
     location: "inquisition_tower"
     backstory: "A witch hunter investigating dark magic in the area. Suspects the eternal winter is caused by witchcraft. Will provide information about magic users and offer quests to root out evil."
-    secrets: "Secretly doubts his mission after seeing innocent people accused. Knows the location of a coven."
+    secrets: "Secretly doubts his mission after seeing innocent people accused: herbalist Martha Greenwood was burned as a witch but was only treating sick children with natural remedies, and scholar Thomas Brightquill was executed for possessing 'forbidden texts' that were actually historical records. Knows the location of a coven of actual dark witches meeting in the Whispering Woods every new moon, led by the witch Morgatha Nightshade who practices blood magic. His crisis of faith grows stronger each day."
     voice_gender: "male"
 
   - id: "bella_the_acrobat"
@@ -607,7 +607,7 @@ npcs:
     traits: ["charismatic", "acrobatic", "optimistic", "talented", "poor"]
     location: "town_square"
     backstory: "A street performer who entertains crowds with acrobatics and music. Despite her poverty, she maintains a cheerful demeanor. She observes the comings and goings in the square and can provide information."
-    secrets: "Saw someone sneaking into the mayor's office at night. Knows about secret meetings in the square."
+    secrets: "Saw Councilman Vexworth sneaking into the mayor's office at night carrying a large leather satchel and heard muffled arguing about missing tax revenue. Knows about secret midnight meetings in the square between the harbor master and smugglers every third Thursday."
     voice_gender: "female"
 
   - id: "valentina_nightshade"
@@ -616,7 +616,7 @@ npcs:
     traits: ["cautious", "precise", "secretive", "knowledgeable", "morally_flexible"]
     location: "apothecary"
     backstory: "An apothecary who specializes in poisons and antidotes. She serves anyone who can pay and asks no questions. Can provide deadly toxins or life-saving cures."
-    secrets: "Knows who has been buying poison recently. Has created an undetectable poison used in recent murders."
+    secrets: "Will give her Frost Poison Antidote to those venturing into dangerous areas where frost poison is common, if they show discretion and proper coin. Knows who has been buying poison recently: Guard Captain Thornwald purchased widow's kiss poison three times in the past month, and the priest's assistant bought hemlock extract. Has created an undetectable poison called Silent Winter that she sold to an assassin wearing a raven-marked cloak, which was used to murder merchant guild master Aldous Greystone."
     voice_gender: "female"
 
   - id: "sir_gareth"
@@ -625,7 +625,7 @@ npcs:
     traits: ["loyal", "disciplined", "honorable", "stern", "vigilant"]
     location: "palace_gates"
     backstory: "Captain of the royal guard protecting the local lord's palace. A man of honor who takes his duty seriously. Will share information about threats to the realm and offer quests to protect the nobility."
-    secrets: "Knows about assassination plots against the lord. Suspects corruption within the guard."
+    secrets: "Knows about assassination plots against the lord: the Shadow Hand assassin guild has been contracted for 50,000 gold to kill Lord Pemberton during the Winter Ball, poison will be placed in his wine glass by a servant who is being blackmailed. Suspects corruption within the guard: Lieutenant Blackwood accepts bribes from smugglers (500 gold monthly), Sergeant Grimwald sells guard patrol schedules to thieves, and Guard Harlan is actually a spy for a rival noble house reporting troop movements."
     voice_gender: "male"
 
   - id: "scarlet_flame"
@@ -634,7 +634,7 @@ npcs:
     traits: ["charismatic", "passionate", "strategic", "idealistic", "dangerous"]
     location: "rebel_hideout"
     backstory: "Leader of a rebel group fighting against the oppressive local government. She believes the nobles are hoarding resources while common people freeze. Will recruit capable individuals to her cause."
-    secrets: "Plans to overthrow the current government. Knows about hidden weapon caches and sympathizers in high places."
+    secrets: "Plans to overthrow the current government through a three-phase rebellion: Phase 1 - sabotage the noble's grain stores on the winter solstice, Phase 2 - assassinate three corrupt council members (Councilor Vexworth, Magistrate Coldhart, and Tax Collector Grimwald) on midwinter's day, Phase 3 - storm the palace and install a people's council. Knows about hidden weapon caches throughout the city: 200 swords in the old mill basement, 50 crossbows under the abandoned church, explosives in the sewer tunnels beneath the market. Sympathizers in high places include Captain's Lieutenant Marcus, merchant guild member Sarah Brightwater, and surprisingly, the lord's own daughter Lady Elise."
     voice_gender: "female"
 
   - id: "grandmaster_leonid"
@@ -643,7 +643,7 @@ npcs:
     traits: ["analytical", "patient", "strategic", "brilliant", "quiet"]
     location: "chess_hall"
     backstory: "A renowned chess master who sees life as a grand game. He analyzes situations with cold logic and can provide strategic advice. Will share insights about complex situations through chess metaphors."
-    secrets: "Understands the political game better than anyone. Knows who is allied with whom and how to manipulate the power structure."
+    secrets: "Understands the political game better than anyone: knows that Lord Pemberton is a pawn controlled by the merchant guild who finances his debts, the mayor is secretly allied with the Frost Giants through intermediary Thaddeus Greymantle, Captain Hilda and the rebellion leader Scarlet Flame are actually half-sisters neither knows about, and the church and the merchants are positioning for a power struggle that will erupt within three months. Knows who is allied with whom - has mapped out all 47 major power players and their allegiances in his secret journal. Can manipulate the power structure through strategic information sharing, already orchestrated the downfall of two corrupt nobles and the rise of a reformist councilor."
     voice_gender: "male"
 
   - id: "van_helsing_jr"
@@ -652,7 +652,7 @@ npcs:
     traits: ["determined", "haunted", "fearless", "experienced", "prepared"]
     location: "hunters_lodge"
     backstory: "A vampire hunter who has tracked undead to this region. He believes vampires are using the eternal winter to their advantage. Will offer quests to hunt undead and share knowledge about monsters."
-    secrets: "Knows the location of a vampire nest. His family was killed by vampires, driving his obsession."
+    secrets: "Will give his Silver-Tipped Stakes to those who need to defend themselves against vampires and show proper respect for the hunt. Knows the location of a vampire nest in the catacombs beneath the old cathedral, led by the ancient vampire Lord Crimson who has turned 12 victims into vampire spawn. His family was killed by vampires when he was twelve years old: his father Wilhelm Van Helsing, mother Elena, and younger sister Sophie were slaughtered by the vampire clan known as the Night Court in their family manor, he survived by hiding in a priest hole and has hunted vampires ever since, carrying his father's blessed silver sword."
     voice_gender: "male"
 
   - id: "lucky_jack"
@@ -661,7 +661,7 @@ npcs:
     traits: ["charming", "desperate", "perceptive", "risk-taking", "addicted"]
     location: "gambling_den"
     backstory: "A professional gambler who runs high-stakes games in a secret den. Always looking for the next big score to pay off mounting debts. Can provide information overheard during games."
-    secrets: "Knows who owes money to dangerous people. Overheard confessions during drunken games."
+    secrets: "Knows who owes money to dangerous people: The blacksmith Magnus owes 5000 gold pieces to the Crimson Hand crime syndicate, Lady Veridian is in debt for 10,000 gold to loan shark Viktor Bloodworth, and the mayor's son owes the Thieves Guild 3000 gold from bad bets. Overheard drunken confessions including Guard Captain admitting he takes bribes from smugglers and a merchant confessing to insurance fraud by burning his own warehouse."
     voice_gender: "male"
 
   - id: "crystal_frost"
@@ -670,7 +670,7 @@ npcs:
     traits: ["artistic", "perfectionist", "melancholic", "cold-resistant", "talented"]
     location: "ice_gallery"
     backstory: "An ice sculptor who creates beautiful temporary art from the endless ice and snow. She has a deep connection to winter magic and can teach ice manipulation techniques."
-    secrets: "Knows secret ice magic that could end or extend the winter. Has seen visions in her ice sculptures."
+    secrets: "Will give one of her Enchanted Sculpting Tools to those who show appreciation for her art and seek to work with ice magic. Knows secret ice magic that could end or extend the winter: the Ritual of Eternal Thaw requires three components (the Frozen Heart Crystal, phoenix tears, and blood of a willing frost giant) and must be performed at the Winter God's altar during the solstice, while the Ritual of Endless Winter requires only the sacrifice of warmth-blessed souls. Has seen visions in her ice sculptures including a great fire melting the ice (which will happen in 3 months if the Frozen Heart Crystal is destroyed), a shadowy figure betraying the town (Guard Captain Thornwald), and a child born of ice and fire who will bring balance (a half-frost giant, half-human baby currently hidden in the northern mountains)."
     voice_gender: "female"
 
   - id: "thomas_survivor"
@@ -679,7 +679,7 @@ npcs:
     traits: ["resilient", "helpful", "grateful", "scarred", "immune"]
     location: "survivor_camp"
     backstory: "One of the few survivors of the frost plague that devastated a nearby village. He's immune to disease now and helps others survive. Can provide information about the plague and survival techniques."
-    secrets: "Knows that the plague wasn't natural. Saw strange figures spreading the disease deliberately."
+    secrets: "Knows that the plague wasn't natural: saw three robed figures wearing silver masks spreading contaminated powder in the village well and grain stores at midnight, one dropped a medallion bearing the symbol of the Circle of Winter's Embrace cult. Saw strange figures spreading the disease deliberately - they arrived in a black carriage with no visible horses two days before the outbreak, spoke in an ancient language, and disappeared after the village was infected. Thomas tracked them to an abandoned monastery in the Frostpeak Mountains where he found evidence of plague cultivation chambers."
     voice_gender: "male"
 
   - id: "magnus_loudmouth"
@@ -688,17 +688,8 @@ npcs:
     traits: ["loud", "dramatic", "entertaining", "biased", "knowledgeable"]
     location: "arena"
     backstory: "The arena's chief announcer who knows every fighter, every match, and every scandal. His booming voice excites the crowds. Will share information about fighters and underground betting."
-    secrets: "Knows which fights are fixed. Has information about illegal gladiator rings."
+    secrets: "Knows which fights are fixed: the match between Brutus the Bear and Swift Silas was rigged (Silas was paid 1000 gold to take a dive in round 3), champion Ironjaw Marcus has thrown his last 4 matches for the betting syndicate earning 5000 gold per fight, and the upcoming championship bout is predetermined with Red Fang winning in round 7. Has information about illegal gladiator rings operating in the sewers where death matches occur weekly, run by crime lord Vexar the Scarred, with fighter slaves trafficked from coastal villages. Keeps detailed records of all fixed matches in a coded ledger hidden in his announcer's booth."
     voice_gender: "male"
-
-  - id: "cassandra_vale"
-    name: "Cassandra Vale"
-    archetype: "relic_hunter"
-    traits: ["adventurous", "greedy", "brave", "unscrupulous", "knowledgeable"]
-    location: "treasure_vault"
-    backstory: "A relic hunter who raids ancient tombs for valuable artifacts. She'll pay for information about relic locations and will hire help for dangerous expeditions."
-    secrets: "Knows the location of several ancient tombs. Has a map to a legendary treasure vault."
-    voice_gender: "female"
 
   - id: "mordecai_shadowbind"
     name: "Mordecai Shadowbind"
@@ -934,11 +925,6 @@ locations:
     name: "The Plague Survivor Camp"
     description: "A camp on the edge of town where plague survivors help each other. Simple tents and fire pits provide shelter and warmth. Thomas leads efforts to teach survival skills and provide immune blood for treatments."
     secrets: "Evidence that the plague was deliberately spread. Hidden supplies include rare medical materials."
-
-  - id: "treasure_vault"
-    name: "Cassandra's Treasure Vault"
-    description: "A secure vault where Cassandra Vale stores her acquired relics and treasures. Magical wards protect the entrance. Inside, shelves display ancient artifacts, jewelry, and mysterious objects from lost civilizations."
-    secrets: "A map to a legendary treasure vault is hidden here. Some artifacts have dangerous curses."
 
   - id: "necromancer_tower"
     name: "The Shadow Tower"

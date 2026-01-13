@@ -1,20 +1,18 @@
 [location trigger] The players approach Captain Blackwood's frozen ship in the harbor.
 [npc trigger] Captain Elias Blackwood stands on the deck and calls out to the visitors below.
 [player]: Captain Blackwood! Your ship is magnificent, even frozen as it is.
-[captain_blackwood]: Aye, she's old but still got teeth. What brings ye to the Rusty Anchor? Need some cargo or just looking for a good tale?
+[captain_blackwood]: Ah, stranger. The Rusty Anchor isn't exactly the Red Sea here, but it's a fine vessel nonetheless. What brings you to these icy waters?
 [player]: You must have sailed to incredible places before the harbor froze over.
-[captain_blackwood]: Aye, I've seen more ports than you can shake a log at. But this winter's been colder 'n usual. What do you make of it? Heard whispers about strange lights in the sky and shadows on the ice.
+[captain_blackwood]: Aye, I've seen more ports than I can count. But there's always something new under the waves, even in this frozen hell. What tales do you bring from the south?
 [player]: A captain with your experience must know these waters better than anyone.
-[captain_blackwood]: I've sailed these seas long enough to know where not to go, laddie. The ice is thicker this year, and it ain't just the cold workin' overtime. There's somethin' afoot, and I wouldn't be surprised if there were more to those whispers than meets the ear.
+[captain_blackwood]: Indeed, stranger. These icy lanes have secrets only a seasoned sailor like myself has fathomed. But beware, for the perils that lurk here are as cold and cruel as this harbor. What do you hope to find out there?
 [player]: I'm fascinated by tales of the sea. What discoveries have you made in your travels?
-[captain_blackwood]: Aye, well, I've seen wonders that would make your eyes pop, but most are best left untold. There be islands with treasures buried under snow and ice, and ports where the air whispers secrets if ye listen close enough. But mind yer step on those lands; they're not always what they seem.
+[captain_blackwood]: Many a wonder, but few can match the thrill of uncharted islands. I've charted several places where no man's eye has seen before, filled with treasures and dangers alike. But let me warn ye, laddie, each island is guarded by its own trials. Have you any skills or bravery to match what lies ahead?
 [player]: I've heard rumors of uncharted islands and mysterious creatures. What have you witnessed out there?
-[captain_blackwood]: Mmm, uncharted islands and mysterious creatures... Aye, I've seen things that challenge the mind and stir the soul. There be an island to the south-west where the trees grow in circles like some dark forest sorcery. And as for creatures, well, best not mention a certain sea monster by name, or it'll draw closer than you'd like.
+[captain_blackwood]: Mysterious creatures, you say? Aye, I've seen things that would make a man's blood run cold. There be tales of sea monsters that roam these waters, but I've faced one myself. It was a sight best left unseen by most, but it taught me respect for the ocean's fury.
 
-But enough of that nonsense. What brings ye to ask such questions? Do you have a tale of your own to share, or are you just curious?
+As for those uncharted islands, they hold their secrets well. Some say there's treasure beyond imagining, others speak of traps and dangers. But without a crew as skilled and brave as you seem to be, such places remain mysteries better left untouched.
 [player]: Please, share your knowledge of the sea. I want to hear about the places you've been and the things you've seen.
-[captain_blackwood]: *Sighs heavily, leaning back in his chair.* Aye, well, the world's a vast ocean with many untold stories. There be lands where the sun never sets, and others where it stays hidden behind an eternal curtain of clouds. I've sailed through waters so deep they whisper secrets only fish can hear, and seas where the wind sings songs that make even the bravest sailor weep.
+[captain_blackwood]: Well, stranger, a sailor's mouth is never entirely closed on tales of the deep. But remember, some things are best left in the shadows where they belong. That being said, let me tell you of an island I charted once, where the palm trees stood tall amidst the fog and the air was thick with mystery. The locals spoke of a hidden cove filled with sunken treasure from ancient ships. But beware—the path to that cove is fraught with peril, guarded by a fearsome sea monster that calls those waters its home.
 
-But let me tell you 'bout a place close to home—those islands to the southwest. They're like a twisted mirror, where the trees grow in perfect circles as if nature's trying to tell us something. And then there be the sea monster, a beast so large and so old it's said to watch over those waters from the depths.
-
-Now, mind ye, I wouldn't bring up these tales to just anyone. They're best left for a time when the world needs them most. But you seem curious, like a young cub eager to explore the world. What do you hope to find out there?
+Now, as for my own eyes, I've seen more than just islands and treasures. There be storms so fierce they make the very sky bleed, and creatures in the depths that should not exist. But enough of my tales—what do you hope to gain from this knowledge?

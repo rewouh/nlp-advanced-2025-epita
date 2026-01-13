@@ -5,8 +5,13 @@ npc_trigger_sentence: "I approach Crystal Frost"
 unit_tests:
   - kind: "item_given"
     item_name: "ice_sculpture_tool"
+  - kind: "info_given"
+    info: "Ritual of Eternal Thaw requires three components (the Frozen Heart Crystal, phoenix tears, and blood of a willing frost giant)"
 texts:
   - "Crystal, your ice sculptures are breathtaking. True works of art."
   - "The way you capture beauty in such an ephemeral medium is profound."
   - "I'm fascinated by how you work with ice magic. It's an incredible skill."
+  - "Have you ever seen visions in your ice sculptures? I've heard ice can reveal hidden truths."
+  - "Do you know of any ice magic that could end the eternal winter? Any rituals or spells?"
   - "Would you be willing to give me one of your enchanted sculpting tools? I'd treasure it."
+

@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "grandmaster_leonid"
+location_trigger_sentence: "The players enter the elegant chess hall where intellectuals gather."
+npc_trigger_sentence: "Grandmaster Leonid looks up from his chess board and nods at the visitors."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Investigate political corruption or gather intelligence on a specific noble or faction"
+
+texts:
+  - "Grandmaster Leonid, your reputation as a strategic thinker precedes you."
+  - "I've heard you understand the political landscape of this city better than anyone."
+  - "I'm skilled at moving unseen and gathering information. Perhaps I could assist you."
+  - "If you need someone to make a strategic move in the real world, I'm capable and discreet."
+  - "I can see you're playing a larger game than just chess. How can I help?"
+  - "What pieces need to be moved on your board? I'm ready to serve."

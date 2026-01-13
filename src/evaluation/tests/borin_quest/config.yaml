@@ -6,11 +6,15 @@ npc_trigger_sentence: "Borin Deepdelver stops his work and greets the visitors, 
 unit_tests:
   - kind: "quest_given"
     quest_description: "Help Borin deal with creatures in the deeper mine tunnels or explore the ancient ruins beneath"
+  - kind: "info_given"
+    info: "ancient ruins beneath the mines on level 7: a pre-Blizzard temple dedicated to a fire god"
 
 texts:
   - "Borin, the work you do down here is dangerous and important. You're a brave man."
   - "I can see you're a hard worker. The town depends on miners like you."
   - "I'm experienced in dealing with dangerous situations and creatures."
-  - "Have you encountered any problems in the deeper tunnels that need addressing?"
+  - "Have you found anything unusual deep in the mines? Ancient structures or passages?"
+  - "I've heard rumors of ruins beneath this region. Have you discovered anything like that?"
   - "If there's anything threatening the mining operation, I'd be happy to help handle it."
   - "What challenges are you facing down here? I'm ready to take on difficult tasks."
+

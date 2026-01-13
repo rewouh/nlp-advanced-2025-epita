@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "van_helsing_jr"
+location_trigger_sentence: "The players approach the hunters lodge, filled with weapons and holy symbols."
+npc_trigger_sentence: "Marcus Van Helsing turns from sharpening a silver stake and eyes the newcomers warily."
+
+unit_tests:
+  - kind: "item_given"
+    item_name: "Silver-Tipped Stake"
+
+texts:
+  - "Van Helsing, I respect your crusade against the undead."
+  - "I'm heading into territory where vampires might lurk."
+  - "Your weapons and knowledge could mean the difference between life and death."
+  - "I'm not a hunter like you, but I need to defend myself against vampires."
+  - "If you could spare a blessed weapon, I would put it to good use."
+  - "Your expertise in destroying the undead is unmatched. Please, help me prepare."

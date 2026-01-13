@@ -1,10 +1,18 @@
 [location trigger] I visit the monastery ruins
 [npc trigger] I approach Master Wei
 [player]: Master Wei, I seek wisdom and inner peace. Your discipline is inspiring.
-[master_oakenheart]: Ah, a seeker of tranquility among us. Discipline can indeed lead to great calmness in one's heart. In shipbuilding, each piece must be placed with precision, much like the steps you speak of. Would you care for a tour of our current projects? It might inspire your quest for peace.
+[master_oakenheart]: Ah, a seeker of tranquility. While my heart lies with the sea and its crafts, perhaps in sharing tales of voyages and storms, one can find their own path to calm. Would you like to hear of a time when the waves were as still as your mind now?
 [player]: I wish to learn the ways of meditation and martial balance. Will you teach me?
-[master_oakenheart]: Meditation and martial arts are both paths I respect, but they lie outside my realm of expertise. My focus lies in the mastery of wood and iron, not the cultivation of inner peace or physical prowess. Perhaps you should seek out a monk or warrior for such teachings. However, if you're truly interested in discipline, perhaps I can show you how to apply that principle in our craft. Would you like to see our workshop?
+[master_oakenheart]: Meditation and martial arts are indeed noble pursuits, but they require a different kind of discipline than that found in shipbuilding. Still, I can share some insights if you're truly eager. Tell me more about what draws you to these paths.
+[player]: Have you had visions about ending the eternal winter? What did they reveal?
+[master_oakenheart]: *Sighs deeply, eyes distant as memories return* Visions are a tricky thing, especially for one like myself who is rooted in the tangible world of shipbuilding. Yet, tales speak of ancient seers who could glimpse the future through storms and stars. In my dreams, I see the sea as it once was, free from ice's grip, and ships sailing without hindrance. But these visions are ever fleeting, like mist on a windy day. They do not reveal much, only that change is coming, and we must be ready to face whatever comes our way.
+
+Do you seek such knowledge or wisdom in your own dreams?
+[player]: I've heard of ancient meditation techniques that grant visions. Can you teach me these practices?
+[master_oakenheart]: To teach the ways of vision and inner sight requires a deep, personal journey—far from my usual trade. However, if you are truly sincere, perhaps I can guide you through some exercises to calm your mind and focus your senses. First, we must find a quiet place away from the chaos of the docks. Would you be willing to follow such a path?
 [player]: The path to enlightenment calls to me. I'm ready to dedicate myself to your teachings.
-[master_oakenheart]: Very well, but remember, the path of a shipwright is not for the faint of heart. It requires patience and unwavering focus. Follow me if you are truly committed. We'll start with the basics: understanding the materials we use and why each piece must be crafted just so.
+[master_oakenheart]: Very well, let us seek out a secluded spot where the whispers of the sea do not disturb our journey inward. Follow me to my workshop; it is there that we can begin your training in silence and reflection.
 [player]: Please, share your knowledge with me. I would be honored to receive one of your meditation scrolls.
-[master_oakenheart]: Hmm, a scroll from my hands? That's an honor indeed. However, such treasures are not given lightly. First, you must prove yourself worthy by demonstrating the discipline and focus that are the cornerstone of our trade. Tonight, as we work on repairing the old trading ship, show me what you've learned about the materials and their properties. If your dedication is true, then perhaps I'll share more with you in due time.
+[master_oakenheart]: I value my teachings as precious as the blueprints for my finest ships. However, such knowledge requires a steadfast commitment and a true heart. Are you willing to dedicate yourself fully to this path? Prove to me that you are worthy by demonstrating your resolve in a task related to our shared purpose—preserving the traditions of shipbuilding or facing the challenges ahead.
+
+If you can show me something meaningful, then I might consider sharing my scrolls with you. What will it be?

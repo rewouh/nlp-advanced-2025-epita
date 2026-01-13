@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "borin_deepdelver"
+location_trigger_sentence: "The players enter the frozen mines where Borin works."
+npc_trigger_sentence: "Borin Deepdelver emerges from the tunnels, covered in rock dust."
+
+unit_tests:
+  - kind: "item_given"
+    item_name: "Glowing Crystal Ore"
+
+texts:
+  - "Borin, your hard work in these dangerous mines is commendable."
+  - "I've heard you've discovered some incredible things down there."
+  - "You're an honest, hardworking man. I respect that greatly."
+  - "I'm looking for rare materials for an important quest."
+  - "Those glowing crystals you find must be valuable. I could help you with that."
+  - "If you have any crystal ore to spare, I'd be happy to trade or help in return."

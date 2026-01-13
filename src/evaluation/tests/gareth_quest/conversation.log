@@ -1,14 +1,23 @@
 [location trigger] I approach the palace gates
 [npc trigger] I speak to Sir Gareth Ironshield
 [player]: Sir Gareth, your dedication to duty is exemplary. A true knight.
-[sir_gareth]: Thank you for the kind words. My duty is not just to the title but to the realm and its people. May our paths cross again when I can truly serve.
+[sir_gareth]: Thank you for your kind words. It is a solemn duty I take upon myself, and one I do not take lightly. What brings you to speak with me tonight?
 [player]: The realm is fortunate to have someone of your honor protecting the palace.
-[sir_gareth]: *Nods, a hint of pride in my voice.* The safety of the realm is paramount, and I strive to uphold that duty with every breath.
+[sir_gareth]: Indeed, it is an honour to serve. If there be any way I can assist you further, please let me know. The safety of our lord and lady is paramount.
 [player]: I'm a capable warrior. If there are threats to the nobility, I can help.
-[sir_gareth]: Your skills would be invaluable, but for now, let us ensure the palace gates remain secure. *Looks around cautiously* The safety of our lord and lady depends on it.
+[sir_gareth]: Very well, then. Be vigilant; tonight's Winter Ball is a potential target for an assassination plot. A shadowy figure has been spotted near the palace gates, and I suspect the Shadow Hand assassin guild might be involved. Stay sharp and alert during your patrol tonight.
+[player]: Have you heard of any specific plots against Lord Pemberton? Assassination attempts perhaps?
+[sir_gareth]: I have indeed heard whispers of such a plot. The Shadow Hand assassin guild has been contracted for 50,000 gold to ensure the lord's demise during the Winter Ball. They are known to be ruthless and cunning. Keep your wits about you; tonight could be crucial.
+[player]: Are there any threats you're tracking that I could help investigate?
+[sir_gareth]: Indeed, there are several matters of concern. Lieutenant Blackwood accepts bribes from smugglers for 500 gold monthly, Sergeant Grimwald sells guard patrol schedules to thieves, and Guard Harlan is a spy for a rival noble house, reporting troop movements. These internal threats must be dealt with vigilantly.
+
+However, tonight's focus remains on the assassination plot during the Winter Ball. If you can keep an eye out for any suspicious activities or individuals acting out of character, it would be greatly appreciated. Trust your instincts; sometimes, it's the smallest details that matter most.
 [player]: What missions or quests can I undertake to serve the lord and protect the realm?
-[sir_gareth]: The Iron Vanguard is recruiting mercenaries for a dangerous mission to clear out a bandit camp in the northern woods, not far from where goblin raids have been reported. It would test your mettle and ensure our borders remain safe.
+[sir_gareth]: The realm is ever vigilant against threats both known and unknown. There are several missions you could undertake to aid in our defense:
 
-Additionally, there's talk of strange activity around the lighthouse on the coast. Some fear it might be a signal for an impending raid or worse. I will need someone reliable to investigate that tonight, if you're willing to take on such a task.
+1. **Patrol the Perimeter:** With the assassination plot looming, extra patrols around the palace and especially near the Winter Ball venue will be crucial.
+2. **Investigate Strange Activities:** Keep an eye out for any suspicious individuals or unusual behavior among the guards and servants.
+3. **Gather Intelligence:** If you suspect corruption within our ranks, discreetly gather evidence that could help clear or confirm your suspicions.
+4. **Assist with Recruitment:** The Iron Vanguard is recruiting mercenaries for a dangerous mission. If you feel up to it, you could lead a team on a scouting or raiding expedition.
 
-Which do you think suits your skills better?
+Which path would you like to take? Or perhaps there's another duty you'd prefer to undertake?

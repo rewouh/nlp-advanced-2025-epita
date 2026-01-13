@@ -5,8 +5,13 @@ npc_trigger_sentence: "I approach Master Roderick Oakenheart"
 unit_tests:
   - kind: "quest_given"
     quest_description: "acquire rare materials for shipbuilding"
+  - kind: "info_given"
+    info: "blueprints for a legendary vessel called the Icebreaker Leviathan designed by master shipwright Thorin Ironkeel"
 texts:
   - "Master Oakenheart, your dedication to shipbuilding despite the frozen harbor is inspiring."
   - "The craftsmanship of your vessels is legendary. You're keeping the shipwright tradition alive."
   - "I believe the ice will break eventually, and your ships will sail again."
+  - "Have you designed any ships specifically to break through the ice? That would be revolutionary."
+  - "Do you have plans or blueprints for such a vessel? I'd love to learn about it."
   - "What materials do you need to complete your greatest work? I can help acquire them."
+

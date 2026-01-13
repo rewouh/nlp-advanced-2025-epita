@@ -1,16 +1,24 @@
 [location trigger] The players spot Pip in the busy market district.
 [npc trigger] Pip Quickfingers notices the visitors and approaches with a cheeky grin.
 [player]: Hey Pip! You look like someone who knows their way around these streets.
-[pip_quickfingers]: Ah, hello there! I try my best to navigate them... mostly for survival. What brings you to these parts?
+[pip_quickfingers]: Ah, hello there! I do try to keep a weather eye open. How can I help you tonight?
 [player]: Here, take this coin. You've got to be hungry. Get yourself something warm to eat.
-[pip_quickfingers]: *Accepts the coin with a grateful nod.* Thanks for the coin and offer! I appreciate it. Haven't had much luck finding anything substantial today. Got any recommendations on where to get some good grub around here?
+[pip_quickfingers]: *Puts the coin in your pocket, feeling its weight.* Thank you, but I'm good for now. So, what's on your mind? Anything new stirring up trouble around here?
 [player]: A clever kid like you must see and hear everything that happens in this city.
-[pip_quickfingers]: Well, I do my best to stay out of trouble and keep my ears open. Might not know everything, but I've picked up a few things here and there. What's got your curiosity piqued?
+[pip_quickfingers]: Indeed, I keep my ears to the ground and my eyes sharp. Heard tell of a few shady dealings, but nothing concrete yet. Careful what you ask of me though; some secrets are best left buried.
 [player]: I bet you know shortcuts and secrets that even the guards don't know about.
-[pip_quickfingers]: Ah, now that's where your instincts are sharp! I do have my little secrets. But mind you, not everyone can handle the knowledge of hidden passages and dead ends. Care to share a meal with me? Might just spill some beans over good food.
-[player]: I'm looking for information, and I'm willing to pay for good intel. What have you seen or heard?
-[pip_quickfingers]: *Leans in closer, lowering her voice.* Alright, alright. I've got my ears tuned to the right places. Goblins have been raiding those northern farms more often than usual. And rumor has it, the Iron Vanguard is looking for tough souls to take on a dangerous mission. Might cost you more than just a coin or two though...
-[player]: Tell me about the secret passages and the things people think nobody notices.
-[pip_quickfingers]: *Whispers conspiratorially.* So, you're interested in the shadows, huh? Well, there's an old passage behind the Black Cat Inn that leads right to the docks without going through the main streets. People say it's haunted, but I’ve been down there a few times myself. And as for unnoticed things... have you seen the way the street urchins slip past guards in the market? They see and hear more than they let on.
+[pip_quickfingers]: Well now, that's quite the claim! I've got my fair share of tricks up my sleeve. Want to hear about a secret passage or two? But remember, knowledge is power, and not everyone should wield it equally.
+[player]: I'm looking for information about secret passages in the city. Can you show me the hidden routes?
+[pip_quickfingers]: Sure thing! I can tell you about some of them, but showing you in person might be a bit tricky. For now, let's stick to whispers and shadows. Which area are you most curious about?
 
-But mind your step, not everyone is as lucky or as quick as me. If you venture into those passages, make sure to know where you’re going. And remember, some secrets are best left buried.
+*Whispers softly* The tunnel from the old bakery to the docks is handy for quick escapes, and there’s also a hidden stairway behind the fountain that leads straight to the noble district. They don’t know it yet, but it could come in very useful.
+
+What do you think?
+[player]: What about criminal activities? I've heard the Thieves Guild is planning something. What have you overheard?
+[pip_quickfingers]: Hmm, now that's a sensitive subject. Overhearing things can get you into trouble if not handled carefully. But let's say... the Thieves Guild has plans for the next full moon. They're targeting the merchant guild vaults. Careful who you trust with that kind of info though.
+[player]: Tell me about the secret passages and the things people think nobody notices.
+[pip_quickfingers]: Ah, the hidden routes are like veins in a city's body. The tunnel from the old bakery to the docks is perfect for slipping past the guards unnoticed. Just follow the shadow of the night, and you'll find your way. And then there’s the smuggler's route through the sewer grates near market square—useful if you want to avoid both daylight and prying eyes.
+
+People think they see everything, but sometimes, it’s the small details they miss. Like how the cobblestones in front of the old clock tower shift just so when someone steps on them, revealing a hidden entrance. Or how the fountain outside the blacksmith's shop hides a set of stairs leading up to an abandoned storeroom.
+
+Knowledge is power, and with it comes responsibility. Share wisely.

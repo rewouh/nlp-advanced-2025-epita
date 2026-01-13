@@ -1,14 +1,10 @@
 [location trigger] I enter the quarantine ward
 [npc trigger] I approach Dr. Moreau
 [player]: Hello Dr. Moreau, I've heard about your incredible work treating the frost plague.
-[dr_moreau]: Ah, thank you for the kind words. The frost sickness is a formidable foe, and every treatment is a step forward in understanding its nature. How can I assist you tonight?
+[dr_moreau]: Ah, thank you for your kind words. The frost plague is a formidable foe, and each patient is a challenge to treat. How can I assist you today?
 [player]: The town is lucky to have someone so dedicated to helping the sick. How are your patients doing?
-[dr_moreau]: The progress is slow but steady. Each case presents unique challenges, much like the frost sickness itself. Our latest batch of treatments shows promise, though we must remain cautious and thorough in our approach.
+[dr_moreau]: The progress is slow but steady. Each day brings new challenges, as with this latest case of frost plague. It's a relentless disease, one that demands constant vigilance and innovation in treatment. Thank you for your interest; it means a great deal to hear such words from outside the walls.
 [player]: I'm concerned about the frost plague. Is there anything that can protect someone from catching it?
-[dr_moreau]: The frost plague is indeed insidious. At present, our best defenses lie in avoiding direct contact with infected individuals and maintaining strict hygiene practices. I am working on a preventative measure, but its efficacy remains to be seen until more trials are conducted. Would you like me to review some basic precautions we can take together?
+[dr_moreau]: The frost plague is indeed concerning, and prevention remains challenging. However, there are measures one can take to reduce the risk of infection. A warm cloak and a mixture of antifreeze herbs can offer some protection during outbreaks. I keep such remedies in my practice; perhaps you could use them wisely?
 [player]: I'd be grateful if you could provide me with some of your cure, in case I encounter the plague.
-[dr_moreau]: *Dr. Moreau's expression darkens as he considers the request.*
-
-Certainly, but it must remain between us. This treatment is still experimental and requires careful administration. Let me show you what to look for and how to use it if needed. Follow these instructions closely.
-
-*He hands over a small vial and a pamphlet with detailed instructions.*
+[dr_moreau]: I understand your concern, but the frost plague cure is a precious resource. It's given only to those who prove they can administer it responsibly and effectively. Can you assure me that you will use it wisely? Show me that you are prepared to save lives, not just yourself.

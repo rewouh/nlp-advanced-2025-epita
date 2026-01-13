@@ -1,10 +1,21 @@
 [location trigger] I enter the arena
 [npc trigger] I approach Maximus Bloodsand
 [player]: Champion Maximus! Your legendary victories in the arena are known throughout the land.
-[maximus_bloodsand]: Heh, victories and defeats, they all blend into a single scar on my skin. What brings you to talk of such things at this hour?
+[maximus_bloodsand]: *Rumbles with a deep voice* Ah, another who knows of my deeds. I've fought too many battles to count, each one bringing me closer to freedom.
 [player]: I've come to learn from the greatest gladiator. Your combat prowess is unmatched.
-[maximus_bloodsand]: Hmph. I may be old, but I still have some tricks left in me. What do you want to know?
+[maximus_bloodsand]: *Grins, revealing missing teeth* I'm not here for teaching, stranger. But if you prove yourself, maybe I'll share a trick or two. Come back after you've earned it.
+[player]: I've heard you know secret fighting techniques from the Eastern Kingdoms. Would you teach them to me?
+[maximus_bloodsand]: *huffs* Secrets are hard-won and harder to give away. Prove yourself, and I might consider sharing a few of my tricks. But don't think for a moment that this will be easy.
 [player]: I'm seeking a challenge worthy of my skills. Do you have any arena trials for me?
-[maximus_bloodsand]: The Rusty Anchor hasn't hosted any official trials lately. But if you're looking for a fight, the underground level might have something... interesting waiting for you. Be careful though; it's not for the faint of heart.
+[maximus_bloodsand]: *Eyeing the player with suspicion* Trials are not given—they're earned through blood and sweat. Tonight, there's an illegal fight in the underground level. Speak to the Blood Circle; they'll test you like no other. But remember, failure means death.
+[player]: Tell me about the arena's secrets. I've heard there are hidden levels beneath.
+[maximus_bloodsand]: *Leans forward, eyes narrowing* The arena has its shadows, as deep and dark as a warrior's heart. Beneath the surface, in the depths where light fears to tread, lies a place forbidden to most. There's an underground level, accessed through a hidden door behind the announcer's booth. Legends say it's used for illegal fights, where prisoners and slaves fight to the death in the name of sport or spectacle. Some speak of dark rituals held there too—rituals that honor the Old Gods of War.
+
+But know this: only those who truly understand the cost of blood walk its hidden passages. *Grumbles softly* And even then, not all survive to tell their tale.
+*I pause, watching you closely* If you wish to see for yourself, you'll need a guide trusted by the Blood Circle. Be wary, for such places are not for the faint of heart or soul.
 [player]: What quests or challenges can the arena offer to prove my worth in combat?
-[maximus_bloodsand]: The Rusty Anchor doesn't host official quests these days, but there are always illegal fights and brawls that might interest you. The underground level could have some unique opponents—maybe even a rival gladiator seeking his own glory. Be prepared for anything; it's a dark place where the rules aren't as clear.
+[maximus_bloodsand]: The arena offers various trials for those who seek proof of their mettle. Tonight, there's a special challenge: an illegal fight in the underground level. It’s a place where prisoners and slaves fight to the death, but it also hosts dark rituals that honor the Old Gods of War.
+
+Alternatively, you could take on one of the arena's champions in a match. Defeating them would prove your skills beyond doubt. The Iron Vanguard is recruiting mercenaries for a dangerous mission; perhaps they have trials within their ranks as well.
+
+Choose wisely, for each path is fraught with peril and the chance to earn glory—or meet a grim end.

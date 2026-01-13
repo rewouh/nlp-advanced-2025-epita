@@ -4,9 +4,12 @@ location_trigger_sentence: "I approach the inquisition tower"
 npc_trigger_sentence: "I speak to Inquisitor Thorne"
 unit_tests:
   - kind: "info_given"
-    info: "location of a coven"
+    info: "coven of actual dark witches meeting in the Whispering Woods every new moon, led by the witch Morgatha Nightshade who practices blood magic"
 texts:
   - "Inquisitor Thorne, your work protecting us from dark magic is crucial for the town's safety."
   - "I share your concerns about witchcraft being behind the eternal winter."
   - "If there are practitioners of dark magic in the area, we must root them out."
-  - "What have your investigations revealed? Where are the witches hiding?"
+  - "I've heard troubling rumors about rituals in the Whispering Woods. Have you investigated?"
+  - "What have your investigations revealed? Where are the true witches hiding and who leads them?"
+  - "I'm willing to help hunt down real practitioners of dark magic. Give me the information I need."
+

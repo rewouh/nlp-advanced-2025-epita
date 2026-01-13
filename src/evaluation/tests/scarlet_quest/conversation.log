@@ -1,10 +1,14 @@
 [location trigger] I find the rebel hideout
 [npc trigger] I approach Scarlet Flame
 [player]: Scarlet, I've heard of your fight against the oppressive government. Your cause is just.
-[scarlet_flame]: Thank you for seeing through the lies and supporting the revolution. It's not easy, but we must keep fighting for a better future.
+[scarlet_flame]: Ah, a supporter! That's encouraging to hear. We're at a critical juncture now; every hand helps. What can you offer?
 [player]: The nobles hoard resources while common people freeze and starve. This cannot continue.
-[scarlet_flame]: I hear your anger, and it fuels my resolve. Every day they hold power is one too many. We need to strike soon—before more lives are lost. Have you considered joining the resistance? Your passion could be our greatest asset.
+[scarlet_flame]: Indeed, it must change. The winter solstice is drawing near—our first phase of the rebellion hinges on that night. We need to ensure the noble's grain stores are sabotaged. Have you any contacts among the merchants who might assist?
 [player]: I believe in freedom and equality. I want to help bring change to this town.
-[scarlet_flame]: That's a noble goal, friend. The Rusty Anchor can be your starting point—here, listen closely. We need all the support we can get, and you have skills that could be crucial. Think about it; every moment wasted is another day of oppression.
+[scarlet_flame]: Excellent! Your conviction is exactly what we need. Tonight, I'll brief you on our plans. We need someone with inside knowledge of the grain stores—do you have a contact who can sneak us in?
+[player]: What are your plans for the rebellion? How will you strike against the corrupt nobles?
+[scarlet_flame]: Phase one is underway; we're focusing on disrupting the noble's grain supplies. It's crucial that the people don't starve while the wealthy hoard their wealth. Once the panic starts, it'll be easier to rally support for our cause. Stay sharp and be ready for phase two, where we target those who directly abuse the poor.
+[player]: I imagine you have weapons and supplies hidden throughout the city. Where are your caches?
+[scarlet_flame]: *Scarlet's eyes narrow as she considers the question carefully.* I cannot reveal our caches just yet. Trust me, when the time is right, they will be crucial to our success. For now, let's focus on tonight's mission. Can you find someone who can assist us with the grain stores? Trust is a precious thing in these times.
 [player]: What can I do to join your rebellion? Give me a mission to prove my commitment.
-[scarlet_flame]: Very well. Your first mission will test your resolve and resourcefulness. Go to the old mill just outside town at midnight. There, you'll find a hidden cache containing supplies we need. Make sure no one sees you; stealth is key. If successful, return here by dawn with what you can carry. Failure isn't an option—every bit helps our cause.
+[scarlet_flame]: Excellent, a true ally seeks trials by fire. Your first task is to gather intelligence on the grain storage facility. Tonight, after sunset, make your way to the old mill and observe its defenses. Return here with detailed information on the guards' patrol patterns and any security measures in place. Remember, stealth is key. Failure could compromise our plans.
