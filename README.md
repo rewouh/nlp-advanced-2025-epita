@@ -306,7 +306,7 @@ We have three types of unit tests :
 - **Info given** : Verifies that the NPC reveals a hidden piece of information.
 - **Item given** : Verifies that the NPC gives an item to the player.
 
-Originally, we also wanted our NPCs to be able of attacking the players if he were to insult him. We had a unit test for that as well. The testsuite revealed something interesting, that we did not anticipate : large language models are censored and very reluctant to use harsh language, or expressions of physical agression. We had to remove that functionality entirely (we tried uncensored language models, but they do not offer the same understanding capabilities).
+Originally, we also wanted our NPCs to be able of attacking the players if they were to insult them. We had a unit test for that as well. The testsuite revealed something interesting, that we did not anticipate : large language models are censored and very reluctant to use harsh language, or expressions of physical agression. We had to remove that functionality entirely (we tried uncensored language models, but they do not offer the same understanding capabilities).
 
 The distribution of these test types and their results are shown below.
 
