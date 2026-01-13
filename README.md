@@ -365,4 +365,4 @@ The system behaves as intended and fits well with a tabletop RPG setting.
 
 ## Video demonstration
 
-<iframe src="https://www.youtube.com/watch?v=6qqAbY2pru8">
+<iframe src="https://www.youtube.com/watch?v=6qqAbY2pru8"/>
