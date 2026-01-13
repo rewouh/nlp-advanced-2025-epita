@@ -4,6 +4,8 @@ import numpy as np
 import wave
 import threading
 
+sd.default.device = (None, 0)  # (input, output)
+
 voice = PiperVoice.load("./experiments/en_US-joe-medium.onnx")
 audio_lock = threading.Lock()
 
