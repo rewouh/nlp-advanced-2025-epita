@@ -162,8 +162,8 @@ class ContextManager:
         """
         changes = {}
         text_lower = transcription.lower()
+        
         location_patterns = {}
-        found_locations = []
         
         if self.world_lore and self.world_lore.locations:
             for location in self.world_lore.locations:
@@ -177,12 +177,15 @@ class ContextManager:
                 
                 if location.name:
                     words = location.name.lower().split()
-                    key_words = [w for w in words if w not in ["the", "of", "a", "an", "and", "or", "forgotten", "tower"]]
+                    blacklist = ["the", "of", "a", "an", "and", "or", "old", "new"]
+                    key_words = [w for w in words if w not in blacklist and len(w) > 4]
                     patterns.extend(key_words)
                 
                 if patterns:
                     location_patterns[location.id] = list(set(patterns))
-
+        
+        found_locations = []
+        
         for loc_id, patterns in location_patterns.items():
             for pattern in patterns:
                 try:
@@ -193,19 +196,30 @@ class ContextManager:
 
         if found_locations:
             found_locations.sort(key=lambda x: x[0])
-            
             chosen_loc = None
             
             for index, loc_id in found_locations:
-                start_window = max(0, index - 25)
+                start_window = max(0, index - 30)
                 context_window = text_lower[start_window:index]
                 
                 is_leaving = any(word in context_window for word in ["leave", "leaving", "exit", "out of", "from", "bye"])
-                
                 if is_leaving:
                     continue
                 
-                chosen_loc = loc_id
+                movement_triggers = [
+                    "go to", "goes to", "going to", "head to", "heading to",
+                    "walk to", "walking to", "travel to", "enter", "enters", "entering",
+                    "inside", "into", "arrive at", "visit", "in the"
+                ]
+                
+                is_movement = any(trigger in context_window for trigger in movement_triggers)
+                is_short_command = len(text_lower) < 20 and ("to " in text_lower or "in " in text_lower)
+
+                if is_movement or is_short_command:
+                    logger.info(f"Movement detected to '{loc_id}' (Context: '{context_window}')")
+                    chosen_loc = loc_id
+                else:
+                    logger.debug(f"Location '{loc_id}' mentioned but NO movement detected. Ignoring.")
             
             if chosen_loc:
                 changes["location"] = chosen_loc

@@ -101,7 +101,7 @@ class TTSEngine:
         emotion: Emotion = Emotion.NEUTRAL,
         speaker_wav: Optional[str] = None,
         language: str = "en",
-        speed: float = 1.0,
+        speed: float = 1.3,
     ) -> Optional[np.ndarray]:
         """
         Synthesize text to speech with emotion.
@@ -298,29 +298,51 @@ class TTSEngine:
             logger.warning(f"Failed to create default speaker: {e}")
             return None
     
-    def get_npc_speaker(self, npc_id: str, voice_gender: Optional[str] = None) -> Optional[str]:
-        
+    def get_npc_speaker(self, npc_id: str, voice_gender: Optional[str] = None, traits: list = None) -> Optional[str]:
         base_dir = Path("assets/voices")
-        
         gender_folder = "female" if voice_gender == "female" else "male"
         voice_dir = base_dir / gender_folder
         
         if not voice_dir.exists():
-            logger.warning(f"Voice directory missing: {voice_dir}, using default")
             return self.default_speaker_wav
 
         available_voices = list(voice_dir.glob("*.wav"))
         available_voices.sort()
         
         if not available_voices:
-            logger.warning(f"No voices found in {voice_dir}, using default")
             return self.default_speaker_wav
+
+        if traits:
+            trait_map = {
+                "grumpy": ["gruff", "rough", "tough", "angry"],
+                "stern": ["gruff", "tough", "deep"],
+                "aggressive": ["gruff", "tough"],
+                "old": ["old", "elder", "wheezy"],
+                "ancient": ["old", "deep"],
+                "noble": ["noble", "soft", "posh", "arrogant"],
+                "rich": ["noble", "soft"],
+                "scholar": ["noble", "soft", "average"],
+                "young": ["young", "fast", "excited"],
+                "friendly": ["average", "soft", "happy"],
+                "mysterious": ["soft", "deep", "whisper"]
+            }
+
+            for trait in traits:
+                trait_lower = trait.lower()
+                if trait_lower in trait_map:
+                    target_keywords = trait_map[trait_lower]
+                    
+                    for voice_file in available_voices:
+                        for keyword in target_keywords:
+                            if keyword in voice_file.name.lower():
+                                logger.info(f"Smart voice match for {npc_id}: {voice_file.name} (Trait: {trait} -> {keyword})")
+                                return str(voice_file)
 
         npc_hash = int(hashlib.md5(npc_id.encode()).hexdigest(), 16)
         voice_index = npc_hash % len(available_voices)
         selected_voice = available_voices[voice_index]
         
-        logger.info(f"Voice assigned to {npc_id}: {selected_voice.name}")
+        logger.info(f"Random (hashed) voice for {npc_id}: {selected_voice.name}")
         return str(selected_voice)
     
     def synthesize_and_play(

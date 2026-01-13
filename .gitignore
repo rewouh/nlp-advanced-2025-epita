@@ -31,7 +31,7 @@ data/chroma/
 *.log
 overhearing.log
 /tmp/
-*.wav
+#*.wav
 *.mp3
 
 # Development files

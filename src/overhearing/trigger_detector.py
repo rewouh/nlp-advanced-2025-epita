@@ -57,6 +57,13 @@ class TriggerDetector:
         r",\s*(\w+)\s*\??$",
     ]
     
+    SWITCH_PATTERNS = [
+        r"\b(i|we|the player|my character).{0,25}\s+(go|goes|walk|walks|head|heads).{0,20}\s+(talk|talks|speak|speaks)\s+(to|with)\s+([A-Z][a-z]+)",
+        r"\b(i|we|the player|my character).{0,10}\s+(ask|asks|tell|tells|approach|approaches)\s+([A-Z][a-z]+)",
+        r"\b(hello|hi|hey|greetings|yo)\s*,?\s*([A-Z][a-z]+)",
+        r"\b([A-Z][a-z]+)\s*,?\s*(can you|do you|please|help me)",
+    ]
+    
     # Patterns for explicit player-to-player communication (strategy, planning)
     STRATEGY_PATTERNS = [
         r"\b(what do|what should|should we)\b",
@@ -162,21 +169,6 @@ class TriggerDetector:
         boost_direct: bool = False,
         conversation_history: Optional[List] = None,
     ) -> TriggerResult:
-        """
-        Detect trigger in player transcription.
-        
-        Uses "Active Window" approach: if an NPC spoke recently (< 20s),
-        all player speech (unless explicitly OOC) is treated as a response.
-        
-        Args:
-            transcription: Player's transcribed speech
-            active_npcs: List of NPCs currently in scene
-            boost_direct: Whether to boost direct address confidence
-            conversation_history: Optional conversation history for context
-            
-        Returns:
-            TriggerResult with classification and NPC (if triggered)
-        """
         text_lower = transcription.lower().strip()
         
         if len(text_lower) < 3:
@@ -188,35 +180,29 @@ class TriggerDetector:
         
         for pattern in self.IGNORE_PATTERNS:
             if re.search(pattern, text_lower, re.IGNORECASE):
-                return TriggerResult(
-                    trigger_type=TriggerType.IGNORE,
-                    confidence=0.9,
-                    reasoning=f"Matched ignore pattern: {pattern}",
-                )
-        
-        # FILTER: Narrative / Scene Change (cuts active context)
-        if text_lower.startswith("the player") or " the player " in text_lower:
-            self.last_npc_speaker = None
-            self.last_npc_time = None
-            logger.debug("Narrative statement detected (The Player), clearing active context")
-            return TriggerResult(
-                trigger_type=TriggerType.IGNORE,
-                confidence=1.0,
-                reasoning="Narrative (The Player detected)"
-            )
-        
+                return TriggerResult(TriggerType.IGNORE, confidence=0.9, reasoning=f"Matched ignore pattern")
+
+        for pattern in self.SWITCH_PATTERNS:
+            match = re.search(pattern, text_lower, re.IGNORECASE)
+            if match:
+                potential_name = match.group(match.lastindex).lower()
+                npc_id = self._find_npc_id_by_name(potential_name)
+                
+                if npc_id != potential_name:
+                    logger.info(f"Explicit Switch detected: '{potential_name}'")
+                    
+                    if self.last_npc_speaker and npc_id != self.last_npc_speaker:
+                        self.last_npc_speaker = None
+                        
+                    return TriggerResult(TriggerType.NPC_DIRECT, triggered_npc=npc_id, confidence=1.0)
+
         for pattern in self.NARRATIVE_PATTERNS:
             if re.search(pattern, text_lower, re.IGNORECASE):
                 self.last_npc_speaker = None
                 self.last_npc_time = None
-                logger.debug("Narrative statement detected, clearing active context")
-                return TriggerResult(
-                    trigger_type=TriggerType.IGNORE,
-                    confidence=1.0,
-                    reasoning="Narrative statement (scene change)"
-                )
-        
-        # PRIORITY 1: Active Window
+                logger.info("Narrative statement detected, clearing active context")
+                return TriggerResult(TriggerType.IGNORE, confidence=1.0, reasoning="Narrative statement")
+
         if self.last_npc_speaker and self.last_npc_time:
             time_since = (datetime.now() - self.last_npc_time).total_seconds()
             
@@ -225,34 +211,21 @@ class TriggerDetector:
                 
                 if not is_strategy:
                     if active_npcs and self.last_npc_speaker in active_npcs:
-                        logger.debug(f"Sticky Context: Responding to {self.last_npc_speaker} ({time_since:.1f}s ago)")
+                        logger.info(f"Sticky Context: Keeping focus on {self.last_npc_speaker}")
                         return TriggerResult(
                             trigger_type=TriggerType.NPC_DIRECT,
                             triggered_npc=self.last_npc_speaker,
-                            confidence=0.95,
-                            reasoning=f"Active Window: Continuing conversation with {self.last_npc_speaker} (spoke {time_since:.1f}s ago)"
+                            confidence=0.95
                         )
-                    else:
-                        logger.debug(f"NPC {self.last_npc_speaker} no longer active in scene, clearing window")
-                        self.last_npc_speaker = None
-                        self.last_npc_time = None
-            else:
-                # Window expired, reset
-                logger.debug(f"Active window expired ({time_since:.1f}s > {self.active_window_duration}s), resetting")
-                self.last_npc_speaker = None
-                self.last_npc_time = None
-        
-        # PRIORITY 2: Direct Address (Explicit NPC name mention)
-        direct_result = self._check_direct_address(text_lower, active_npcs, boost_direct)
-        if direct_result:
-            return direct_result
-        
-        # PRIORITY 3: Indirect NPC mentions
+
+        name_result = self._check_direct_address(text_lower, active_npcs, boost_direct)
+        if name_result:
+            return name_result
+
         indirect_result = self._check_indirect_trigger(text_lower, active_npcs)
         if indirect_result:
             return indirect_result
-        
-        # PRIORITY 4: Player-to-player strategy patterns
+
         for pattern in self.STRATEGY_PATTERNS:
             if re.search(pattern, text_lower, re.IGNORECASE):
                 return TriggerResult(

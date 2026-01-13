@@ -55,16 +55,7 @@ def setup_tts():
         
         npc_speakers: dict[str, str] = {}
         
-        def tts_callback(text: str, emotion: str = None, npc_id: str = None, voice_gender: str = None):
-            """
-            Synthesize and play text with optional emotion and NPC-specific voice.
-            
-            Args:
-                text: Text to synthesize
-                emotion: Emotion/disposition (hostile, unfriendly, neutral, friendly, trusting)
-                npc_id: Optional NPC ID for voice cloning
-                voice_gender: Optional voice gender ('male', 'female', or None for auto)
-            """
+        def tts_callback(text: str, emotion: str = None, npc_id: str = None, voice_gender: str = None, traits: list = None):
             try:
                 if emotion:
                     emotion_enum = emotion_from_disposition(emotion)
@@ -75,7 +66,7 @@ def setup_tts():
                 if npc_id:
                     cache_key = f"{npc_id}_{voice_gender or 'auto'}"
                     if cache_key not in npc_speakers:
-                        speaker_wav = tts_engine.get_npc_speaker(npc_id, voice_gender=voice_gender)
+                        speaker_wav = tts_engine.get_npc_speaker(npc_id, voice_gender=voice_gender, traits=traits)
                         if speaker_wav:
                             npc_speakers[cache_key] = speaker_wav
                     else:

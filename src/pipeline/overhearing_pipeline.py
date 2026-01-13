@@ -323,8 +323,11 @@ class OverhearingPipeline:
                 
                 npc_def = self.lore_manager.get_npc_definition(npc_id)
                 voice_gender = None
-                if npc_def and hasattr(npc_def, 'voice_gender'):
+                npc_traits = []
+                
+                if npc_def:
                     voice_gender = npc_def.voice_gender
+                    npc_traits = npc_def.traits
                 
                 if not voice_gender:
                     voice_gender = self._detect_gender_from_name(npc_id, npc_def)
@@ -335,17 +338,19 @@ class OverhearingPipeline:
                     self._is_speaking = True
                 
                 try:
-                    # Pass emotion, npc_id, and voice_gender to callback
                     try:
-                        self.tts_callback(response, emotion=disposition, npc_id=npc_id, voice_gender=voice_gender)
+                        self.tts_callback(response, emotion=disposition, npc_id=npc_id, voice_gender=voice_gender, traits=npc_traits)
                     except TypeError:
                         try:
-                            self.tts_callback(response, emotion=disposition, npc_id=npc_id)
+                            self.tts_callback(response, emotion=disposition, npc_id=npc_id, voice_gender=voice_gender)
                         except TypeError:
                             try:
-                                self.tts_callback(response, emotion=disposition)
+                                self.tts_callback(response, emotion=disposition, npc_id=npc_id)
                             except TypeError:
-                                self.tts_callback(response)
+                                try:
+                                    self.tts_callback(response, emotion=disposition)
+                                except TypeError:
+                                    self.tts_callback(response)
                     
                     self.trigger_detector.update_state_after_speech(npc_id)
                 finally:
