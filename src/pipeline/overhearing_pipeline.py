@@ -45,7 +45,7 @@ from typing import Optional, Callable
 
 import numpy as np
 
-from src.audio import VADListener, AudioRecorder
+from src.audio import VADListener, AudioUtils
 from src.stt import STTEngine, create_stt_engine
 from src.overhearing import ContextManager, TriggerDetector, TriggerType
 from src.pipeline.npc_pipeline import NPCPipeline
@@ -229,7 +229,7 @@ class OverhearingPipeline:
                     continue
                 
                 # Save audio to temp file for transcription
-                temp_path = AudioRecorder.numpy_to_wav(
+                temp_path = AudioUtils.numpy_to_wav(
                     audio_chunk.audio,
                     audio_chunk.sample_rate,
                 )

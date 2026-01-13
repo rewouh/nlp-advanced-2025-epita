@@ -296,4 +296,3 @@ class ContextManager:
         
         if "mood" in changes:
             self.update_mood(changes["mood"])
-
