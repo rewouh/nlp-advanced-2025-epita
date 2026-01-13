@@ -314,7 +314,7 @@ To interpret these results, it is important to note that an NPC’s ability to g
 
 Conversations are simulated using 4–6 player utterances. In some cases, this is not sufficient to build enough trust, leading the NPC to refuse giving anything. In a real tabletop RPG, players would typically have more time, could leave and return later, or interact with the NPC across multiple encounters.
 
-Despite this limitation, the results remain good! In more than 3/4 of the tests across all categories, the expected information, quest, or item was successfully obtained.
+Despite this limitation, the results remain good! In more than 60% of the tests across all categories, the expected information, quest, or item was successfully obtained (75%+ for quest, 90%+ for info!).
 
 All test conversations and their corresponding results are available in `src/evaluation/tests/X/(conversation.log | results.log)`.
 
@@ -342,7 +342,7 @@ Another interesting analysis is the time everything takes.
 
 We also analyzed response times.
 
-Since all computations are performed locally, these results should be interpreted with caution, as performance is highly dependent on the hardware. The test suite was run on a `RTX 3070 (desktop)`.
+Since all computations are performed locally, these results should be interpreted with caution, as performance is highly dependent on the hardware. The test suite was ran on a `RTX 3070 (desktop)`.
 
 On average, NPCs respond in about 1.2 seconds. When projected onto a realistic dialogue scenario, this latency is acceptable. However, the time and cost associated with speech-to-text processing are not included in this evaluation.
 
