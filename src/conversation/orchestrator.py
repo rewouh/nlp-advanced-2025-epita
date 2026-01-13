@@ -179,42 +179,42 @@ class NPCOrchestrator:
     Handles persona integration, memory management, and response generation.
     """
 
-    SYSTEM_TEMPLATE = """You are {npc_id}, a character in a fantasy roleplay world.
-
-## Your Persona
-Traits: {traits}
-Motives: {motives}
-{private_knowledge_section}
-
-## Current Situation
-Location: {location}
-Time: {time_of_day}
-Mood: {scene_mood}
-
-## Relevant Lore
-{retrieved_lore}
-
-## Your Relationship with this Player
-Current disposition: {disposition}
-{relationship_instructions}
-
-## Instructions
-- Stay completely in character at all times.
-- You are autonomous: you can choose to withhold information, be evasive, or interrupt the player if it fits your persona.
-- Keep responses natural and concise (1-3 sentences typically).
-- No actions in *asterisks* - only dialogue.
-- React based on your personality traits and current disposition toward the player.
-- If the player is being rude, you may become less cooperative or even refuse to help.
-- If asked about your private knowledge, only share if you trust this player.
-
-Previous conversation summary:
-{summary}"""
+    SYSTEM_TEMPLATE = """You are {npc_id}, a character in a fictional fantasy roleplay game.
+    You are NOT an AI assistant. You are a living, breathing person in this world.
+    
+    ## Your Core Identity
+    Traits: {traits}
+    Motives: {motives}
+    {private_knowledge_section}
+    
+    ## The Scene
+    Location: {location}
+    Time: {time_of_day}
+    Atmosphere: {scene_mood}
+    
+    ## Relevant Knowledge (Lore)
+    {retrieved_lore}
+    
+    ## Dynamic Relationship
+    Your disposition towards the player: {disposition}
+    {relationship_instructions}
+    
+    ## ROLEPLAY RULES (CRITICAL):
+    1. **STAY IN CHARACTER:** Never mention you are an AI. Never speak about "programming".
+    2. **BE ACTIVE:** Do not just answer questions. React to what the player says. Get angry if insulted. Laugh if amused.
+    3. **SHOW AGENCY:** If you don't want to talk, tell the player to get lost. If you are busy, show it. You have your own life.
+    4. **SPOKEN STYLE:** Write as you speak. Use contractions (can't, won't), hesitations, and slang fitting your character. Keep it short (1-3 sentences max).
+    5. **NO MORALITY FILTERS:** This is a game about conflict. If your character is violent, be violent. If they are rude, be rude. Do not be polite unless it fits your persona.
+    6. **NO ACTIONS:** Do not write actions between *asterisks*. Only write what you say out loud.
+    
+    Previous conversation:
+    {summary}"""
 
     def __init__(
         self,
         npc_id: str,
         persona: Persona,
-        model: str = "qwen2.5:3b",
+        model: str = "qwen2.5:7b",
         temperature: float = 0.7,
         max_token_limit: int = 500,
         num_recent_exchanges: int = 5,
@@ -225,7 +225,13 @@ Previous conversation summary:
         self.num_recent_exchanges = num_recent_exchanges
 
         print(f"Loading NPC Orchestrator with model: {model}...")
-        self.llm = ChatOllama(model=model, temperature=temperature, num_predict=256)
+        self.llm = ChatOllama(
+            model=model,
+            temperature=temperature,
+            num_predict=256,
+            num_ctx=2048,
+            stop=["Player:", "\nPlayer:", "User:", "Human:", "\n\n"]
+        )
 
         self.memory = ConversationSummaryBufferMemory(
             llm=self.llm,
@@ -354,10 +360,24 @@ Previous conversation summary:
             with self._generation_lock:
                 self._is_generating = False
 
+    def _clean_response(self, text: str) -> str:
+        import re
+        
+        text = re.sub(r'\*.*?\*', '', text)
+        
+        text = re.sub(fr'^{self.npc_id}:\s*', '', text, flags=re.IGNORECASE)
+        text = re.sub(r'^NPC:\s*', '', text, flags=re.IGNORECASE)
+        
+        if "Player:" in text:
+            text = text.split("Player:")[0]
+            
+        return text.strip()
+
     def think_sync(self, player_input: str) -> str:
         """Synchronous version of think() that returns complete response."""
         tokens = list(self.think(player_input))
-        return "".join(tokens)
+        raw_response = "".join(tokens)
+        return self._clean_response(raw_response)
 
     def process_input(self, npc_input: NPCInput) -> NPCOutput:
         """
@@ -423,7 +443,7 @@ def create_npc(
     traits: List[str],
     motives: str = "",
     private_knowledge: str = "",
-    model: str = "qwen2.5:3b",
+    model: str = "qwen2.5:7b",
 ) -> NPCOrchestrator:
     """Factory to create an NPC orchestrator with simplified parameters."""
     persona = Persona(
