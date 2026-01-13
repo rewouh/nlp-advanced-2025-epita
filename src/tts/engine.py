@@ -4,6 +4,8 @@ import numpy as np
 from enum import Enum
 from pathlib import Path
 from typing import Optional
+import hashlib
+
 
 try:
     from TTS.api import TTS
@@ -297,65 +299,29 @@ class TTSEngine:
             return None
     
     def get_npc_speaker(self, npc_id: str, voice_gender: Optional[str] = None) -> Optional[str]:
-        """
-        Generate or retrieve a unique speaker voice for an NPC.
         
-        Uses a hash of the NPC ID and gender to create consistent but unique voices.
+        base_dir = Path("assets/voices")
         
-        Args:
-            npc_id: NPC identifier
-            voice_gender: Optional voice gender ('male', 'female', or None for auto)
-            
-        Returns:
-            Path to speaker_wav file, or None if generation fails
-        """
-        import hashlib
-        from pathlib import Path
+        gender_folder = "female" if voice_gender == "female" else "male"
+        voice_dir = base_dir / gender_folder
         
-        # Create a hash-based filename for this NPC (including gender)
-        hash_input = f"{npc_id}_{voice_gender or 'auto'}"
-        npc_hash = hashlib.md5(hash_input.encode()).hexdigest()[:8]
-        speaker_path = Path(f"/tmp/xtts_speaker_{npc_hash}.wav")
-        
-        # Return existing speaker if available
-        if speaker_path.exists():
-            return str(speaker_path)
-        
-        # Generate new speaker using default speaker as base
-        if not self.default_speaker_wav:
-            logger.warning(f"Cannot generate speaker for {npc_id}: no default speaker available")
-            return None
-        
-        try:
-            # Generate voice variation using XTTS
-            # Adjust text based on gender for more appropriate voice
-            if voice_gender == "female":
-                variation_text = f"Hello, my name is {npc_id}. I am speaking to you now."
-            elif voice_gender == "male":
-                variation_text = f"Hello, I am {npc_id}. This is my voice speaking."
-            else:
-                variation_text = f"Hello, this is {npc_id} speaking."
-            
-            # Generate voice variation
-            temp_output = Path(f"/tmp/xtts_temp_{npc_hash}.wav")
-            self.tts.tts_to_file(
-                text=variation_text,
-                file_path=str(temp_output),
-                speaker_wav=self.default_speaker_wav,
-                language="en",
-                emotion=Emotion.NEUTRAL.value,
-            )
-            
-            import shutil
-            shutil.copy(str(temp_output), str(speaker_path))
-            temp_output.unlink()
-            
-            logger.debug(f"Generated unique speaker for {npc_id}: {speaker_path}")
-            return str(speaker_path)
-            
-        except Exception as e:
-            logger.warning(f"Failed to generate speaker for {npc_id}: {e}")
+        if not voice_dir.exists():
+            logger.warning(f"Voice directory missing: {voice_dir}, using default")
             return self.default_speaker_wav
+
+        available_voices = list(voice_dir.glob("*.wav"))
+        available_voices.sort()
+        
+        if not available_voices:
+            logger.warning(f"No voices found in {voice_dir}, using default")
+            return self.default_speaker_wav
+
+        npc_hash = int(hashlib.md5(npc_id.encode()).hexdigest(), 16)
+        voice_index = npc_hash % len(available_voices)
+        selected_voice = available_voices[voice_index]
+        
+        logger.info(f"Voice assigned to {npc_id}: {selected_voice.name}")
+        return str(selected_voice)
     
     def synthesize_and_play(
         self,
