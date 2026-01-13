@@ -1,13 +1,3 @@
-"""
-Pydantic models for RAG module data structures.
-
-Defines the schema for world lore, NPC archetypes, session state,
-and all related game entities.
-
-Design principle: Only store what a DM would write in their notes.
-Let the LLM improvise everything else (greetings, dialogue style, etc.)
-"""
-
 from typing import List, Optional
 from pydantic import BaseModel, Field
 

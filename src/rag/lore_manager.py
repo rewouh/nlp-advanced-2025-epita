@@ -1,24 +1,15 @@
-"""
-LoreManager - RAG pipeline for world lore retrieval.
-
-Handles YAML loading, document chunking, embedding, and retrieval
-with metadata filtering based on NPC archetypes.
-"""
-
 import random
 import yaml
-from pathlib import Path
-from typing import List, Optional, Union, Dict, Any, cast
-
 import chromadb
 
+from pathlib import Path
+from typing import List, Optional, Union, Dict, Any, cast
 from src.rag.models import (
     WorldLore,
     SessionState,
     NPCArchetype,
     NPCDefinition,
 )
-
 from src.conversation import Persona, GlobalState, NPCInput
 
 
