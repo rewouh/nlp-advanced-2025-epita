@@ -28,6 +28,8 @@ import sys
 import signal
 import argparse
 import os
+import subprocess
+
 from pathlib import Path
 
 import warnings
@@ -127,6 +129,12 @@ def run_pipeline():
     logger.info("=" * 60)
     logger.info("OVERHEARING AGENTS - NPC Conversation System")
     logger.info("=" * 60)
+
+    ui_process = subprocess.Popen(
+        [sys.executable, "ui/app.py"],
+        env=os.environ,
+        stderr=sys.stderr
+    )
     
     project_root = Path(__file__).parent.parent
     world_path = project_root / "lore" / "world.yaml"
@@ -153,6 +161,11 @@ def run_pipeline():
     def signal_handler(sig, frame):
         logger.info("\nShutting down gracefully...")
         pipeline.stop()
+
+        if ui_process.poll() is not None:
+            sys.exit(0)
+
+        os.killpg(ui_process.pid, signal.SIGKILL)
         sys.exit(0)
     
     signal.signal(signal.SIGINT, signal_handler)

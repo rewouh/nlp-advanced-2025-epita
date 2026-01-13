@@ -29,4 +29,5 @@ dependencies = [
     "transformers>=4.30.0,<4.40.0",  # XTTS v2 requires transformers<4.40
     # Testing
     "pytest>=8.0.0",
+    "colorama>=0.4.6",
 ]
