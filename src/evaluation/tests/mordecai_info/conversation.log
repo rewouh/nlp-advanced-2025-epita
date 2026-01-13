@@ -1,10 +1,10 @@
 [location trigger] I approach the necromancer tower
 [npc trigger] I speak to Mordecai Shadowbind
 [player]: Mordecai Shadowbind, your mastery of death magic is legendary among those who know.
-[mordecai_shadowbind]: *A flicker of pride dances across my face as I lean forward slightly.* Indeed, the secrets of the dead are mine to command. But be wary, for not all seek to learn these arts for good.
+[mordecai_shadowbind]: Ah, whispers of power always find their way back to me. What brings such a curious mind to seek out the Master of Death?
 [player]: I'm not afraid of forbidden knowledge. I seek to understand the mysteries of death.
-[mordecai_shadowbind]: *My eyes narrow, studying you intently. The air around me seems to grow colder.* Very well, stranger. If you wish to delve into the dark arts, let us begin. But know this: the path is fraught with peril and代价可能是巨大的。你准备好了吗？
+[mordecai_shadowbind]: Death is but a shadow in the corners of my vision. To truly understand it, one must embrace its cold touch. What secrets do you bring to our meeting tonight?
 [player]: The power you wield over life and death fascinates me. I want to learn.
-[mordecai_shadowbind]: *My lips curl into a cold smile.* The fascination of the unknown can be both a guide and a trap. Are you prepared to face what lies beyond the veil? Only the bravest—or the most foolhardy—venture into the shadowlands seeking knowledge.
+[mordecai_shadowbind]: Fascination can be a dangerous master in the realm of necromancy. What brings such an interest to your doorstep, stranger?
 [player]: Tell me, how does one raise the dead permanently? I must know this dark secret.
-[mordecai_shadowbind]: *My eyes gleam with a mixture of admiration and caution as I observe you.* The process is... intricate, to say the least. It requires not just knowledge, but a willingness to sacrifice much. A life for a life, if you will. Are you willing to pay such a price?
+[mordecai_shadowbind]: Raising the dead is no simple task, and it requires a deep understanding of the soul's journey beyond life. You will need a powerful heart's blood, a rare herb that blooms only in the shadowed realm, and an ancient tome filled with forbidden words. But remember, each soul you bind to your will grows stronger and more resentful, feeding on the dark energies you channel. Are you prepared for such a burden?

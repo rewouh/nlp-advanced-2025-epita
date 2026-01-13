@@ -1,14 +1,14 @@
 [location trigger] The players slip into the Shadow Alley, darkness surrounding them.
 [npc trigger] Shadow Jack emerges from the shadows, assessing the newcomers with a calculating gaze.
 [player]: Shadow Jack, I've heard you're the one to see for... special assignments.
-[shadow_jack]: Ah, the rumors do travel fast. What brings you here tonight?ispers quietly.
+[shadow_jack]: Ah, the usual rumors follow me like smoke from a lantern in the rain. What can I do for you tonight?
 [player]: I'm discreet, capable, and looking for work that requires a certain level of secrecy.
-[shadow_jack]: Of course, discretion is key in our line of business. I have a few... interesting opportunities that might suit your skills. Care to hear about them?
+[shadow_jack]: The shadows always need more dancers. Are you interested in uncovering some political secrets or perhaps dealing with those pesky goblins? The Iron Vanguard might have something for us too, but let's keep it hush-hush.
 [player]: My skills include stealth, information gathering, and handling sensitive situations.
-[shadow_jack]: Excellent. I've got a job for you that involves all those skills. The mayor's been up to some shady dealings, and I need someone to dig deeper. Can you handle a little political intrigue?
+[shadow_jack]: Excellent, we align on many levels then. I hear the mayor has been up to some shady dealings lately. Could use someone like you to dig into his secrets. And don't forget, the northern farms are under threat; perhaps a few well-placed... distractions could keep those goblins busy.
 [player]: I understand you have connections throughout the city and sometimes need operatives.
-[shadow_jack]: Indeed, my network stretches far beyond the Rusty Anchor. It could prove invaluable for your endeavors. Now, regarding this assignment... do you think you can keep secrets even when they bite at your tongue?
+[shadow_jack]: Indeed, I keep my fingers in many pies. If you're willing to dive deep, there's plenty of dirt to unearth and more than a few opportunities for discreet intervention. What do you say? Are you ready to put your skills to work for... the greater good?
 [player]: If you have any covert missions that need doing, I can be trusted to handle them professionally.
-[shadow_jack]: Very well. The mayor's not the only one with secrets. There are whispers of a betrayal within the city walls—perhaps even among his closest advisors. You'll need to gather information from various sources without raising suspicion. Think you can keep your nose clean and your lips sealed?
+[shadow_jack]: The mayor's dealings are a prime target for your talents. I'll provide more details tomorrow; he's hosting a gala tonight where all the important folk will gather. You could blend in and gather information, but tread carefully—rumor has it his closest advisors might be watching. Accept this, and you'll have my full support.
 [player]: What kind of intelligence work or secret operations do you currently need assistance with?
-[shadow_jack]: The mayor's dealings are just the tip of the iceberg. There are whispers of a dark conspiracy brewing, and I need someone to trace its roots. Start by looking into his new business partners—rumors suggest they might not be as innocent as they seem. Keep an eye on their meetings, financial transactions, and any unusual behavior. Be discreet; every step could lead you closer—or further—from the truth.
+[shadow_jack]: The mayor's gala tonight sounds like a perfect opportunity. Gather any information on his financial dealings, correspondence, or recent meetings. There are whispers that he might be involved in something bigger than just municipal politics. Keep your ears open for anything unusual—names, dates, or suspicious activities. And remember, discretion is key; we don't want to draw too much attention. I'll have more details and a map of the venue tomorrow.

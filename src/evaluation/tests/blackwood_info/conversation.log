@@ -1,18 +1,18 @@
 [location trigger] The players approach Captain Blackwood's frozen ship in the harbor.
 [npc trigger] Captain Elias Blackwood stands on the deck and calls out to the visitors below.
 [player]: Captain Blackwood! Your ship is magnificent, even frozen as it is.
-[captain_blackwood]: Ah, stranger. The Rusty Anchor isn't exactly the Red Sea here, but it's a fine vessel nonetheless. What brings you to these icy waters?
+[captain_blackwood]: Ah, a bold greeting from one of the harbor folk. The Rusty Anchor hasn't seen such grand ships in months. What brings you to my vessel tonight?
 [player]: You must have sailed to incredible places before the harbor froze over.
-[captain_blackwood]: Aye, I've seen more ports than I can count. But there's always something new under the waves, even in this frozen hell. What tales do you bring from the south?
+[captain_blackwood]: Indeed, I've seen seas as wild as a storm and skies painted with stars untold. But this eternal winter... it's a strange twist on old maps. What tale do you bring to share around my hearth?
 [player]: A captain with your experience must know these waters better than anyone.
-[captain_blackwood]: Indeed, stranger. These icy lanes have secrets only a seasoned sailor like myself has fathomed. But beware, for the perils that lurk here are as cold and cruel as this harbor. What do you hope to find out there?
+[captain_blackwood]: True enough, but the ice has made navigation tricky. There are secrets hidden beneath the frost that I'd rather not speak of just yet. Still, if you prove yourself a worthy companion, perhaps we can uncover some of those mysteries together.
 [player]: I'm fascinated by tales of the sea. What discoveries have you made in your travels?
-[captain_blackwood]: Many a wonder, but few can match the thrill of uncharted islands. I've charted several places where no man's eye has seen before, filled with treasures and dangers alike. But let me warn ye, laddie, each island is guarded by its own trials. Have you any skills or bravery to match what lies ahead?
+[captain_blackwood]: *Leaning forward, Captain Blackwood glances around to ensure no one else is within earshot before continuing.* Tales of discovery, eh? I've seen islands with skies that never turn dark and creatures that swim deeper than any man should venture. But the most valuable treasure I find are maps and charts, guiding me past perils others would face head-on. Would you like to see some of my findings?
 [player]: I've heard rumors of uncharted islands and mysterious creatures. What have you witnessed out there?
-[captain_blackwood]: Mysterious creatures, you say? Aye, I've seen things that would make a man's blood run cold. There be tales of sea monsters that roam these waters, but I've faced one myself. It was a sight best left unseen by most, but it taught me respect for the ocean's fury.
-
-As for those uncharted islands, they hold their secrets well. Some say there's treasure beyond imagining, others speak of traps and dangers. But without a crew as skilled and brave as you seem to be, such places remain mysteries better left untouched.
+[captain_blackwood]: *Captain Blackwood's eyes glint with a mix of excitement and caution.* I've seen things that should not exist in the light of day, like islands that appear and disappear. And once, I had an encounter with something... monstrous, lurking just below the surface. *He leans closer, lowering his voice.* If you truly want to see such wonders, prove yourself first by helping me navigate through these treacherous waters. Then perhaps, just perhaps, I'll share some of my secrets.
 [player]: Please, share your knowledge of the sea. I want to hear about the places you've been and the things you've seen.
-[captain_blackwood]: Well, stranger, a sailor's mouth is never entirely closed on tales of the deep. But remember, some things are best left in the shadows where they belong. That being said, let me tell you of an island I charted once, where the palm trees stood tall amidst the fog and the air was thick with mystery. The locals spoke of a hidden cove filled with sunken treasure from ancient ships. But beware—the path to that cove is fraught with peril, guarded by a fearsome sea monster that calls those waters its home.
+[captain_blackwood]: *Captain Blackwood gives a gruff nod, his eyes narrowing as he considers the request.* Well, a sailor's tales are not for just any ear. But since you seem eager, let me tell you of a place called the Whispering Shoals—a stretch of water so quiet even the waves whisper secrets to those who dare venture there. And then there's the Luminous Isles, where the nights glow with bioluminescent lights that dance like ethereal flames.
 
-Now, as for my own eyes, I've seen more than just islands and treasures. There be storms so fierce they make the very sky bleed, and creatures in the depths that should not exist. But enough of my tales—what do you hope to gain from this knowledge?
+But beware, for these places hold dangers as well. The Sea Dragon, a creature with scales like obsidian and eyes that burn like embers, calls this territory its own. I've seen it with my own eyes, lurking beneath the waves, waiting to snatch any foolish soul who dares too close.
+
+If you want to truly know the sea, you must prove your worth by helping me navigate these icy waters tonight. Only then might I share more of what lies hidden in the depths.

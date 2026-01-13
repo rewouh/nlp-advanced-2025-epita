@@ -1,14 +1,16 @@
 [location trigger] The players enter Iris's Cartography Shop, maps covering every wall.
 [npc trigger] Iris Mapmaker looks up from her work and greets the visitors with a friendly smile.
 [player]: Iris, your maps are incredibly detailed. This is masterful cartography work.
-[iris_mapmaker]: Thank you, kind traveler. My dedication to precision and detail ensures that my maps are invaluable tools for any journey. What brings you to the Rusty Anchor Tavern tonight?
+[iris_mapmaker]: Thank you, kind traveler. I strive for perfection in every line and detail. Have you a specific map or region that interests you?
 [player]: Having accurate maps can save lives. Your work is truly valuable.
-[iris_mapmaker]: Indeed, a well-made map can mean the difference between success and failure in any endeavor. Are you planning an expedition or perhaps seeking information for your own mapmaking?
+[iris_mapmaker]: Indeed, precise mapping ensures safe journeys and secure trade routes. If there's any area where you think a detailed map could make a difference, I'd be happy to assist in creating one. What regions are troubling you most?
 [player]: I'm an experienced explorer with a good sense of direction and keen observation.
-[iris_mapmaker]: That's admirable! With such skills, you could benefit greatly from my maps, especially if you're venturing into the uncharted territories near the northern farms. Have you heard about the recent goblin raids? My maps might help you avoid those areas or find a safer path.
+[iris_mapmaker]: That sounds like a valuable skill set. With your experience, we might uncover some hidden gems or overlooked dangers on the map. Are there any particular areas you've found intriguing but lacked proper mapping?
 [player]: I imagine there are still areas that haven't been properly mapped yet.
-[iris_mapmaker]: Absolutely, there are always new frontiers to explore. I'm currently working on an incomplete map of a hidden route near the northern farms. It leads to a location known only as 'The Whispering Caverns.' They say it holds secrets from long ago. Would you be interested in seeing what lies within?
+[iris_mapmaker]: Indeed, there are always new territories to explore and chart. Have you come across any such regions recently? Perhaps we could collaborate on a map of those uncharted lands.
 [player]: I'd be interested in helping you fill in the blank spaces on your charts.
-[iris_mapmaker]: That sounds like a worthwhile endeavor. The northern farms and their surroundings are indeed full of mysteries waiting to be uncovered. If you assist me, I can provide you with maps that will guide you safely through those regions. However, be warned, the journey can be perilous. Have you prepared yourself for such an adventure?
+[iris_mapmaker]: That sounds like an excellent proposition, traveler. Let's discuss which areas might benefit most from your expertise and my cartographic skills. Perhaps we could start with the northern tundra where rumors of strange phenomena have been reported?
 [player]: What unexplored regions need mapping? I'm ready to venture into dangerous territory for your work.
-[iris_mapmaker]: The uncharted territories near the northern farms are particularly intriguing. The area around the Whispering Caverns and the Frozen Harbor hold many secrets, including ancient ruins and hidden paths. These regions are often avoided by most travelers due to rumors of goblin raids and strange occurrences. Are you prepared for the challenges that lie ahead?
+[iris_mapmaker]: The northern tundra, you mentioned it! It's a treacherous place, covered in dense fog and icy mists. Few maps truly capture its harsh terrain and the peculiarities of that climate. We could start there, but be warned, rumors speak of both hidden resources and... less friendly inhabitants.
+
+Do you think you're up for such an adventure?

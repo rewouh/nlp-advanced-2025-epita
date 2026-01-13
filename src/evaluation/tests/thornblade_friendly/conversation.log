@@ -1,15 +1,14 @@
 [location trigger] The players cautiously enter the Old Watermill.
 [npc trigger] Thornblade emerges with a welcoming gesture, appearing to be a simple merchant.
 [player]: Hello there! I was told I might find a merchant at this mill.
-[thornblade_the_bandit]: *Tears a strip of cloth from an old bale, pretending to be busy with something else.* What do you want, stranger? And don't get any ideas about bartering here. This place is no market stall.
-*I keep a wary eye on the newcomer, ready to spring into action if needed.*
+[thornblade_the_bandit]: *Looks around cautiously, scanning the area for any signs of danger.* What brings you to an abandoned mill? Merchant or something else?
 [player]: You seem like a successful businessman. This must be a good location for trade.
-[thornblade_the_bandit]: *Snorts derisively and flicks a piece of hay away with his boot.* A businessman? More like a business *corpse*. This mill hasn't seen proper use in years, so why would you think it's good for anything but rotting? *Looks around suspiciously.* Now go on, what do you really want?
+[thornblade_the_bandit]: *Chuckles darkly, eyeing the player with suspicion.* Success is just another word for luck and dirty tricks. And this old mill might have stories to tell, but not to you. What do you really want here?
 [player]: I appreciate you taking the time to speak with me. Not everyone is so welcoming to travelers.
-[thornblade_the_bandit]: *Gives a curt nod, not exactly a smile.* You're lucky today, traveler. But don't get too cozy. *Pauses, eyeing you up and down.* What's in it for me if I help you?
+[thornblade_the_bandit]: *Grin widens, showing sharp teeth.* Well, some folk are worth the trouble. But don't get too cozy yet. What's in it for me if I play along?
 [player]: You must know the area well. Have you been trading here long?
-[thornblade_the_bandit]: *Leans against a nearby beam, arms crossed.* Aye, I've seen better days for this place, but it keeps the rats away from my stash. Why do you ask? *Glances around again, making sure no one is listening.* What's your game, traveler?
+[thornblade_the_bandit]: *Laughs softly and shakes head.* Not as a merchant, but this place has seen more than its share of deals gone bad. Why do you ask so many questions? You shouldn't be too nosy around here.
 [player]: I'm always interested in learning about successful ventures. What's your secret to thriving out here?
-[thornblade_the_bandit]: *Laughs dryly and pats the wooden floorboards.* Thriving, you say? More like surviving every day with a sharp blade and sharper wit. *Glances at the player, narrowing eyes.* Folks who ask too many questions usually end up asking them from beyond the grave. *Grins a toothy smile, revealing a few missing teeth.* Now, if you have any useful info or shiny coins, then maybe we can call this... business arrangement.
+[thornblade_the_bandit]: *Snorts derisively.* Thriving out here is all about knowing when to cut your losses and move on. Not everyone has the luxury of staying in one place. So, you ask questions like a spy, or are you just looking for trouble?
 [player]: Between you and me, where do you keep your most valuable goods? I imagine security is important in your line of work.
-[thornblade_the_bandit]: *Eyes the player warily before lowering his voice.* Security's all about keeping secrets, stranger. My stash is well hidden, tucked away where even a hungry wolf wouldn't dare venture. *Pauses to look around again for any eavesdroppers.* But if you're offering something in return... then maybe I could let you in on the location of my little treasure trove. What do you have to offer?
+[thornblade_the_bandit]: *Looks around again, ensuring no one can overhear.* If I told you, it'd be less secure, wouldn't it? Security's about being unpredictable. Now, what makes you think I have anything worth keeping around here?

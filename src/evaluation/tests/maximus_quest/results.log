@@ -3,3 +3,10 @@ passed tests (1):
 
 failed tests (1):
 - UnitTestType.INFO_GIVEN
+total responses: 6
+average response time: 1328.62ms
+total response time: 7971.74ms
+total prompt tokens: 3972
+total completion tokens: 389
+total tokens: 4361
+average tokens per response: 726.8

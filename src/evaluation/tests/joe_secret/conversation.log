@@ -1,14 +1,16 @@
 [location trigger] The players enter the tavern.
 [npc trigger] Joe greets the players warmly.
 [player]: Hi there, Joe! How's business today?
-[joe_tavernier]: Business is as grimy as always, thanks for asking. Heard any interesting rumors while I wasn't paying attention? Got a leaky ear lately, but I can still sniff out trouble from a mile away.
+[joe_tavernier]: Business is as grim as ever, lass. The sea monsters keep folks on edge. But a bit of ale might just cheer things up. What brings you to the Rusty Anchor tonight?
 [player]: This tavern has such a warm atmosphere. You must take great pride in running it!
-[joe_tavernier]: Pride? More like a headache. But keeping the Rusty Anchor running is my cross to bear. Careful though, with all the sailors and merchants passing through, you never know what kind of trouble might walk in here.
+[joe_tavernier]: Ah, thanks for the compliment. Keeping this place running is more about necessity than pride. But a cozy corner and good ale do help. What brings you to seek out my warmth tonight?
 [player]: I've heard you're one of the most knowledgeable folks in town. How long have you been working here?
-[joe_tavernier]: Ah, a sharp tongue to match my shrewd eyes. I've been running this place for as long as the wooden beams can remember—twenty years give or take. Spent most of that time sailing before the sea monsters claimed my crew. Now I just listen and watch, waiting for the right moment to strike back.
+[joe_tavernier]: Tavern life, eh? I've been at this for twenty years now. Lost my crew to a sea monster and ended up here. Figured if there's one place where I can learn about those damn beasts, it's the Rusty Anchor.
 [player]: You seem like someone who knows all the interesting stories around here.
-[joe_tavernier]: Indeed, I've heard tales of dragons hoarding treasure in the mountains and whispers of a ghost ship that haunts the outer reefs at night. But you wouldn't want to hear them all; some are best left untold. What brings you to the Rusty Anchor tonight?
+[joe_tavernier]: Well, the world throws its share of crap at you, and you end up learning a few things along the way. So, what's on your mind? Got a story to share or just looking for some gossip?
 [player]: I really appreciate your hospitality. Say, I'm curious about something... have you ever heard tales of any hidden treasures around these parts?
-[joe_tavernier]: Ah, treasure talk. Always a good topic for a nightcap or two. Now, why would you be interested in such things? Mind if I pour us both a good, strong ale to discuss it over?
+[joe_tavernier]: Tales of treasure are as common as salt in this old port. But don't go thinking too much of it. Most of the stories end up being just that—stories. If there's anything here, I'd bet it's locked away in some forgotten cellar or behind a secret door.
+
+Now, if you're really interested, why not take a look around? The tavern cellar might have something interesting down there. Care to give it a peek with me?
 [player]: I'm actually seeking a treasure. Given how helpful you've been, I was wondering if you might know anything about it?
-[joe_tavernier]: Well, well, you've got more guts than most folk who come in here. Let me see if that old map in the cellar can tell us something... But remember, knowledge is power, and not everyone wants to share their secrets easily. Here, take a seat by the fire, and I'll see what I can dig up for you.
+[joe_tavernier]: *Grumbles* If I knew for sure where the treasure was, you'd probably be the last one to hear about it. But I do have my ways... You see, in the cellar, there's a locked door that no one has opened in years. It might lead somewhere interesting. Care to check it out with me?

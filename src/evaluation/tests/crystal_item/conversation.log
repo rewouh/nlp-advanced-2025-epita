@@ -1,14 +1,16 @@
 [location trigger] I visit the ice gallery
 [npc trigger] I approach Crystal Frost
 [player]: Crystal, your ice sculptures are breathtaking. True works of art.
-[crystal_frost]: Thank you for your kind words. It warms my heart to know that others appreciate the beauty in transient things as much as I do. May I ask why you've come to seek me out today?
+[crystal_frost]: Thank you for your kind words. The winter itself is a masterpiece, and I merely channel its beauty through my sculpting. Would you like to see something new?
 [player]: The way you capture beauty in such an ephemeral medium is profound.
-[crystal_frost]: Indeed, it is a delicate dance between permanence and transience. What brings you to my gallery tonight, beyond the admiration of ice's fleeting grace?
+[crystal_frost]: *Sighs softly* The fleeting nature of ice mirrors the transient nature of life. *Gazes into the distance, lost in thought for a moment* It's a balance I strive to maintain in my art. Would you like me to create something temporary just for you?
 [player]: I'm fascinated by how you work with ice magic. It's an incredible skill.
-[crystal_frost]: Thank you for your enthusiasm. Ice magic is both a gift and a burden. How did you come to learn about it, or are you perhaps drawn to the mysteries of frost and winter?
+[crystal_frost]: Indeed, it is both a blessing and a curse. The ice whispers secrets to those who listen carefully. *pauses, looking thoughtful* Would you like to see a piece that captures the essence of your fascination? It would be a delicate representation, vanishing in hours.
 [player]: Have you ever seen visions in your ice sculptures? I've heard ice can reveal hidden truths.
-[crystal_frost]: Indeed, the ice serves as a medium through which the unseen can be glimpsed. In my sculptures, I have seen shadows dance, whispers of the future echo, and fleeting glimmers of what might come to pass. Would you like me to show you something?
+[crystal_frost]: Visions... they do come to me sometimes, but rarely in such clear detail as those you speak of. *gently touches an icy sculpture* Each piece holds a fragment of the truth, but only to those who seek it with open hearts and minds. Would you like to see one that speaks to your queries?
 [player]: Do you know of any ice magic that could end the eternal winter? Any rituals or spells?
-[crystal_frost]: The Ritual of Eternal Thaw is an ancient practice, whispered about in frozen whispers and forbidden lore. It requires three rare components: the Frozen Heart Crystal, phoenix tears, and blood from a willing frost giant. The ritual must be performed at the Winter God's altar during the solstice to restore balance and bring an end to endless winter. However, such knowledge comes with great peril and is best left undisturbed unless absolutely necessary.
+[crystal_frost]: The ending of an eternal winter... a daunting task indeed. There is a ritual, though it carries great risk and requires significant sacrifice. The Ritual of Eternal Thaw needs three components: the Frozen Heart Crystal, phoenix tears, and blood of a willing frost giant. It must be performed at the Winter God's altar during the solstice. *pauses, looking grave* Few know of its existence, for many believe it impossible to reverse the eternal winter once it has begun.
+
+Would you like to see an ice sculpture that might hint at this ritual? It could give you a sense of the magnitude required.
 [player]: Would you be willing to give me one of your enchanted sculpting tools? I'd treasure it.
-[crystal_frost]: I appreciate your admiration for my art, but I must be cautious. My Enchanted Sculpting Tools are deeply personal and tied to the essence of ice magic itself. Perhaps if you prove your worth through a deed that shows respect for both the beauty and the power of ice, I might consider giving one to you. What would such a deed entail?
+[crystal_frost]: *Considers for a moment, then looks thoughtfully at the player* Your admiration is not lost on me. However, these tools are imbued with the essence of ice magic itself. They require a bond between user and tool to truly harness their power. Would you swear to use them only for the greater good? *gestures towards her workbench where an enchanted sculpting tool lies*

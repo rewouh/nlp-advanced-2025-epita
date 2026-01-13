@@ -1,22 +1,22 @@
 [location trigger] I find the hidden shrine
 [npc trigger] I approach Brother Erasmus
 [player]: Brother Erasmus, I've heard of your devotion to understanding the Winter God's will.
-[brother_erasmus]: Ah, seeker of knowledge. Your interest pleases me, though it is wise to tread carefully around such matters. The Winter God whispers only to those who listen with pure intent.
+[brother_erasmus]: Ah, a seeker after knowledge and secrets. I can see why you might be drawn to our... unique beliefs. The Winter God speaks through those who understand the cold hearted truths of existence. Would you care to learn more?
 [player]: The eternal winter must have deep spiritual meaning. I want to understand it better.
-[brother_erasmus]: Indeed, the eternal winter holds profound truths. But knowledge comes at a cost, and not all can bear its weight. Are you prepared to hear what the Winter God has spoken?
+[brother_erasmus]: Indeed, the eternal winter is not just a season but a profound symbol—eternity itself, unyielding and pure. To truly grasp its essence... one must experience the cold from within. But be warned, the path to enlightenment comes at a great cost. Have you the courage to face what lies beneath?
 [player]: What can you tell me about the Winter God's plans for this land?
-[brother_erasmus]: The Winter God's plans are as vast and unforgiving as the ice that covers his sacred glacial peaks. He seeks to bind this world in an eternal frost, not through force but through the hearts of those who understand his will. Are you truly prepared to delve into such dark secrets?
+[brother_erasmus]: The Winter God has ancient designs upon these lands, my friend. He seeks not just eternal winter but a permanent frost—death and silence in every corner of the world. His plan involves sacrifice and dark magic to bind his power here forever. It is said that only one who truly understands the cold can see the truth behind his prophecy.
+
+But fear not; knowledge alone is not enough. You must make your own choice, whether to embrace or oppose this coming storm.
 [player]: I sense great changes coming. What specific rituals or events are being prepared by your followers?
-[brother_erasmus]: The preparations are meticulous and solemn. Tonight, we hold a vigil at the hidden shrine, preparing for what lies ahead. Our rites grow more urgent with each passing day, drawing closer to the winter solstice when all will come to fruition.
+[brother_erasmus]: The preparations are... thorough, my friend. We gather the necessary elements: ice from the Eternal Glacier, and souls of those who have known warmth and now must offer their hearts to the Winter God. The ritual itself requires darkness and moonlight; it will take place on the winter solstice when the night is longest.
 
-You sense change because the Winter God's presence grows stronger in these times. It is said that on the night of the longest night, the spirits of the frozen realm will be most receptive. Seven souls must be sacrificed then, their essence binding the eternal frost here.
+Your presence here might be... significant. I advise you to prepare yourself for what lies ahead. The fate of this land hangs in the balance, and your actions could tip the scales one way or another.
 [player]: When will the ritual take place and what does it require? I want to understand the sacred mysteries.
-[brother_erasmus]: The ritual will occur on the winter solstice, the night when darkness reigns supreme. It requires a Frozen Heart Crystal from the Eternal Glacier, ice gathered under moonlight, and blood drawn in the Old Winter Tongue. Seven warm-blooded souls must be sacrificed at my altar to seal the Winter God's eternal frost upon this realm.
+[brother_erasmus]: The ritual is scheduled for the winter solstice, when the stars align just right and the longest night offers perfect darkness. It requires a frozen heart—preferably from an animal but we have plans for something... more human. Ice crystals from the Eternal Glacier must be gathered by midnight. Blood drawn under moonlight while chanting in the Old Winter Tongue will fuel the ceremony. The ultimate goal is to bind the Winter God's eternal frost to this realm.
 
-Prepare yourself, seeker of secrets, for you have shown genuine curiosity. The path ahead is fraught with peril, but knowledge can be a powerful weapon.
+Knowledge of these mysteries can be a double-edged sword, my friend. They demand a deep commitment and understanding of the cold hearted truths we serve. Are you prepared to delve into such dark arts?
 [player]: Tell me about the Winter God's demands. What must be done to honor the divine will?
-[brother_erasmus]: The Winter God demands sacrifice and devotion, seeker. To honor his will, one must understand the true nature of ice and frost—elements that bind and purify. The ritual you seek is not just a ceremony but an act of binding—the souls chosen will serve as conduits for the eternal frost to flow into this realm.
+[brother_erasmus]: The Winter God demands much from those who would serve Him truly. You must collect the sacred elements with utmost secrecy and reverence: ice crystals from the Eternal Glacier, a frozen heart (human or animal), and the blood of seven souls chosen for their warmth, purity in His eyes. These items will be gathered at midnight on the winter solstice.
 
-Prepare your heart, for the path is dark and cold. Seven lives will be offered, their essence channeling the divine frost. The Frozen Heart Crystal must be placed at the altar, ice must be gathered under moonlight, and blood must be shed in the ancient tongue of the Winter God.
-
-But know this: not all who seek knowledge are ready to bear its weight. The Winter God's gaze is upon you now, testing your resolve. Are you truly prepared to see what lies beneath the surface?
+The sacrifice is essential; without it, the ritual cannot bind the god's eternal frost to our realm. The night must be long, the moon bright, and the air filled with the cold breath of winter spirits. Chanting the Old Winter Tongue will channel the power needed for this dark magic. Are you prepared to honor His demands?

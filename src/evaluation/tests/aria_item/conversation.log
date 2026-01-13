@@ -1,14 +1,16 @@
 [location trigger] The players enter the Moonlight Apothecary, the scent of herbs welcoming them.
 [npc trigger] Aria Silvermoon looks up from grinding herbs and smiles warmly at the visitors.
 [player]: Good day, Aria. Your apothecary has such a welcoming atmosphere.
-[aria_silvermoon]: Ah, thank you for the kind words! I strive to make it a place of comfort and healing. How may I assist you today?
+[aria_silvermoon]: Thank you for your kind words. It's important to have a place of healing and comfort in times of need. Can I help you with anything today?
 [player]: The care you put into your remedies is evident. You must help so many people.
-[aria_silvermoon]: Indeed, it's a noble cause. Every person who walks through my door finds some form of relief or hope. Is there anything specific troubling you that perhaps a remedy might ease?
+[aria_silvermoon]: Indeed, it keeps me busy but also fills my heart with joy. Is there something specific troubling you or someone you know that I might be able to assist with?
 [player]: It's rare to find someone so dedicated to healing others. Your kindness is admirable.
-[aria_silvermoon]: Thank you for your kind compliment. It brings me great joy to help those in need. If you ever require any remedies or advice, do not hesitate to ask.
+[aria_silvermoon]: Thank you for your compliment. In these troubled times, it is important to lend a helping hand where we can. How may I assist you today? Do you know of anyone who could use my remedies?
 [player]: I'm heading into dangerous territory soon, and I'm worried about getting injured far from help.
-[aria_silvermoon]: I understand your concern. In that case, I have a few remedies that might be useful for you on your journey. Would you like to take my Healing Elixir and Frost Poison Antidote? They can provide quick relief in emergencies.
+[aria_silvermoon]: I understand your concern. It's wise to be prepared. We have a Healing Elixir that can mend minor wounds quickly and an Antidote for Frost Poison if you encounter any cold-based dangers. Would you like me to prepare them for you?
 [player]: Your potions could truly save lives out there. Do you have any healing remedies you could spare?
-[aria_silvermoon]: Of course, I can trust you with them. Here, take my Healing Elixir and Frost Poison Antidote. They should see you through most minor injuries and poisonings. Be safe on your journey!
+[aria_silvermoon]: Certainly, I can prepare a Healing Elixir for your journey. It will help with minor injuries and aid in recovery. May it bring you back to full health swiftly when needed. Here, take my Healing Elixir. Use it wisely.
+
+*You feel a warm sensation as Aria hands you the vial.*
 [player]: I would be incredibly grateful for any help you could provide. Your generosity would mean everything.
-[aria_silvermoon]: I'm glad to assist, but remember, I always do what I can for those in need. Take these remedies with the knowledge that they are a small token of my gratitude and care. Safe travels, and may your path be illuminated by both light and healing!
+[aria_silvermoon]: Aria Sighs gently and smiles warmly. "It's my pleasure to assist when I can. Remember, if you ever need anything more, don't hesitate to return. Safe travels, and may the light of healing guide your way."

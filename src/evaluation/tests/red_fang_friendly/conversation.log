@@ -1,16 +1,14 @@
 [location trigger] The players approach the Northern Border Outpost with hands visible and non-threatening.
 [npc trigger] Red Fang watches the approaching figures warily, weapon ready but not yet drawn.
 [player]: Warrior, I come in peace. I mean no harm to you or this outpost.
-[red_fang_orc]: Hmph. Stranger, show me what proof you bring that warrants my trust. Speak now or face the edge of my blade.
+[red_fang_orc]: Hmph. Stranger, with the rumors of goblin raids and the Iron Vanguard on the lookout for mercenaries, I can't afford any distractions. What brings you here?
 [player]: I respect your strength and your duty here. You guard this border with honor.
-[red_fang_orc]: A grunt escapes my lips. I shift uneasily, keeping an eye on the door. Stranger, if you truly mean peace, then prove it. What brings a warrior like you to our humble outpost?
+[red_fang_orc]: *raises an eyebrow* Honorable? More like cautious. Stranger, if you're truly here to help, prove it. Tell me why I shouldn't make mince meat out of anyone who steps foot in these mountains without permission.
 [player]: I understand your caution with strangers. These are dangerous times for everyone.
-[red_fang_orc]: *Grumbles* Fine. I'll listen. But don't take this as a sign of weakness. You want info or aid? Prove it. No tricks, no lies.
+[red_fang_orc]: Hmm, I'll consider that. But don't think you're earning any easy trust just yet. What's your story? Why do you think I'd need a reason not to rip out your throat right now?
 [player]: You carry yourself like a protector, not just a guard. There's more to your duty than keeping borders, isn't there?
-[red_fang_orc]: *Red_fang_orc shifts uncomfortably, eyes narrowing.* I've secrets of my own. Don't pry too deep, warrior. *Glances around suspiciously before lowering his voice.* My people... they hide here. Not far from this place. We're in danger, and we need help.
-*He pauses, gauging the player's reaction.* Can you keep a secret?
+[red_fang_orc]: *narrows eyes* More to my duty, huh? You're on thin ice stranger. *pauses, considering* Tell me something, orc or no, what do you know of the refugees in the mountains?ispers softly*
 [player]: I believe everyone has their reasons for the choices they make. What drives you to stand watch here?
-[red_fang_orc]: The world outside is full of threats. I protect what's mine. My people... they need a champion, and that's me. *Fists clench tightly* If you can help us, show it now. Otherwise, keep your distance.
+[red_fang_orc]: Survival and loyalty drive me. These mountains are my home now, and I won't let them fall without a fight. The orcs in hiding... They're family to me. Protecting them is more than just duty; it's everything.
 [player]: I sense you're protecting something important. I give you my word - your secret is safe with me. What are you really guarding?
-[red_fang_orc]: *Red_fang_orc's eyes flicker with a mix of suspicion and guarded trust.* You've taken an oath, warrior. But remember, the forest is full of creatures that hunt in darkness. *He leans closer, whispering.* I protect my kin, those who cannot defend themselves. They hide in these mountains, away from prying eyes. If you can keep them safe, we might just find common ground.
-*He stands up straighter and looks around again before continuing.* But don't think for a moment that I won't be watching you. *Gives the player a stern look.* Now, if you're truly here to help, prove it. What do you need from me?
+[red_fang_orc]: *grunts softly and shifts uncomfortably, looking around as if checking for threats* You've got a good heart, orc friend. But this... This can't go any further than the both of us know. The refugees are in my care now, and I won't let them down. Not even with your silent oath. Keep your eyes open tonight; there's more out there than meets the eye.

@@ -1,16 +1,24 @@
 [location trigger] I go to the beast kennels
 [npc trigger] I approach Brutus Beastmaster
 [player]: Brutus, your way with animals is remarkable. I've never seen such well-trained beasts.
-[brutus_beastmaster]: Thank you for the compliment. Training them isn't just about tricks; it's about understanding and respect. Each animal has its own spirit and needs to be treated accordingly.
+[brutus_beastmaster]: Thank you for the kind words. My wolves and other creatures are trained to serve both as protectors and friends. They understand their roles well. What brings you to my kennels tonight?
 [player]: You clearly have a deep respect for all creatures. That's admirable.
-[brutus_beastmaster]: Indeed, every creature has its place in the world, and it's our duty to ensure they live their lives to the fullest. Would you like to see some of my trained animals? They can be quite captivating at times.
+[brutus_beastmaster]: Indeed, every creature has its own spirit and strength. It's about understanding them and guiding that potential in the right direction. What can I do for you today?
 [player]: I've heard rumors of rare magical creatures in this region. Do you know where any might be found?
-[brutus_beastmaster]: Rare creatures do make appearances, but they're often elusive and cautious around humans. Phoenix eggs can be found in the heart of Scorched Peak, though that's a dangerous place. Griffons nest in the Northern Cliffs, and there's a family of winter wolves in Frostbite Caverns. More perilous still is the den of a basilisk in the Petrified Forest. Each location requires careful planning and luck to reach safely. Would you like me to point you in the direction of some of my trained animals who might assist you on such a quest?
-[player]: Your knowledge of creature nesting locations must be extensive. Would you share that information?
-[brutus_beastmaster]: I can guide you, but sharing such sensitive information requires trust. Why do you seek these creatures specifically? Are you planning a serious endeavor or perhaps just curious?
-[player]: I travel through dangerous areas often. Having protection from wild animals would be invaluable.
-[brutus_beastmaster]: I see. Protecting yourself is wise. The frost dragon Crystalwing could provide formidable defense, but she's young and requires careful handling. My wolf pack can also offer assistance—though they're more suited to tracking and companionship than outright combat.
+[brutus_beastmaster]: Certainly, there are places known to house such wonders. The phoenix eggs nestle within the fiery heart of Scorched Peak, while griffon aeries can be found in the crags of Northern Cliffs. For winter wolves, look no further than Frostbite Caverns. And if you seek something more fearsome, the Petrified Forest conceals a basilisk den.
 
-Would you like me to show you some of my wolves? They might give you a sense of the spirit that lies within each creature I train.
+Would you like to know anything specific about their habitats or how to approach them safely?
+[player]: Your knowledge of creature nesting locations must be extensive. Would you share that information?
+[brutus_beastmaster]: I can share the general locations, but the specifics are best left for those who truly understand and respect these creatures. The world is a dangerous place, and knowing too much about where to find such powerful beings could be misused. What brings you to seek this knowledge?
+[player]: I travel through dangerous areas often. Having protection from wild animals would be invaluable.
+[brutus_beastmaster]: I see your wisdom in seeking such knowledge. Protection is indeed vital when venturing into the wild. I can give you guidance on how to approach and coexist with these creatures, but remember, respect and understanding are key.
+
+For now, let's focus on the basics: stay alert, avoid sudden movements, and offer no threat unless necessary. With time and careful observation, you'll learn more about their behaviors and habitats.
+
+Do you have any particular area in mind for our first lesson?
 [player]: Could you craft me a wolf totem? I'd be honored to carry something made by your skilled hands.
-[brutus_beastmaster]: I can certainly try, but remember, a true totem is more than just an object—it's about the connection between you and the spirit of the wolf. Would you like to spend some time with one of my wolves first, perhaps? This could help us understand each other better.
+[brutus_beastmaster]: A wolf totem... it would be an honor, but such items are sacred and not given lightly. They're crafted with the utmost respect for both the wolves and the spirits they represent.
+
+To earn this totem, you must prove yourself worthy through acts of kindness and understanding towards animals. Show me how well you can care for one of my beasts, and if I see that you have the heart for it, then perhaps I'll consider giving you a Wolf Spirit Totem.
+
+How do you think you might demonstrate your worthiness?

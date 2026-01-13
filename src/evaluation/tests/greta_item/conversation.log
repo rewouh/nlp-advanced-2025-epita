@@ -1,14 +1,14 @@
 [location trigger] The players enter the Mountain Smithy, volcanic heat radiating from the forge.
 [npc trigger] Greta Stonefist sets down her hammer and nods at the visitors with respect.
 [player]: Greta Stonefist! Your craftsmanship is renowned even among the dwarven clans.
-[greta_stonefist]: Ah, greetings to you. I strive to live up to such praise, but the true test lies in the hands that wield my creations. What brings you to the mountain smithy this evening?
+[greta_stonefist]: Thank you, but I only craft what I need. The true test of a weapon lies in its use, not just its forging. What brings you to the Rusty Anchor tonight?
 [player]: I can see the quality in every piece you forge. True artistry combined with function.
-[greta_stonefist]: Thank you for your kind words. The materials and craftsmanship are all I have to offer, but they must serve a purpose. What do you seek from me tonight?
+[greta_stonefist]: Ah, flattery will get you everywhere. But it's nice to know your eyes aren't fooled by mere aesthetics. I've been hearing tales of goblins causing trouble up north. Any idea what we're dealing with?
 [player]: Your no-nonsense approach to smithing is refreshing. You let the work speak for itself.
-[greta_stonefist]: A true craftsman lets his creations stand on their own merits. Now, what can I help you with today? Need something forged or simply here for a chat about our trade?
+[greta_stonefist]: Indeed, a hammer and anvil do more talking than words ever could. And speaking of tools, have you brought your own gear? I've got some new metal that could use shaping.
 [player]: I'm preparing to face frost giants in the northern mountains. It's dangerous work, but necessary.
-[greta_stonefist]: I understand your resolve. The north can be harsh. Have you considered the weapon I crafted specifically against frost giants? It could see you through those cold climes. Would you like to see it?
+[greta_stonefist]: That sounds like a task for a true warrior. I can prepare you well with a weapon fit for such dangers. Have you brought your own tools? I might need some help shaping this new metal.
 [player]: A weapon forged by your hands would be an honor to carry into battle. Do you have anything suited for fighting giants?
-[greta_stonefist]: I do, indeed. The Giant Slayer axe is designed for just such a task. It's heavy and fearsome, but the weight will anchor you as you cleave through frost giant flesh. Would you like to see it now?
+[greta_stonefist]: I've got just the thing. My Giant Slayer axe is ready, designed specifically to take down those massive creatures. But it requires a strong hand and a clear mind to wield properly. Are you up to the challenge?
 [player]: I promise to wield it with honor and put it to good use defending those who cannot defend themselves.
-[greta_stonefist]: Very well, then. Follow me to my workbench, and I shall show you the Giant Slayer axe. It's a hefty piece, but it'll serve you well in your quest.
+[greta_stonefist]: Very well, then. Bring your tools, and let's see if we can make a warrior worthy of such a weapon.

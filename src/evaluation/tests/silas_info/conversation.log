@@ -1,10 +1,10 @@
 [location trigger] I enter the cemetery
 [npc trigger] I approach Silas Gravesend
 [player]: Good day, Silas. Your work maintaining the cemetery must be lonely but important.
-[silas_gravesend]: Indeed, it is a solitary task, yet filled with honor. The dead deserve our respect and care, more than they can know now.
+[silas_gravesend]: Indeed, it is a solitary task, yet necessary for those who cannot speak for themselves. The dead have much to teach us if we listen. What brings you to the cemetery today?
 [player]: I respect how you honor the dead with such care and dedication.
-[silas_gravesend]: Thank you for your understanding. It is a duty I take seriously. Many find comfort in the peace of the cemetery at night, but it is not without its terrors.
+[silas_gravesend]: *Nods solemnly* Honoring the departed is not just about their graves, but about preserving a link to our past. It's a duty I take seriously. Can I assist you in any way today?
 [player]: I've heard stories that there are old passages beneath the cemetery. Do you know anything about that?
-[silas_gravesend]: Ah, tales of hidden passages do circulate among the folk, though they often speak in whispers and shadows. The truth lies with the earth itself. There is indeed an entrance to the catacombs not far from the ancient crypts. But tread carefully, for those who enter may never return.
+[silas_gravesend]: The rumors persist, do they not? Some speak of ancient catacombs hidden below these hallowed grounds. They say those who dare to delve into the darkness might find both treasure and peril. Would you have me guide you down there tonight while the world sleeps?
 [player]: The catacombs must hold many secrets. Could you tell me how to access them?
-[silas_gravesend]: Accessing the catacombs is no small feat. The entrance is near the oldest part of the cemetery, under a large, weathered stone marker. It requires knowledge and strength. Have you prepared yourself for what lies within? The path is fraught with danger, both from the bones of the past and the spirits that guard them.
+[silas_gravesend]: *Silas looks thoughtful, his eyes narrowing as if trying to see through the night.* The entrance is guarded by a crypt that few know of, and fewer have the key. It lies beneath the oldest tomb in the cemetery—Ragnar's Rest. But beware, for such knowledge comes with a price. Are you prepared to face what waits within?

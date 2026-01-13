@@ -87,3 +87,27 @@ The following graphic shows the success rate per NPC.
 Although NPCs are not associated with an equal number of tests, the results highlight how an NPC's characterization (as defined in `world.yaml`) influences their behavior.
 
 For example, Master Wei, portrayed as a monk, is deliberately reluctant to give information easily, instead seeking a disciple who demonstrates patience and understanding. This shows the importance of defining and evaluating NPCs within a realistic narrative and behavioral context, which we hadn't anticipated.
+
+We also explored computing metrics on the tokens used during a conversation.
+
+<img src="./src/evaluation/token_distribution.png" />
+
+From this data, two main observations emerge.
+
+First, a single player–NPC exchange (one message each) uses, on average, 654 prompt tokens and 57 completion tokens, for a total of 711 tokens. In our setup, everything runs locally, but if an API such as OpenAI's GPT-4.1 were used instead, this would correspond to a cost of roughly $0.002 for the prompt and $0.0006 for the completion. Assuming a full conversation consists of around 10 messages, the total cost would be approximately $0.026, or about two cents.
+
+Second, the majority of tokens are consumed by the prompt. This is expected, as the model's responses are relatively short, typically one or two sentences.
+
+Another interesting analysis is the time everything takes.
+
+<img src="./src/evaluation/response_time_distribution.png" />
+
+We also analyzed response times.
+
+Since all computations are performed locally, these results should be interpreted with caution, as performance is highly dependent on the hardware. The test suite was run on a `RTX 3070 (desktop)`.
+
+On average, NPCs respond in about 1.2 seconds. When projected onto a realistic dialogue scenario, this latency is acceptable. However, the time and cost associated with speech-to-text processing are not included in this evaluation.
+
+Overall, we suscessfully found a way to evaluate free-form NPC dialogue, even with all its variability. Most interactions succeed in revealing the expected information while staying natural (not too guided), and both cost and response time remain reasonable for real-time use.
+
+The system behaves as intended and fits well with a tabletop RPG setting.

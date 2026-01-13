@@ -1,14 +1,18 @@
 [location trigger] I visit the shipyard
 [npc trigger] I approach Master Roderick Oakenheart
 [player]: Master Oakenheart, your dedication to shipbuilding despite the frozen harbor is inspiring.
-[master_oakenheart]: Ah, thank you, but these times are tough for a shipwright. The ice is thicker than ever, and yet I cannot let go of the traditions passed down through generations. Have you heard of the Iron Vanguard's call for mercenaries? It might be an opportunity for some well-armed sailors.
+[master_oakenheart]: Ah, greetings, friend. The cold winds may howl, but they cannot quench the heart of a true shipwright. What brings you to my humble shipyard on such a frosty evening?
 [player]: The craftsmanship of your vessels is legendary. You're keeping the shipwright tradition alive.
-[master_oakenheart]: Indeed, every plank and rivet tells a tale of skill and perseverance. But let me ask you, have you heard of any unusual occurrences lately? The lighthouse has been making strange noises at night, and some say the northern farms are being raided by goblins. Such disturbances could test even the finest ship.
+[master_oakenheart]: Indeed, every plank and spar holds the spirit of our ancestors. And though these docks are frozen over, the craft of shipbuilding never truly freezes. What tales bring you to seek out a shipwright's wisdom?
 [player]: I believe the ice will break eventually, and your ships will sail again.
-[master_oakenheart]: True words, but the wait is long and harsh. Until then, I must keep my hands busy with whatever work comes my way. Perhaps you can find a use for some of our surplus wood or tools?
+[master_oakenheart]: Aye, there is always hope in the heart of winter. Yet, even as we wait for the ice to thaw, we must prepare for when it does. Have you any specific needs or inquiries regarding our craft?
 [player]: Have you designed any ships specifically to break through the ice? That would be revolutionary.
-[master_oakenheart]: Indeed, it would be a groundbreaking achievement. I have considered such designs, and they require materials not found in these frozen lands—reinforced titanium hulls and enchanted steam engines, to withstand the pressures of the ice. The blueprints for such a vessel are kept securely hidden. Perhaps when the time is right, we can work together on something truly remarkable.
+[master_oakenheart]: Ah, a bold suggestion indeed. The concept of an icebreaker vessel is intriguing, though few have dared to venture into such uncharted waters. I do possess plans for just such a ship—albeit hidden away in my office, for now. They are the work of Master Thorin Ironkeel himself, crafted with reinforced titanium hulls and enchanted steam engines capable of withstanding the harshest of ice conditions.
+
+Would you like to see them? Trustworthy eyes would be necessary to unlock their secrets.
 [player]: Do you have plans or blueprints for such a vessel? I'd love to learn about it.
-[master_oakenheart]: I do have some notes and sketches, but the complete blueprints are guarded closely. They were entrusted to me by Master Thorin Ironkeel himself, and they include schematics for magical heating cores and ice-shattering rams. However, they are hidden away in a waterproof case beneath the third floorboard of my office. I trust you with such knowledge, but let us first see if there is a need for such a vessel.
+[master_oakenheart]: I do indeed have the plans, hidden beneath the third floorboard in my office. They detail a vessel named the Icebreaker Leviathan, designed with reinforced titanium hulls and enchanted steam engines. However, these are sacred documents, meant for those who truly understand their purpose. Would you swear to me that you will use this knowledge responsibly?
 [player]: What materials do you need to complete your greatest work? I can help acquire them.
-[master_oakenheart]: To complete the Icebreaker Leviathan, one must gather rare and exotic materials that are not readily available here in these frozen climes. Reinforced titanium is among the hardest metals known, while enchanted steam engines require a mixture of arcane components and precious stones. I fear such resources are beyond your reach at present, but with determination and a bit of luck, we might yet find what we need. Do you have any leads on where to begin this quest?
+[master_oakenheart]: Ah, a true ally in the cold north! To build the Icebreaker Leviathan, one must gather rare and powerful components. You would need reinforced titanium from the deep mines of Gorthor, enchanted steam engines crafted by the Arcane Forge of Eldoria, and magical heating cores that can withstand the coldest of ice. These are not easily found, but with your aid, I might just see this vision to fruition.
+
+Shall we make a deal? You gather the materials, and I will prepare the blueprints.

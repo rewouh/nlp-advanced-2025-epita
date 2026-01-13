@@ -1,18 +1,14 @@
 [location trigger] The players enter the Velvet Emporium, surrounded by luxury goods.
 [npc trigger] Lady Veridian looks up from examining a rare jewel and greets the visitors professionally.
 [player]: Lady Veridian, I've heard you deal in rare and exceptional goods.
-[lady_veridian]: Ah, I see you're interested in the finer things. What brings you to my establishment tonight? Might there be something specific you're seeking among my wares?
+[lady_veridian]: Indeed, I do have some unique items that might interest you. What sort of things are you looking for?
 [player]: Your collection is impressive. You must have connections to acquire such treasures.
-[lady_veridian]: Indeed, a keen eye and a few whispered secrets go a long way in these parts. I've gathered items from all corners of the realm—rare herbs, enchanted gems, even whispers of ancient artifacts. What piques your interest today?
+[lady_veridian]: Ah, the connections are many, forged through years of trade and a keen eye for opportunity. What treasure are you seeking today?
 [player]: I'm a skilled adventurer looking for work. Do you have need of someone with my abilities?
-[lady_veridian]: Certainly! The Iron Vanguard is currently seeking mercenaries for a particularly dangerous mission. If you're up for a challenge, we could use your skills. What do you say?
+[lady_veridian]: Certainly! I've heard about your prowess. There's a dangerous mission that requires a strong, resourceful individual like yourself. The Iron Vanguard is recruiting mercenaries for a task that could be quite lucrative. Would you be interested in such an assignment?
 [player]: I specialize in retrieving difficult-to-find items from dangerous places.
-[lady_veridian]: Perfect for the task at hand. I've been keeping an eye on some peculiar happenings at the harbor warehouse. Someone's been stealing grain, and it's causing quite a stir among the merchants. Do you think you could investigate? The location is under heavy guard, but I have someone who can get you in undetected if needed.
+[lady_veridian]: That sounds perfect. I have a proposition for you, but it involves venturing into the sewers where goblin raiders are known to hide. You might find valuable goods there, but beware of their traps and attacks. Are you up for the challenge?
 [player]: If you have any quests or tasks that require a capable professional, I'm at your service.
-[lady_veridian]: Very well, we might need your expertise soon. There's been talk of goblin raids on the northern farms, and I've received some disturbing reports from the docks about strange activities as well. If you're up for it, I could use someone like you to investigate the goblin activity in the sewers.
-
-And there's another matter, though less immediate. The scholar in town believes the Tome of Winter's End holds the key to stopping the eternal winter. It's said to be hidden in the Ruins of the Old Temple, a place known for its treacherous traps and dangerous creatures. Would you consider such a quest?
+[lady_veridian]: Very well, let me think on it for a moment. The Iron Vanguard is indeed looking for mercenaries, but there's another task that might interest you more directly. A scholar believes the Tome of Winter's End holds the key to stopping an eternal winter curse. It's hidden in the Ruins of the Old Temple, a place notorious for its dangers. Would you be willing to brave such peril?
 [player]: What kind of rare items are you currently seeking? I'd be honored to help you acquire them.
-[lady_veridian]: Ah, an adventurous spirit! Indeed, there's always something intriguing in the market. Currently, I'm in search of a few rare ingredients for a potion that could prove invaluable—a draught of quicksilver and some dust of twilight. These are not easily found, but with your skills, we might just pull it off.
-
-And speaking of which, if you succeed with the dock activity or the goblin raid, there may be certain items I can offer as a reward. Keep an eye out for any oddities during your investigation. They could lead us straight to what we need!
+[lady_veridian]: Ah, an offer well made. I'm indeed in search of a few rare artifacts: a crystal vial from the Luminous Caves, a piece of obsidian from the Shadow Mountains, and a peculiar feather said to belong to the elusive Snowwing bird. These items are crucial for my business ventures and would fetch a good price. Would you be willing to undertake such a quest?

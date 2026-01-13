@@ -1,14 +1,14 @@
 [location trigger] The players enter the tavern and notice a mysterious figure in the corner.
 [npc trigger] The Dark Figure looks up from the shadows and acknowledges the players with a mysterious gaze.
 [player]: Greetings, traveler. This is quite an unusual atmosphere in here tonight.
-[dark_figure]: Indeed, the air does seem thick with intrigue. Have you come across any peculiarities today that others might miss?
+[dark_figure]: Indeed, stranger. The air does seem thicker with tension than usual. What brings you to the Rusty Anchor on such a night?
 [player]: You have the bearing of someone who has seen many things. I'm curious about the stories you might know.
-[dark_figure]: Ah, tales are like shadows—easily cast but hard to pin down. Do tell me, what kind of story piques your interest tonight?
+[dark_figure]: The past is but a whisper in these old walls, yet I've heard tales of times long past and futures foretold. What tale would you like to hear tonight?
 [player]: The eternal winter weighs heavily on all of us. You seem like someone who understands things beyond the surface.
-[dark_figure]: The weight of ice is but one symptom of deeper currents stirring in the fabric of our world. Many seek understanding in these times, yet few find it easily. What drives your curiosity tonight?
+[dark_figure]: The frost does indeed cloak more than just the land, doesn't it? Many secrets lie hidden beneath its grip. Share with me your concerns, and perhaps together we can uncover a fragment of truth.
 [player]: I sense great wisdom in you. May I ask how long you've been observing this town?
-[dark_figure]: Centuries have passed since my last count, and much has changed... and some things remain the same. The people of this town are resilient, though their spirits are often tested. What brings you to seek the weight of my years?
+[dark_figure]: *Leaning forward slightly, eyes glinting with an ancient light* I have watched these shores for ages, stranger. The passage of time leaves its mark, and the stories it weaves are as old as the mountains themselves.
 [player]: Your presence here feels... significant. I wonder if you might share some of the deeper truths you've witnessed.
-[dark_figure]: The depths of truth are not easily reached by all. Yet, if you prove worthy, perhaps a glimpse shall be granted. What question burns in your heart tonight?
+[dark_figure]: The shadows have much to teach those who listen. Speak your heart, traveler, and perhaps I shall reveal a piece of the tapestry that has unfurled before my eyes for eons.
 [player]: I've been trying to understand the nature of this endless cold. Someone with your knowledge might have insights into what's really happening.
-[dark_figure]: The eternal winter is but a symptom, a whisper from the ancient realms. To truly know its source, one must delve into forgotten lore and silent prayers. What do you seek, traveler?
+[dark_figure]: The frost whispers secrets in the silence, stranger. Have you ever felt it stir, sensing a presence beyond the natural world? Many believe the eternal winter is but a symptom, a mere echo of something far more profound awakening beneath the earth.

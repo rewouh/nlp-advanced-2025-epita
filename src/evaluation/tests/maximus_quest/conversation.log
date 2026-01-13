@@ -1,21 +1,18 @@
 [location trigger] I enter the arena
 [npc trigger] I approach Maximus Bloodsand
 [player]: Champion Maximus! Your legendary victories in the arena are known throughout the land.
-[maximus_bloodsand]: *Rumbles with a deep voice* Ah, another who knows of my deeds. I've fought too many battles to count, each one bringing me closer to freedom.
+[maximus_bloodsand]: Ah, fame is a fickle thing. What brings you to me tonight, stranger? Need an old warrior's wisdom or perhaps a fight?
 [player]: I've come to learn from the greatest gladiator. Your combat prowess is unmatched.
-[maximus_bloodsand]: *Grins, revealing missing teeth* I'm not here for teaching, stranger. But if you prove yourself, maybe I'll share a trick or two. Come back after you've earned it.
+[maximus_bloodsand]: Glory means little in this arena. But if you seek to learn, then listen well. The key to survival is not just strength but strategy and deception. Would you like to see a demonstration?
 [player]: I've heard you know secret fighting techniques from the Eastern Kingdoms. Would you teach them to me?
-[maximus_bloodsand]: *huffs* Secrets are hard-won and harder to give away. Prove yourself, and I might consider sharing a few of my tricks. But don't think for a moment that this will be easy.
+[maximus_bloodsand]: The secrets of the East are hard-won, stranger. Teachings like those are reserved for only the most trusted allies. Prove yourself worthy, and perhaps... just perhaps, I'll consider it. But remember, knowledge such as this can be a double-edged sword.
 [player]: I'm seeking a challenge worthy of my skills. Do you have any arena trials for me?
-[maximus_bloodsand]: *Eyeing the player with suspicion* Trials are not given—they're earned through blood and sweat. Tonight, there's an illegal fight in the underground level. Speak to the Blood Circle; they'll test you like no other. But remember, failure means death.
+[maximus_bloodsand]: The arena always has new challenges, but the best fights are often against those who know your weaknesses. Prepare yourself, for tonight I will test you with a foe that matches your strength and cunning. Follow me.
 [player]: Tell me about the arena's secrets. I've heard there are hidden levels beneath.
-[maximus_bloodsand]: *Leans forward, eyes narrowing* The arena has its shadows, as deep and dark as a warrior's heart. Beneath the surface, in the depths where light fears to tread, lies a place forbidden to most. There's an underground level, accessed through a hidden door behind the announcer's booth. Legends say it's used for illegal fights, where prisoners and slaves fight to the death in the name of sport or spectacle. Some speak of dark rituals held there too—rituals that honor the Old Gods of War.
-
-But know this: only those who truly understand the cost of blood walk its hidden passages. *Grumbles softly* And even then, not all survive to tell their tale.
-*I pause, watching you closely* If you wish to see for yourself, you'll need a guide trusted by the Blood Circle. Be wary, for such places are not for the faint of heart or soul.
+[maximus_bloodsand]: *Eye narrowing* The arena has its shadows, yes. There is an underground level, but it's not for the faint of heart. It's where prisoners and slaves fight to the death in illegal bouts. And then... there are darker rituals conducted by a secret society known as the Blood Circle. They spill blood to honor the Old Gods of War. You should tread carefully if you wish to know more about such things.
 [player]: What quests or challenges can the arena offer to prove my worth in combat?
-[maximus_bloodsand]: The arena offers various trials for those who seek proof of their mettle. Tonight, there's a special challenge: an illegal fight in the underground level. It’s a place where prisoners and slaves fight to the death, but it also hosts dark rituals that honor the Old Gods of War.
+[maximus_bloodsand]: The arena offers various trials, but they are all designed to test your mettle against different foes and situations. Tonight, I'll introduce you to a new opponent: a gladiator known for their speed and agility. We will fight under the lights, and this time, no one will call for mercy.
 
-Alternatively, you could take on one of the arena's champions in a match. Defeating them would prove your skills beyond doubt. The Iron Vanguard is recruiting mercenaries for a dangerous mission; perhaps they have trials within their ranks as well.
+But remember, there's more to proving yourself here. You can also participate in special events like the Night Fighter tournament, where you battle against opponents who can only be seen by their shadowy forms. Or perhaps you could join a group of gladiators on a mission to capture a rival arena's champion as a prestige match.
 
-Choose wisely, for each path is fraught with peril and the chance to earn glory—or meet a grim end.
+Which challenge do you think suits your skills best?

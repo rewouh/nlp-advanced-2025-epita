@@ -1,24 +1,20 @@
 [location trigger] The players spot Pip in the busy market district.
 [npc trigger] Pip Quickfingers notices the visitors and approaches with a cheeky grin.
 [player]: Hey Pip! You look like someone who knows their way around these streets.
-[pip_quickfingers]: Ah, hello there! I do try to keep a weather eye open. How can I help you tonight?
+[pip_quickfingers]: Ah, hello there! I've seen more than a few sights in these parts. What brings you to the Rusty Anchor tonight? Need any tips on navigating the city?
 [player]: Here, take this coin. You've got to be hungry. Get yourself something warm to eat.
-[pip_quickfingers]: *Puts the coin in your pocket, feeling its weight.* Thank you, but I'm good for now. So, what's on your mind? Anything new stirring up trouble around here?
+[pip_quickfingers]: *Accepts the coin with a grateful nod.* Thanks for the meal, I could use it. So, you seem like someone who knows what's going on around here. Care to share any juicy gossip?
 [player]: A clever kid like you must see and hear everything that happens in this city.
-[pip_quickfingers]: Indeed, I keep my ears to the ground and my eyes sharp. Heard tell of a few shady dealings, but nothing concrete yet. Careful what you ask of me though; some secrets are best left buried.
+[pip_quickfingers]: Indeed, I've learned to keep my ears open and eyes sharp. Got any specific questions or leads you're following? Maybe I can help piece together the puzzle.
 [player]: I bet you know shortcuts and secrets that even the guards don't know about.
-[pip_quickfingers]: Well now, that's quite the claim! I've got my fair share of tricks up my sleeve. Want to hear about a secret passage or two? But remember, knowledge is power, and not everyone should wield it equally.
+[pip_quickfingers]: Ah, always looking for a shortcut, huh? Well, I do have my fair share of hidden paths and secret routes. But remember, not all who wander are lost; some just have better maps. What's your end game tonight? Need to get somewhere fast or just curious?
 [player]: I'm looking for information about secret passages in the city. Can you show me the hidden routes?
-[pip_quickfingers]: Sure thing! I can tell you about some of them, but showing you in person might be a bit tricky. For now, let's stick to whispers and shadows. Which area are you most curious about?
+[pip_quickfingers]: Sure thing! I can give you a quick rundown of the key passages, but remember, discretion is crucial. First up, there's the tunnel from the old bakery to the docks—it’s perfect for getting around without drawing too much attention. And then there's the smuggler's route through the sewer grates near market square; it's a bit dodgier, but handy if you need to move quickly and quietly.
 
-*Whispers softly* The tunnel from the old bakery to the docks is handy for quick escapes, and there’s also a hidden stairway behind the fountain that leads straight to the noble district. They don’t know it yet, but it could come in very useful.
-
-What do you think?
+Which one are you thinking of using? Or do you want me to take you on a quick tour?
 [player]: What about criminal activities? I've heard the Thieves Guild is planning something. What have you overheard?
-[pip_quickfingers]: Hmm, now that's a sensitive subject. Overhearing things can get you into trouble if not handled carefully. But let's say... the Thieves Guild has plans for the next full moon. They're targeting the merchant guild vaults. Careful who you trust with that kind of info though.
+[pip_quickfingers]: Ah, the Thieves Guild... They're not exactly known for their transparency, but from what I've picked up, they're planning some big heist next full moon. Rumor has it they're targeting the merchant guild vaults. Best keep an eye on your valuables for a while. Not that you'd want to get involved in their schemes, right?
 [player]: Tell me about the secret passages and the things people think nobody notices.
-[pip_quickfingers]: Ah, the hidden routes are like veins in a city's body. The tunnel from the old bakery to the docks is perfect for slipping past the guards unnoticed. Just follow the shadow of the night, and you'll find your way. And then there’s the smuggler's route through the sewer grates near market square—useful if you want to avoid both daylight and prying eyes.
+[pip_quickfingers]: Sure thing! In this city, there are always those who find ways to slip through the cracks. The tunnel from the old bakery leads straight to the docks, a perfect spot for anyone needing a discreet exit or entry. And then there's the smuggler's route through the sewer grates near market square—it’s a bit more treacherous, but it gets you where you need to go without drawing too much attention.
 
-People think they see everything, but sometimes, it’s the small details they miss. Like how the cobblestones in front of the old clock tower shift just so when someone steps on them, revealing a hidden entrance. Or how the fountain outside the blacksmith's shop hides a set of stairs leading up to an abandoned storeroom.
-
-Knowledge is power, and with it comes responsibility. Share wisely.
+People often think that guards and officials are everywhere, but they can be quite predictable in their patrols. That’s why knowing these secret routes is invaluable—especially for those looking to avoid trouble or simply wanting an unexpected escape route. Trust me, there's always a way if you know where to look.
