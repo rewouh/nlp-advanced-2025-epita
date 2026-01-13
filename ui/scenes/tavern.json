@@ -1,0 +1,17 @@
+{
+  "background": "/static/tavern-bg.png",
+  "people": {
+    "joe": {
+      "image": "/static/joe.png",
+      "x": "40%",
+      "y": "-10%",
+      "width": "380px"
+    },
+    "stranger": {
+      "image": "/static/stranger.png",
+      "x": "75%",
+      "y": "18%",
+      "width": "200px"
+    }
+  }
+}
