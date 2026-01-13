@@ -48,6 +48,10 @@ class NPCDefinition(BaseModel):
     secrets: str = Field(
         default="", description="Secret information the NPC knows but may not share"
     )
+    voice_gender: Optional[str] = Field(
+        default=None,
+        description="Voice gender: 'male', 'female', or None for auto-detect from name/archetype"
+    )
 
 
 class Location(BaseModel):

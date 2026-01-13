@@ -46,6 +46,7 @@ npcs:
     location: "rusty_anchor"
     backstory: "A former sailor who lost his crew to a sea monster twenty years ago. Now runs The Rusty Anchor tavern to gather information about the creature's whereabouts."
     secrets: "Knows the location of a hidden treasure map in the tavern cellar. Also knows about the secret smuggling tunnel to the docks."
+    voice_gender: "male"
 
   - id: "dark_figure"
     name: "The Stranger"
@@ -54,6 +55,7 @@ npcs:
     location: "rusty_anchor"
     backstory: "An ageless being who has watched civilizations rise and fall. Appears in times of great change."
     secrets: "The eternal winter is a symptom of an ancient god stirring in its sleep."
+    voice_gender: "male"
 
   - id: "captain_hilda"
     name: "Captain Hilda Ironforge"
@@ -62,6 +64,7 @@ npcs:
     location: "guard_barracks"
     backstory: "A veteran of the Frost Giant wars who now leads the town guard. Lost her left eye in battle but gained the respect of her soldiers."
     secrets: "Suspects the mayor is secretly negotiating with the Frost Giants."
+    voice_gender: "female"
 
 locations:
   - id: "rusty_anchor"
