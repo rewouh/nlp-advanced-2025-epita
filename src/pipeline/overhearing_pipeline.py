@@ -144,6 +144,8 @@ class OverhearingPipeline:
         self._is_speaking_lock = threading.Lock()
         self._is_speaking = False
         
+        self._last_npc_speech_end_time = 0.0
+        
         # Track last active NPC for context-aware trigger detection
         self._last_active_npc: Optional[str] = None
         
@@ -203,10 +205,14 @@ class OverhearingPipeline:
             if audio_chunk is None:
                 continue
             
-            # Check if NPC is speaking - if so, skip this utterance (it's likely the NPC's voice)
             with self._is_speaking_lock:
                 if self._is_speaking:
-                    logger.debug("Skipping utterance while NPC is speaking")
+                    logger.debug("Skipping: NPC is speaking")
+                    continue
+                
+                time_since_speech = time.time() - self._last_npc_speech_end_time
+                if time_since_speech < 1.5:
+                    logger.debug(f"Skipping: Audio Echo Cooldown ({time_since_speech:.2f}s < 1.5s)")
                     continue
             
             try:
@@ -286,12 +292,21 @@ class OverhearingPipeline:
                 if context_changes:
                     logger.info(f"Context changes detected: {context_changes}")
                     
-                    # === FIX: Si le lieu change, on coupe immédiatement la conversation en cours ===
                     if "location" in context_changes:
-                        logger.info("Scene change detected -> Cutting off previous NPC context")
-                        self.trigger_detector.reset_state()  # On oublie le NPC précédent !
+                        new_location_id = context_changes["location"]
+                        logger.info(f"Scene change detected ({new_location_id}) -> Resetting context")
+                        
+                        self.trigger_detector.reset_state()
                         self._last_active_npc = None
-                    # ==============================================================================
+                        
+                        npcs_added = []
+                        for npc in self.world.npcs:
+                            if npc.location == new_location_id:
+                                self.context_manager.add_npc_to_scene(npc.id)
+                                npcs_added.append(npc.id)
+                        
+                        if npcs_added:
+                            logger.info(f"Populating scene with locals: {npcs_added}")
                     
                     self.context_manager.apply_detected_changes(context_changes)
                 
@@ -450,9 +465,9 @@ class OverhearingPipeline:
                     # Update trigger detector state: NPC just spoke, set active window
                     self.trigger_detector.update_state_after_speech(npc_id)
                 finally:
-                    # Re-enable listening after NPC finishes speaking
                     with self._is_speaking_lock:
                         self._is_speaking = False
+                        self._last_npc_speech_end_time = time.time()
                     logger.debug("Listening re-enabled after NPC finished speaking")
             else:
                 logger.info(f"{npc_id}: {response}")

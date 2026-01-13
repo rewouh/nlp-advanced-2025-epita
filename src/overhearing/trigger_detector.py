@@ -48,8 +48,8 @@ class TriggerDetector:
     
     # Patterns for direct NPC address
     DIRECT_ADDRESS_PATTERNS = [
-        r"\b(hey|hi|hello|greetings|excuse me|yo)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)",  # "Hey Joe" or "Hey Captain Hilda"
-        r"\b(hey|hi|hello|greetings|excuse me|yo)\s+(\w+)",  # "Hey joe" (fallback)
+        r"\b(hey|hi|hello|greetings|excuse me|yo)[,\.]?\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)",  # "Hey Joe" or "Hello, Captain Hilda"
+        r"\b(hey|hi|hello|greetings|excuse me|yo)[,\.]?\s+(\w+)",  # "Hey joe" or "Hello, joe" (fallback)
         r"\bI\s+(ask|talk to|speak to|approach)\s+(?:the\s+)?(\w+)",  # "I ask Joe"
         r"\b(?:the\s+)?([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)[,\s]+(can you|could you|do you|would you)",  # "Joe, can you" or "Captain Hilda, can you"
         r"\b(?:the\s+)?(\w+)[,\s]+(can you|could you|do you|would you)",  # "joe, can you" (fallback)
