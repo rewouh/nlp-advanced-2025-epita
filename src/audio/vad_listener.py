@@ -1,71 +1,30 @@
-"""
-Voice Activity Detection (VAD) Listener with Hysteresis.
-
-This module implements continuous audio listening with intelligent voice activity
-detection using a dual-threshold (hysteresis) approach. The "Heavy Door" concept
-uses a high threshold to start recording (filtering background noise) and a low
-threshold to maintain recording (capturing soft endings like "please").
-
-The hysteresis approach prevents premature cutting of phrases while still filtering
-out background noise. This is critical for natural conversation flow in RPGs
-where players may pause, hesitate, or speak softly at the end of sentences.
-
-Key features:
-- Dual-threshold VAD (start_threshold, end_threshold)
-- Pre-speech and post-speech buffering
-- Minimum silence duration before ending utterance
-- Amplitude filtering to reject quiet noise
-- Thread-safe audio buffering
-- Real-time audio processing with Silero VAD model
-
-The VADListener continuously monitors microphone input, detects speech segments,
-and queues complete utterances for downstream processing (STT transcription).
-
-Usage:
-    listener = VADListener(
-        start_threshold=0.55,
-        end_threshold=0.20,
-        min_silence_duration=1.0
-    )
-    listener.start()
-    audio_chunk = listener.get_utterance(timeout=1.0)
-"""
-
 import logging
 import queue
 import threading
 import time
-from typing import Optional, Callable
-from dataclasses import dataclass
-from collections import deque
-
 import numpy as np
 import sounddevice as sd
 import torch
 
-logger = logging.getLogger(__name__)
+from typing import Optional, Callable
+from dataclasses import dataclass
+from collections import deque
 
+logger = logging.getLogger(__name__)
 
 @dataclass
 class AudioChunk:
-    """Container for an audio chunk with metadata."""
     audio: np.ndarray
     sample_rate: int
     timestamp: float
     is_speech: bool
 
-
 class AudioBuffer:
     """
     Thread-safe circular buffer for audio chunks.
-    
-    Maintains a sliding window of recent audio to capture complete utterances.
-    """
-    
+    """    
     def __init__(self, max_duration_seconds: float = 10.0, sample_rate: int = 16000):
         """
-        Initialize audio buffer.
-        
         Args:
             max_duration_seconds: Maximum duration to keep in buffer
             sample_rate: Audio sample rate
@@ -77,8 +36,6 @@ class AudioBuffer:
     
     def append(self, audio: np.ndarray):
         """
-        Add audio samples to buffer.
-        
         Args:
             audio: Audio samples to add
         """
@@ -87,8 +44,6 @@ class AudioBuffer:
     
     def get_all(self) -> np.ndarray:
         """
-        Get all buffered audio.
-        
         Returns:
             Concatenated audio array
         """
@@ -101,17 +56,6 @@ class AudioBuffer:
         """Clear the buffer."""
         with self._lock:
             self.buffer.clear()
-    
-    def get_duration(self) -> float:
-        """
-        Get current buffer duration in seconds.
-        
-        Returns:
-            Duration in seconds
-        """
-        with self._lock:
-            return len(self.buffer) / self.sample_rate
-
 
 class VADListener:
     """
@@ -159,7 +103,6 @@ class VADListener:
         self.callback = callback
         
         # Load Silero VAD model in raw probability mode (no iterator wrapper)
-        logger.info("Loading Silero VAD model (Raw Probability Mode)...")
         self.vad_model, _ = torch.hub.load(
             repo_or_dir='snakers4/silero-vad',
             model='silero_vad',
@@ -196,38 +139,31 @@ class VADListener:
         if status:
             logger.warning(f"Audio callback status: {status}")
         
-        # Convert to mono float32
         audio = indata[:, 0].copy().astype(np.float32)
         
         # Get raw probability from Silero (0.0 to 1.0)
         # Silero expects tensor [1, N]
         audio_tensor = torch.from_numpy(audio).unsqueeze(0)
         
-        # Disable gradient computation for speed
         with torch.no_grad():
             speech_prob = self.vad_model(audio_tensor, self.sample_rate).item()
         
         current_time = time.time()
         
-        # Hysteresis logic (The Heavy Door)
         is_speech_frame = False
         
         if not self.is_speaking:
-            # To OPEN the door, must exceed HIGH threshold (0.55)
             if speech_prob >= self.start_threshold:
                 is_speech_frame = True
         else:
-            # To KEEP the door open, just exceed LOW threshold (0.20)
             if speech_prob >= self.end_threshold:
                 is_speech_frame = True
         
-        # State management
         if is_speech_frame:
             if not self.is_speaking:
                 logger.debug(f"Speech started (Prob: {speech_prob:.2f})")
                 self.is_speaking = True
                 
-                # Add pre-buffer
                 pre = self.pre_buffer.get_all()
                 if len(pre) > 0:
                     self.current_utterance.append(pre)
@@ -239,7 +175,7 @@ class VADListener:
         else:
             # No speech detected on this chunk
             if self.is_speaking:
-                self.current_utterance.append(audio)  # Post-buffer dynamic
+                self.current_utterance.append(audio)
                 
                 # Check silence timeout
                 silence_duration = current_time - self.last_speech_time
@@ -259,19 +195,15 @@ class VADListener:
             self.is_speaking = False
             return
         
-        # Concatenate all chunks
         utterance_audio = np.concatenate(self.current_utterance)
         duration = len(utterance_audio) / self.sample_rate
         
-        # Filter: minimum duration
         if duration < self.min_speech_duration:
             logger.debug(f"Utterance too short: {duration:.2f}s")
             self.current_utterance = []
             self.is_speaking = False
             return
         
-        # Filter: amplitude (lowered to 0.1 because 0.4 is too high)
-        # 0.1 = 10% of max volume, sufficient to ignore breath
         audio_max = np.abs(utterance_audio).max()
         if audio_max < 0.1:
             logger.debug(f"Rejected quiet noise (max={audio_max:.2f})")
@@ -279,9 +211,8 @@ class VADListener:
             self.is_speaking = False
             return
         
-        logger.info(f"Utterance captured: {duration:.2f}s (max={audio_max:.2f})")
+        logger.debug(f"Utterance captured: {duration:.2f}s (max={audio_max:.2f})")
         
-        # Create audio chunk
         chunk = AudioChunk(
             audio=utterance_audio,
             sample_rate=self.sample_rate,
@@ -289,29 +220,23 @@ class VADListener:
             is_speech=True,
         )
         
-        # Send to queue
         self.utterance_queue.put(chunk)
         
-        # Call callback if provided
         if self.callback:
             try:
                 self.callback(utterance_audio, self.sample_rate)
             except Exception as e:
                 logger.error(f"Error in callback: {e}", exc_info=True)
         
-        # Reset state
         self.current_utterance = []
         self.is_speaking = False
     
     def start(self):
-        """Start continuous listening in background thread."""
         if self.is_running:
             logger.warning("VAD Listener already running")
             return
         
         self.is_running = True
-        
-        # Create input stream
         self.stream = sd.InputStream(
             channels=1,
             samplerate=self.sample_rate,
@@ -321,12 +246,8 @@ class VADListener:
         )
         
         self.stream.start()
-        logger.info(
-            f"VAD Started (Start>{self.start_threshold} | End>{self.end_threshold})"
-        )
     
     def stop(self):
-        """Stop continuous listening."""
         if not self.is_running:
             return
         
@@ -340,12 +261,8 @@ class VADListener:
         if self.current_utterance:
             self._process_utterance(time.time())
         
-        logger.info("VAD Stopped")
-    
     def get_utterance(self, timeout: Optional[float] = None) -> Optional[AudioChunk]:
         """
-        Get next utterance from queue.
-        
         Args:
             timeout: Optional timeout in seconds
             
@@ -356,21 +273,3 @@ class VADListener:
             return self.utterance_queue.get(timeout=timeout)
         except queue.Empty:
             return None
-    
-    def has_utterances(self) -> bool:
-        """Check if there are utterances in the queue."""
-        return not self.utterance_queue.empty()
-
-
-def create_vad_listener(callback: Optional[Callable] = None, **kwargs) -> VADListener:
-    """
-    Factory function to create VAD listener.
-    
-    Args:
-        callback: Optional callback function
-        **kwargs: Additional arguments for VADListener
-        
-    Returns:
-        VADListener instance
-    """
-    return VADListener(callback=callback, **kwargs)

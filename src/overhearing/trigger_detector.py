@@ -457,17 +457,3 @@ class TriggerDetector:
         
         # Fallback: return name
         return npc_name
-
-
-def create_trigger_detector(world_lore: Optional[WorldLore] = None) -> TriggerDetector:
-    """
-    Factory function to create trigger detector.
-    
-    Args:
-        world_lore: Optional world lore for NPC information
-        
-    Returns:
-        Configured TriggerDetector instance
-    """
-    return TriggerDetector(world_lore=world_lore)
-
