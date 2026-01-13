@@ -1,0 +1,12 @@
+scenario_id: "550e8400-e29b-41d4-a716-446655440000"
+npc_id: "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+trigger_sentence: "As you walk into the Willowrest's tavern, the atmosphere shifts. A grumpy old man comes up to you."
+
+unit_tests:
+  - kind: "info_given"
+    info: "There is a secret passage behind the bookshelf of Willowrest's library."
+
+vocals:
+  - "audio0.mp3"
+  - "audio1.mp3"
+  - "audio2.mp3"

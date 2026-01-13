@@ -5,11 +5,10 @@ __pycache__/
 *.so
 .Python
 *.egg-info/
-dist/
-build/
 
 # Virtual environments
 .venv/
+.env/
 venv/
 ENV/
 env/
@@ -39,10 +38,9 @@ overhearing.log
 sujet.txt
 debug_audio.py
 clean_code.py
-experiments/
+demo.py
 *.onnx
 
 # OS
 .DS_Store
 Thumbs.db
-demo.py
