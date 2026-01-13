@@ -1,18 +1,20 @@
 [location trigger] The players enter the Oracle's Cave, mystical energy filling the air.
 [npc trigger] Blind Seer Corvus turns his sightless eyes toward the visitors, somehow perceiving their presence.
 [player]: Seer Corvus, I come seeking your wisdom. Your reputation reaches far beyond this cave.
-[blind_seer_corvus]: Ah, a seeker of knowledge indeed. Step closer, let the shadows embrace us. What winds blow you to my ancient hearth tonight?
+[blind_seer_corvus]: Ah, a seeker of knowledge. The whispers of the wind guide you well. What visions do you seek today?
 [player]: They say you can see what others cannot. I respect the gift you possess.
-[blind_seer_corvus]: Indeed, the whispers of fate are but faint echoes in this world. Tell me, traveler, why do you seek insight into the unseen?
+[blind_seer_corvus]: Indeed, some call it a curse, but in these shadows, truths are revealed. Speak your heart, and perhaps I may lend an ear or two.
 [player]: I'm willing to listen carefully to whatever guidance you might offer, even if it comes in riddles.
-[blind_seer_corvus]: Then listen well. The winds of destiny blow fierce and unpredictable. Seek the heartwood of the ancient tree before the night's end, for there lies a truth that may guide your path. But beware, for not all who seek find what they desire.
+[blind_seer_corvus]: Then listen closely, for the wind whispers in enigmas. The Winter God stirs in the north, its breath cold and unforgiving. To appease it, a sacrifice must be made—though not of the kind one might first think. Seek what lies hidden beneath the frozen lakes; there you may find your answer.
 [player]: The eternal winter troubles us all. Your insight could illuminate the path forward.
-[blind_seer_corvus]: The Winter God stirs in its eternal slumber, and when it awakens, none can predict its will. Approach the ancient tree with a pure heart and a silent mind; your questions may be answered by the spirits that dwell within.
+[blind_seer_corvus]: The path is shrouded in mist, but a beacon does exist. Venture to the Ice Caverns, where the truth awaits. Beware the guardians of the deep freeze; they will test your resolve. Return with what you find, and I shall interpret the signs for thee.
 [player]: I seek to understand the deeper truth behind this frozen curse. What can you tell me about its true nature?
-[blind_seer_corvus]: The frost binds not just the land but the very souls of those who dare to challenge it. The Winter God is an entity shrouded in ancient magic, a force that balances the natural cycles of life and death. To appease it, one must understand the balance—find what is lost and return it to the world.
+[blind_seer_corvus]: The Winter God is more than just a force of nature; it is a being of ancient power, bound to the land by an oath long forgotten. Its essence is tied to the very soul of the north, and when that bond grows weak, as it does now, the god's influence waxes cold.
 
-Tell me, do you know the true name of the deity? For only through such knowledge can you truly begin your quest.
+To understand its true nature, you must delve into the heart of the Ice Caverns where the god's spirit resides. There, within the crystal chambers, lies the answer you seek. But beware, for the guardians are not mere beasts; they embody aspects of the god itself and will challenge your very sanity.
+
+Return with what you find, and I shall guide you through the cryptic riddles that may unravel this curse.
 [player]: If you know how we might end this suffering, I beg you to share your knowledge. I will heed whatever wisdom you offer.
-[blind_seer_corvus]: The path to appeasing the Winter God is fraught with peril and sacrifice. You must journey to the heart of the Frostlands where the ancient tree stands. There, in the presence of the deity's essence, you shall find a riddle that only your purest intentions can solve.
+[blind_seer_corvus]: The suffering comes from a balance lost, not fully grasped by mortal minds. To mend it, you must not only face the Winter God but also its counterpart—the Summer Spirit, long exiled and forgotten. Reunite them, and perhaps harmony can be restored.
 
-But remember, the frost binds not just the land but the hearts of those who seek to break its hold. Are you truly prepared to face what lies ahead?
+Take this talisman; it will guide you to the Summer Spirit's resting place. But beware, for the path is fraught with peril. Only by understanding both aspects fully can you hope to appease the Winter God.

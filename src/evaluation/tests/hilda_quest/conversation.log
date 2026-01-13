@@ -1,14 +1,16 @@
 [location trigger] The players arrive at the Iron Keep Barracks.
 [npc trigger] Captain Hilda Ironforge looks up from her tactical map and acknowledges the visitors.
 [player]: Captain Ironforge, I'm an experienced fighter and I'd like to offer my services.
-[captain_hilda]: Ah, good to see a veteran here. The Iron Vanguard is indeed in need of strong warriors for the upcoming mission. What's your name, and what kind of experience do you bring to the table?
+[captain_hilda]: With the rumors of goblin raids and the mysterious stranger at the docks, we could use your skills here in the keep. Can you train some of our new recruits?
 [player]: The town guard does important work. Is there anything I can do to assist?
-[captain_hilda]: I appreciate your offer. The guard barracks could always use an extra set of eyes. Have you noticed anything suspicious lately? We've had some restless nights with those strange noises from the lighthouse.
+[captain_hilda]: Of course, we always need extra sets of eyes and hands around these parts. You can start by helping with the training sessions for the new recruits. We've been a bit understaffed lately.
 [player]: I have combat experience and would be honored to help protect the citizens.
-[captain_hilda]: Very well, I'll add your name to the roster. Keep an eye on the training yard; we're running a drill tomorrow morning. And if you hear anything unusual, report it immediately. The lighthouse noises worry me, so stay alert.
+[captain_hilda]: Good to hear you're eager to contribute. Tonight, we'll begin your training alongside our recruits. The training yard is located behind these barracks. Follow me.
 [player]: Are there any dangerous areas that need patrolling or threats that need addressing?
-[captain_hilda]: The northern docks have been quieter lately, but the Frost Giants are known to prowl near the harbor. Stick close to the keep and report anything out of the ordinary. I'll assign you to patrol duty tonight; it's important we keep a watchful eye on our perimeter.
+[captain_hilda]: The lighthouse has been acting strange lately, and the Frost Giants are getting more restless. I'd suggest checking those out first. We've also received word of goblin raids on the northern farms; we should reinforce our patrols there as well. Would you like to lead a patrol tonight?
 [player]: If you have any missions related to town security, I'm ready to serve.
-[captain_hilda]: Very well, we appreciate your dedication. There is an ongoing concern about the lighthouse noises and potential threats from the north. Tonight, you'll be tasked with patrolling the area around the Rusty Anchor Tavern. Stay vigilant; it's crucial that we maintain a strong presence in case of any disturbances.
+[captain_hilda]: Very well. Tonight, you'll join me and another guard for a patrol around the lighthouse and the docks. The Frost Giants are growing bolder, and we need to stay vigilant. We leave in half an hour—make sure your gear is prepared.
+
+Also, keep an eye on the stranger at the docks; something about him doesn't sit right with me.
 [player]: What kind of support does the guard need right now? I'm prepared to take on challenging assignments.
-[captain_hilda]: The guard needs eyes and ears everywhere, especially given the recent unrest. We've had reports of strange noises coming from the lighthouse at night, which is concerning. Additionally, the Frost Giants have been more active in the northern reaches of the town. Tonight, you'll be patrolling around the Rusty Anchor Tavern to ensure nothing untoward happens while everyone is inside. Stay sharp; we need to keep this place safe.
+[captain_hilda]: Right now, we need a keen eye and a sturdy hand. The lighthouse has been making strange noises at night, and there are rumors of goblin raids in the north. We should also keep an eye on that stranger who arrived this morning—he's suspicious to me. Can you handle some reconnaissance and maybe help us gather more intel?

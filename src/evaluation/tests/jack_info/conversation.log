@@ -1,16 +1,14 @@
 [location trigger] I find the gambling den
 [npc trigger] I approach Lucky Jack
 [player]: Lucky Jack! I've heard you run the best games in town. The stakes here are legendary.
-[lucky_jack]: Ah, well, don't call me Lucky Jack if you're not ready to take a chance or two. What's your name, and what brings you to my table?
+[lucky_jack]: Ah, welcome to the Rusty Anchor. I do try my best. What kind of game have you come for tonight? High-stakes, perhaps?
 [player]: I appreciate an honest game of chance. You seem like a fair dealer.
-[lucky_jack]: Fair enough. I've seen better days, but the Rusty Anchor still deals honestly. So, what's on your mind? Need some cash in hand, or just looking for a good story to go with those chips?
+[lucky_jack]: Fair enough, but remember, in this game, as in life, there are always risks. Care to test your luck at the craps table? Or maybe you have a specific request?
 [player]: I bet you hear all sorts of interesting confessions when people are drinking and gambling.
-[lucky_jack]: Indeed, I do. The Rusty Anchor is a place where truths get spilt along with the ale. Careful what you wish to know; some secrets are best left buried in the sand.
+[lucky_jack]: Indeed, I do. The Rusty Anchor is where whispers turn into truths and secrets spill like cheap wine. But not everyone comes here for the truth; some come to buy it. What's on your mind?
 [player]: I'm looking to collect on some debts, or maybe help those in financial trouble.
-[lucky_jack]: Well, I've heard whispers of a few folks in need. The blacksmith Magnus owes quite a bit to the Crimson Hand, and Lady Veridian is deep in Viktor Bloodworth's debt. But be careful; dealing with the underworld can get messy real fast. You sure you want to dive into that?
+[lucky_jack]: Interesting. With my ears as sharp as a cat's, I've heard whispers of debts and troubles around town. Perhaps we can find something... profitable. What do you need to know first?
 [player]: Tell me, who in this town is in serious debt to dangerous people? I might be able to help settle matters.
-[lucky_jack]: Ah, well, it's a bit of a mix, but let me lay it out for you. The blacksmith Magnus owes 5000 gold to the Crimson Hand crime syndicate, and Lady Veridian is in over her head with Viktor Bloodworth for 10,000 gold. The mayor's son has an outstanding debt of 3000 gold to the Thieves Guild from some bad bets he couldn't cover.
-
-Now, helping settle these debts could get tricky—dangerous even. You need to be prepared for whatever comes your way. Trust me, I know a few things that might help you out if you decide to take on this... challenge.
+[lucky_jack]: Ah, a curious cat indeed. Magnus the blacksmith owes quite a sum to the Crimson Hand, and Lady Veridian has Viktor Bloodworth breathing down her neck for 10,000 gold. Not exactly the easiest folks to deal with, but I suppose if you're looking to make a move, now's as good a time as any. Careful though—those kinds of debts often come with strings attached.
 [player]: What secrets have you heard at your tables? Sometimes the truth comes out over cards and dice.
-[lucky_jack]: *Sighs deeply, leaning in close as if sharing a secret.* Alright, alright. Let's say I've heard things about Guard Captain Blackwood taking bribes from smugglers and a merchant named Elara who’s been burning her own warehouse to claim insurance money. Keep those under your hat, though; that kind of talk can get you into more trouble than you bargained for.
+[lucky_jack]: Well, well, you seem eager for more gossip, don't you? I've heard a few juicy tidbits. Guard Captain Blackwood takes bribes from smugglers, and a merchant named Thaddeus admitted to burning down his own warehouse for an insurance payout. But remember, the truth is like a wild animal—it doesn’t stay still long enough to capture. Careful what you do with that knowledge, or it might just come back to bite you.

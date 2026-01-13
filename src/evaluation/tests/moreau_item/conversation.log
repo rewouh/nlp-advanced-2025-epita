@@ -1,10 +1,10 @@
 [location trigger] I enter the quarantine ward
 [npc trigger] I approach Dr. Moreau
 [player]: Hello Dr. Moreau, I've heard about your incredible work treating the frost plague.
-[dr_moreau]: Ah, thank you for your kind words. The frost plague is a formidable foe, and each patient is a challenge to treat. How can I assist you today?
+[dr_moreau]: Ah, thank you for your kind words. The frost plague... it's a formidable foe. How can I assist you today?
 [player]: The town is lucky to have someone so dedicated to helping the sick. How are your patients doing?
-[dr_moreau]: The progress is slow but steady. Each day brings new challenges, as with this latest case of frost plague. It's a relentless disease, one that demands constant vigilance and innovation in treatment. Thank you for your interest; it means a great deal to hear such words from outside the walls.
+[dr_moreau]: They are improving, but the road to recovery is long and fraught with challenges. Many still suffer. If there's anything you can do to aid them, please let me know.
 [player]: I'm concerned about the frost plague. Is there anything that can protect someone from catching it?
-[dr_moreau]: The frost plague is indeed concerning, and prevention remains challenging. However, there are measures one can take to reduce the risk of infection. A warm cloak and a mixture of antifreeze herbs can offer some protection during outbreaks. I keep such remedies in my practice; perhaps you could use them wisely?
+[dr_moreau]: The frost plague spreads quickly through contact or inhalation of the spores. Prevention is indeed challenging, but avoiding close contact with infected individuals and using protective gear like masks and gloves can help. I have some basic supplies on hand; perhaps they could provide some temporary relief.
 [player]: I'd be grateful if you could provide me with some of your cure, in case I encounter the plague.
-[dr_moreau]: I understand your concern, but the frost plague cure is a precious resource. It's given only to those who prove they can administer it responsibly and effectively. Can you assure me that you will use it wisely? Show me that you are prepared to save lives, not just yourself.
+[dr_moreau]: The frost plague cure is a precious resource, but I will consider sharing it with those who can truly use it to save lives. Can you assure me that you would employ it wisely and not hoard it for personal gain?

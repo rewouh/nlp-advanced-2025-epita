@@ -1,18 +1,20 @@
 [location trigger] The players enter the Temple of Stars, a serene atmosphere enveloping them.
 [npc trigger] Sister Elara looks up from her ancient tome and welcomes the visitors with a gentle smile.
 [player]: Sister Elara, thank you for allowing us into this beautiful temple.
-[sister_elara]: You're welcome, traveler. The temple of stars is a sacred place indeed. What brings you here today?
+[sister_elara]: You're welcome, pilgrim. The temple is a sanctuary of light and wisdom. What brings you here tonight?
 [player]: I can see you've dedicated your life to studying these ancient texts. Your knowledge must be vast.
-[sister_elara]: Indeed, the scriptures hold many secrets and prophecies that guide us in our path. May I assist you with anything specific today?
+[sister_elara]: Indeed, the scriptures hold many secrets and histories. They whisper tales of old, guiding us through the darkness. Do you seek enlightenment on a specific matter?
 [player]: The eternal winter has brought so much suffering. Do you ever find hope in your studies?
-[sister_elara]: In these dark times, it is my duty to seek out light wherever it may be found. Hope resides not just in the pages of our texts but also in the hearts of those who strive for goodness and truth. Have you come across any signs or omens that might give us hope?
+[sister_elara]: Hope is a flame that flickers even in the coldest night, pilgrim. In my studies, I have found glimpses of a brighter future. The scriptures speak of a prophecy involving the Frozen Heart Crystal, which might hold the key to ending the eternal winter. However, it is a perilous journey we must undertake to find it.
 [player]: Your wisdom and patience are admirable. Many would have given up seeking answers by now.
-[sister_elara]: Thank you, traveler. The path to knowledge is long but necessary. It brings me comfort to know there are those who seek understanding in these troubled times. What can I share with you today that might aid your journey?
+[sister_elara]: Thank you for your kind words, pilgrim. The path may be long and fraught with danger, but every step brings us closer to the light. If you feel called to seek the Frozen Heart Crystal, know that I will guide you with all my knowledge and prayers.
 [player]: I'm trying to understand if there's any way to end this endless cold. What have you learned in your research?
-[sister_elara]: The eternal winter is indeed a dire matter, and our texts speak of ancient relics that hold the power to restore balance. One such relic, the Frozen Heart Crystal, is said to be able to break the ice that binds us. It is hidden deep within the Cursed Mountains, guarded by formidable creatures.
+[sister_elara]: The scriptures detail a prophecy about a crystal known as the Frozen Heart, said to possess the power to restore balance to our world. It is hidden deep within the Frostwielder's Caverns, guarded by ancient enchantments and fearsome creatures. To find it, one must gather six sacred relics scattered across the land—each holding a piece of its power.
 
-I must warn you, the journey will be perilous. Have you considered who might accompany you on this quest?
+Do you think you are ready to undertake such a quest?
 [player]: Are there any prophecies or ancient knowledge that might point to a solution? I would be grateful for any guidance you could share.
-[sister_elara]: The prophecies speak of a hero who shall arise in these times, wielding not just strength but wisdom and compassion. They mention the Frozen Heart Crystal, which must be retrieved from the Cursed Mountains. However, the path is fraught with peril.
+[sister_elara]: Indeed, there are many prophecies and ancient texts that speak of the Frozen Heart Crystal's journey through time. Among them is the tale of the Seven Stars, who were said to have journeyed far and wide, leaving behind clues in sacred places.
 
-I can guide you to hidden shrines scattered across the land. These places are imbued with ancient magic that might offer insight or aid on your journey. Would you like me to direct you to one of these shrines?
+One such place is the Shrine of the Moonlit Dawn, located near the Whispering Woods. It is said to hold a relic that will aid you on your path. If you are truly committed, I can guide you there, but be warned; the road is treacherous and fraught with peril.
+
+Do you wish to embark on this journey?

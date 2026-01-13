@@ -1,22 +1,24 @@
 [location trigger] I visit the exile manor
 [npc trigger] I approach Duchess Ashara
 [player]: Duchess Ashara, your exile from your homeland is a grave injustice.
-[duchess_ashara]: Indeed, it is an affront to both my dignity and the rightful legacy of House Ashara. But in exile, one must find new allies and bide their time wisely. What brings you to speak of such matters?
+[duchess_ashara]: Tsk. Justice? In this world, it's as elusive as the moonlight in these forest glades. I'm here to clear my name and reclaim what is rightfully mine. Your words do little to comfort me; they remind me of the truth that lies beyond these walls.
 [player]: Someone of your noble bearing doesn't deserve to live in isolation like this.
-[duchess_ashara]: The world has a way of reminding nobles that their status is fragile. Perhaps we can find common ground, or at least mutual benefit, through our shared plight. What do you propose?
+[duchess_ashara]: Isolation, you say? Perhaps it suits me better than the false king's court ever did. My presence here is a testament to my resolve and my need for caution. But that does not change the fact that I seek justice and vengeance. What can you offer me that would make me reconsider my position?
 [player]: I can see the pain in your eyes. I want to help restore your honor.
-[duchess_ashara]: Thank you for your sincerity, but remember, those who seek to help often become pawns in my game. What makes you think you're not just another piece on my board?
+[duchess_ashara]: Ah, well-intentioned words from a stranger. Yet, it is not merely my honor that needs restoration; it's an entire kingdom's truth. How do you propose to topple the false king and his loyalists? More importantly, how can you ensure I won't end up in this same exile again once you've succeeded?
 [player]: Tell me about your homeland and what truly happened. I want to understand the injustice you suffered.
-[duchess_ashara]: My homeland... a place of ancient forests, rolling hills, and proud castles. It was meant to be a realm where justice and nobility reigned supreme. But behind its grand facade lay deceit and betrayal.
+[duchess_ashara]: My homeland... it was a place of beauty and intrigue, shrouded by the dense forests and the ever-present whispers of magic. The true story is far from what history records—King Aldric VII, who sits upon the throne now, is not our rightful king at all. He's the bastard son of the former queen, sired by a court mage during her reign. That truth was concealed by the false king and his loyalists.
 
-King Aldric VII, the man who now sits on my throne, is not the true heir but a bastard son of the former queen's illicit affair with the court mage. The real prince, Cassius, was murdered on his eighteenth birthday by the spymaster himself—sent to silence any claim to the crown. It is a web of lies and shadows that I alone have uncovered.
+The real heir, Prince Cassius, was murdered on his eighteenth birthday by the spymaster. The crime went unpunished because the false king had control over the courts and the people's minds. My own father, Lord Rylar, was implicated in the conspiracy to keep me from claiming my birthright. It was a web of deceit spun so tightly that even those closest to me were ensnared.
 
-When the truth came to light, the king moved swiftly to silence all who might expose him. My family was among the first to fall. Exiled from our lands, we were left to rot in this forsaken manor, while he reigned as if he had a divine right to rule.
+The kingdom is now in turmoil, dependent on foreign banks and teetering on the brink of collapse. But fear not, I am not without allies—Prince Cassius' loyalists still exist, plotting from the shadows. They are waiting for a chance to bring down the false king and restore our rightful rule.
 [player]: What secrets do you know about the kingdom that exiled you? The truth should be revealed.
-[duchess_ashara]: The truth is a bitter pill to swallow, but it must be shared for justice to have any chance of prevailing. King Aldric VII's treasury is empty, relying on loans from foreign banks to keep his reign afloat. Meanwhile, the true heir, Prince Cassius, was murdered by the spymaster, ensuring that the false king could maintain control without challenge.
+[duchess_ashara]: The truth... it's like peeling back layers of a rotting onion, each layer more bitter than the last. You see, the royal treasury is empty, drained by years of extravagance and mismanagement under the false king. To keep the kingdom from collapsing entirely, we've been borrowing heavily from foreign banks, which now have their fingers in our financial pie. It's a precarious position at best.
 
-These secrets were uncovered through a series of clandestine investigations and sacrifices. I fear they are the reason for my exile—knowledge that cannot be silenced. Will you use them to help clear my name and reclaim what is rightfully ours?
+But there’s more. Prince Cassius, my brother—our true heir—was murdered on his eighteenth birthday by the spymaster, who was under the false king’s control. The murder was meant to silence him and secure the throne for Aldric VII. My father, Lord Rylar, was framed and exiled for this crime, though in truth, he had nothing to do with it.
+
+These secrets were kept hidden by the false king's lies and propaganda. Only now, as I sit here in exile, can I begin to piece together what truly happened. And when the time is right, they will be used to bring down the false king and reclaim our rightful throne.
 [player]: What can I do to help clear your name or assist in your cause for revenge?
-[duchess_ashara]: The path to justice is fraught with danger, but if you are truly committed to uncovering the truth, there are a few steps we could take. First, gather any information about the current state of the kingdom—its finances, military strength, and the loyalty of its people. Then, we need to find allies among those who remember the true prince or have been affected by the king's corruption.
+[duchess_ashara]: You have a noble heart, but be wary of those who might lead you astray. The path to justice is fraught with danger. If you truly wish to aid me, gather any information on the false king's misdeeds and the foreign bankers who now control our purse strings. Also, keep an eye out for signs of rebellion among Cassius' loyalists; they are your best hope in overturning this unjust reign.
 
-And if you're willing to risk your life for this cause, perhaps together we can infiltrate the court, gather more evidence, and expose the false king's lies to the world. Are you prepared for such peril?
+But remember, trust is a fragile thing. Only those I truly believe in can be trusted with my secrets.

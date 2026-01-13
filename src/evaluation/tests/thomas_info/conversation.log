@@ -1,18 +1,18 @@
 [location trigger] I go to the survivor camp
 [npc trigger] I approach Thomas the Survivor
 [player]: Thomas, your survival is remarkable. You're an inspiration to everyone.
-[thomas_survivor]: Thank you for the kind words. I just try to help where I can. We all have our roles in this world.
+[thomas_survivor]: Thank you for the kind words, but I just try to help where I can. We all need to pull together if we're going to make it through this.
 [player]: I'm grateful you're helping others survive and sharing your knowledge.
-[thomas_survivor]: It's important to pass on what we learn, even if it's just a little bit at a time. Together, we stand a better chance.
+[thomas_survivor]: I just want to do what I can. Sharing what little I know might save lives, after all. But be careful—knowledge comes with its own dangers.
 [player]: The frost plague has been devastating. I want to understand what really happened.
-[thomas_survivor]: I can see why you're curious. The truth is dark and twisted. It involves those strange figures with the silver masks and the black carriage... *pauses* I don't know if you're ready for that, but it's important to know the whole story.
+[thomas_survivor]: I understand your curiosity, but the truth is dangerous. What you saw and heard... it's better left buried. Focus on surviving, and maybe one day, we can uncover the truth together.
 [player]: You were there when it started. What did you see? Was the plague natural?
-[thomas_survivor]: The plague wasn't natural by any means. I saw three figures in silver masks spreading contaminated powder in the village well and grain stores at midnight. One of them dropped a medallion bearing the symbol of the Circle of Winter's Embrace cult. It was... unsettling to witness such deliberate acts of destruction.
+[thomas_survivor]: I saw something far worse than a natural outbreak. Three figures in silver masks appeared in the village at night, spreading a contaminated powder into the well and grain stores. One dropped a medallion with an eerie symbol before vanishing. I tracked them to an abandoned monastery where I found evidence of plague cultivation. It wasn't just nature's doing; someone wanted us to suffer.
 [player]: Did you see anyone suspicious before the outbreak? Anyone who might have caused it?
-[thomas_survivor]: Before the outbreak, I noticed strange figures arriving in a black carriage with no visible horses. They spoke in an ancient tongue and seemed to know exactly what they were doing. Their presence was... unsettling. It wasn't until later that I pieced together their connection to the plague.
+[thomas_survivor]: I didn’t see any strangers before, but the signs were there if I knew what to look for. The black carriage with no horses appeared two days before everything went downhill. It’s a strange coincidence that such an unusual vehicle showed up just as things started going wrong. But remember, seeing is one thing; proving it was intentional is another challenge entirely.
 [player]: Please tell me everything you remember. These details could help prevent another outbreak.
-[thomas_survivor]: I understand why you need every detail, but it's a heavy burden to bear—especially knowing what those figures did. Let me recount as best I can: There were three of them, dressed in silver masks that hid their faces. They arrived on the eve of the plague, speaking in an ancient language, and vanished after they spread the powder. One dropped a medallion with the symbol of the Circle of Winter's Embrace cult.
+[thomas_survivor]: I understand the urgency, but revealing too much could put us all in danger. What if those responsible find out? They might come after us again.
 
-Their carriage was black and mysterious, without any horses visible. The figures seemed to know exactly what they were doing, as if they had planned this for months. I tracked them to an abandoned monastery in the Frostpeak Mountains where I found evidence of plague cultivation chambers. The facility was well-equipped with ancient tools and containers filled with strange powders.
+However, I can share what I know without naming names or places. The key is to be cautious and look for patterns. The black carriage with no horses was a red flag. Keep your guard up and watch for anyone acting suspiciously. Also, be wary of any unusual deliveries or strange people asking questions about the village.
 
-Can you take my medallion? It might provide some insight into their cult. *hands over a small, metallic disc*
+If you need more details, consider speaking to others who were around when things started. They might remember something you missed.

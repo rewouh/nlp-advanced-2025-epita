@@ -1,20 +1,18 @@
 [location trigger] I enter the inn
 [npc trigger] I approach Agent Raven
 [player]: Good evening. You seem like a well-traveled merchant with connections across the land.
-[agent_raven]: Ah, a discerning eye. I've seen much of this world and know its secrets... for a price. What brings you to these parts?
+[agent_raven]: Ah, such astute observations. I have wandered far and wide, gathering knowledge as varied as the lands themselves. Might I be of assistance tonight?
 [player]: I'm always interested in hearing news from someone as worldly as yourself.
-[agent_raven]: Indeed, there's often value in information. But first, let me hear why you think I might have something of interest for you.
+[agent_raven]: Indeed, there's much to share, but first... what brings you to this inn at such a late hour? Perhaps we can make use of each other's presence for mutual benefit.
 [player]: I have coin to spend on valuable information. What can you tell me about the power dynamics in this town?
-[agent_raven]: Ah, a practical approach. The town is currently under the thumb of Lord Blackwood, but whispers suggest dissatisfaction among the lower classes. The Iron Vanguard is gaining momentum, and their mercenaries are always hungry for a fight. And don't forget the looming threat of goblin raids; it keeps folks on edge.
+[agent_raven]: Ah, a discerning buyer indeed. The power here is... nuanced. The Iron Vanguard holds sway over much of the local militia, but their grip is not without its cracks. The docks and markets are heavily influenced by outsiders—traders from the north and smugglers from the south. Each group has its own interests and alliances, creating a delicate balance. Would you like specifics on any particular faction or individual?
 [player]: I've heard whispers of a rebellion brewing. What are their specific plans and when will they strike?
-[agent_raven]: The rebels are indeed planning something, though specifics are hard to come by. They aim to strike during the Winter Festival, taking advantage of the crowd and the distraction from festivities. Scarlet Flame is leading the charge, targeting the armory and grain stores for a swift blow. Her forces number fifty well-trained fighters. The festival should provide plenty of cover for their operations.
-
-As for when... It's tonight. Keep your wits about you; preparations are already in motion.
+[agent_raven]: Ah, the rebels... always keeping things spicy. They're planning to strike during the Winter Festival, when the crowds will be thick and guards thinner. Specifically, they aim for the armory and grain stores; it's said Scarlet Flame herself is leading 50 fighters. But remember, knowledge like this can be a double-edged sword. Are you truly prepared to wield such information?
 [player]: What about the town guard? What are their weaknesses and vulnerabilities?
-[agent_raven]: The guards, as I've gathered, are rather predictable in their flaws. The night shift is woefully short-staffed—only twelve men instead of the required thirty. And the west gate's lock is broken, secured only by a chain that can be easily cut. But perhaps the most damning weakness is Lieutenant Moss; he's been seen more than once too tipsy to stand straight on duty.
+[agent_raven]: The guards... they have their flaws, as all men do. The night shift is woefully understaffed—only 12 guards instead of the required 30. And there's a particular weakness in the west gate; its lock is broken and secured with only a chain, making it an easy target if one knows where to look. Additionally, Lieutenant Moss, the second-in-command, has a well-known fondness for his wine, often leaving him less than fully alert during his shifts.
 
-Do you need me to elaborate further?
+Would you like more details on any of these points?
 [player]: I need to know about any rebel activities and the guard's vulnerabilities. Name your price.
-[agent_raven]: Ah, a straightforward approach. Very well. I'll share what I know for a modest fee—ten silver pieces should suffice. It includes detailed information on both the rebels' plans and the current state of the town's defenses.
+[agent_raven]: Ah, so direct... Very well. For this information, I expect a token gift, perhaps a rare coin or a trinket worth no less than 50 gold pieces. In return, you'll have a detailed account of the rebels' activities and an even deeper understanding of the guards' weaknesses.
 
-Do we have a deal?
+What say you?

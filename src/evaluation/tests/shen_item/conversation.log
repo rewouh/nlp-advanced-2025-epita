@@ -1,14 +1,14 @@
 [location trigger] I enter the tattoo parlor
 [npc trigger] I approach Inkmaster Shen
 [player]: Inkmaster Shen, your tattoo work is extraordinary. The symbols seem to come alive on skin.
-[inkmaster_shen]: Thank you for the kind words. Each symbol holds its own power and story. Would you like to learn more about them or perhaps consider a marking of your own?
+[inkmaster_shen]: Thank you for the compliment. Each tattoo holds more than just ink; it's a story, a protection, or a reminder. Would you like one that might help in these uncertain times?
 [player]: I've heard your magical inks grant special abilities. That's incredible craftsmanship.
-[inkmaster_shen]: Indeed, each ink is crafted with great care and imbued with ancient knowledge. However, the true power lies not just in the ink but in the wearer's intent and connection to the symbol. Would you like to explore a design that could serve you well?
+[inkmaster_shen]: Indeed, my inks are imbued with ancient magic. They can bestow blessings such as enhanced strength, agility, or even protection from harm. Would you like to explore what might be possible for you?
 [player]: You must see many people from all walks of life. I imagine you recognize certain... patterns or symbols.
-[inkmaster_shen]: Indeed, I have seen many faces and know the marks of those who walk a path less traveled. Such as the Obsidian Brotherhood's black dagger, the Circle of Embers' flame spiral, and the Silver Covenant's crescent moon. Have you encountered any of these markings in your travels?
+[inkmaster_shen]: Indeed, I have seen much and know the marks of those who walk a path less traveled. Some wear the Obsidian Brotherhood's black dagger, others the Circle of Embers' fiery sigil. But trust is earned, not given freely. What pattern do you wish to explore tonight?
 [player]: I'm interested in getting a tattoo that could help protect me on my journeys.
-[inkmaster_shen]: A wise choice for one who ventures forth. The Glacial Seal of Warmth or the Sunburst Ward might serve you well, offering both warmth and light against the darkness. Would you like to see their designs?
+[inkmaster_shen]: A wise choice for one who travels often. Consider the Glacial Seal of Warmth; it can ward off the chill and keep your path clear, much like the northern winds that temper the strongest of steel. Would you like to see how it would look?
 [player]: Have you noticed any secret society marks or unusual symbols on your clients? I'm researching such organizations.
-[inkmaster_shen]: The eyes of a master are always open to many things. Indeed, I have seen several intriguing symbols upon my clientele. However, discretion is key in our line of work. Would you like to explore the possibility of protection through tattoo, or perhaps consider a design that aligns with your interests?
+[inkmaster_shen]: The ink speaks in whispers only to those who listen. I have seen many, each with their own story etched upon them. But remember, every mark carries a price and comes with its own responsibilities. Are you prepared to bear the weight of what you might uncover?
 [player]: Could you provide me with some of your enchanted ink? I'd pay well for such a rare commodity.
-[inkmaster_shen]: The ink is not something to be traded lightly. It requires great respect and understanding to wield its power properly. Can you prove to me that you are worthy of such knowledge? Tell me, why do you seek this ink, and what do you hope to achieve with it?
+[inkmaster_shen]: My ink is not something to be bought or sold so easily. It is a gift given to those who seek wisdom and protection through art, not a mere trading good. What is it about these times that makes you seek such power in ink?

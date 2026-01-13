@@ -1,16 +1,14 @@
 [location trigger] I enter the collection office
 [npc trigger] I approach Viktor the Collector
 [player]: Viktor, you're known as a fair but thorough professional. I respect that about you.
-[viktor_the_collector]: Thank you for your words. Fairness is key in my dealings, though thoroughness can sometimes be mistaken for stubbornness. What brings you to the collection office tonight?
+[viktor_the_collector]: Thank you for the compliment. Fairness is important, but thoroughness ensures justice is served. How may I assist you today?
 [player]: Your knowledge of everyone's financial situation must be comprehensive.
-[viktor_the_collector]: Indeed, my ledger keeps track of many debts. It's a matter of maintaining order and ensuring justice is served. Care to know if any particular debt interests you?
+[viktor_the_collector]: Indeed, it is essential to have a clear understanding of one's clients' and debtors' standings. It allows me to maintain order and ensure that debts are settled promptly. Is there something specific you're curious about or in need of?
 [player]: I'm looking to invest in local businesses. I need to know who's truly solvent and who's failing.
-[viktor_the_collector]: I can provide that information, but it comes with a price. You'll need to cover my fees for such a detailed inquiry. Would you like me to start with a specific merchant or noble?
+[viktor_the_collector]: That sounds like a prudent approach. I can provide you with an overview of the financial health of various merchants, but it comes at a price—100 gold pieces for your investment report. Would you like to proceed?
 [player]: Which merchants are actually bankrupt but pretending otherwise? I don't want to invest in failures.
-[viktor_the_collector]: I understand your concern, but remember that information is power—and it has its cost. Merchant Torvin of the Silk Road Traders is indeed hiding his bankruptcy with fake invoices. He's a tricky one, always staying just ahead of creditors. Would you like me to look into others as well?
+[viktor_the_collector]: Understandable caution. However, revealing that information would compromise my integrity and could have serious repercussions. Perhaps you might consider the terms of our previous agreement for a more detailed report. Alternatively, if you trust me completely, perhaps we can come to another arrangement.
 [player]: What about the nobles? I've heard rumors that some are secretly poor despite appearances.
-[viktor_the_collector]: Baron Wintermere has sold all his family heirlooms and is now 20,000 gold in debt. Count Frostborn's estate is at risk; he's three months away from losing everything. These nobles are more complex than they appear on the surface. Would you like to know about any others? Each inquiry will require payment for my efforts.
+[viktor_the_collector]: The nobility is a delicate matter. Accusations without proof could be... detrimental. However, if you're willing to make a substantial investment, I might consider providing you with an overview of their financial situations. It would cost 200 gold pieces, as the information involves deeper inquiries and risks. Do you have any specific nobles in mind?
 [player]: Tell me about the financial situation of the merchants and nobles. Who's really in trouble?
-[viktor_the_collector]: Merchant Torvin of the Silk Road Traders is bankrupt but masking it with false invoices, making him a risky investment. Baron Wintermere has already sold off his family treasures to cover debts totaling 20,000 gold. Count Frostborn’s estate faces imminent peril; he's just three months away from losing everything due to mounting liabilities.
-
-Would you like me to look into any others? Each inquiry will come with a fee for my services.
+[viktor_the_collector]: I can offer you a general overview without specifics, but if you're willing to invest 300 gold pieces, I could provide you with detailed reports on the financial standings of the merchants and nobility you're interested in. Would that be agreeable?

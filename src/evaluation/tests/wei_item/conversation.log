@@ -1,18 +1,16 @@
 [location trigger] I visit the monastery ruins
 [npc trigger] I approach Master Wei
 [player]: Master Wei, I seek wisdom and inner peace. Your discipline is inspiring.
-[master_oakenheart]: Ah, a seeker of tranquility. While my heart lies with the sea and its crafts, perhaps in sharing tales of voyages and storms, one can find their own path to calm. Would you like to hear of a time when the waves were as still as your mind now?
+[master_oakenheart]: Ah, seeker of tranquility. Discipline in shipbuilding does bring order to the chaos of sea. What brings a land dweller like yourself to the docks?
 [player]: I wish to learn the ways of meditation and martial balance. Will you teach me?
-[master_oakenheart]: Meditation and martial arts are indeed noble pursuits, but they require a different kind of discipline than that found in shipbuilding. Still, I can share some insights if you're truly eager. Tell me more about what draws you to these paths.
+[master_oakenheart]: Meditation and martial arts, eh? Those are skills for the body and mind. While I know not much about them, perhaps we could find someone who can guide you better. The old monk at the temple might have what you seek.
 [player]: Have you had visions about ending the eternal winter? What did they reveal?
-[master_oakenheart]: *Sighs deeply, eyes distant as memories return* Visions are a tricky thing, especially for one like myself who is rooted in the tangible world of shipbuilding. Yet, tales speak of ancient seers who could glimpse the future through storms and stars. In my dreams, I see the sea as it once was, free from ice's grip, and ships sailing without hindrance. But these visions are ever fleeting, like mist on a windy day. They do not reveal much, only that change is coming, and we must be ready to face whatever comes our way.
-
-Do you seek such knowledge or wisdom in your own dreams?
+[master_oakenheart]: Eternal winter, you say? Visions of such matters are rare indeed. They came to me in dreams, whispering of a vessel forged from titanium and enchanted with the heart of a dragon. It was said this ship could break through ice as if it were paper. But such knowledge is best kept hidden, for not all eyes should see what lies beneath the waves.
 [player]: I've heard of ancient meditation techniques that grant visions. Can you teach me these practices?
-[master_oakenheart]: To teach the ways of vision and inner sight requires a deep, personal journey—far from my usual trade. However, if you are truly sincere, perhaps I can guide you through some exercises to calm your mind and focus your senses. First, we must find a quiet place away from the chaos of the docks. Would you be willing to follow such a path?
-[player]: The path to enlightenment calls to me. I'm ready to dedicate myself to your teachings.
-[master_oakenheart]: Very well, let us seek out a secluded spot where the whispers of the sea do not disturb our journey inward. Follow me to my workshop; it is there that we can begin your training in silence and reflection.
-[player]: Please, share your knowledge with me. I would be honored to receive one of your meditation scrolls.
-[master_oakenheart]: I value my teachings as precious as the blueprints for my finest ships. However, such knowledge requires a steadfast commitment and a true heart. Are you willing to dedicate yourself fully to this path? Prove to me that you are worthy by demonstrating your resolve in a task related to our shared purpose—preserving the traditions of shipbuilding or facing the challenges ahead.
+[master_oakenheart]: Meditation and inner vision are arts unto themselves, much like crafting a ship's hull from oak to pine. They require time and dedication. If you truly seek such wisdom, perhaps we should start with the basics—breathing exercises and mindfulness, if you will.
 
-If you can show me something meaningful, then I might consider sharing my scrolls with you. What will it be?
+Would you be willing to learn these simple techniques?
+[player]: The path to enlightenment calls to me. I'm ready to dedicate myself to your teachings.
+[master_oakenheart]: Very well, seeker. Let us begin our journey together then. First, we must clear your mind of all clutter—settle into a comfortable position and close your eyes. Take a deep breath in through your nose, hold it for a moment, and exhale slowly through your mouth. Repeat this three times.
+[player]: Please, share your knowledge with me. I would be honored to receive one of your meditation scrolls.
+[master_oakenheart]: Honor is a noble sentiment, but such teachings are sacred and not easily bestowed upon just any student. You must prove your worthiness through actions first. Show me what you have learned so far, and then we shall see if the stars align for you to learn my ways.

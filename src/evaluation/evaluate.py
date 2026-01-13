@@ -10,6 +10,7 @@ from pathlib import Path
 from colorama import Fore, Style
 from src.evaluation.statistics import plot_statistics
 from src.evaluation.schemas import *
+from transformers import AutoTokenizer
 
 
 from src.pipeline.overhearing_pipeline import OverhearingPipeline
@@ -24,6 +25,11 @@ FOLDER = Path(__file__).parent
 TESTS_FOLDER = FOLDER / "tests"
 
 TEST_CHECKER_MODEL = "qwen2.5:7b"
+
+TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-7B")
+
+def count_tokens(text: str) -> int:
+    return len(TOKENIZER.encode(text))
 
 def p(msg: str):
     print(f"{msg}{Style.RESET_ALL}{Style.NORMAL}")
@@ -195,6 +201,7 @@ def run_tests():
             
             test_failed = False
             active_conversation_npc = None
+            metrics = TestMetrics()
             
             if config.location_trigger_sentence:
                 p(f"{Fore.CYAN}processing location trigger: {config.location_trigger_sentence}")
@@ -233,7 +240,10 @@ def run_tests():
             if test_failed:
                 error("test aborted due to trigger detection failures")
                 passed = []
-                failed = config.unit_tests 
+                failed = config.unit_tests
+                
+                if metrics.num_responses > 0:
+                    metrics.avg_response_time_ms = metrics.total_response_time_ms / metrics.num_responses
                 
                 with open(test_folder / "conversation.log", "w") as f:
                     f.write("\n".join(whole_conversation))
@@ -251,7 +261,8 @@ def run_tests():
                 tests_results.append({
                     "test_config": config,
                     "passed": passed,
-                    "failed": failed
+                    "failed": failed,
+                    "metrics": metrics
                 })
                 continue
             
@@ -270,7 +281,6 @@ def run_tests():
                     npc_id = active_conversation_npc
                     p(f"{Fore.YELLOW}continuing conversation with {npc_id}")
                 else:
-                    # Only detect triggers if we're not already in a conversation
                     trigger_result = pipeline.trigger_detector.detect_trigger(
                         text,
                         active_npcs=context.active_npcs,
@@ -287,7 +297,31 @@ def run_tests():
                         warning(f"npc not triggered or not in scene. triggered: {trigger_result.triggered_npc}, active: {context.active_npcs}")
                         continue
                 
-                # Generate NPC response
+                orchestrator = pipeline.npc_pipeline._get_or_create_orchestrator(npc_id)
+                
+                from src.conversation import GlobalState
+                global_state = GlobalState(
+                    location=context.current_location or "unknown",
+                    time_of_day=context.time_of_day,
+                    scene_mood=context.scene_mood,
+                )
+                orchestrator.update_state(global_state)
+                
+                # Retrieve lore for accurate token counting
+                lore_context = pipeline.lore_manager.build_context_for_npc(
+                    query=text,
+                    npc_id=npc_id,
+                    n_results=3,
+                )
+                orchestrator.set_lore(lore_context)
+                
+                system_prompt = orchestrator._build_system_prompt()
+                
+                system_tokens = count_tokens(system_prompt)
+                input_tokens = count_tokens(text)
+                prompt_tokens = system_tokens + input_tokens
+                
+                start_time = time.time()
                 response = pipeline.npc_pipeline.activate_npc(
                     npc_id=npc_id,
                     player_input=text,
@@ -295,8 +329,26 @@ def run_tests():
                     time_of_day=context.time_of_day,
                     scene_mood=context.scene_mood,
                 )
+                response_time_ms = (time.time() - start_time) * 1000
+                
+                completion_tokens = count_tokens(response)
+                total_tokens = prompt_tokens + completion_tokens
+                
+                response_metrics = ResponseMetrics(
+                    response_time_ms=response_time_ms,
+                    prompt_tokens=prompt_tokens,
+                    completion_tokens=completion_tokens,
+                    total_tokens=total_tokens
+                )
+                metrics.responses.append(response_metrics)
+                metrics.total_response_time_ms += response_time_ms
+                metrics.total_prompt_tokens += prompt_tokens
+                metrics.total_completion_tokens += completion_tokens
+                metrics.total_tokens += total_tokens
+                metrics.num_responses += 1
                 
                 p(f"{Fore.MAGENTA}[{npc_id}]: {response}")
+                p(f"{Fore.CYAN}[response time: {response_time_ms:.2f}ms | tokens: {prompt_tokens} prompt + {completion_tokens} completion = {total_tokens} total]")
                 whole_conversation.append(f"[{npc_id}]: {response}")
                 
                 pipeline.context_manager.add_conversation_turn(
@@ -313,6 +365,9 @@ def run_tests():
             traceback.print_exc()
 
         passed, failed = check_tests(whole_conversation, config.unit_tests)
+        
+        if metrics.num_responses > 0:
+            metrics.avg_response_time_ms = metrics.total_response_time_ms / metrics.num_responses
 
         with open(test_folder / "conversation.log", "w") as f:
             f.write("\n".join(whole_conversation))
@@ -324,13 +379,28 @@ def run_tests():
             f.write(f"\nfailed tests ({len(failed)}):\n")
             for test in failed:
                 f.write(f"- {test.kind}\n")
+            f.write(f"total responses: {metrics.num_responses}\n")
+            f.write(f"average response time: {metrics.avg_response_time_ms:.2f}ms\n")
+            f.write(f"total response time: {metrics.total_response_time_ms:.2f}ms\n")
+            f.write(f"total prompt tokens: {metrics.total_prompt_tokens}\n")
+            f.write(f"total completion tokens: {metrics.total_completion_tokens}\n")
+            f.write(f"total tokens: {metrics.total_tokens}\n")
+            f.write(f"average tokens per response: {metrics.total_tokens / metrics.num_responses:.1f}\n")
 
         print_test_footer(passed, failed)
+        
+        p(f"\n{Fore.BLUE}{Style.BRIGHT}performance metrics:")
+        p(f"{Fore.CYAN}{'responses':<20} : {Fore.BLUE}{metrics.num_responses}")
+        p(f"{Fore.CYAN}{'avg response time':<20} : {Fore.BLUE}{metrics.avg_response_time_ms:.2f}ms")
+        p(f"{Fore.CYAN}{'total response time':<20} : {Fore.BLUE}{metrics.total_response_time_ms:.2f}ms")
+        p(f"{Fore.CYAN}{'total tokens':<20} : {Fore.BLUE}{metrics.total_tokens} ({metrics.total_prompt_tokens} prompt + {metrics.total_completion_tokens} completion)")
+        p(f"{Fore.CYAN}{'avg tokens/response':<20} : {Fore.BLUE}{metrics.total_tokens / metrics.num_responses:.1f}")
 
         tests_results.append({
             "test_config": config,
             "passed": passed,
-            "failed": failed
+            "failed": failed,
+            "metrics": metrics
         })
 
     p(f"\n{Fore.BLUE}plotting statistics...")

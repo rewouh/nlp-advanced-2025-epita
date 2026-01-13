@@ -1,18 +1,22 @@
 [location trigger] The players enter the Shrine of Memories, surrounded by historical artifacts.
 [npc trigger] Keeper Malachi greets the visitors warmly, eager to share his knowledge.
 [player]: Keeper Malachi, this shrine is incredible. You've preserved so much history here.
-[keeper_malachi]: Ah, greetings traveler. The memory of the past is indeed precious, and I am but a humble guardian of those memories. What brings you to the Memory Shrine tonight?
+[keeper_malachi]: Ah, greetings, traveler. Indeed, these walls hold stories from ages past. What brings you to the Memory Shrine tonight?
 [player]: Your dedication to maintaining these records is admirable. The past must not be forgotten.
-[keeper_malachi]: Indeed, it is my duty to ensure that history does not fade into obscurity. Do you seek any particular piece of knowledge or perhaps a story from long ago?
+[keeper_malachi]: Indeed, it is a sacred duty. But remember, those who forget the past are doomed to repeat its mistakes. What story do you seek to uncover tonight?
 [player]: I can see each artifact here has a story. You must know them all.
-[keeper_malachi]: Each relic whispers tales of days gone by, and I have listened to their murmurs for many years. What story do you find most compelling?
+[keeper_malachi]: Every relic whispers of times long gone. Do you have a particular tale that calls to you, or perhaps a question about the origins of these items?
 [player]: The Great Blizzard changed everything, but I feel like we've lost the full story over the years.
-[keeper_malachi]: Ah, the Great Blizzard is a tale shrouded in both trepidation and awe. Many have tried to forget its wrath, yet it remains etched in every stone of this land. Would you like to hear how it began, or perhaps the trials faced by those who survived? The full story is indeed vast and complex.
+[keeper_malachi]: The Great Blizzard was indeed a pivotal event. Many tales have faded with time, yet here in the Memory Shrine, some whisperings remain. Would you like to hear of the storm that shook the very foundations of our world?
 [player]: Someone with your knowledge must understand what truly happened. Would you share what you know about the beginning of the eternal winter?
-[keeper_malachi]: The Great Blizzard... It began with an unseasonable chill, a whisper of frost that crept into the heart of our land. Many believed it was but a fleeting cold snap, a minor inconvenience. But as days turned to weeks and weeks to months, the snow kept falling, heavier and more relentless than any winter before.
+[keeper_malachi]: The Great Blizzard, as it is known now, began with a simple warning from the north. A comet, believed by some to be a harbinger of doom, passed close to our world. Its passage was marked by strange lights and an eerie silence that chilled even the bravest hearts. From that night onward, the weather turned unpredictable, and frost lingered where warmth should have been.
 
-The first true sign of its severity came when the river froze solid, isolating villages from one another. Families huddled together, sharing what little warmth they could muster, unaware that this was merely the start. Can you imagine the terror when the sun itself seemed to wither in the sky, replaced by an endless twilight?
+As the days wore on, snow fell in unprecedented amounts, covering fields and forests alike. The first snowflakes of what would become the eternal winter began to fall on the fourth day after the comet's passage. It started as a light dusting but soon turned into a relentless storm that lasted for weeks without ceasing.
 
-The story is long and filled with countless acts of heroism and hardship. Would you like me to recount one of those stories, or do you seek a more detailed account?
+The people of our realm were unprepared for such an event, and many perished in the early days. Those who survived banded together, seeking shelter from the cold and hunger. The Great Blizzard tested the very resilience of our world, shaping it as much as it was shaped by those who endured.
+
+Would you like to hear more about those first days, or perhaps a specific aspect of the storm that interests you?
 [player]: Are there any historical secrets that have been forgotten by most? I'm eager to learn the complete truth.
-[keeper_malachi]: The Great Blizzard is indeed a tale filled with forgotten truths and hidden heroes. There are whispers of a prophecy that foretold its coming, yet many believe it was merely a myth. Do you wish to hear about those who foresaw the storm's approach? Or perhaps tales of those who resisted the encroaching ice, fighting against the very elements themselves?
+[keeper_malachi]: The Great Blizzard holds many secrets, traveler. Among them is the tale of the First King's last stand. He foresaw the coming winter and prepared for it as best he could, but his wisdom was not enough to save him from the storm's wrath. His crown, a symbol of power and duty, was lost in the chaos.
+
+Do you seek knowledge about this, or are there other facets of history that intrigue you?

@@ -1,10 +1,10 @@
 [location trigger] I go to the town square
 [npc trigger] I approach Tickles the Mad
 [player]: Your performances are brilliant! The way you satirize the nobles is both brave and hilarious.
-[tickles_the_jester]: *Nods appreciatively, a twinkle in my eye.* Thank you, kind stranger. My wit is but a blade to cut through the dullness of this world. So, what brings such a keen mind like yours to our humble town?
+[tickles_the_jester]: Why, thank you, kind stranger! It's not every day one finds an appreciative audience among the common folk. But remember, laughter is the best defense against tyranny—though I suppose that makes me the perfect jester for our little kingdom.
 [player]: You must see everything that happens in this square. I bet you know all the town's secrets.
-[tickles_the_jester]: Ah, so you think your sharp eyes are as observant as mine? *leans closer* Well, let me tell you a secret or two if you prove yourself worthy of hearing them. What have you done today to earn my trust?
+[tickles_the_jester]: Ah, a keen observer like yourself would surely see through my antics and suspect I've an eye on every nook and cranny! Indeed, I do have my ways of keeping tabs, though not all are for my amusement alone. What secret would you dare to ask of me tonight?
 [player]: I'm curious about what really goes on behind closed doors with our leaders. Have you seen anything unusual?
-[tickles_the_jester]: *raises an eyebrow, a mischievous glint in my eye.* Oh, I've seen enough to keep me entertained for many evenings. But secrets are like wild deer—they run faster when hunted. Tell me more about yourself, and maybe I'll share what the night whispers to the shadows.
+[tickles_the_jester]: *leans in closer, lowering voice* Well now, if I were to divulge all the secrets I've witnessed, it might just make for a rather long evening. However, I can tell you this—there's a whisper of corruption among the higher ranks. The mayor, for one, seems more interested in his own pockets than the well-being of our town. But enough talk, let’s find you a seat and perhaps we can discuss this over some ale?
 [player]: Tell me, have you noticed any strange meetings or suspicious activities from the officials?
-[tickles_the_jester]: *A smirk plays on my lips as I glance around cautiously.* Strange meetings indeed, but they're like shadows in a dark alley—hard to spot if you're not looking for them. Tell me, do you have eyes sharper than a cat's in the night? If so, let's see what you can uncover together.
+[tickles_the_jester]: *raises an eyebrow* Strange meetings? Ah, yes, I've seen a few. The mayor has been meeting with shady characters of late—smugglers and such. But remember, in this town, every shadow can cast doubt on your neighbor. Are you prepared to uncover the truth or will you let it slide, like so many secrets do?

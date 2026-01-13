@@ -1,18 +1,16 @@
 [location trigger] I approach the inquisition tower
 [npc trigger] I speak to Inquisitor Thorne
 [player]: Inquisitor Thorne, your work protecting us from dark magic is crucial for the town's safety.
-[inquisitor_thorne]: Indeed, it is a heavy burden, but one I must bear. Have any new leads come to light recently? The coven in the Whispering Woods remains as elusive as ever.
+[inquisitor_thorne]: Thank you, but we must always be vigilant. The shadows are not without their own light. Have you heard anything of late that concerns you?
 [player]: I share your concerns about witchcraft being behind the eternal winter.
-[inquisitor_thorne]: The chill of suspicion never leaves me. Every shadow, every rumor—none go unexamined. But it seems the cold may not be the only thing lurking in the shadows. Have you heard anything unusual from the northern farms?
+[inquisitor_thorne]: Indeed, the witch's hand is often involved in such dark deeds. But remember, not all who practice magic are evil. We must be careful not to judge too hastily. Have you any leads on this latest cold snap?
 [player]: If there are practitioners of dark magic in the area, we must root them out.
-[inquisitor_thorne]: Agreed. The Whispering Woods and those northern farms could very well harbor more than just whispers and goblins. Keep your eyes open, and let me know if anything suspicious arises. I fear it's a matter of when, not if, we'll face the coven again.
+[inquisitor_thorne]: I agree, but let us proceed with caution. There have been whispers of a coven meeting in the Whispering Woods. I fear it is time to investigate, though I dread what I might find.
 [player]: I've heard troubling rumors about rituals in the Whispering Woods. Have you investigated?
-[inquisitor_thorne]: The woods are thick with secrets and danger. I have sent scouts, but they return with nothing more than eerie tales. Tonight, however, might offer an opportunity. With the new moon approaching, the coven's gathering should be at its peak. Are you prepared to venture into the Whispering Woods?
+[inquisitor_thorne]: I have, but the forest is treacherous and dark. Each step closer to Morgatha Nightshade's coven feels like walking into a nightmare. Yet, if there are indeed witches practicing their wicked arts, they must be stopped. Will you join me in this quest?
 [player]: What have your investigations revealed? Where are the true witches hiding and who leads them?
-[inquisitor_thorne]: The truth is often shrouded in mystery, but I can tell you that the coven meets every new moon in the Whispering Woods. Led by Morgatha Nightshade, a witch of great power and malevolence, they practice dark arts and blood magic. Her presence is grim and foreboding, a constant reminder of the evil we must confront.
-
-Tonight, with the moon waxing, might just offer us a chance to strike against them. Are you ready to face Morgatha Nightshade?
+[inquisitor_thorne]: The forest is a labyrinth of twisted paths and eerie silence. So far, my inquiries have led me to believe that Morgatha Nightshade is indeed at the helm of the coven. She meets with her followers under the light of the new moon, in a secret grove hidden by ancient magic. The true witches are cunning, hiding among the harmless. But fear not, I can guide you through the woods if you wish to join me on this mission.
 [player]: I'm willing to help hunt down real practitioners of dark magic. Give me the information I need.
-[inquisitor_thorne]: Very well. Here, take my map and compass; they will guide you through the Whispering Woods safely. And remember, tonight is crucial. The coven will be at their most vulnerable under the new moonlight. Approach with caution, for Morgatha Nightshade is no mere witch—she wields powers beyond your imagining.
+[inquisitor_thorne]: Very well, but be prepared for darkness and danger. Morgatha Nightshade's coven meets in a secret grove hidden by ancient magic within the Whispering Woods on the night of the new moon. The grove is shrouded in mist and whispers. To find it, follow the path between the old oak and the whispering willows, but tread carefully—evil lurks there.
 
-Now, let us ensure you are fully prepared. What weapons do you have?
+Here, take my lantern; it should help light our way through the darkness. And remember, trust no one you meet in those woods; many are not what they seem.

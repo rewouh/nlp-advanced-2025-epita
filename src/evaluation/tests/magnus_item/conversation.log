@@ -1,22 +1,20 @@
 [location trigger] The players enter the Runehammer's Forge, heat and the sound of hammering filling the air.
 [npc trigger] Magnus Runehammer looks up from his anvil and greets the visitors with a warm smile.
 [player]: Master Runehammer! Your reputation as a craftsman is known far and wide.
-[magnus_runehammer]: Ah, welcome to the forge, friend. What brings you here in the late hour? Need some sturdy gear for a journey perhaps?
+[magnus_runehammer]: Ah, greetings there. I hope you're not here just to bask in my glory. What brings you to the forge this evening? Need something forged or perhaps sharpened?
 [player]: The work you do here is truly remarkable. I've never seen such fine weapons and armor.
-[magnus_runehammer]: *Nods appreciatively* Fine words, indeed. But remember, every piece comes from sweat and stone. What can I make for you today? A shield to block the mightiest blows or a sword that sings in your hand?
+[magnus_runehammer]: *Grunts approvingly* You got that right. Every piece leaves my forge with a purpose. What catches your eye today, adventurer?
 [player]: I can see the care and skill that goes into every piece. You must have trained for many years.
-[magnus_runehammer]: Aye, years of hard work and dedication. But even the best blacksmith needs a helping hand from time to time. What brings you to my forge tonight? Needing new tools or perhaps looking for a gift for someone special?
+[magnus_runehammer]: Aye, years of hard work and training go into each blade and shield. Not everyone has the patience to master this craft. What brings you to my forge tonight? Need something special made?
 [player]: Your dedication to your craft is inspiring. The world needs more artisans like you.
-[magnus_runehammer]: *Smiles warmly, though not too enthusiastically* I try my best. The world does need its share of honest toil and skill. What brings you to think such thoughts tonight? Need some new armor or perhaps a special gift for an upcoming event?
+[magnus_runehammer]: Thank you, but remember, a hammer swings for a purpose. What do you think might suit that purpose? Something light and swift or perhaps a sturdy battle axe?
 [player]: I'm on a quest into the frozen wastes. I wonder if you might have any wisdom to share about surviving the cold?
-[magnus_runehammer]: Ah, venturing into the frosted realms can be treacherous indeed. You'll need more than just weapons and armor; you must also dress for the cold. Furs and layered clothing are key. And don't forget your feet—boots that keep out the chill.
+[magnus_runehammer]: Ah, survival in the frosty climes, eh? First off, keep an eye out for signs of giant activity. Giants often bring the cold with them, and their presence can be a dire omen. Also, pack plenty of dry goods—cold makes you thirsty, but water freezes quickly.
 
-As for my wisdom, I've faced such icy climes myself. Keep a fire nearby at all times, even if it's just a small one. That will help maintain your warmth. Also, know when to rest; exhaustion can turn you into a popsicle faster than you think.
+Now, as for gear, I've got just what might help. *Goes to a shelf and pulls out a heavy greataxe* This Frost Reaver is no toy. It's enchanted to leave a trail of ice in its wake, which can be handy for clearing paths through the snow or setting up traps.
 
-Now, let me see what I can do for you. *Starts rummaging through his forge* A sturdy cloak and perhaps some thick gloves might serve you well on this journey.
+But remember, the key to surviving the cold isn't just having the right tools; it's knowing how to use them wisely and staying close to your allies.
 [player]: If you have any equipment that could help protect against the frost, I would be deeply grateful and honored to receive it.
-[magnus_runehammer]: I can certainly give you something useful. *Pulls out a pair of enchanted gloves from his workbench* These Frost-Resistant Gloves should keep your hands warm even in the coldest weather. They're no ordinary gloves—they resist frostbite and can even slow down the freezing process if you ever find yourself surrounded by ice.
+[magnus_runehammer]: *Grimaces approvingly* I'm glad to hear you're prepared for what lies ahead. Here, take my Frost Reaver. It's not just a weapon; it can clear paths through the ice and snow. Use it wisely.
 
-And here, take this cloak as well. *Gives a thick, fur-lined cloak to the player* It's not just for warmth; it has a charm that makes it harder for enemies to detect you in snow or ice.
-
-I trust these will serve you well on your journey into the frozen wastes.
+Now, if you need more than just tools, keep your wits about you. The frosty wastes are full of surprises, both friend and foe. Stay warm, stay sharp, and may your journey be safe.

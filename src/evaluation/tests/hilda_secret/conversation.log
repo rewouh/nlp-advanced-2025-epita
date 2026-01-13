@@ -1,14 +1,14 @@
 [location trigger] The players arrive at the Iron Keep Barracks.
 [npc trigger] Captain Hilda Ironforge looks up from her tactical map and greets the newcomers with a nod.
 [player]: Captain Ironforge, it's an honor to meet you. I've heard tales of your bravery in the Frost Giant wars.
-[captain_hilda]: Ah, spare me the gallantry, soldier. We all do what we must for our people. What brings you here tonight?
+[captain_hilda]: Thank you for the kind words, stranger. The battles against the Frost Giants were... enlightening experiences. What brings you to our barracks tonight?
 [player]: The town seems well-protected under your command. Your dedication to these people must be unwavering.
-[captain_hilda]: Indeed, it's a heavy burden I bear. But protecting the innocent is my duty. And I wouldn't have it any other way. So, what news do you bring?
+[captain_hilda]: Indeed, my duty is clear—keeping this place safe for its citizens. We've had some close calls lately with those goblin raids; we can't let our guard down. What brings you to the barracks at such a late hour?
 [player]: I imagine leading the guard during these difficult times requires both strength and wisdom. How do you manage it all?
-[captain_hilda]: Managing this role is a constant challenge, but maintaining discipline among my men and keeping a sharp eye on our defenses helps. It's not just about the physical battles; it's also about keeping morale high and ensuring everyone knows their place in these troubled times.
+[captain_hilda]: Strength comes from discipline, and wisdom from experience, I suppose. The key is staying vigilant and keeping the peace. Late nights are often spent preparing for whatever threatens us next. What brings your inquiries tonight?
 [player]: Your experience in battle must give you unique insights into what's happening in our region.
-[captain_hilda]: True, every skirmish teaches me something new. The Frost Giants are growing bolder, and there's a strange unrest among the goblins. But I keep a close watch. What do you make of these developments?
+[captain_hilda]: Indeed, every battle teaches lessons that echo through time. The frost winds blow stronger here than elsewhere, and the Frost Giants are not the only threat we face. The strange sounds from the lighthouse... they remind me of distant echoes from past wars. Have you noticed anything peculiar yourself?
 [player]: I deeply respect your service to the town. Someone with your knowledge of the situation might notice things others miss.
-[captain_hilda]: Thank you for your respect, soldier. Indeed, my years on the frontier have given me a keen eye for danger. I've noticed some peculiarities—like the mayor's late-night trips to the lighthouse and those strange sounds coming from the northern woods. But every piece of information is valuable in this time of uncertainty.
+[captain_hilda]: Thank you for your support, but my eyes and ears are always on high alert. There's a rumble of trouble brewing, and I'm doing what I can to prepare. Have you heard anything from the northern farms? They could use our help if the goblins do decide to strike again.
 [player]: Trust is hard to come by these days. I hope I've shown myself worthy of it. Are there any concerning developments you've noticed among the leadership?
-[captain_hilda]: The mayor's activities are indeed troubling. He frequently visits the lighthouse, and his behavior seems... off. The guards and I have grown wary of him, but we haven't found concrete proof yet. It’s best to remain vigilant until we can gather more evidence.
+[captain_hilda]: The town's leadership has been focused on preparing for the coming winter and the goblin raids, but... whispers in the tavern hint at tensions beneath the surface. Some are wary of our new recruitments, suspecting outside influences. I must admit, your concerns are not unfounded. Have you heard anything that might shed light on these rumors?

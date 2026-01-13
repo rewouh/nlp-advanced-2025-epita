@@ -1,23 +1,18 @@
 [location trigger] I approach the palace gates
 [npc trigger] I speak to Sir Gareth Ironshield
 [player]: Sir Gareth, your dedication to duty is exemplary. A true knight.
-[sir_gareth]: Thank you for your kind words. It is a solemn duty I take upon myself, and one I do not take lightly. What brings you to speak with me tonight?
+[sir_gareth]: Thank you, sir. It is my sworn duty to protect and serve with honor. May I ask what brings you to the Rusty Anchor tonight?
 [player]: The realm is fortunate to have someone of your honor protecting the palace.
-[sir_gareth]: Indeed, it is an honour to serve. If there be any way I can assist you further, please let me know. The safety of our lord and lady is paramount.
+[sir_gareth]: Indeed, the safety of our kingdom depends on the vigilance of its protectors. What news do you bring that concerns the palace?
 [player]: I'm a capable warrior. If there are threats to the nobility, I can help.
-[sir_gareth]: Very well, then. Be vigilant; tonight's Winter Ball is a potential target for an assassination plot. A shadowy figure has been spotted near the palace gates, and I suspect the Shadow Hand assassin guild might be involved. Stay sharp and alert during your patrol tonight.
+[sir_gareth]: That is commendable. However, my duties require me to first confirm any potential threats within the palace walls. Can you assist by investigating the dock area where a mysterious stranger arrived this morning?
 [player]: Have you heard of any specific plots against Lord Pemberton? Assassination attempts perhaps?
-[sir_gareth]: I have indeed heard whispers of such a plot. The Shadow Hand assassin guild has been contracted for 50,000 gold to ensure the lord's demise during the Winter Ball. They are known to be ruthless and cunning. Keep your wits about you; tonight could be crucial.
+[sir_gareth]: Indeed, I have been made aware of an assassination plot. The Shadow Hand assassin guild has placed a contract for 50,000 gold to eliminate Lord Pemberton during the upcoming Winter Ball. A servant within the palace will be bribed to place poison in his wine glass. Vigilance is paramount, and I am closely monitoring all potential threats.
 [player]: Are there any threats you're tracking that I could help investigate?
-[sir_gareth]: Indeed, there are several matters of concern. Lieutenant Blackwood accepts bribes from smugglers for 500 gold monthly, Sergeant Grimwald sells guard patrol schedules to thieves, and Guard Harlan is a spy for a rival noble house, reporting troop movements. These internal threats must be dealt with vigilantly.
-
-However, tonight's focus remains on the assassination plot during the Winter Ball. If you can keep an eye out for any suspicious activities or individuals acting out of character, it would be greatly appreciated. Trust your instincts; sometimes, it's the smallest details that matter most.
+[sir_gareth]: I appreciate your willingness to assist, but for now, focus on the dock area. A stranger has arrived, and we need to ensure no suspicious activities are occurring. Once that is secured, perhaps then we can expand our search. Trust me, every precaution is necessary in these times.
 [player]: What missions or quests can I undertake to serve the lord and protect the realm?
-[sir_gareth]: The realm is ever vigilant against threats both known and unknown. There are several missions you could undertake to aid in our defense:
+[sir_gareth]: The realm always needs brave hearts like yours. For now, focus on securing the palace gates and ensuring all incoming visitors are vetted thoroughly. The stranger you've noted at the docks is a priority.
 
-1. **Patrol the Perimeter:** With the assassination plot looming, extra patrols around the palace and especially near the Winter Ball venue will be crucial.
-2. **Investigate Strange Activities:** Keep an eye out for any suspicious individuals or unusual behavior among the guards and servants.
-3. **Gather Intelligence:** If you suspect corruption within our ranks, discreetly gather evidence that could help clear or confirm your suspicions.
-4. **Assist with Recruitment:** The Iron Vanguard is recruiting mercenaries for a dangerous mission. If you feel up to it, you could lead a team on a scouting or raiding expedition.
+If you wish to assist further, consider patrolling the northern perimeter of the castle grounds. There have been reports of unusual activity that could indicate a scouting party for an impending threat. Additionally, I would appreciate any information you can gather from the townsfolk regarding recent strange occurrences or sightings.
 
-Which path would you like to take? Or perhaps there's another duty you'd prefer to undertake?
+Once these immediate concerns are addressed, we may discuss more specific missions. For now, your vigilance is crucial in maintaining the safety and order of the realm.

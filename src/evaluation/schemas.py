@@ -36,3 +36,18 @@ class EvaluationTestConfig(BaseModel):
         UnitTestQuestGiven
     ]]
     texts : List[str]
+
+class ResponseMetrics(BaseModel):
+    response_time_ms: float
+    prompt_tokens: int = 0
+    completion_tokens: int = 0
+    total_tokens: int = 0
+    
+class TestMetrics(BaseModel):
+    total_response_time_ms: float = 0.0
+    avg_response_time_ms: float = 0.0
+    total_prompt_tokens: int = 0
+    total_completion_tokens: int = 0
+    total_tokens: int = 0
+    num_responses: int = 0
+    responses: List[ResponseMetrics] = []

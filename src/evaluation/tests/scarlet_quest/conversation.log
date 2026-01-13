@@ -1,14 +1,16 @@
 [location trigger] I find the rebel hideout
 [npc trigger] I approach Scarlet Flame
 [player]: Scarlet, I've heard of your fight against the oppressive government. Your cause is just.
-[scarlet_flame]: Ah, a supporter! That's encouraging to hear. We're at a critical juncture now; every hand helps. What can you offer?
+[scarlet_flame]: Thank you for your support, but our struggle is far from over. We need every ally we can get. Have you any skills or resources you could bring to the cause?
 [player]: The nobles hoard resources while common people freeze and starve. This cannot continue.
-[scarlet_flame]: Indeed, it must change. The winter solstice is drawing near—our first phase of the rebellion hinges on that night. We need to ensure the noble's grain stores are sabotaged. Have you any contacts among the merchants who might assist?
+[scarlet_flame]: I know it's hard, but patience is key. Tonight, I'm setting a trap that might just change everything. *glares into the distance* We can't let our enemies see us coming.
 [player]: I believe in freedom and equality. I want to help bring change to this town.
-[scarlet_flame]: Excellent! Your conviction is exactly what we need. Tonight, I'll brief you on our plans. We need someone with inside knowledge of the grain stores—do you have a contact who can sneak us in?
+[scarlet_flame]: That's a noble spirit! There are ways you can aid the revolution without drawing too much attention. For now, focus on gathering intelligence. Keep an eye on the market and report any suspicious activities around the council buildings. Trustworthy allies like Captain's Lieutenant Marcus might need your help as well.
 [player]: What are your plans for the rebellion? How will you strike against the corrupt nobles?
-[scarlet_flame]: Phase one is underway; we're focusing on disrupting the noble's grain supplies. It's crucial that the people don't starve while the wealthy hoard their wealth. Once the panic starts, it'll be easier to rally support for our cause. Stay sharp and be ready for phase two, where we target those who directly abuse the poor.
+[scarlet_flame]: Our plans are set in motion, but we must be careful and strategic. The first phase is tonight—sabotaging the noble's grain stores on the winter solstice. We need to ensure there's enough chaos so people feel the weight of their suffering. Once that's done, we'll move on to targeting those who directly benefit from this tyranny. Stay sharp; tonight could be the turning point for our struggle.
 [player]: I imagine you have weapons and supplies hidden throughout the city. Where are your caches?
-[scarlet_flame]: *Scarlet's eyes narrow as she considers the question carefully.* I cannot reveal our caches just yet. Trust me, when the time is right, they will be crucial to our success. For now, let's focus on tonight's mission. Can you find someone who can assist us with the grain stores? Trust is a precious thing in these times.
+[scarlet_flame]: The caches are strategic indeed, but I wouldn't share their exact locations so easily. They're well-hidden, and knowing where they are can mean life or death for our cause. However, if you prove yourself truly worthy and trustworthy, perhaps then I could consider revealing a few key locations. For now, let's focus on tonight's operation and gather as much intelligence as we can. Trust is earned in this fight, not given away freely.
 [player]: What can I do to join your rebellion? Give me a mission to prove my commitment.
-[scarlet_flame]: Excellent, a true ally seeks trials by fire. Your first task is to gather intelligence on the grain storage facility. Tonight, after sunset, make your way to the old mill and observe its defenses. Return here with detailed information on the guards' patrol patterns and any security measures in place. Remember, stealth is key. Failure could compromise our plans.
+[scarlet_flame]: Certainly, proving your commitment will be crucial. Here’s your first mission: tonight, gather any information you can about the movements of Councilor Vexworth and Magistrate Coldhart. Keep an ear out for any gatherings or private meetings they might have. Also, observe the grain merchants near the docks; see if anyone seems suspiciously nervous or secretive. Report back to me as soon as you have something substantial.
+
+Remember, discretion is key. Stay hidden but vigilant. The fate of our revolution could depend on your observations tonight.

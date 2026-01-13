@@ -1,16 +1,16 @@
 [location trigger] The players descend into the Frozen Depths Mines.
 [npc trigger] Borin Deepdelver stops his work and greets the visitors, wiping sweat from his brow.
 [player]: Borin, the work you do down here is dangerous and important. You're a brave man.
-[borin_deepdelver]: Thank you, I suppose. The pay isn't bad either. Keeps the family fed and clothed. What brings you to these parts?
+[borin_deepdelver]: Thank you for the kind words. Ain't much to be brave about, just trying to keep my family fed and warm. How's business in the tavern tonight? Anything interesting going on out there?
 [player]: I can see you're a hard worker. The town depends on miners like you.
-[borin_deepdelver]: *Nods in agreement* The town does rely on us, tough work but necessary. Heard there's trouble with goblins out north—have you heard anything about that?
+[borin_deepdelver]: Ain't nobody counting on me more than I count on myself, but we all got our parts to play, right? Heard tell of some strange noises comin' from the sea lately. Might be somethin' worth lookin' into.
 [player]: I'm experienced in dealing with dangerous situations and creatures.
-[borin_deepdelver]: That's good to hear. Goblins can be tricky. Maybe you could help me keep an eye on the tunnels for any signs of them. I wouldn't want to bring trouble back to my family.
+[borin_deepdelver]: That's good to hear. The mines can get a bit... lively at times. Maybe you could help me keep an eye out for whatever's been stirring in the depths. I've heard some rumors too, but haven't had the nerve to check it out myself.
 [player]: Have you found anything unusual deep in the mines? Ancient structures or passages?
-[borin_deepdelver]: Ah, about that... I've stumbled upon some pretty old ruins down near level 7. They're a bit eerie, with glowing runes on the walls and all sorts of gold artifacts inside. But I've sworn to keep it a secret for now. Not sure what's in there or if we should even be digging around such ancient stuff.
+[borin_deepdelver]: *Glances around cautiously, tapping his boot against the stone floor.* There be some old ruins down on level 7. A temple to a fire god, I reckon. Some runic stuff glows faintly in there now and then. But it's deep, dark, and not easy to navigate. Not many brave enough to venture that far without payin' for it first.
 [player]: I've heard rumors of ruins beneath this region. Have you discovered anything like that?
-[borin_deepdelver]: *Looks wary, considering the question carefully before speaking.* I have found something... strange down near level 7. It's an old place, filled with glowing runes and golden treasures. But it's best if we keep what lies below us a secret for now. Not sure what kind of trouble we might bring up by poking around ancient things.
+[borin_deepdelver]: *Nods his head.* Yeah, I found somethin' down on level 7. An old temple, maybe a hundred years older than the blizzard that froze these mines. It's got some glowing runes and artifacts inside. But it ain't exactly safe to go there alone. More trouble than treasure, usually.
 [player]: If there's anything threatening the mining operation, I'd be happy to help handle it.
-[borin_deepdelver]: *Frowns slightly, considering your offer.* Well, if you're willing to brave the depths for us, that could be useful indeed. But remember, what goes down there stays down there. The deeper we dig into those ruins, the more secrets we might uncover—or worse.
+[borin_deepdelver]: *Leans forward, eyes narrowing slightly.* That sounds like a fair offer. The mines have been getting a bit restless lately. If you're up for it, we could use someone with your experience. Lead the way when we go down there tonight, and maybe together we can figure out what's stirring in those dark depths.
 [player]: What challenges are you facing down here? I'm ready to take on difficult tasks.
-[borin_deepdelver]: The tunnels can get treacherous with unstable rock and cold drafts. Plus, there's always the chance of running into goblins or worse. But if you're game for a tough task, maybe we could use some extra hands to watch out for trouble. Just be ready for whatever might come our way.
+[borin_deepdelver]: *Looks at you with a mix of admiration and caution.* The main challenge is the sheer darkness and cold. It's easy to lose your way, and the deeper you go, the colder it gets. Besides that, there are always those... *pauses, glancing around as if listening for something.* whispers in the shadows, and the ground can be treacherous with hidden cracks and ice. But if we're prepared, I reckon we can handle whatever comes our way. Ready to make a deal?

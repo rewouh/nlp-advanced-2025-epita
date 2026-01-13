@@ -1,14 +1,14 @@
 [location trigger] I enter the apothecary
 [npc trigger] I approach Valentina Nightshade
 [player]: Valentina, your knowledge of toxins and antidotes is unparalleled in this region.
-[valentina_nightshade]: Ah, a compliment from the master poisoner's apprentice? I must be doing something right. What brings you to my apothecary tonight?
+[valentina_nightshade]: Indeed, I pride myself on my expertise. What can I assist you with tonight?
 [player]: I've heard you can cure ailments that no other apothecary can treat.
-[valentina_nightshade]: Indeed, there are certain remedies and antidotes that require a level of expertise few possess. What ailment do you seek relief from?
+[valentina_nightshade]: Ah, the whispers of a skilled hand. There are indeed certain remedies and antidotes that require a bit more... finesse. What ailment do you suffer from that others cannot help?
 [player]: Your discretion is admirable. I imagine many seek your services for... delicate matters.
-[valentina_nightshade]: Delicate indeed. Many come seeking my knowledge for both healing and, as you say, more... nuanced purposes. What can I help you with tonight?
+[valentina_nightshade]: Precise, as always. While my methods may be discreet, they are also highly effective. What brings such a discerning client to me tonight?
 [player]: I'm investigating some suspicious deaths in town. Have you sold any unusual poisons recently?
-[valentina_nightshade]: Hmm, always keeping an eye on the darker dealings of our little corner of the world, are we? I have a few... unique concoctions up my sleeve, but discretion is key. Care to share more details about these 'suspicious deaths'? Might give me some clues as to what poison might be involved.
+[valentina_nightshade]: Ah, an investigator with keen eyes. I keep many secrets, but the curious always find their answers eventually. Can you enlighten me as to why these deaths caught your interest?
 [player]: I'm venturing into dangerous areas where frost poison is common. I need protection.
-[valentina_nightshade]: I see. Your intentions are clear, but discretion is paramount in such matters. I can prepare a Frost Poison Antidote for you, but it comes with a price and a promise of silence. Will you agree to keep this between us?
+[valentina_nightshade]: Very well. I can prepare a Frost Poison Antidote for you. It will cost you five gold pieces, and discretion is advised when using it. Understand the consequences of failure.
 [player]: Can you provide me with an antidote? I have coin and discretion to match your own.
-[valentina_nightshade]: Very well, but remember the terms: your words must remain as silent as the night. Here, let me prepare the Frost Poison Antidote for you. Be cautious, even with this protection; frost poison can be unpredictable.
+[valentina_nightshade]: Five gold pieces for the preparation, then. Ensure they are clean and pure. Use this wisely; a single mistake could be fatal. Here, take my Frost Poison Antidote. Keep it well hidden.

@@ -1,20 +1,18 @@
 [location trigger] The players enter the Temple of Stars, a serene atmosphere enveloping them.
 [npc trigger] Sister Elara looks up from her ancient tome and welcomes the visitors with a gentle smile.
 [player]: Sister Elara, your temple is a beacon of knowledge and peace in these dark times.
-[sister_elara]: Thank you for your kind words, traveler. The temple stands as a sanctuary for those seeking guidance and solace. What brings you to our sacred grounds tonight?
+[sister_elara]: Thank you for your kind words. Indeed, the temple serves as a sanctuary where those seeking enlightenment or aid can find guidance. What brings you to the temple today?
 [player]: I can see you're devoted to preserving ancient wisdom and sacred traditions.
-[sister_elara]: Indeed, it is my duty to safeguard the knowledge that has guided us through countless winters. Many seek answers here, but some come in search of more than just knowledge. What quest do you bring to me tonight?
+[sister_elara]: Indeed, it is my duty to safeguard the knowledge that could guide us through these troubled times. How may I assist you further on your journey?
 [player]: I'm an adventurer who respects holy places and would be honored to serve a higher purpose.
-[sister_elara]: Your respect is clear, and I sense genuine intent within you. The temple often receives visitors seeking aid in their quests or seeking sacred relics for protection against the encroaching darkness. Do you have any specific goals or challenges that need addressing?
+[sister_elara]: That is commendable, traveler. The temple often calls upon those of noble heart to aid in its missions. Are you prepared for the challenges that lie ahead?
 [player]: Are there any sacred sites or relics that need to be recovered or protected?
-[sister_elara]: Indeed, there are several hidden shrines and relics scattered throughout the land that require vigilant protection. One such relic is the Shining Amulet of Luminara, which is said to amplify one's spiritual strength in times of great peril. It was last seen near the Whispering Woods.
-
-However, the path to these treasures can be fraught with danger. The Iron Vanguard has been recruiting mercenaries for a quest, but I fear they might not be as scrupulous about their methods as we would wish. What do you think? Would you like to accept this mission and see if you can recover the amulet without causing undue harm?
+[sister_elara]: Indeed, there are several holy sites and relics that require protection or recovery. One such site is the Hidden Shrine of Aethar, believed to contain a powerful artifact that can protect us from the encroaching darkness. However, it lies in a perilous forest known as the Whispering Woods. Are you willing to venture into those woods?
 [player]: If you have need of someone to venture into dangerous places to retrieve holy items, I'm willing.
-[sister_elara]: Very well, then let us prepare for your journey. The path to the Whispering Woods is fraught with peril, but with courage and devotion, you can succeed where others have failed.
-
-First, gather any supplies you might need, such as food, water, and a sturdy weapon. Our temple has some resources that may aid you on your quest. Will you take what we provide?
+[sister_elara]: Very well then. The Hidden Shrine of Aethar is calling for its guardian once more. Prepare yourself, for the path ahead will be fraught with peril. When do you wish to set forth?
 [player]: What kind of quests or missions does the temple need assistance with? I'm ready to help.
-[sister_elara]: The temple often faces challenges where sacred relics are at risk, either from natural forces or those who seek to misuse their power for selfish gain. One such quest involves retrieving the Shining Amulet of Luminara from a place known as the Whispering Woods. This amulet is essential for maintaining balance in our world, and its loss could lead to dire consequences.
+[sister_elara]: The temple often faces threats from dark forces that seek to disrupt our sacred practices and desecrate holy ground. We also need to ensure that relics and ancient texts are preserved for future generations. There's a mission that could require your expertise, if you're up for it.
 
-Before you set out, consider gathering supplies like food, water, and a reliable weapon. Our temple has provisions that might aid your journey. Are you ready to accept this mission?
+Tonight, a mysterious stranger arrived at the docks with information about recent goblin raids on the northern farms. It seems they have grown bolder under the shadow of eternal winter. The Iron Vanguard is recruiting mercenaries for a dangerous mission to protect the farmers and possibly gather intelligence on their movements.
+
+Do you think you could accompany our scouts or perhaps even lead the charge against these raiders?

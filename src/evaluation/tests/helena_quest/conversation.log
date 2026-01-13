@@ -1,23 +1,28 @@
 [location trigger] The players arrive at the ancient ruins excavation site.
 [npc trigger] Dr. Helena Voss looks up from examining an artifact and greets the visitors with intense curiosity.
 [player]: Dr. Voss, your excavation work here is fascinating. You're uncovering important history.
-[dr_helena_voss]: Indeed, every piece of the past tells a story that deserves to be heard. What brings you to the Rusty Anchor tonight? Are you interested in what we've found so far?
+[dr_helena_voss]: Indeed, every artifact brings us closer to understanding our past. It's both a privilege and a responsibility. Have you any interest in helping with the excavation? There are still many secrets buried beneath the surface.
 [player]: The artifacts you've found could teach us so much about life before the Blizzard.
-[dr_helena_voss]: I couldn't agree more, but we must be cautious. The deeper we dig, the more dangerous it becomes. Have you heard of the strange occurrences at the lighthouse lately? It's as if something is watching us.
+[dr_helena_voss]: Precisely! Knowledge is power, after all. If you're willing to lend a hand, I have some preliminary findings that might interest you. Would you like to see them?
 [player]: I'm an experienced explorer, skilled at navigating dangerous ruins and recovering valuable items.
-[dr_helena_voss]: That skill could be invaluable. I've encountered some peculiarities in my dig—perhaps they might interest you. Would you like to see what we’ve unearthed so far?
+[dr_helena_voss]: That's excellent; the site we're working on could use someone with your skills. I've found a few artifacts today that seem particularly significant—perhaps you can help me identify their origins or purpose? Here, take a look. *hands over a small, intricately carved stone tablet*
 [player]: Your research is important. Is there anything I can do to help advance your work?
-[dr_helena_voss]: Of course, assistance would be greatly appreciated. With the current manpower, progress has been slow. Perhaps you could help with some of the documentation or even assist during the excavation if you're comfortable in the field. What tasks do you think you could handle?
+[dr_helena_voss]: Of course! Your experience would be invaluable. We've encountered some unusual rock formations that might contain hidden chambers. If you're willing, we could use your expertise in navigating these areas safely and efficiently.
+
+Additionally, the artifacts we find often require specialized knowledge for proper handling and preservation. You have a keen eye; perhaps you could assist with cataloging and securing our finds until they can be properly studied?
+
+Would you be up for helping out tonight? We've made some interesting discoveries that might need immediate attention.
+  
+*Dr. Voss gestures towards the excavation site, where a few workers are packing up tools for the night.*
 [player]: Are there any artifacts or sites you need explored but haven't had the resources to investigate?
-[dr_helena_voss]: Certainly, there are several areas that remain unexplored due to lack of manpower and supplies. One site in particular, an ancient temple complex just north of here, holds promise based on some cryptic inscriptions I've decoded. It could yield groundbreaking artifacts if we can secure the funding and personnel to mount another expedition.
+[dr_helena_voss]: Indeed, there are several promising sites that have been on my radar but lack the manpower and equipment needed for proper excavation. One in particular is a rumored ancient temple said to hold magical relics beneath the old docks area. It's always shrouded in mist and whispers of danger, but its importance cannot be overstated.
 
-Would you be interested in leading such a mission? With your skills, it would greatly increase our chances of success.
+Would you consider helping me investigate? I believe your skills could be crucial in uncovering what lies hidden there. What do you say?
 [player]: I'd be honored to assist in your archaeological endeavors. What quests do you have available?
-[dr_helena_voss]: Excellent choice! We've encountered some peculiarities that could use an expert eye. First, there's the matter of securing the site at night; it seems we're not alone here.
+[dr_helena_voss]: *Dr. Voss smiles, her eyes twinkling with excitement at the prospect of having a capable ally.*
 
-*Dr. Voss glances around nervously.* 
+"Excellent! Tonight, we'll focus on securing and documenting any new finds from today's dig. Tomorrow, if we're lucky, we might venture to that old temple you mentioned. It is said to be filled with both danger and treasure."
 
-Can you take charge of setting up a watch while I and my team finalize our findings? We'll need to ensure no one—or something—disturbs our work tonight.
-*She hands over a small, ancient-looking lantern she had prepared earlier.*
+She gestures towards the site where workers are already beginning to tidy up.
 
-Here, take this lantern. It's not just any light; it has a peculiar enchantment that might help in the dark.
+"Let's get started here, but keep your senses sharp. The treasures of the past often come with their own challenges."
