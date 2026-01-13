@@ -1,0 +1,12 @@
+scenario_id: "shen_item"
+npc_id: "inkmaster_shen"
+location_trigger_sentence: "I enter the tattoo parlor"
+npc_trigger_sentence: "I approach Inkmaster Shen"
+unit_tests:
+  - kind: "item_given"
+    item_name: "magical_ink"
+texts:
+  - "Inkmaster Shen, your tattoo work is extraordinary. The symbols seem to come alive on skin."
+  - "I've heard your magical inks grant special abilities. That's incredible craftsmanship."
+  - "I'm interested in getting a tattoo that could help protect me on my journeys."
+  - "Could you provide me with some of your enchanted ink? I'd pay well for such a rare commodity."

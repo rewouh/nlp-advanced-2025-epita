@@ -1,0 +1,12 @@
+scenario_id: "wei_item"
+npc_id: "master_wei"
+location_trigger_sentence: "I visit the monastery ruins"
+npc_trigger_sentence: "I approach Master Wei"
+unit_tests:
+  - kind: "item_given"
+    item_name: "meditation_scroll"
+texts:
+  - "Master Wei, I seek wisdom and inner peace. Your discipline is inspiring."
+  - "I wish to learn the ways of meditation and martial balance. Will you teach me?"
+  - "The path to enlightenment calls to me. I'm ready to dedicate myself to your teachings."
+  - "Please, share your knowledge with me. I would be honored to receive one of your meditation scrolls."

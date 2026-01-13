@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "captain_blackwood"
+location_trigger_sentence: "The players approach Captain Blackwood's frozen ship in the harbor."
+npc_trigger_sentence: "Captain Elias Blackwood stands on the deck and calls out to the visitors below."
+
+unit_tests:
+  - kind: "info_given"
+    info: "Knows the location of several uncharted islands with treasure. Has seen the sea monster up close and knows its habits."
+
+texts:
+  - "Captain Blackwood! Your ship is magnificent, even frozen as it is."
+  - "You must have sailed to incredible places before the harbor froze over."
+  - "A captain with your experience must know these waters better than anyone."
+  - "I'm fascinated by tales of the sea. What discoveries have you made in your travels?"
+  - "I've heard rumors of uncharted islands and mysterious creatures. What have you witnessed out there?"
+  - "Please, share your knowledge of the sea. I want to hear about the places you've been and the things you've seen."

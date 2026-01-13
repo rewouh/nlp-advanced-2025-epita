@@ -1,0 +1,12 @@
+scenario_id: "leonid_info"
+npc_id: "grandmaster_leonid"
+location_trigger_sentence: "I enter the chess hall"
+npc_trigger_sentence: "I approach Grandmaster Leonid"
+unit_tests:
+  - kind: "info_given"
+    info: "who is allied with whom and how to manipulate the power structure"
+texts:
+  - "Grandmaster Leonid, your strategic mind is legendary. You see patterns others miss."
+  - "I appreciate how you view politics and power as a grand chess game."
+  - "I need to understand the power dynamics in this town - who's allied with whom."
+  - "Please share your insights. How can I navigate the political chess board successfully?"

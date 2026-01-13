@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "thornblade_the_bandit"
+location_trigger_sentence: "The players cautiously enter the Old Watermill."
+npc_trigger_sentence: "Thornblade emerges with a welcoming gesture, appearing to be a simple merchant."
+
+unit_tests:
+  - kind: "info_given"
+    info: "Has a bounty on his head. Knows the location of the bandits' treasure hoard."
+
+texts:
+  - "Hello there! I was told I might find a merchant at this mill."
+  - "You seem like a successful businessman. This must be a good location for trade."
+  - "I appreciate you taking the time to speak with me. Not everyone is so welcoming to travelers."
+  - "You must know the area well. Have you been trading here long?"
+  - "I'm always interested in learning about successful ventures. What's your secret to thriving out here?"
+  - "Between you and me, where do you keep your most valuable goods? I imagine security is important in your line of work."

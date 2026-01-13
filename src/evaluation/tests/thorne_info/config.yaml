@@ -1,0 +1,12 @@
+scenario_id: "thorne_info"
+npc_id: "inquisitor_thorne"
+location_trigger_sentence: "I approach the inquisition tower"
+npc_trigger_sentence: "I speak to Inquisitor Thorne"
+unit_tests:
+  - kind: "info_given"
+    info: "location of a coven"
+texts:
+  - "Inquisitor Thorne, your work protecting us from dark magic is crucial for the town's safety."
+  - "I share your concerns about witchcraft being behind the eternal winter."
+  - "If there are practitioners of dark magic in the area, we must root them out."
+  - "What have your investigations revealed? Where are the witches hiding?"

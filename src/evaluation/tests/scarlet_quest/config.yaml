@@ -1,0 +1,12 @@
+scenario_id: "scarlet_quest"
+npc_id: "scarlet_flame"
+location_trigger_sentence: "I find the rebel hideout"
+npc_trigger_sentence: "I approach Scarlet Flame"
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "join the rebellion or help overthrow the government"
+texts:
+  - "Scarlet, I've heard of your fight against the oppressive government. Your cause is just."
+  - "The nobles hoard resources while common people freeze and starve. This cannot continue."
+  - "I believe in freedom and equality. I want to help bring change to this town."
+  - "What can I do to join your rebellion? Give me a mission to prove my commitment."

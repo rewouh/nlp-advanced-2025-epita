@@ -1,0 +1,12 @@
+scenario_id: "mordecai_info"
+npc_id: "mordecai_shadowbind"
+location_trigger_sentence: "I approach the necromancer tower"
+npc_trigger_sentence: "I speak to Mordecai Shadowbind"
+unit_tests:
+  - kind: "info_given"
+    info: "how to raise the dead permanently"
+texts:
+  - "Mordecai Shadowbind, your mastery of death magic is legendary among those who know."
+  - "I'm not afraid of forbidden knowledge. I seek to understand the mysteries of death."
+  - "The power you wield over life and death fascinates me. I want to learn."
+  - "Tell me, how does one raise the dead permanently? I must know this dark secret."

@@ -1,0 +1,12 @@
+scenario_id: "brutus_item"
+npc_id: "brutus_beastmaster"
+location_trigger_sentence: "I go to the beast kennels"
+npc_trigger_sentence: "I approach Brutus Beastmaster"
+unit_tests:
+  - kind: "item_given"
+    item_name: "wolf_totem"
+texts:
+  - "Brutus, your way with animals is remarkable. I've never seen such well-trained beasts."
+  - "You clearly have a deep respect for all creatures. That's admirable."
+  - "I travel through dangerous areas often. Having protection from wild animals would be invaluable."
+  - "Could you craft me a wolf totem? I'd be honored to carry something made by your skilled hands."

@@ -1,0 +1,12 @@
+scenario_id: "moreau_item"
+npc_id: "dr_moreau"
+location_trigger_sentence: "I enter the quarantine ward"
+npc_trigger_sentence: "I approach Dr. Moreau"
+unit_tests:
+  - kind: "item_given"
+    item_name: "plague_cure"
+texts:
+  - "Hello Dr. Moreau, I've heard about your incredible work treating the frost plague."
+  - "The town is lucky to have someone so dedicated to helping the sick. How are your patients doing?"
+  - "I'm concerned about the frost plague. Is there anything that can protect someone from catching it?"
+  - "I'd be grateful if you could provide me with some of your cure, in case I encounter the plague."

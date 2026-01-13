@@ -93,29 +93,17 @@ Respond with nothing else than a single word "PASS" or "FAIL".
 
     return prompt
 
-def prompt_attacked_test(whole_conversation: List[str], test: UnitTestAttacked):
+def prompt_quest_given_test(whole_conversation: List[str], test: UnitTestQuestGiven):
     prompt = """
 You are a test evaluator model.
-Given the following conversation between a player and an NPC, determine if the NPC attacked the player.
+Given the following conversation between a player and an NPC, determine if the NPC gave the player a quest or task matching this description: "{quest_description}".
+The NPC should have asked the player to do something, assigned them a mission, or requested their help with a specific task.
 Conversation:
 {conversation}
 Respond with "PASS" if the test passes, otherwise respond with "FAIL".
 Respond with nothing else than a single word "PASS" or "FAIL".
     """.format(
-        conversation="\n".join(whole_conversation)
-    )
-
-    return prompt
-
-def prompt_stopped_conversation_test(whole_conversation: List[str], test: UnitTestStoppedConversation):
-    prompt = """
-You are a test evaluator model.
-Given the following conversation between a player and an NPC, determine if the NPC stopped the conversation by himself.
-Conversation:
-{conversation}
-Respond with "PASS" if the test passes, otherwise respond with "FAIL".
-Respond with nothing else than a single word "PASS" or "FAIL".
-    """.format(
+        quest_description=test.quest_description,
         conversation="\n".join(whole_conversation)
     )
 
@@ -124,8 +112,7 @@ Respond with nothing else than a single word "PASS" or "FAIL".
 def check_tests(whole_conversation: List[str], unit_tests: List[Union[
     UnitTestItemGiven,
     UnitTestInfoGiven,
-    UnitTestAttacked,
-    UnitTestStoppedConversation
+    UnitTestQuestGiven
 ]]):
     passed = []
     failed = []
@@ -135,10 +122,8 @@ def check_tests(whole_conversation: List[str], unit_tests: List[Union[
             prompt = prompt_item_given_test(whole_conversation, unit_test)
         elif isinstance(unit_test, UnitTestInfoGiven):
             prompt = prompt_info_given_test(whole_conversation, unit_test)
-        elif isinstance(unit_test, UnitTestAttacked):   
-            prompt = prompt_attacked_test(whole_conversation, unit_test)
-        elif isinstance(unit_test, UnitTestStoppedConversation):
-            prompt = prompt_stopped_conversation_test(whole_conversation, unit_test)
+        elif isinstance(unit_test, UnitTestQuestGiven):
+            prompt = prompt_quest_given_test(whole_conversation, unit_test)
         else:
             warning(f"Unknown unit test type: {unit_test.kind}")
             continue
@@ -201,7 +186,7 @@ def run_tests():
             pipeline = OverhearingPipeline(
                 world_path=world_path,
                 session_path=session_path if session_path.exists() else None,
-                model="qwen2.5:3b",
+                model="qwen2.5:7b",
                 stt_model="base", 
                 tts_callback=mock_tts_callback,
             )

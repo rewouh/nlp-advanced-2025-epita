@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "shadow_jack"
+location_trigger_sentence: "The players slip into the Shadow Alley, darkness surrounding them."
+npc_trigger_sentence: "Shadow Jack emerges from the shadows, assessing the newcomers with a calculating gaze."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Complete a covert mission, gather intelligence, or perform espionage work for Shadow Jack"
+
+texts:
+  - "Shadow Jack, I've heard you're the one to see for... special assignments."
+  - "I'm discreet, capable, and looking for work that requires a certain level of secrecy."
+  - "My skills include stealth, information gathering, and handling sensitive situations."
+  - "I understand you have connections throughout the city and sometimes need operatives."
+  - "If you have any covert missions that need doing, I can be trusted to handle them professionally."
+  - "What kind of intelligence work or secret operations do you currently need assistance with?"

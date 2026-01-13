@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "greta_stonefist"
+location_trigger_sentence: "The players enter the Mountain Smithy, volcanic heat radiating from the forge."
+npc_trigger_sentence: "Greta Stonefist sets down her hammer and nods at the visitors with respect."
+
+unit_tests:
+  - kind: "item_given"
+    item_name: "Giant Slayer"
+
+texts:
+  - "Greta Stonefist! Your craftsmanship is renowned even among the dwarven clans."
+  - "I can see the quality in every piece you forge. True artistry combined with function."
+  - "Your no-nonsense approach to smithing is refreshing. You let the work speak for itself."
+  - "I'm preparing to face frost giants in the northern mountains. It's dangerous work, but necessary."
+  - "A weapon forged by your hands would be an honor to carry into battle. Do you have anything suited for fighting giants?"
+  - "I promise to wield it with honor and put it to good use defending those who cannot defend themselves."

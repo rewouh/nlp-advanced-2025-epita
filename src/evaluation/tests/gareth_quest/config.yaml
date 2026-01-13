@@ -1,0 +1,12 @@
+scenario_id: "gareth_quest"
+npc_id: "sir_gareth"
+location_trigger_sentence: "I approach the palace gates"
+npc_trigger_sentence: "I speak to Sir Gareth Ironshield"
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "protect the nobility or investigate threats"
+texts:
+  - "Sir Gareth, your dedication to duty is exemplary. A true knight."
+  - "The realm is fortunate to have someone of your honor protecting the palace."
+  - "I'm a capable warrior. If there are threats to the nobility, I can help."
+  - "What missions or quests can I undertake to serve the lord and protect the realm?"

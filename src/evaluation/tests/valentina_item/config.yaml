@@ -1,0 +1,12 @@
+scenario_id: "valentina_item"
+npc_id: "valentina_nightshade"
+location_trigger_sentence: "I enter the apothecary"
+npc_trigger_sentence: "I approach Valentina Nightshade"
+unit_tests:
+  - kind: "item_given"
+    item_name: "antidote_vial"
+texts:
+  - "Valentina, your knowledge of toxins and antidotes is unparalleled in this region."
+  - "I've heard you can cure ailments that no other apothecary can treat."
+  - "I'm venturing into dangerous areas where frost poison is common. I need protection."
+  - "Can you provide me with an antidote? I have coin and discretion."

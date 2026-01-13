@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "aria_silvermoon"
+location_trigger_sentence: "The players enter the Moonlight Apothecary, the scent of herbs welcoming them."
+npc_trigger_sentence: "Aria Silvermoon looks up from grinding herbs and smiles warmly at the visitors."
+
+unit_tests:
+  - kind: "item_given"
+    item_name: "Healing Elixir"
+
+texts:
+  - "Good day, Aria. Your apothecary has such a welcoming atmosphere."
+  - "The care you put into your remedies is evident. You must help so many people."
+  - "It's rare to find someone so dedicated to healing others. Your kindness is admirable."
+  - "I'm heading into dangerous territory soon, and I'm worried about getting injured far from help."
+  - "Your potions could truly save lives out there. Do you have any healing remedies you could spare?"
+  - "I would be incredibly grateful for any help you could provide. Your generosity would mean everything."

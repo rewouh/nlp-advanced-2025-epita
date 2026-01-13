@@ -1,0 +1,12 @@
+scenario_id: "crystal_item"
+npc_id: "crystal_frost"
+location_trigger_sentence: "I visit the ice gallery"
+npc_trigger_sentence: "I approach Crystal Frost"
+unit_tests:
+  - kind: "item_given"
+    item_name: "ice_sculpture_tool"
+texts:
+  - "Crystal, your ice sculptures are breathtaking. True works of art."
+  - "The way you capture beauty in such an ephemeral medium is profound."
+  - "I'm fascinated by how you work with ice magic. It's an incredible skill."
+  - "Would you be willing to give me one of your enchanted sculpting tools? I'd treasure it."

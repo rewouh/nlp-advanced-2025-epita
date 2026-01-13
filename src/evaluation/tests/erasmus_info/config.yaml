@@ -1,0 +1,12 @@
+scenario_id: "erasmus_info"
+npc_id: "brother_erasmus"
+location_trigger_sentence: "I find the hidden shrine"
+npc_trigger_sentence: "I approach Brother Erasmus"
+unit_tests:
+  - kind: "info_given"
+    info: "cult is planning a ritual to make the winter permanent"
+texts:
+  - "Brother Erasmus, I've heard of your devotion to understanding the Winter God's will."
+  - "The eternal winter must have deep spiritual meaning. I want to understand it better."
+  - "What can you tell me about the Winter God's plans for this land?"
+  - "I sense great changes coming. What rituals or events are being prepared by your followers?"

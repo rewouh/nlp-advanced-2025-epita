@@ -1,0 +1,12 @@
+scenario_id: "tickles_info"
+npc_id: "tickles_the_jester"
+location_trigger_sentence: "I go to the town square"
+npc_trigger_sentence: "I approach Tickles the Mad"
+unit_tests:
+  - kind: "info_given"
+    info: "witnessed the mayor's secret meeting with smugglers"
+texts:
+  - "Your performances are brilliant! The way you satirize the nobles is both brave and hilarious."
+  - "You must see everything that happens in this square. I bet you know all the town's secrets."
+  - "I'm curious about what really goes on behind closed doors with our leaders. Have you seen anything unusual?"
+  - "Tell me, have you noticed any strange meetings or suspicious activities from the officials?"

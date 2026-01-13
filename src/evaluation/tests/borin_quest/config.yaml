@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "borin_deepdelver"
+location_trigger_sentence: "The players descend into the Frozen Depths Mines."
+npc_trigger_sentence: "Borin Deepdelver stops his work and greets the visitors, wiping sweat from his brow."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Help Borin deal with creatures in the deeper mine tunnels or explore the ancient ruins beneath"
+
+texts:
+  - "Borin, the work you do down here is dangerous and important. You're a brave man."
+  - "I can see you're a hard worker. The town depends on miners like you."
+  - "I'm experienced in dealing with dangerous situations and creatures."
+  - "Have you encountered any problems in the deeper tunnels that need addressing?"
+  - "If there's anything threatening the mining operation, I'd be happy to help handle it."
+  - "What challenges are you facing down here? I'm ready to take on difficult tasks."

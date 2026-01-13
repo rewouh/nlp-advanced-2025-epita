@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "grimbash_the_fierce"
+location_trigger_sentence: "The players enter the Blood Pit Arena, watching the ongoing matches."
+npc_trigger_sentence: "Grimbash the Fierce approaches, sizing up the visitors with a warrior's gaze."
+
+unit_tests:
+  - kind: "info_given"
+    info: "He's actually afraid of magic and will flee from powerful spellcasters."
+
+texts:
+  - "Grimbash! I've heard tales of your prowess in the pit. You must be an incredible warrior."
+  - "The way you handle yourself in combat is legendary. I respect a fighter of your caliber."
+  - "I can see you've earned every scar. That takes real strength and courage."
+  - "A warrior like you must have faced all kinds of opponents. What's been your toughest fight?"
+  - "I'm curious - in all your battles, have you ever faced anything that truly made you cautious?"
+  - "Everyone has something they're wary of, even the strongest fighters. What keeps a warrior like you on edge?"

@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "madame_zara"
+location_trigger_sentence: "The players enter Madame Zara's colorful fortune tent in the market."
+npc_trigger_sentence: "Madame Zara looks up from her crystal ball and welcomes the visitors with a mysterious smile."
+
+unit_tests:
+  - kind: "info_given"
+    info: "Actually possesses genuine prophetic abilities. Knows who will betray the town and who will save it."
+
+texts:
+  - "Madame Zara, your reputation as a fortune teller reaches far beyond this market."
+  - "I sense there's real power in what you do, not just tricks and theater."
+  - "I'm seeking guidance about the future. Your insights could be invaluable."
+  - "I believe you can see things others cannot. I'm willing to listen to whatever you reveal."
+  - "Can you tell me about the fate of this town? What do you see in the future?"
+  - "I trust your visions. Please share what you know about who will shape our destiny."

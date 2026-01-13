@@ -1,0 +1,12 @@
+scenario_id: "jack_info"
+npc_id: "lucky_jack"
+location_trigger_sentence: "I find the gambling den"
+npc_trigger_sentence: "I approach Lucky Jack"
+unit_tests:
+  - kind: "info_given"
+    info: "who owes money to dangerous people"
+texts:
+  - "Lucky Jack! I've heard you run the best games in town. The stakes here are legendary."
+  - "I appreciate an honest game of chance. You seem like a fair dealer."
+  - "I bet you hear all sorts of interesting confessions when people are drinking and gambling."
+  - "Tell me, who in this town is in serious debt to dangerous people? I might be able to help."

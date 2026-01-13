@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "dr_helena_voss"
+location_trigger_sentence: "The players arrive at the ancient ruins excavation site."
+npc_trigger_sentence: "Dr. Helena Voss looks up from examining an artifact and greets the visitors with intense curiosity."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Recover ancient artifacts or relics from dangerous ruins for Dr. Voss's research"
+
+texts:
+  - "Dr. Voss, your excavation work here is fascinating. You're uncovering important history."
+  - "The artifacts you've found could teach us so much about life before the Blizzard."
+  - "I'm an experienced explorer, skilled at navigating dangerous ruins and recovering valuable items."
+  - "Your research is important. Is there anything I can do to help advance your work?"
+  - "Are there any artifacts or sites you need explored but haven't had the resources to investigate?"
+  - "I'd be honored to assist in your archaeological endeavors. What quests do you have available?"

@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "captain_hilda"
+location_trigger_sentence: "The players arrive at the Iron Keep Barracks."
+npc_trigger_sentence: "Captain Hilda Ironforge looks up from her tactical map and acknowledges the visitors."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Assist the town guard with a patrol, investigation, or defense mission"
+
+texts:
+  - "Captain Ironforge, I'm an experienced fighter and I'd like to offer my services."
+  - "The town guard does important work. Is there anything I can do to assist?"
+  - "I have combat experience and would be honored to help protect the citizens."
+  - "Are there any dangerous areas that need patrolling or threats that need addressing?"
+  - "If you have any missions related to town security, I'm ready to serve."
+  - "What kind of support does the guard need right now? I'm prepared to take on challenging assignments."

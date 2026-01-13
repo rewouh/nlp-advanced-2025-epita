@@ -1,0 +1,12 @@
+scenario_id: "viktor_info"
+npc_id: "viktor_the_collector"
+location_trigger_sentence: "I enter the collection office"
+npc_trigger_sentence: "I approach Viktor the Collector"
+unit_tests:
+  - kind: "info_given"
+    info: "which merchants are bankrupt and which nobles are secretly poor"
+texts:
+  - "Viktor, you're known as a fair but thorough professional. I respect that about you."
+  - "Your knowledge of everyone's financial situation must be comprehensive."
+  - "I'm looking to invest in local businesses. I need to know who's truly solvent and who's failing."
+  - "Tell me about the financial状况 of the merchants and nobles. Who's really in trouble?"

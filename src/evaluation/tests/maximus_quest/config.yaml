@@ -1,0 +1,12 @@
+scenario_id: "maximus_quest"
+npc_id: "maximus_bloodsand"
+location_trigger_sentence: "I enter the arena"
+npc_trigger_sentence: "I approach Maximus Bloodsand"
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "arena-related quest or combat challenge"
+texts:
+  - "Champion Maximus! Your legendary victories in the arena are known throughout the land."
+  - "I've come to learn from the greatest gladiator. Your combat prowess is unmatched."
+  - "I'm seeking a challenge worthy of my skills. Do you have any arena trials for me?"
+  - "What quests or challenges can the arena offer to prove my worth in combat?"

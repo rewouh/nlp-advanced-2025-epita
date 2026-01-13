@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "magnus_runehammer"
+location_trigger_sentence: "The players enter the Runehammer's Forge, heat and the sound of hammering filling the air."
+npc_trigger_sentence: "Magnus Runehammer looks up from his anvil and greets the visitors with a warm smile."
+
+unit_tests:
+  - kind: "item_given"
+    item_name: "Frost-Resistant Amulet"
+
+texts:
+  - "Master Runehammer! Your reputation as a craftsman is known far and wide."
+  - "The work you do here is truly remarkable. I've never seen such fine weapons and armor."
+  - "I can see the care and skill that goes into every piece. You must have trained for many years."
+  - "Your dedication to your craft is inspiring. The world needs more artisans like you."
+  - "I'm on a quest into the frozen wastes. I wonder if you might have any wisdom to share about surviving the cold?"
+  - "If you have any equipment that could help protect against the frost, I would be deeply grateful and honored to receive it."

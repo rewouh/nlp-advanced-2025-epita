@@ -1,0 +1,12 @@
+scenario_id: "margaux_item"
+npc_id: "chef_margaux"
+location_trigger_sentence: "I enter the fine restaurant"
+npc_trigger_sentence: "I approach Chef Margaux"
+unit_tests:
+  - kind: "item_given"
+    item_name: "enchanted_recipe"
+texts:
+  - "Chef Margaux! Your culinary creations are legendary. The flavors, the presentation - perfection!"
+  - "I've never tasted anything as exquisite as your dishes. You're a true artist."
+  - "I'm fascinated by the special properties some of your dishes seem to have. How do you achieve such effects?"
+  - "Would you be willing to share one of your secret recipes with someone who truly appreciates your craft?"

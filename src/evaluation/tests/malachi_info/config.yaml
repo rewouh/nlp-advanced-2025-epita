@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "keeper_malachi"
+location_trigger_sentence: "The players enter the Shrine of Memories, surrounded by historical artifacts."
+npc_trigger_sentence: "Keeper Malachi greets the visitors warmly, eager to share his knowledge."
+
+unit_tests:
+  - kind: "info_given"
+    info: "Knows the complete history of the Great Blizzard, including details others have forgotten. Knows where the First King's crown is buried."
+
+texts:
+  - "Keeper Malachi, this shrine is incredible. You've preserved so much history here."
+  - "Your dedication to maintaining these records is admirable. The past must not be forgotten."
+  - "I can see each artifact here has a story. You must know them all."
+  - "The Great Blizzard changed everything, but I feel like we've lost the full story over the years."
+  - "Someone with your knowledge must understand what truly happened. Would you share what you know about the beginning of the eternal winter?"
+  - "Are there any historical secrets that have been forgotten by most? I'm eager to learn the complete truth."

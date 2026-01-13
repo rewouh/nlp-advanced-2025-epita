@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "pip_quickfingers"
+location_trigger_sentence: "The players spot Pip in the busy market district."
+npc_trigger_sentence: "Pip Quickfingers notices the visitors and approaches with a cheeky grin."
+
+unit_tests:
+  - kind: "info_given"
+    info: "Knows all the secret passages in the city. Has overheard conversations about criminal activities and political schemes."
+
+texts:
+  - "Hey Pip! You look like someone who knows their way around these streets."
+  - "Here, take this coin. You've got to be hungry. Get yourself something warm to eat."
+  - "A clever kid like you must see and hear everything that happens in this city."
+  - "I bet you know shortcuts and secrets that even the guards don't know about."
+  - "I'm looking for information, and I'm willing to pay for good intel. What have you seen or heard?"
+  - "Tell me about the secret passages and the things people think nobody notices."

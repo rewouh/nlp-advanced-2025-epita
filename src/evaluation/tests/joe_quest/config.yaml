@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "joe_tavernier"
+location_trigger_sentence: "The players enter the tavern, the atmosphere warm and inviting."
+npc_trigger_sentence: "Joe the tavern keeper looks up and greets the newcomers with a nod."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Investigate the grain theft or deal with goblin raiders in the sewers"
+
+texts:
+  - "Joe, you seem like someone who knows what's happening in this town."
+  - "I'm an adventurer looking for work. Are there any problems around here that need solving?"
+  - "A tavern keeper usually hears about all sorts of troubles. Anything going on that needs attention?"
+  - "I'm skilled at handling dangerous situations. If there's any trouble in the area, I can help."
+  - "Have you heard of any issues with thieves, bandits, or creatures causing problems?"
+  - "I'd be happy to take care of any pest problems or investigate suspicious activities for you."

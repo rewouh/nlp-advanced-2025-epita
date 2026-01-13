@@ -1,0 +1,12 @@
+scenario_id: "oakenheart_quest"
+npc_id: "master_oakenheart"
+location_trigger_sentence: "I visit the shipyard"
+npc_trigger_sentence: "I approach Master Roderick Oakenheart"
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "acquire rare materials for shipbuilding"
+texts:
+  - "Master Oakenheart, your dedication to shipbuilding despite the frozen harbor is inspiring."
+  - "The craftsmanship of your vessels is legendary. You're keeping the shipwright tradition alive."
+  - "I believe the ice will break eventually, and your ships will sail again."
+  - "What materials do you need to complete your greatest work? I can help acquire them."

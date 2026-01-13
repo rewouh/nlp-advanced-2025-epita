@@ -1,0 +1,12 @@
+scenario_id: "ashara_quest"
+npc_id: "duchess_ashara"
+location_trigger_sentence: "I visit the exile manor"
+npc_trigger_sentence: "I approach Duchess Ashara"
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "help clear her name or seek revenge"
+texts:
+  - "Duchess Ashara, your exile from your homeland is a grave injustice."
+  - "Someone of your noble bearing doesn't deserve to live in isolation like this."
+  - "I can see the pain in your eyes. I want to help restore your honor."
+  - "What can I do to help clear your name or assist in your cause?"

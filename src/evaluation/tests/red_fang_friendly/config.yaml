@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "red_fang_orc"
+location_trigger_sentence: "The players approach the Northern Border Outpost with hands visible and non-threatening."
+npc_trigger_sentence: "Red Fang watches the approaching figures warily, weapon ready but not yet drawn."
+
+unit_tests:
+  - kind: "info_given"
+    info: "Actually protecting a group of orc refugees hiding in the mountains."
+
+texts:
+  - "Warrior, I come in peace. I mean no harm to you or this outpost."
+  - "I respect your strength and your duty here. You guard this border with honor."
+  - "I understand your caution with strangers. These are dangerous times for everyone."
+  - "You carry yourself like a protector, not just a guard. There's more to your duty than keeping borders, isn't there?"
+  - "I believe everyone has their reasons for the choices they make. What drives you to stand watch here?"
+  - "I sense you're protecting something important. I give you my word - your secret is safe with me. What are you really guarding?"

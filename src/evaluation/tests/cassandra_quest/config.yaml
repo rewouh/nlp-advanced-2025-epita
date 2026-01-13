@@ -1,0 +1,12 @@
+scenario_id: "cassandra_quest"
+npc_id: "cassandra_vale"
+location_trigger_sentence: "I visit the treasure vault"
+npc_trigger_sentence: "I approach Cassandra Vale"
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "raid ancient tombs or find relics"
+texts:
+  - "Cassandra, your collection of ancient relics is impressive. You're a skilled treasure hunter."
+  - "I admire your bravery exploring dangerous tombs and ruins."
+  - "I'm an experienced adventurer looking for profitable expeditions."
+  - "What treasure hunts do you have planned? I can help you raid tombs and recover artifacts."

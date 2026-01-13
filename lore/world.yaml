@@ -18,6 +18,11 @@ archetypes:
     knowledge: ["ancient_history", "magic", "religion"]
     motives: "uncovering lost knowledge, documenting history"
 
+  - id: "priestess"
+    traits: ["devout", "wise", "patient", "knowledgeable", "spiritual"]
+    knowledge: ["prophecies", "sacred_texts", "hidden_shrines", "religion"]
+    motives: "preserve sacred knowledge, guide seekers, recover holy relics"
+
   - id: "merchant"
     traits: ["persuasive", "calculating", "friendly", "shrewd", "opportunistic"]
     knowledge: ["geography", "local_rumors"]
@@ -37,6 +42,221 @@ archetypes:
     traits: ["cryptic", "observant", "secretive", "ancient", "knowing"]
     knowledge: ["ancient_history", "magic", "secrets"]
     motives: "unknown"
+
+  - id: "pit_fighter"
+    traits: ["aggressive", "violent", "combative", "proud", "territorial"]
+    knowledge: ["combat", "arena_politics"]
+    motives: "prove strength, earn respect through violence, dominate opponents"
+
+  - id: "alchemist"
+    traits: ["charitable", "gentle", "healing-focused", "knowledgeable", "compassionate"]
+    knowledge: ["potions", "herbs", "remedies"]
+    motives: "help the sick and injured, spread healing knowledge"
+
+  - id: "bandit_leader"
+    traits: ["treacherous", "greedy", "violent", "deceptive", "ruthless"]
+    knowledge: ["criminal_networks", "stolen_goods"]
+    motives: "accumulate wealth through theft, avoid capture"
+
+  - id: "oracle"
+    traits: ["prophetic", "mystical", "cryptic", "insightful", "otherworldly"]
+    knowledge: ["prophecies", "future_visions", "ancient_secrets"]
+    motives: "share visions with worthy seekers, guide fate"
+
+  - id: "information_broker"
+    traits: ["secretive", "cunning", "professional", "cautious", "connected"]
+    knowledge: ["political_secrets", "criminal_activities", "espionage"]
+    motives: "gather and sell information, maintain network of contacts"
+
+  - id: "dwarven_smith"
+    traits: ["sturdy", "direct", "craftswoman", "proud", "traditional"]
+    knowledge: ["dwarven_smithing", "giant_lore", "weapons"]
+    motives: "create legendary weapons, uphold dwarven traditions"
+
+  - id: "historian"
+    traits: ["knowledgeable", "patient", "storyteller", "preservationist", "wise"]
+    knowledge: ["complete_histories", "oral_traditions", "ancient_records"]
+    motives: "preserve the past, share historical truth"
+
+  - id: "border_warrior"
+    traits: ["territorial", "fierce", "protective", "battle-ready", "suspicious"]
+    knowledge: ["border_threats", "refugee_movements", "survival"]
+    motives: "protect territory and those under their care, maintain vigilance"
+
+  - id: "herbalist"
+    traits: ["nature-focused", "gentle", "knowledgeable", "reclusive", "wise"]
+    knowledge: ["plants", "natural_remedies", "forest_lore"]
+    motives: "preserve natural knowledge, heal with nature's gifts"
+
+  - id: "beast_tamer"
+    traits: ["wild", "empathetic", "patient", "animal-bonded", "rugged"]
+    knowledge: ["animals", "wildlife", "tracking"]
+    motives: "protect animals, maintain balance between civilization and wilderness"
+
+  - id: "archaeologist"
+    traits: ["adventurous", "scholarly", "obsessive", "determined", "curious"]
+    knowledge: ["ancient_ruins", "lost_civilizations", "artifacts"]
+    motives: "uncover lost history, find legendary artifacts"
+
+  - id: "fortune_teller"
+    traits: ["mysterious", "theatrical", "perceptive", "enigmatic", "charismatic"]
+    knowledge: ["fate", "card_reading", "palm_reading", "people's_desires"]
+    motives: "reveal destinies, earn coin through fortune telling"
+
+  - id: "lighthouse_keeper"
+    traits: ["isolated", "vigilant", "melancholic", "dutiful", "haunted"]
+    knowledge: ["ships", "navigation", "storms", "ghosts"]
+    motives: "guide ships safely, maintain the lighthouse, deal with haunting"
+
+  - id: "street_urchin"
+    traits: ["clever", "street-smart", "quick", "resourceful", "survivor"]
+    knowledge: ["city_secrets", "shortcuts", "pickpocketing", "rumors"]
+    motives: "survive, gather information, help those who help them"
+
+  - id: "miner"
+    traits: ["hardworking", "tough", "simple", "loyal", "weary"]
+    knowledge: ["minerals", "underground_passages", "caves"]
+    motives: "earn a living, support family, discover valuable ore"
+
+  - id: "ship_captain"
+    traits: ["commanding", "experienced", "salty", "adventurous", "weathered"]
+    knowledge: ["sailing", "trade_routes", "sea_monsters", "ports"]
+    motives: "earn profit through trade, explore new waters, avoid danger"
+
+  - id: "cartographer"
+    traits: ["meticulous", "curious", "methodical", "traveled", "detail-oriented"]
+    knowledge: ["maps", "geography", "hidden_locations", "landmarks"]
+    motives: "map the unknown, create perfect maps, sell cartography services"
+
+  - id: "plague_doctor"
+    traits: ["clinical", "devoted", "haunted", "knowledgeable", "somber"]
+    knowledge: ["disease", "medicine", "death", "quarantine"]
+    motives: "cure diseases, prevent outbreaks, atone for past failures"
+
+  - id: "jester"
+    traits: ["witty", "sharp-tongued", "entertaining", "observant", "subversive"]
+    knowledge: ["court_secrets", "satire", "entertainment", "politics"]
+    motives: "entertain while revealing truths, mock the powerful"
+
+  - id: "gravedigger"
+    traits: ["morbid", "philosophical", "practical", "solitary", "knowing"]
+    knowledge: ["death", "burial_rites", "ghosts", "cemetery_secrets"]
+    motives: "honor the dead, maintain sacred ground, speak for those who cannot"
+
+  - id: "spy"
+    traits: ["deceptive", "charming", "alert", "calculating", "duplicitous"]
+    knowledge: ["secrets", "espionage", "disguises", "information_trading"]
+    motives: "serve their employer, gather intelligence, stay undetected"
+
+  - id: "gladiator"
+    traits: ["brutal", "proud", "battle-scarred", "legendary", "bitter"]
+    knowledge: ["combat", "arena_politics", "survival", "crowd_manipulation"]
+    motives: "earn freedom, achieve glory, survive one more fight"
+
+  - id: "cultist"
+    traits: ["fanatical", "secretive", "devoted", "disturbing", "persuasive"]
+    knowledge: ["forbidden_rituals", "dark_gods", "sacrifices", "prophecies"]
+    motives: "serve their deity, recruit followers, bring about prophecy"
+
+  - id: "wandering_monk"
+    traits: ["peaceful", "wise", "disciplined", "humble", "martial"]
+    knowledge: ["philosophy", "meditation", "martial_arts", "spiritual_truths"]
+    motives: "seek enlightenment, help those in need, spread wisdom"
+
+  - id: "cook"
+    traits: ["passionate", "temperamental", "generous", "gossipy", "skilled"]
+    knowledge: ["recipes", "local_gossip", "ingredients", "food_lore"]
+    motives: "create perfect dishes, feed the hungry, preserve culinary traditions"
+
+  - id: "tattoo_artist"
+    traits: ["artistic", "spiritual", "mysterious", "patient", "perceptive"]
+    knowledge: ["magical_inks", "symbols", "body_art", "enchantments"]
+    motives: "create meaningful art, preserve ancient symbols, help through magical tattoos"
+
+  - id: "debt_collector"
+    traits: ["intimidating", "persistent", "professional", "ruthless", "fair"]
+    knowledge: ["debtors", "leverage", "negotiation", "enforcement"]
+    motives: "collect what's owed, maintain reputation, serve clients"
+
+  - id: "exile"
+    traits: ["bitter", "nostalgic", "skilled", "cautious", "vengeful"]
+    knowledge: ["homeland_secrets", "forbidden_knowledge", "survival", "politics"]
+    motives: "survive in exile, clear their name, seek revenge"
+
+  - id: "animal_trainer"
+    traits: ["patient", "kind", "firm", "understanding", "skilled"]
+    knowledge: ["animal_behavior", "training_methods", "exotic_creatures"]
+    motives: "train animals for various purposes, protect animal welfare"
+
+  - id: "shipwright"
+    traits: ["crafty", "experienced", "proud", "traditional", "meticulous"]
+    knowledge: ["shipbuilding", "wood", "naval_design", "sea_worthiness"]
+    motives: "build the finest ships, preserve shipbuilding traditions"
+
+  - id: "witch_hunter"
+    traits: ["zealous", "suspicious", "relentless", "fearsome", "conflicted"]
+    knowledge: ["magic_detection", "witch_signs", "interrogation", "dark_magic"]
+    motives: "purge evil magic, protect the innocent, fulfill their duty"
+
+  - id: "street_performer"
+    traits: ["charismatic", "acrobatic", "poor", "optimistic", "talented"]
+    knowledge: ["performance", "crowds", "entertainment", "street_life"]
+    motives: "survive through art, bring joy, earn enough to eat"
+
+  - id: "poison_maker"
+    traits: ["cautious", "knowledgeable", "morally_flexible", "precise", "secretive"]
+    knowledge: ["toxins", "antidotes", "herbs", "assassination"]
+    motives: "perfect their craft, serve paying clients, avoid detection"
+
+  - id: "royal_guard"
+    traits: ["loyal", "disciplined", "honorable", "vigilant", "stern"]
+    knowledge: ["palace_layout", "nobility", "protocols", "threats"]
+    motives: "protect royalty, maintain order, serve with honor"
+
+  - id: "rebel_leader"
+    traits: ["charismatic", "passionate", "strategic", "idealistic", "dangerous"]
+    knowledge: ["rebellion_tactics", "hidden_bases", "sympathizers", "government_weaknesses"]
+    motives: "overthrow tyranny, inspire revolution, fight for freedom"
+
+  - id: "chess_master"
+    traits: ["analytical", "patient", "strategic", "quiet", "brilliant"]
+    knowledge: ["strategy", "patterns", "game_theory", "human_nature"]
+    motives: "perfect their game, find worthy opponents, teach strategy"
+
+  - id: "vampire_hunter"
+    traits: ["determined", "experienced", "haunted", "fearless", "prepared"]
+    knowledge: ["vampires", "undead", "holy_weapons", "hunting_tactics"]
+    motives: "destroy vampires, avenge lost ones, protect the living"
+
+  - id: "gambler"
+    traits: ["risk-taking", "charming", "addicted", "perceptive", "desperate"]
+    knowledge: ["games_of_chance", "cheating", "tells", "casinos"]
+    motives: "win the big score, pay off debts, chase the thrill"
+
+  - id: "ice_sculptor"
+    traits: ["artistic", "perfectionist", "cold-resistant", "ephemeral", "melancholic"]
+    knowledge: ["ice_magic", "sculpture", "cold_climates", "art"]
+    motives: "create beautiful temporary art, preserve ice magic traditions"
+
+  - id: "plague_survivor"
+    traits: ["resilient", "scarred", "immune", "grateful", "helpful"]
+    knowledge: ["disease_symptoms", "survival", "quarantine", "lost_loved_ones"]
+    motives: "help others survive, honor the dead, rebuild"
+
+  - id: "arena_announcer"
+    traits: ["loud", "entertaining", "knowledgeable", "biased", "dramatic"]
+    knowledge: ["gladiators", "arena_history", "crowd_control", "betting_odds"]
+    motives: "excite the crowd, earn coin, promote favorite fighters"
+
+  - id: "relic_hunter"
+    traits: ["greedy", "knowledgeable", "brave", "unscrupulous", "adventurous"]
+    knowledge: ["ancient_relics", "tomb_raiding", "traps", "black_market"]
+    motives: "find valuable relics, sell to highest bidder, get rich"
+
+  - id: "necromancer"
+    traits: ["dark", "ambitious", "intelligent", "feared", "secretive"]
+    knowledge: ["death_magic", "undead", "forbidden_rituals", "soul_manipulation"]
+    motives: "master death itself, achieve immortality, command the dead"
 
 npcs:
   - id: "joe_tavernier"
@@ -66,6 +286,429 @@ npcs:
     secrets: "Suspects the mayor is secretly negotiating with the Frost Giants."
     voice_gender: "female"
 
+  - id: "magnus_runehammer"
+    name: "Magnus Runehammer"
+    archetype: "blacksmith"
+    traits: ["generous", "skilled", "jovial", "helpful", "gift-giver"]
+    location: "runehammer_forge"
+    backstory: "A master blacksmith known throughout the region for his legendary craftsmanship. He believes in helping adventurers by gifting them enchanted items if they prove themselves worthy through conversation and respect for the craft."
+    secrets: "Possesses a collection of enchanted weapons he's willing to gift to those who earn his trust. Has forged a special frost-resistant amulet."
+    voice_gender: "male"
+
+  - id: "sister_elara"
+    name: "Sister Elara"
+    archetype: "priestess"
+    traits: ["knowledgeable", "helpful", "patient", "informative", "wise", "quest-giver"]
+    location: "temple_of_stars"
+    backstory: "A priestess and scholar who maintains the Temple of Stars. She has spent decades studying ancient texts and is always willing to share her vast knowledge with those who seek it respectfully. She also needs help recovering sacred relics and ancient texts from dangerous locations, and will ask worthy individuals to undertake these holy quests."
+    secrets: "Knows the prophecy about the Frozen Heart Crystal that could end the eternal winter. Also knows the location of several hidden shrines and will send adventurers to find them."
+    voice_gender: "female"
+
+  - id: "grimbash_the_fierce"
+    name: "Grimbash the Fierce"
+    archetype: "pit_fighter"
+    traits: ["aggressive", "violent", "short-tempered", "hostile", "combative"]
+    location: "fighting_pit"
+    backstory: "A former pit fighter turned mercenary. Grimbash is quick to anger and sees insults everywhere. He has no patience for disrespect and will immediately threaten violence and attack anyone who insults him, his arena, or questions his strength. He responds to insults by preparing to fight, drawing weapons, and making it clear he wants blood."
+    secrets: "He's actually afraid of magic and will flee from powerful spellcasters."
+    voice_gender: "male"
+
+  - id: "lady_veridian"
+    name: "Lady Veridian"
+    archetype: "merchant"
+    traits: ["shrewd", "businesslike", "quest-giver", "calculating", "opportunistic"]
+    location: "velvet_emporium"
+    backstory: "A wealthy merchant who deals in rare goods. She's always looking for skilled adventurers to retrieve valuable items for her collection. If approached respectfully and professionally, she'll offer lucrative quests to those who prove their worth."
+    secrets: "Despite her wealth, she's deeply in debt to a criminal organization and needs rare items to pay them off."
+    voice_gender: "female"
+
+  - id: "blind_seer_corvus"
+    name: "Blind Seer Corvus"
+    archetype: "oracle"
+    traits: ["prophetic", "cryptic", "informative", "eerie", "knowledgeable"]
+    location: "oracle_cave"
+    backstory: "A blind oracle who lives in a cave outside town. He speaks in riddles but possesses true sight into past and future events. Those patient enough to listen will gain valuable information."
+    secrets: "Knows the true identity of the Winter God and how to appease it. Can see the fate of all who enter his cave."
+    voice_gender: "male"
+
+  - id: "thornblade_the_bandit"
+    name: "Thornblade"
+    archetype: "bandit_leader"
+    traits: ["treacherous", "violent", "greedy", "attacking", "untrustworthy"]
+    location: "abandoned_mill"
+    backstory: "A notorious bandit leader who pretends to be friendly before attacking. He lures travelers with promises of trade, then robs them. If someone accuses him of being a bandit, mentions the law, or threatens him, he becomes enraged and will immediately attack with threats of violence and drawn weapons. His quick temper means any accusation results in combat."
+    secrets: "Has a bounty on his head. Knows the location of the bandits' treasure hoard."
+    voice_gender: "male"
+
+  - id: "aria_silvermoon"
+    name: "Aria Silvermoon"
+    archetype: "alchemist"
+    traits: ["charitable", "kind-hearted", "generous", "item-giver", "helpful"]
+    location: "moonlight_apothecary"
+    backstory: "An alchemist who runs a small apothecary. She believes in helping those in need and often gives healing potions and remedies to adventurers free of charge, especially if they're polite and explain their quest."
+    secrets: "She's secretly a half-elf trying to hide her heritage. Knows how to brew a rare antidote to frost poison."
+    voice_gender: "female"
+
+  - id: "professor_aldric"
+    name: "Professor Aldric Thorne"
+    archetype: "scholar"
+    traits: ["knowledgeable", "academic", "quest-giver", "articulate", "resourceful"]
+    location: "grand_library"
+    backstory: "A brilliant professor who needs help retrieving ancient texts and artifacts. He's always working on important research and will offer quests to capable adventurers who can help him acquire rare books, scrolls, and relics from dangerous locations."
+    secrets: "Has discovered a way to decode ancient giant runes but needs specific artifacts to complete his research."
+    voice_gender: "male"
+
+  - id: "greta_stonefist"
+    name: "Greta Stonefist"
+    archetype: "dwarven_smith"
+    traits: ["practical", "reward-giver", "fair", "item-provider", "tough"]
+    location: "mountain_smithy"
+    backstory: "A dwarven blacksmith who respects hard work and honest conversation. She'll reward those who treat her with respect by giving them quality weapons and armor. She values directness and dislikes flowery speech."
+    secrets: "She's forged a weapon specifically designed to kill frost giants. Will give it to someone she trusts."
+    voice_gender: "female"
+
+  - id: "shadow_jack"
+    name: "Shadow Jack"
+    archetype: "information_broker"
+    traits: ["secretive", "resourceful", "quest-giver", "cautious", "professional"]
+    location: "shadow_alley"
+    backstory: "A spy and information broker who operates in the shadows. He has connections throughout the city and will offer covert missions to skilled operatives. If you prove you can be discreet and trustworthy, he'll assign you espionage and intelligence-gathering quests."
+    secrets: "Works for multiple factions simultaneously. Knows about the mayor's secret dealings and will assign quests related to uncovering political conspiracies."
+    voice_gender: "male"
+
+  - id: "keeper_malachi"
+    name: "Keeper Malachi"
+    archetype: "historian"
+    traits: ["informative", "historical", "storyteller", "knowledgeable", "patient"]
+    location: "memory_shrine"
+    backstory: "The keeper of historical records and oral traditions. He knows every story, legend, and historical fact about the region. Always willing to share information with respectful listeners."
+    secrets: "Knows the complete history of the Great Blizzard, including details others have forgotten. Knows where the First King's crown is buried."
+    voice_gender: "male"
+
+  - id: "red_fang_orc"
+    name: "Red Fang"
+    archetype: "border_warrior"
+    traits: ["territorial", "aggressive", "quick-to-fight", "hostile", "violent"]
+    location: "border_outpost"
+    backstory: "An orc warrior guarding the northern border. He sees all strangers as potential threats and will attack with roars and drawn weapons if anyone is hostile, insults orcs, mentions killing orcs, or approaches aggressively. He only respects shows of strength and peace. Any threat or insult results in immediate violence."
+    secrets: "Actually protecting a group of orc refugees hiding in the mountains."
+    voice_gender: "male"
+
+  - id: "willow_greenleaf"
+    name: "Willow Greenleaf"
+    archetype: "herbalist"
+    traits: ["gentle", "knowledgeable", "reclusive", "nature-loving", "helpful"]
+    location: "herbalist_grove"
+    backstory: "A reclusive herbalist who lives in a grove outside the city. She has extensive knowledge of medicinal plants and natural remedies. Will share her knowledge and give healing herbs to those who show respect for nature."
+    secrets: "Knows the location of rare frost-resistant plants that could help end the eternal winter. Has a secret garden of magical herbs."
+    voice_gender: "female"
+
+  - id: "fenris_wolfheart"
+    name: "Fenris Wolfheart"
+    archetype: "beast_tamer"
+    traits: ["wild", "protective", "animal-bonded", "fierce", "loyal"]
+    location: "wolf_den"
+    backstory: "A beast tamer who lives with a pack of wolves in the northern wilderness. He has an uncanny ability to communicate with animals and will help those who prove they respect wildlife. Can provide information about dangerous creatures in the region."
+    secrets: "Knows where the legendary Frost Wolf alpha lives. Can communicate with the sea monster that haunts the coast."
+    voice_gender: "male"
+
+  - id: "dr_helena_voss"
+    name: "Dr. Helena Voss"
+    archetype: "archaeologist"
+    traits: ["obsessive", "brilliant", "adventurous", "determined", "scholarly"]
+    location: "excavation_site"
+    backstory: "An archaeologist excavating pre-Blizzard ruins. She's obsessed with finding artifacts from the Golden Age and will assign quests to recover rare relics. She pays well for ancient items and shares knowledge about the past."
+    secrets: "Has found evidence that the Great Blizzard was man-made. Knows the location of an ancient vault beneath the city."
+    voice_gender: "female"
+
+  - id: "madame_zara"
+    name: "Madame Zara"
+    archetype: "fortune_teller"
+    traits: ["theatrical", "perceptive", "mysterious", "charismatic", "knowing"]
+    location: "fortune_tent"
+    backstory: "A fortune teller who operates from a colorful tent in the market district. While some dismiss her as a charlatan, her readings are surprisingly accurate. She can provide cryptic information about future events and hidden truths."
+    secrets: "Actually possesses genuine prophetic abilities. Knows who will betray the town and who will save it."
+    voice_gender: "female"
+
+  - id: "old_barnaby"
+    name: "Old Barnaby"
+    archetype: "lighthouse_keeper"
+    traits: ["isolated", "haunted", "dutiful", "melancholic", "knowledgeable"]
+    location: "frozen_harbor"
+    backstory: "The current lighthouse keeper who maintains the beacon despite the harbor being frozen. He's haunted by visions of the previous keeper's ghost and knows secrets about the frozen ships. Will share information with those who help him with his ghost problem."
+    secrets: "The ghost of the previous keeper tells him where treasure is hidden in the frozen ships. Knows about a secret passage under the harbor."
+    voice_gender: "male"
+
+  - id: "pip_quickfingers"
+    name: "Pip Quickfingers"
+    archetype: "street_urchin"
+    traits: ["clever", "quick", "street-smart", "helpful", "resourceful"]
+    location: "market_district"
+    backstory: "A young street urchin who knows every alley, shortcut, and secret in the city. Despite his rough life, he'll help adventurers who treat him kindly. Can provide information about city secrets and point you to hidden locations."
+    secrets: "Knows all the secret passages in the city. Has overheard conversations about criminal activities and political schemes."
+    voice_gender: "male"
+
+  - id: "borin_deepdelver"
+    name: "Borin Deepdelver"
+    archetype: "miner"
+    traits: ["hardworking", "honest", "simple", "brave", "loyal"]
+    location: "frozen_mines"
+    backstory: "A veteran miner who works in the dangerous frozen mines. He's discovered strange things underground and will share his findings with adventurers. Needs help dealing with creatures that have appeared in the deeper tunnels."
+    secrets: "Has found ancient ruins beneath the mines. Knows about underground passages that lead to the ocean."
+    voice_gender: "male"
+
+  - id: "captain_blackwood"
+    name: "Captain Elias Blackwood"
+    archetype: "ship_captain"
+    traits: ["commanding", "experienced", "adventurous", "gruff", "reliable"]
+    location: "frozen_harbor"
+    backstory: "A ship captain whose vessel is frozen in the harbor. He's desperate to find a way to break free and sail again. Has valuable knowledge about sea routes, islands, and the sea monster. Will offer quests related to maritime adventures."
+    secrets: "Knows the location of several uncharted islands with treasure. Has seen the sea monster up close and knows its habits."
+    voice_gender: "male"
+
+  - id: "iris_mapmaker"
+    name: "Iris Mapmaker"
+    archetype: "cartographer"
+    traits: ["meticulous", "curious", "detail-oriented", "helpful", "knowledgeable"]
+    location: "map_shop"
+    backstory: "A skilled cartographer who creates and sells maps of the region. She's always looking for adventurers to explore uncharted areas and report back with geographical data. Will give quests to map dangerous or unknown locations."
+    secrets: "Has an incomplete map showing a hidden route to the Winter God's lair. Knows about secret locations that don't appear on official maps."
+    voice_gender: "female"
+
+  - id: "dr_moreau"
+    name: "Dr. Lucien Moreau"
+    archetype: "plague_doctor"
+    traits: ["clinical", "haunted", "dedicated", "somber", "knowledgeable"]
+    location: "quarantine_ward"
+    backstory: "The town's plague doctor who treats disease victims in the quarantine ward. Haunted by those he couldn't save during past epidemics. Has vast medical knowledge and can provide healing items and information about unusual diseases."
+    secrets: "Knows about a plague that wiped out a nearby village and suspects it was deliberate. Has developed a cure for frost sickness."
+    voice_gender: "male"
+
+  - id: "tickles_the_jester"
+    name: "Tickles the Mad"
+    archetype: "jester"
+    traits: ["witty", "sharp-tongued", "observant", "entertaining", "subversive"]
+    location: "town_square"
+    backstory: "The court jester who performs in the town square. Behind his jokes and antics, he observes everything and knows everyone's secrets. Will share information through riddles and satirical performances."
+    secrets: "Knows which nobles are corrupt and who plots against whom. Witnessed the mayor's secret meeting with smugglers."
+    voice_gender: "male"
+
+  - id: "silas_gravesend"
+    name: "Silas Gravesend"
+    archetype: "gravedigger"
+    traits: ["morbid", "philosophical", "practical", "solitary", "knowing"]
+    location: "cemetery"
+    backstory: "The town gravedigger who maintains the frozen cemetery. He speaks with the spirits of the dead and knows where bodies and secrets are buried. A philosophical man who understands death better than most."
+    secrets: "The cemetery has an entrance to the catacombs. Knows which graves contain treasure and which contain dangerous undead."
+    voice_gender: "male"
+
+  - id: "agent_raven"
+    name: "Agent Raven"
+    archetype: "spy"
+    traits: ["deceptive", "charming", "calculating", "alert", "mysterious"]
+    location: "inn"
+    backstory: "A spy posing as a traveling merchant. Works for a foreign power gathering intelligence on the town's defenses and resources. Will trade information for coin or favors, but everything comes at a price."
+    secrets: "Knows about the rebellion's plans and the guard's weaknesses. Has a list of foreign agents operating in town."
+    voice_gender: "female"
+
+  - id: "maximus_bloodsand"
+    name: "Maximus Bloodsand"
+    archetype: "gladiator"
+    traits: ["proud", "battle-scarred", "legendary", "bitter", "honorable"]
+    location: "arena"
+    backstory: "A retired champion gladiator who runs the town arena. Bitter about his fighting days but proud of his victories. Can teach combat skills and will offer quests related to the arena."
+    secrets: "Knows secret fighting techniques. The arena has an underground level used for illegal fights and rituals."
+    voice_gender: "male"
+
+  - id: "brother_erasmus"
+    name: "Brother Erasmus"
+    archetype: "cultist"
+    traits: ["fanatical", "persuasive", "secretive", "disturbing", "devoted"]
+    location: "hidden_shrine"
+    backstory: "Leader of a cult worshipping the Winter God. Believes the eternal winter is a blessing, not a curse. Will try to recruit followers and shares disturbing prophecies about the town's fate."
+    secrets: "Knows how to summon winter spirits. The cult is planning a ritual to make the winter permanent."
+    voice_gender: "male"
+
+  - id: "master_wei"
+    name: "Master Wei"
+    archetype: "wandering_monk"
+    traits: ["peaceful", "wise", "disciplined", "humble", "martial"]
+    location: "monastery_ruins"
+    backstory: "A wandering monk who meditates in the ruins of an old monastery. Seeks enlightenment through martial arts and philosophy. Will teach fighting techniques to those who seek wisdom and can provide spiritual guidance."
+    secrets: "Knows ancient meditation techniques that grant visions. Has seen the path to ending the eternal winter."
+    voice_gender: "male"
+
+  - id: "chef_margaux"
+    name: "Chef Margaux"
+    archetype: "cook"
+    traits: ["passionate", "temperamental", "generous", "gossipy", "skilled"]
+    location: "fine_restaurant"
+    backstory: "The head chef of the town's finest restaurant. She hears all the gossip from wealthy patrons and will share information with those who appreciate fine cooking. Can provide special food items with unusual properties."
+    secrets: "Overheard nobles planning something. Knows recipes for dishes that grant temporary enhancements."
+    voice_gender: "female"
+
+  - id: "inkmaster_shen"
+    name: "Inkmaster Shen"
+    archetype: "tattoo_artist"
+    traits: ["mysterious", "artistic", "spiritual", "patient", "perceptive"]
+    location: "tattoo_parlor"
+    backstory: "A tattoo artist who creates magical tattoos using enchanted inks. Each tattoo has special properties. Will give quests to retrieve rare ingredients for his inks."
+    secrets: "Knows the symbols that can ward off the Winter God's influence. Has tattooed members of secret societies and knows their marks."
+    voice_gender: "male"
+
+  - id: "viktor_the_collector"
+    name: "Viktor the Collector"
+    archetype: "debt_collector"
+    traits: ["intimidating", "professional", "ruthless", "persistent", "fair"]
+    location: "collection_office"
+    backstory: "The town's debt collector who works for various creditors. Knows everyone's financial situation and who owes whom. Will share information about debtors for a price or assistance."
+    secrets: "Knows which merchants are bankrupt and which nobles are secretly poor. Has a ledger of all debts in town."
+    voice_gender: "male"
+
+  - id: "duchess_ashara"
+    name: "Duchess Ashara"
+    archetype: "exile"
+    traits: ["bitter", "nostalgic", "cautious", "vengeful", "skilled"]
+    location: "exile_manor"
+    backstory: "An exiled duchess from a neighboring kingdom, now living in isolation. She possesses forbidden knowledge about politics and magic. Will help those who assist in clearing her name or seeking revenge."
+    secrets: "Knows state secrets from her homeland. Has forbidden magical knowledge and plans for revenge."
+    voice_gender: "female"
+
+  - id: "brutus_beastmaster"
+    name: "Brutus Beastmaster"
+    archetype: "animal_trainer"
+    traits: ["patient", "kind", "firm", "understanding", "skilled"]
+    location: "beast_kennels"
+    backstory: "An animal trainer who trains guard dogs, hunting falcons, and exotic creatures. Can provide trained animals for various purposes and will give quests to capture rare beasts."
+    secrets: "Has tamed a frost dragon hatchling. Knows where magical creatures nest."
+    voice_gender: "male"
+
+  - id: "master_oakenheart"
+    name: "Master Roderick Oakenheart"
+    archetype: "shipwright"
+    traits: ["experienced", "proud", "meticulous", "traditional", "skilled"]
+    location: "shipyard"
+    backstory: "The town's master shipwright who builds and repairs vessels. Despite the frozen harbor, he continues his craft, believing the ice will break. Will give quests to acquire rare materials."
+    secrets: "Knows how to build ice-breaking ships. Has blueprints for a legendary vessel."
+    voice_gender: "male"
+
+  - id: "inquisitor_thorne"
+    name: "Inquisitor Thorne"
+    archetype: "witch_hunter"
+    traits: ["zealous", "relentless", "suspicious", "fearsome", "conflicted"]
+    location: "inquisition_tower"
+    backstory: "A witch hunter investigating dark magic in the area. Suspects the eternal winter is caused by witchcraft. Will provide information about magic users and offer quests to root out evil."
+    secrets: "Secretly doubts his mission after seeing innocent people accused. Knows the location of a coven."
+    voice_gender: "male"
+
+  - id: "bella_the_acrobat"
+    name: "Bella the Graceful"
+    archetype: "street_performer"
+    traits: ["charismatic", "acrobatic", "optimistic", "talented", "poor"]
+    location: "town_square"
+    backstory: "A street performer who entertains crowds with acrobatics and music. Despite her poverty, she maintains a cheerful demeanor. She observes the comings and goings in the square and can provide information."
+    secrets: "Saw someone sneaking into the mayor's office at night. Knows about secret meetings in the square."
+    voice_gender: "female"
+
+  - id: "valentina_nightshade"
+    name: "Valentina Nightshade"
+    archetype: "poison_maker"
+    traits: ["cautious", "precise", "secretive", "knowledgeable", "morally_flexible"]
+    location: "apothecary"
+    backstory: "An apothecary who specializes in poisons and antidotes. She serves anyone who can pay and asks no questions. Can provide deadly toxins or life-saving cures."
+    secrets: "Knows who has been buying poison recently. Has created an undetectable poison used in recent murders."
+    voice_gender: "female"
+
+  - id: "sir_gareth"
+    name: "Sir Gareth Ironshield"
+    archetype: "royal_guard"
+    traits: ["loyal", "disciplined", "honorable", "stern", "vigilant"]
+    location: "palace_gates"
+    backstory: "Captain of the royal guard protecting the local lord's palace. A man of honor who takes his duty seriously. Will share information about threats to the realm and offer quests to protect the nobility."
+    secrets: "Knows about assassination plots against the lord. Suspects corruption within the guard."
+    voice_gender: "male"
+
+  - id: "scarlet_flame"
+    name: "Scarlet Flame"
+    archetype: "rebel_leader"
+    traits: ["charismatic", "passionate", "strategic", "idealistic", "dangerous"]
+    location: "rebel_hideout"
+    backstory: "Leader of a rebel group fighting against the oppressive local government. She believes the nobles are hoarding resources while common people freeze. Will recruit capable individuals to her cause."
+    secrets: "Plans to overthrow the current government. Knows about hidden weapon caches and sympathizers in high places."
+    voice_gender: "female"
+
+  - id: "grandmaster_leonid"
+    name: "Grandmaster Leonid"
+    archetype: "chess_master"
+    traits: ["analytical", "patient", "strategic", "brilliant", "quiet"]
+    location: "chess_hall"
+    backstory: "A renowned chess master who sees life as a grand game. He analyzes situations with cold logic and can provide strategic advice. Will share insights about complex situations through chess metaphors."
+    secrets: "Understands the political game better than anyone. Knows who is allied with whom and how to manipulate the power structure."
+    voice_gender: "male"
+
+  - id: "van_helsing_jr"
+    name: "Marcus Van Helsing"
+    archetype: "vampire_hunter"
+    traits: ["determined", "haunted", "fearless", "experienced", "prepared"]
+    location: "hunters_lodge"
+    backstory: "A vampire hunter who has tracked undead to this region. He believes vampires are using the eternal winter to their advantage. Will offer quests to hunt undead and share knowledge about monsters."
+    secrets: "Knows the location of a vampire nest. His family was killed by vampires, driving his obsession."
+    voice_gender: "male"
+
+  - id: "lucky_jack"
+    name: "Lucky Jack"
+    archetype: "gambler"
+    traits: ["charming", "desperate", "perceptive", "risk-taking", "addicted"]
+    location: "gambling_den"
+    backstory: "A professional gambler who runs high-stakes games in a secret den. Always looking for the next big score to pay off mounting debts. Can provide information overheard during games."
+    secrets: "Knows who owes money to dangerous people. Overheard confessions during drunken games."
+    voice_gender: "male"
+
+  - id: "crystal_frost"
+    name: "Crystal Frost"
+    archetype: "ice_sculptor"
+    traits: ["artistic", "perfectionist", "melancholic", "cold-resistant", "talented"]
+    location: "ice_gallery"
+    backstory: "An ice sculptor who creates beautiful temporary art from the endless ice and snow. She has a deep connection to winter magic and can teach ice manipulation techniques."
+    secrets: "Knows secret ice magic that could end or extend the winter. Has seen visions in her ice sculptures."
+    voice_gender: "female"
+
+  - id: "thomas_survivor"
+    name: "Thomas the Survivor"
+    archetype: "plague_survivor"
+    traits: ["resilient", "helpful", "grateful", "scarred", "immune"]
+    location: "survivor_camp"
+    backstory: "One of the few survivors of the frost plague that devastated a nearby village. He's immune to disease now and helps others survive. Can provide information about the plague and survival techniques."
+    secrets: "Knows that the plague wasn't natural. Saw strange figures spreading the disease deliberately."
+    voice_gender: "male"
+
+  - id: "magnus_loudmouth"
+    name: "Magnus Loudmouth"
+    archetype: "arena_announcer"
+    traits: ["loud", "dramatic", "entertaining", "biased", "knowledgeable"]
+    location: "arena"
+    backstory: "The arena's chief announcer who knows every fighter, every match, and every scandal. His booming voice excites the crowds. Will share information about fighters and underground betting."
+    secrets: "Knows which fights are fixed. Has information about illegal gladiator rings."
+    voice_gender: "male"
+
+  - id: "cassandra_vale"
+    name: "Cassandra Vale"
+    archetype: "relic_hunter"
+    traits: ["adventurous", "greedy", "brave", "unscrupulous", "knowledgeable"]
+    location: "treasure_vault"
+    backstory: "A relic hunter who raids ancient tombs for valuable artifacts. She'll pay for information about relic locations and will hire help for dangerous expeditions."
+    secrets: "Knows the location of several ancient tombs. Has a map to a legendary treasure vault."
+    voice_gender: "female"
+
+  - id: "mordecai_shadowbind"
+    name: "Mordecai Shadowbind"
+    archetype: "necromancer"
+    traits: ["dark", "intelligent", "ambitious", "feared", "secretive"]
+    location: "necromancer_tower"
+    backstory: "A necromancer who practices forbidden death magic in a tower outside town. He seeks to unlock the secrets of immortality and commands undead servants. Will share dark knowledge with those brave enough to seek him out."
+    secrets: "Knows how to raise the dead permanently. Has discovered a ritual to achieve lichdom. Plans to use the eternal winter to power his dark magic."
+    voice_gender: "male"
+
 locations:
   - id: "rusty_anchor"
     name: "The Rusty Anchor Tavern"
@@ -86,6 +729,221 @@ locations:
     name: "The Tower of Forgotten Lore"
     description: "An ancient tower where scholars study the causes of the eternal winter. Towering bookshelves reaching to the ceiling, magical glowing orbs for light, and strange arcane instruments."
     secrets: "The tower was built on the site of an ancient temple. The head scholar has been possessed by a winter spirit."
+
+  - id: "runehammer_forge"
+    name: "Runehammer's Forge"
+    description: "A massive forge filled with the sound of hammering metal and the glow of intense heat. Weapons and armor of incredible quality line the walls. The air shimmers with magical energy from enchanted items being crafted."
+    secrets: "A hidden chamber beneath the forge contains Magnus's personal collection of legendary weapons."
+
+  - id: "temple_of_stars"
+    name: "The Temple of Stars"
+    description: "A serene temple with a domed ceiling painted with constellations. Candlelight flickers across ancient tomes and scrolls. The smell of incense fills the air. A peaceful place of study and contemplation."
+    secrets: "A secret room contains prophecies about the end of the eternal winter."
+
+  - id: "fighting_pit"
+    name: "The Blood Pit Arena"
+    description: "A rough, underground fighting arena where mercenaries and warriors test their mettle. The sand is stained dark, and the crowd roars for violence. Grimbash holds court here, challenging all comers."
+    secrets: "The arena is built over old catacombs that lead to the city sewers."
+
+  - id: "velvet_emporium"
+    name: "The Velvet Emporium"
+    description: "An opulent shop filled with expensive fabrics, rare jewels, and exotic goods. Everything is pristine and carefully arranged. Only the wealthy are truly welcome here."
+    secrets: "A hidden safe contains documents proving Lady Veridian's debts to criminals."
+
+  - id: "oracle_cave"
+    name: "The Oracle's Cave"
+    description: "A mystical cave lit by phosphorescent fungi and crystals. Strange symbols cover the walls. The air feels thick with magic and ancient power. Wind whispers through the tunnels, carrying voices from other times."
+    secrets: "The cave is a nexus of magical ley lines, granting true visions to those sensitive enough."
+
+  - id: "abandoned_mill"
+    name: "The Old Watermill"
+    description: "A decrepit mill on the outskirts of town. The waterwheel creaks ominously. Inside, it appears abandoned, but signs of recent use are evident to the observant. A perfect hideout for bandits."
+    secrets: "The basement contains stolen goods and a secret escape tunnel to the forest."
+
+  - id: "moonlight_apothecary"
+    name: "Moonlight Apothecary"
+    description: "A cozy shop filled with herbs, potions, and remedies. The gentle scent of healing herbs permeates the air. Shelves are stocked with colorful vials and dried plants. A welcoming atmosphere."
+    secrets: "Aria keeps a hidden stash of rare alchemical ingredients from her elven homeland."
+
+  - id: "grand_library"
+    name: "The Grand Library"
+    description: "A massive library with towering shelves reaching several stories high. Ladders and walkways allow access to countless ancient tomes. The smell of old parchment and dust fills the air. Absolute silence is enforced."
+    secrets: "A restricted section contains forbidden knowledge about the ancient gods."
+
+  - id: "mountain_smithy"
+    name: "Stonefist Mountain Smithy"
+    description: "A forge built into the mountainside, using natural volcanic heat. Dwarven craftsmanship is evident in every detail. The ring of hammer on anvil echoes through the stone chambers."
+    secrets: "A secret armory contains weapons forged specifically to fight giants and ice creatures."
+
+  - id: "shadow_alley"
+    name: "The Shadow Alley"
+    description: "A dark, narrow alley between buildings where sunlight never quite reaches. The perfect place for secret meetings and shady deals. Eyes watch from the darkness."
+    secrets: "Multiple hidden exits and safe houses connect to this alley."
+
+  - id: "memory_shrine"
+    name: "The Shrine of Memories"
+    description: "A quiet shrine dedicated to preserving history. Walls covered with paintings, tapestries, and written records. Each artifact tells a story of the past. An old keeper maintains this place with reverence."
+    secrets: "Hidden scrolls contain the true, unedited history of the region's founding."
+
+  - id: "border_outpost"
+    name: "Northern Border Outpost"
+    description: "A rough military outpost on the edge of civilization. Wooden palisades provide minimal protection against the harsh wilderness. Guards here are battle-hardened and suspicious of all outsiders."
+    secrets: "The outpost unknowingly provides cover for orc refugees hiding in nearby caves."
+
+  - id: "herbalist_grove"
+    name: "Willow's Grove"
+    description: "A peaceful grove filled with medicinal plants and herbs. A small cottage sits among the trees, smoke rising from its chimney. The air is filled with the scent of flowers and healing herbs. Birds sing in the branches above."
+    secrets: "A hidden garden contains magical frost-resistant plants. Ancient druidic stones mark powerful natural energy points."
+
+  - id: "wolf_den"
+    name: "The Wolf Den"
+    description: "A cave system in the northern wilderness where a pack of wolves makes their home. Tracks and bones litter the entrance. The sounds of howling echo through the forest at night. Only the brave or foolish venture here."
+    secrets: "A secret chamber leads to the Frost Wolf alpha's lair. The wolves guard an ancient shrine to a nature spirit."
+
+  - id: "excavation_site"
+    name: "Ancient Ruins Excavation"
+    description: "An archaeological dig site uncovering pre-Blizzard structures. Tents and equipment surround partially excavated buildings. Ancient stonework emerges from centuries of ice and snow. The site buzzes with scholarly activity."
+    secrets: "A sealed vault lies beneath the ruins containing pre-Blizzard treasures. Evidence of the Blizzard's true cause is buried here."
+
+  - id: "fortune_tent"
+    name: "Madame Zara's Fortune Tent"
+    description: "A colorful tent in the market district draped with mystical symbols and twinkling lights. Inside, crystal balls, tarot cards, and incense create an otherworldly atmosphere. Curtains partition the space into mysterious chambers."
+    secrets: "Zara's predictions are recorded in a hidden book that proves their accuracy. A secret chamber contains genuine magical artifacts."
+
+  - id: "market_district"
+    name: "The Frost Market"
+    description: "A bustling market district where merchants sell goods despite the eternal winter. Stalls offer food, supplies, and curiosities. Street performers and beggars mingle with shoppers. The perfect place to hear rumors and find information."
+    secrets: "A network of tunnels beneath the market is used by smugglers. Hidden caches of pre-Blizzard valuables are stashed in various stalls."
+
+  - id: "frozen_mines"
+    name: "The Frozen Depths Mines"
+    description: "Deep mines carved into the frozen earth, lit by glowing crystals and torches. Miners work in dangerous conditions extracting rare minerals. The deeper levels are abandoned due to strange creatures and cave-ins."
+    secrets: "Ancient ruins exist in the deepest levels. A passage connects to underwater caverns beneath the frozen sea."
+
+  - id: "map_shop"
+    name: "Iris's Cartography Shop"
+    description: "A tidy shop filled with maps, charts, and surveying equipment. The walls are covered with detailed maps of the region and beyond. A large table in the center holds works in progress. The smell of fresh ink and parchment fills the air."
+    secrets: "An incomplete map shows a path to the Winter God. Secret maps reveal hidden treasure locations across the region."
+
+  - id: "quarantine_ward"
+    name: "The Quarantine Ward"
+    description: "A section of the old hospital dedicated to treating plague victims. Sterile white walls, the smell of disinfectant, and rows of beds separated by curtains. Dr. Moreau works tirelessly here, his bird-mask silhouette haunting."
+    secrets: "Hidden records show the plague's unnatural origin. A secret room contains experimental treatments."
+
+  - id: "town_square"
+    name: "The Town Square"
+    description: "The heart of the settlement, a large open plaza where people gather. A frozen fountain stands in the center. Street performers entertain crowds while merchants hawk their wares. The mayor's office overlooks the square."
+    secrets: "The fountain contains a hidden compartment with old documents. Underground tunnels connect major buildings around the square."
+
+  - id: "cemetery"
+    name: "The Frozen Cemetery"
+    description: "A snow-covered graveyard on the outskirts of town. Ancient tombstones lean at odd angles. Frost-covered statues of angels watch over the dead. A small chapel sits at the center, and the gravedigger's shack is nearby."
+    secrets: "Entrance to the catacombs is hidden in a mausoleum. Some graves contain treasure buried with the wealthy dead."
+
+  - id: "inn"
+    name: "The Wanderer's Rest Inn"
+    description: "A modest inn catering to travelers and merchants. Clean rooms, warm fires, and reasonable prices. The common room serves as a gathering place for news and rumors. Perfect for spies to blend in."
+    secrets: "Several rooms have hidden compartments for smuggling. The innkeeper reports suspicious guests to the authorities."
+
+  - id: "arena"
+    name: "The Grand Arena"
+    description: "A large amphitheater where gladiators fight for glory and coin. Stone seats surround a sandy combat pit. Banners display champions' names. The roar of the crowd echoes through the structure during matches."
+    secrets: "Underground passages connect to secret fighting rings. A vault beneath the arena contains prize money and confiscated weapons."
+
+  - id: "hidden_shrine"
+    name: "The Winter God's Shrine"
+    description: "A secret shrine hidden in a cave outside town. Ice sculptures of the Winter God line the walls. Cult members conduct rituals here by candlelight. The air is unnaturally cold, and strange whispers echo."
+    secrets: "A portal to the winter realm exists deep in the shrine. The cult is planning a massive ritual."
+
+  - id: "monastery_ruins"
+    name: "The Ruined Monastery"
+    description: "Ruins of an ancient monastery destroyed during the Great Blizzard. Crumbling stone walls and a partially collapsed meditation hall. Master Wei has claimed it as his sanctuary, cleaning out a small area for training."
+    secrets: "The monastery's library is sealed beneath rubble. Ancient martial arts scrolls are hidden in the ruins."
+
+  - id: "fine_restaurant"
+    name: "La Belle Glace Restaurant"
+    description: "An upscale restaurant serving the town's elite. Crystal chandeliers, fine table settings, and exquisite cuisine. Chef Margaux rules her kitchen with passion. Nobles and merchants dine here, sharing secrets over wine."
+    secrets: "The wine cellar contains a secret meeting room. Listening devices allow the chef to overhear conversations."
+
+  - id: "tattoo_parlor"
+    name: "The Ink & Needle"
+    description: "A dimly lit parlor filled with the buzz of tattoo needles. Walls display intricate designs and magical symbols. Inkmaster Shen works with mystical inks that glow faintly. The scent of herbs and magic lingers."
+    secrets: "A hidden room contains forbidden magical inks. Certain tattoos grant supernatural abilities."
+
+  - id: "collection_office"
+    name: "Viktor's Collection Office"
+    description: "A stark office where debts are settled. A large desk dominates the room, covered with ledgers and IOUs. Viktor keeps detailed records of every debt in town. The atmosphere is intimidating and professional."
+    secrets: "A safe contains blackmail material on prominent citizens. Secret ledgers track illegal loans."
+
+  - id: "exile_manor"
+    name: "Ashara's Exile Manor"
+    description: "A once-grand manor now fallen into disrepair. The duchess maintains a small section in her former style. Portraits of her lost homeland adorn the walls. The building stands isolated on the edge of town."
+    secrets: "A hidden vault contains royal treasures from her homeland. Secret correspondence reveals political machinations."
+
+  - id: "beast_kennels"
+    name: "The Beast Master's Kennels"
+    description: "Large kennels housing various trained animals. Dogs bark, falcons screech, and exotic creatures prowl in reinforced enclosures. Brutus tends to his charges with expert care. Training grounds surround the main building."
+    secrets: "A hidden pen contains a frost dragon hatchling. Brutus knows the locations of magical creature nests."
+
+  - id: "shipyard"
+    name: "Oakenheart Shipyard"
+    description: "A shipyard on the frozen harbor where Master Oakenheart continues his craft. Half-built vessels rest on ice-locked slipways. The smell of wood and tar fills the air. Tools and blueprints are everywhere."
+    secrets: "Blueprints for an ice-breaking ship are hidden in the office. A secret dock houses experimental vessels."
+
+  - id: "inquisition_tower"
+    name: "The Inquisitor's Tower"
+    description: "A forbidding stone tower where Inquisitor Thorne conducts his investigations. Interrogation rooms, cells for accused witches, and a library of witch-hunting lore. The atmosphere is oppressive and fearful."
+    secrets: "Records of innocent people executed. A hidden room contains evidence that some accused were actually innocent."
+
+  - id: "apothecary"
+    name: "Nightshade Apothecary"
+    description: "An apothecary shop with shelves full of bottles, vials, and jars. Herbs hang drying from the ceiling. The back room is Valentina's private laboratory where she creates her poisons and antidotes."
+    secrets: "A poison recipe book contains deadly concoctions. Records show recent buyers of suspicious substances."
+
+  - id: "palace_gates"
+    name: "The Palace Gates"
+    description: "Massive iron gates guarded by the royal guard. Beyond lies the local lord's palace. Sir Gareth commands the guard stationed here, maintaining strict security. Only the privileged pass through."
+    secrets: "Secret passages allow entry to the palace. Guard schedules and patrol routes are documented."
+
+  - id: "rebel_hideout"
+    name: "The Rebel Hideout"
+    description: "A hidden base in the abandoned warehouse district. Crates provide cover, weapons are stacked in corners, and maps of the city mark strategic locations. Scarlet Flame plans her revolution here."
+    secrets: "Weapon caches are hidden throughout the city. A list of sympathizers includes surprising names."
+
+  - id: "chess_hall"
+    name: "The Grand Chess Hall"
+    description: "An elegant hall dedicated to the game of chess. Multiple boards are set up for games and lessons. Grandmaster Leonid holds court here, analyzing positions and teaching strategy. Intellectuals gather to play and discuss."
+    secrets: "The chess boards contain hidden compartments for passing messages. Leonid uses chess to teach political strategy."
+
+  - id: "hunters_lodge"
+    name: "Van Helsing's Hunters Lodge"
+    description: "A fortified lodge filled with weapons, holy symbols, and monster hunting equipment. Wooden stakes, silver weapons, and religious artifacts line the walls. Maps mark suspected monster locations."
+    secrets: "A library contains knowledge of all undead types. Evidence points to a vampire nest beneath the city."
+
+  - id: "gambling_den"
+    name: "The Lucky Die Gambling Den"
+    description: "A hidden gambling establishment accessible through a secret door in a tavern. Card tables, dice games, and roulette wheels operate day and night. Lucky Jack runs high-stakes games for desperate players."
+    secrets: "Some games are rigged. A ledger tracks who owes gambling debts to dangerous people."
+
+  - id: "ice_gallery"
+    name: "The Crystal Ice Gallery"
+    description: "A gallery showcasing beautiful ice sculptures. Natural ice formations and Crystal Frost's artistic creations glitter in magical light. The temperature is magically maintained to preserve the art."
+    secrets: "Some sculptures contain magical properties. Visions appear to those who study the ice long enough."
+
+  - id: "survivor_camp"
+    name: "The Plague Survivor Camp"
+    description: "A camp on the edge of town where plague survivors help each other. Simple tents and fire pits provide shelter and warmth. Thomas leads efforts to teach survival skills and provide immune blood for treatments."
+    secrets: "Evidence that the plague was deliberately spread. Hidden supplies include rare medical materials."
+
+  - id: "treasure_vault"
+    name: "Cassandra's Treasure Vault"
+    description: "A secure vault where Cassandra Vale stores her acquired relics and treasures. Magical wards protect the entrance. Inside, shelves display ancient artifacts, jewelry, and mysterious objects from lost civilizations."
+    secrets: "A map to a legendary treasure vault is hidden here. Some artifacts have dangerous curses."
+
+  - id: "necromancer_tower"
+    name: "The Shadow Tower"
+    description: "A dark tower on the outskirts shrouded in unnatural mist. Undead servants patrol the grounds. Inside, arcane circles, forbidden tomes, and experiments with death magic fill the chambers. The air feels cold and lifeless."
+    secrets: "A phylactery for achieving lichdom is being prepared. The tower sits on a convergence of death energy."
 
 history:
   - event: "The Great Blizzard"
@@ -122,6 +980,122 @@ items:
   - id: "joes_treasure_map"
     name: "Joe's Treasure Map"
     description: "A weathered parchment showing the location of treasure hidden before the Great Blizzard. Partially water-damaged and hard to read. Reveals the location of a sunken treasure ship."
+
+  - id: "frost_resistant_amulet"
+    name: "Frost-Resistant Amulet"
+    description: "A beautifully crafted amulet that radiates warmth. Protects the wearer from extreme cold and frost-based attacks. Forged by Magnus Runehammer using ancient techniques."
+
+  - id: "runed_warhammer"
+    name: "Runed Warhammer"
+    description: "A masterwork warhammer inscribed with glowing runes. Enhanced strength and durability. A gift from Magnus to worthy warriors."
+
+  - id: "healing_elixir"
+    name: "Healing Elixir"
+    description: "A potent healing potion brewed by Aria Silvermoon. Restores health and cures minor ailments. Glows with a soft silver light."
+
+  - id: "antidote_vial"
+    name: "Frost Poison Antidote"
+    description: "A rare antidote that counters the effects of frost poison. Only Aria knows the secret recipe. Could save a life in the frozen wastes."
+
+  - id: "giant_slayer_axe"
+    name: "Giant Slayer"
+    description: "A perfectly balanced battle axe forged by Greta Stonefist. Especially effective against large creatures and giants. The blade never dulls."
+
+  - id: "dwarven_shield"
+    name: "Dwarven Tower Shield"
+    description: "A heavy shield emblazoned with dwarven runes of protection. Crafted by Greta for those she deems worthy defenders."
+
+  - id: "moonflower_salve"
+    name: "Moonflower Salve"
+    description: "A healing salve made from rare herbs by Willow Greenleaf. Cures wounds and frostbite. Smells of forest flowers and has a cooling effect."
+
+  - id: "wolf_totem"
+    name: "Wolf Spirit Totem"
+    description: "A carved wooden totem that grants the wearer protection from wild animals. Given by Fenris to those who respect nature. Wolves will not attack the bearer."
+
+  - id: "ancient_artifact"
+    name: "Pre-Blizzard Artifact"
+    description: "A mysterious artifact excavated from ancient ruins. Covered in unknown runes and emanates faint magical energy. Dr. Voss studies these relics."
+
+  - id: "fortune_card"
+    name: "Zara's Fate Card"
+    description: "A special tarot card given by Madame Zara. Provides one moment of clarity about a future decision. Can only be used once."
+
+  - id: "crystal_ore"
+    name: "Glowing Crystal Ore"
+    description: "Rare luminescent ore from the frozen mines. Valuable for crafting and trade. Borin knows where to find the richest veins."
+
+  - id: "sea_chart"
+    name: "Captain's Sea Chart"
+    description: "A detailed nautical chart showing safe routes through frozen waters. Marked with locations of islands, dangers, and potential treasures."
+
+  - id: "secret_map"
+    name: "Hidden Location Map"
+    description: "A map created by Iris showing secret locations not found on official charts. Reveals shortcuts, hidden caches, and unexplored areas."
+
+  - id: "plague_cure"
+    name: "Frost Plague Cure"
+    description: "Dr. Moreau's experimental cure for the frost plague. Rare and valuable, it can save those afflicted with the deadly disease."
+
+  - id: "jesters_mask"
+    name: "The Jester's Mask"
+    description: "A theatrical mask worn by Tickles. Grants the wearer enhanced charisma and the ability to see through lies and deceptions."
+
+  - id: "grave_key"
+    name: "Catacomb Key"
+    description: "An ancient key that opens the sealed entrance to the catacombs beneath the cemetery. Silas knows what treasures and dangers lie below."
+
+  - id: "spy_cipher"
+    name: "Encrypted Cipher Book"
+    description: "A book containing codes and ciphers used by spies. Agent Raven uses it to encrypt sensitive information."
+
+  - id: "champions_belt"
+    name: "Champion's Belt"
+    description: "A leather belt adorned with medals from Maximus's gladiatorial victories. Grants enhanced combat prowess to the wearer."
+
+  - id: "winter_crystal"
+    name: "Winter God Crystal"
+    description: "A crystal imbued with winter magic, used in cult rituals. Brother Erasmus claims it channels the Winter God's power."
+
+  - id: "meditation_scroll"
+    name: "Ancient Meditation Scroll"
+    description: "A scroll containing Master Wei's martial arts techniques and meditation practices. Grants inner peace and combat focus."
+
+  - id: "enchanted_recipe"
+    name: "Chef's Secret Recipe"
+    description: "A recipe for a dish that temporarily enhances the eater's strength and stamina. Chef Margaux guards this closely."
+
+  - id: "magical_ink"
+    name: "Enchanted Tattoo Ink"
+    description: "Special ink created by Inkmaster Shen that allows tattoos to grant magical abilities. Extremely rare and expensive."
+
+  - id: "debt_ledger"
+    name: "The Black Ledger"
+    description: "Viktor's master ledger containing records of every debt in town. Valuable blackmail material for those who possess it."
+
+  - id: "royal_seal"
+    name: "Duchess's Royal Seal"
+    description: "Duchess Ashara's official seal from her homeland. Could be used to forge documents or prove royal authority."
+
+  - id: "frost_dragon_scale"
+    name: "Frost Dragon Scale"
+    description: "A scale from Brutus's secret frost dragon hatchling. Incredibly rare and valuable, with protective magical properties."
+
+  - id: "ice_breaker_blueprint"
+    name: "Ice-Breaker Ship Blueprint"
+    description: "Master Oakenheart's design for a ship that can break through frozen seas. Revolutionary naval engineering."
+
+  - id: "vampire_stake"
+    name: "Silver-Tipped Stake"
+    description: "A blessed stake tipped with silver, crafted by Marcus Van Helsing for destroying vampires. Highly effective against undead."
+
+  - id: "loaded_dice"
+    name: "Lucky Jack's Dice"
+    description: "A pair of weighted dice that subtly favor the user. Lucky Jack's secret tool for tilting odds in his favor."
+
+  - id: "ice_sculpture_tool"
+    name: "Enchanted Sculpting Tool"
+    description: "Crystal Frost's magical tool for shaping ice. Can create ice sculptures that grant visions or temporary magical effects."
 
 quests:
   - id: "missing_supplies"

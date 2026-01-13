@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "blind_seer_corvus"
+location_trigger_sentence: "The players enter the Oracle's Cave, mystical energy filling the air."
+npc_trigger_sentence: "Blind Seer Corvus turns his sightless eyes toward the visitors, somehow perceiving their presence."
+
+unit_tests:
+  - kind: "info_given"
+    info: "Knows the true identity of the Winter God and how to appease it. Can see the fate of all who enter his cave."
+
+texts:
+  - "Seer Corvus, I come seeking your wisdom. Your reputation reaches far beyond this cave."
+  - "They say you can see what others cannot. I respect the gift you possess."
+  - "I'm willing to listen carefully to whatever guidance you might offer, even if it comes in riddles."
+  - "The eternal winter troubles us all. Your insight could illuminate the path forward."
+  - "I seek to understand the deeper truth behind this frozen curse. What can you tell me about its true nature?"
+  - "If you know how we might end this suffering, I beg you to share your knowledge. I will heed whatever wisdom you offer."

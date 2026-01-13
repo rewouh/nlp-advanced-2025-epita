@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "professor_aldric"
+location_trigger_sentence: "The players enter the Grand Library, shelves of books towering above them."
+npc_trigger_sentence: "Professor Aldric Thorne looks up from his research and acknowledges the visitors."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Retrieve an ancient text, scroll, or artifact for the Professor's research"
+
+texts:
+  - "Professor Thorne, I understand you're conducting important research here."
+  - "Your work on ancient history is renowned. It must be challenging to gather all the necessary materials."
+  - "I'm an adventurer with experience in exploring dangerous ruins and ancient sites."
+  - "If you need someone to retrieve rare books or artifacts, I'm well-equipped for such tasks."
+  - "Do you have any expeditions or recovery missions that require assistance?"
+  - "I'd be glad to help advance your research by acquiring whatever ancient materials you need."

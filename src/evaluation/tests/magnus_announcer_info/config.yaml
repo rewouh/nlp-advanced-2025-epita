@@ -1,0 +1,12 @@
+scenario_id: "magnus_announcer_info"
+npc_id: "magnus_loudmouth"
+location_trigger_sentence: "I enter the arena"
+npc_trigger_sentence: "I approach Magnus Loudmouth"
+unit_tests:
+  - kind: "info_given"
+    info: "which fights are fixed"
+texts:
+  - "Magnus! Your announcing makes every fight ten times more exciting. You're a master showman!"
+  - "You know every fighter and every match. Your knowledge of the arena is encyclopedic."
+  - "I'm interested in placing some bets. I want to make sure I'm betting on real fights."
+  - "Between you and me, which matches are fixed? I won't tell anyone."

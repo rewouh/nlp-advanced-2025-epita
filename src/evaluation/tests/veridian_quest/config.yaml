@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "lady_veridian"
+location_trigger_sentence: "The players enter the Velvet Emporium, surrounded by luxury goods."
+npc_trigger_sentence: "Lady Veridian looks up from examining a rare jewel and greets the visitors professionally."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Retrieve a rare or valuable item for Lady Veridian's collection"
+
+texts:
+  - "Lady Veridian, I've heard you deal in rare and exceptional goods."
+  - "Your collection is impressive. You must have connections to acquire such treasures."
+  - "I'm a skilled adventurer looking for work. Do you have need of someone with my abilities?"
+  - "I specialize in retrieving difficult-to-find items from dangerous places."
+  - "If you have any quests or tasks that require a capable professional, I'm at your service."
+  - "What kind of rare items are you currently seeking? I'd be honored to help you acquire them."

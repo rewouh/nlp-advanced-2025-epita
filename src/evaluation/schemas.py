@@ -10,8 +10,7 @@ from pathlib import Path
 class UnitTestType(str, Enum):
     ITEM_GIVEN = "item_given"
     INFO_GIVEN = "info_given"
-    ATTACKED = "attacked"
-    STOPPED_CONVERSATION = "stopped_conversation"
+    QUEST_GIVEN = "quest_given"
 
 class UnitTestItemGiven(BaseModel):
     kind: UnitTestType = UnitTestType.ITEM_GIVEN
@@ -21,11 +20,9 @@ class UnitTestInfoGiven(BaseModel):
     kind: UnitTestType = UnitTestType.INFO_GIVEN
     info: str
 
-class UnitTestAttacked(BaseModel):
-    kind: UnitTestType = UnitTestType.ATTACKED
-
-class UnitTestStoppedConversation(BaseModel):
-    kind: UnitTestType = UnitTestType.STOPPED_CONVERSATION
+class UnitTestQuestGiven(BaseModel):
+    kind: UnitTestType = UnitTestType.QUEST_GIVEN
+    quest_description: str
 
 class EvaluationTestConfig(BaseModel):
     path : Optional[Path] = None
@@ -36,7 +33,6 @@ class EvaluationTestConfig(BaseModel):
     unit_tests : List[Union[
         UnitTestItemGiven,
         UnitTestInfoGiven,
-        UnitTestAttacked,
-        UnitTestStoppedConversation
+        UnitTestQuestGiven
     ]]
     texts : List[str]

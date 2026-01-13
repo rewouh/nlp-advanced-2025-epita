@@ -1,0 +1,12 @@
+scenario_id: "van_helsing_quest"
+npc_id: "van_helsing_jr"
+location_trigger_sentence: "I visit the hunters lodge"
+npc_trigger_sentence: "I approach Marcus Van Helsing"
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "hunt vampires or undead creatures"
+texts:
+  - "Marcus Van Helsing, your family's legacy of hunting vampires is renowned."
+  - "The undead are a plague on this world. Your work is essential."
+  - "I'm not afraid of monsters. I want to help purge the vampire threat."
+  - "What hunts do you have planned? I'm ready to join you in destroying the undead."

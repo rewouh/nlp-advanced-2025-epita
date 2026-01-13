@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "sister_elara"
+location_trigger_sentence: "The players enter the Temple of Stars, a serene atmosphere enveloping them."
+npc_trigger_sentence: "Sister Elara looks up from her ancient tome and welcomes the visitors with a gentle smile."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Recover a sacred relic, ancient text, or visit a hidden shrine for Sister Elara"
+
+texts:
+  - "Sister Elara, your temple is a beacon of knowledge and peace in these dark times."
+  - "I can see you're devoted to preserving ancient wisdom and sacred traditions."
+  - "I'm an adventurer who respects holy places and would be honored to serve a higher purpose."
+  - "Are there any sacred sites or relics that need to be recovered or protected?"
+  - "If you have need of someone to venture into dangerous places to retrieve holy items, I'm willing."
+  - "What kind of quests or missions does the temple need assistance with? I'm ready to help."

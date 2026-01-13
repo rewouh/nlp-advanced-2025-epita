@@ -1,0 +1,12 @@
+scenario_id: "silas_info"
+npc_id: "silas_gravesend"
+location_trigger_sentence: "I enter the cemetery"
+npc_trigger_sentence: "I approach Silas Gravesend"
+unit_tests:
+  - kind: "info_given"
+    info: "entrance to the catacombs is hidden in a mausoleum"
+texts:
+  - "Good day, Silas. Your work maintaining the cemetery must be lonely but important."
+  - "I respect how you honor the dead with such care and dedication."
+  - "I've heard stories that there are old passages beneath the cemetery. Do you know anything about that?"
+  - "The catacombs must hold many secrets. Could you tell me how to access them?"
