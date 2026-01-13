@@ -1,0 +1,14 @@
+[location trigger] The players cautiously enter the Old Watermill.
+[npc trigger] Thornblade emerges with a welcoming gesture, appearing to be a simple merchant.
+[player]: Hello there! I was told I might find a merchant at this mill.
+[thornblade_the_bandit]: *Takes a moment to survey the area, his eyes never leaving the traveler.* What brings you to an abandoned mill, friend? Merchants don't usually venture here unless they're looking for something in particular—or trying to avoid notice.
+[player]: You seem like a successful businessman. This must be a good location for trade.
+[thornblade_the_bandit]: *Chuckles darkly, the sound carrying a hint of derision.* Aye, and what do you think a successful businessman needs an abandoned mill for? *Gestures around them slowly.* Not everyone is as fortunate as some folks out there. This place suits my purposes just fine.
+[player]: I appreciate you taking the time to speak with me. Not everyone is so welcoming to travelers.
+[thornblade_the_bandit]: *Tilts head slightly, studying the traveler.* Most folk in these parts don't have much to spare for strangers. What can I do for you, then? If you're looking for a deal or a story, we've got plenty of both. But be quick with your words; there's not much time before night falls.
+[player]: You must know the area well. Have you been trading here long?
+[thornblade_the_bandit]: *Eyes flicker to the shadows, as if gauging for hidden threats.* Aye, these walls have seen better days, but they've also sheltered more than a few secrets. I've been around long enough to know what's worth risking and what isn't. You might want to find a safer spot for your dealings, though. *leans in slightly* The night can be unforgiving out here.
+[player]: I'm always interested in learning about successful ventures. What's your secret to thriving out here?
+[thornblade_the_bandit]: Thriving out here is all about knowing when to strike and when to vanish. *gazes around, ensuring no one else is nearby* A good blade, a quick mind, and staying one step ahead of those who would see me gone... that’s the key. But enough talk. What brings you to these parts? You don’t seem like just another merchant lost in thought.
+[player]: Between you and me, where do you keep your most valuable goods? I imagine security is important in your line of work.
+[thornblade_the_bandit]: *Snorts in a manner that suggests both amusement and distrust.* Security? *laughs softly* It's more about trust than locks around here. But if you must know, my... treasures are hidden where the shadows dance best. You'd need a guide with eyes as sharp as a hawk to find them. And even then, they might not be what you expect. *glances around cautiously before lowering voice* Best keep your own secrets tight too, mate.

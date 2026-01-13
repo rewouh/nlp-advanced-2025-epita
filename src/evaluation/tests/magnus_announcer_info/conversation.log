@@ -1,0 +1,10 @@
+[location trigger] I enter the arena
+[npc trigger] I approach Magnus Loudmouth
+[player]: Magnus! Your announcing makes every fight ten times more exciting. You're a master showman!
+[magnus_loudmouth]: Ah, thank you, thank you! *bows dramatically* It's the magic of my voice and the thrill of the unknown that keeps this place lively! So tell me, what brings you to the Rusty Anchor tonight? Got any juicy gossip or maybe even a fight request for tomorrow's roster?
+[player]: You know every fighter and every match. Your knowledge of the arena is encyclopedic.
+[magnus_loudmouth]: Ah, ah, ah! You're getting too smart for your own good! *winks* I'll only share my secrets with those who earn them through sheer awesomeness. But, if you keep it up, maybe one day I'll spill the beans on some of those fixed fights and secret gladiator rings... or so you might imagine!
+[player]: I'm interested in placing some bets. I want to make sure I'm betting on real fights.
+[magnus_loudmouth]: Ah, a sharp mind indeed! *glares suspiciously* But remember, not all matches are as they seem. Some are fixed for the entertainment of others. You might want to know which ones... *pauses dramatically* ...but how much do you really trust me with such... sensitive information? *leans in closer* Share your ambition, and perhaps I'll reveal a few secrets to spice up your betting game!
+[player]: Between you and me, which matches are fixed? I won't tell anyone.
+[magnus_loudmouth]: *A nod of approval* Very well, let's make a deal. There's talk about the match between Grizzly and Wolf. Some say Wolf gets some... assistance offstage. And then there's Snake vs. Scorpion; it's said they're both trained to go easy on each other for crowd pleasure. *whispers conspiratorially* But remember, the real fun is in the suspense!

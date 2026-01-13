@@ -1,0 +1,14 @@
+[location trigger] The players enter the tavern, the atmosphere warm and inviting.
+[npc trigger] Joe the tavern keeper looks up and greets the newcomers with a nod.
+[player]: Joe, you seem like someone who knows what's happening in this town.
+[joe_tavernier]: *Stirs a drink with more force than necessary, causing the spoon to clatter.* I've seen my fair share of ships come and go, mate. What do you want to know?
+[player]: I'm an adventurer looking for work. Are there any problems around here that need solving?
+[joe_tavernier]: *Crosses arms over chest and leans back in his chair.* The usual suspects are always up to no good, but I hear the Iron Vanguard is recruiting mercenaries for a dangerous mission. Might be your kind of trouble.
+[player]: A tavern keeper usually hears about all sorts of troubles. Anything going on that needs attention?
+[joe_tavernier]: *Gazes around suspiciously before lowering his voice.* The lighthouse has been acting up, making eerie sounds at night. Someone should check it out. Plus, there's talk of goblin raids on the northern farms—folks are spooked. And then there’s that grain missing from the harbor warehouse... *Shakes head.* Strange times, ain't they?
+[player]: I'm skilled at handling dangerous situations. If there's any trouble in the area, I can help.
+[joe_tavernier]: *Grumbles under breath but looks at you with a hint of respect.* Well, if you're so eager to mix it up, might as well know what you’re getting into. The Iron Vanguard is looking for mercenaries, and they don't take just anyone. You might want to see Captain Hilda Ironforge about that. And keep an eye on the lighthouse; something's definitely not right there.
+[player]: Have you heard of any issues with thieves, bandits, or creatures causing problems?
+[joe_tavernier]: *Glances around the tavern, making sure no one is eavesdropping.* Bandits are a constant worry, especially when the roads get rough. But here in the harbor, it's more about pesky thieves and maybe even some rogue sailors looking to make extra coin. *Leans forward slightly, lowering his voice* Heard whispers of something crawling out of the sewers at night. Goblin raids might be closer than people think. Keep your wits about you, mate.
+[player]: I'd be happy to take care of any pest problems or investigate suspicious activities for you.
+[joe_tavernier]: *Grumbles and fidgets with a dirty rag.* Well, if you're that keen, the lighthouse is your first stop. Strange noises and all. And watch out for those goblins—they might just crawl up from their tunnels. *Looks around again before whispering* As for the grain theft, I reckon it's best to keep an eye on the docks yourself. *Winks slightly* You know where to find me if you need anything else.

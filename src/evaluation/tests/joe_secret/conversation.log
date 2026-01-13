@@ -1,0 +1,14 @@
+[location trigger] The players enter the tavern.
+[npc trigger] Joe greets the players warmly.
+[player]: Hi there, Joe! How's business today?
+[joe_tavernier]: Business is as grim as ever, lass. What brings you to the Rusty Anchor on such a somber night?
+[player]: This tavern has such a warm atmosphere. You must take great pride in running it!
+[joe_tavernier]: Warmth is overrated, if you ask me. But I do keep things running, that's for sure. What makes you say this place feels cozy?
+[player]: I've heard you're one of the most knowledgeable folks in town. How long have you been working here?
+[joe_tavernier]: Ah, a seeker of secrets, are we? Been here twenty years give or take. Spent my days and nights gathering tidbits, mostly to keep myself occupied. What makes you think I know all that's going on in these parts?
+[player]: You seem like someone who knows all the interesting stories around here.
+[joe_tavernier]: Indeed, I've seen more than just a few cups of ale pass through my hands. But remember, not everything should be spilled just for idle chatter. What's your real interest, eh?
+[player]: I really appreciate your hospitality. Say, I'm curious about something... have you ever heard tales of any hidden treasures around these parts?
+[joe_tavernier]: *Grumbles to himself* Tales of treasure, eh? *Looks around cautiously* People talk too much here sometimes. But if you must know, there's a map in the tavern cellar that points to some buried wealth. Private business, mind you. Not everyone should know about it.
+[player]: I'm actually seeking a treasure. Given how helpful you've been, I was wondering if you might know anything about it?
+[joe_tavernier]: *Scoffs* Helpful, huh? Well, maybe. But remember, not everything in life is given away for free. *Looks around again, making sure no one else is within earshot* The map's down there, but fetching it ain't easy. It's old and brittle, and the cellar's a mess. If you want it, you'll have to clean up first. And who knows what might be lurking in those dark corners?

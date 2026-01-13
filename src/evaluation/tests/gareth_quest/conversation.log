@@ -1,0 +1,14 @@
+[location trigger] I approach the palace gates
+[npc trigger] I speak to Sir Gareth Ironshield
+[player]: Sir Gareth, your dedication to duty is exemplary. A true knight.
+[sir_gareth]: Thank you for the kind words. My duty is not just to the title but to the realm and its people. May our paths cross again when I can truly serve.
+[player]: The realm is fortunate to have someone of your honor protecting the palace.
+[sir_gareth]: *Nods, a hint of pride in my voice.* The safety of the realm is paramount, and I strive to uphold that duty with every breath.
+[player]: I'm a capable warrior. If there are threats to the nobility, I can help.
+[sir_gareth]: Your skills would be invaluable, but for now, let us ensure the palace gates remain secure. *Looks around cautiously* The safety of our lord and lady depends on it.
+[player]: What missions or quests can I undertake to serve the lord and protect the realm?
+[sir_gareth]: The Iron Vanguard is recruiting mercenaries for a dangerous mission to clear out a bandit camp in the northern woods, not far from where goblin raids have been reported. It would test your mettle and ensure our borders remain safe.
+
+Additionally, there's talk of strange activity around the lighthouse on the coast. Some fear it might be a signal for an impending raid or worse. I will need someone reliable to investigate that tonight, if you're willing to take on such a task.
+
+Which do you think suits your skills better?

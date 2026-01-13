@@ -1,0 +1,14 @@
+[location trigger] The players enter the Blood Pit Arena, watching the ongoing matches.
+[npc trigger] Grimbash the Fierce approaches, sizing up the visitors with a warrior's gaze.
+[player]: Grimbash! I've heard tales of your prowess in the pit. You must be an incredible warrior.
+[grimbash_the_fierce]: *Grumbles and crosses arms over chest* Prowess? More like a bloody accident waiting to happen. But if you want to test yourself, let's see what you're made of.
+[player]: The way you handle yourself in combat is legendary. I respect a fighter of your caliber.
+[grimbash_the_fierce]: *Snorts* Respect? Earn it on the sand, not with empty words. Ready to step into the pit with me? Let’s see if you’re worth my time.
+[player]: I can see you've earned every scar. That takes real strength and courage.
+[grimbash_the_fierce]: *Glances at the player with a mix of interest and suspicion* You got some spunk, I'll give you that. But don't think just because you know a few things about me means you're ready to face my blades. Come on, prove it. Step into the pit.
+[player]: A warrior like you must have faced all kinds of opponents. What's been your toughest fight?
+[grimbash_the_fierce]: *Frowns and shifts weight onto one foot, eyeing the player* My toughest fight was against that mage in the Redrock Caverns. *Clenches fists* He had magic, but I carved him to pieces with my axe. *Looks away for a moment before meeting eyes again* You want tough? Try me, and maybe you'll learn what true strength is.
+[player]: I'm curious - in all your battles, have you ever faced anything that truly made you cautious?
+[grimbash_the_fierce]: *Grimbash narrows his eyes, thinking hard for a moment before speaking* Yeah, there was this time in the forest... A creature I couldn't see, sneaking up on me. It had claws and teeth, but it also... *pauses, glancing around as if still wary of unseen threats* ...it also had fire. I didn't face it head-on; I ran like a coward. But that night, I learned to watch my back.
+[player]: Everyone has something they're wary of, even the strongest fighters. What keeps a warrior like you on edge?
+[grimbash_the_fierce]: *Grimbash shifts uncomfortably and looks away, his grip tightening on his axe hilt* That thing in the forest... It wasn't just its attacks. It was quiet, sneaky as a thief. And it could use magic I couldn't see. Made me realize there's more out there than I can handle. *Kicks at a nearby stone, sending it rolling away* So yeah, sometimes I think twice before stepping into the dark.

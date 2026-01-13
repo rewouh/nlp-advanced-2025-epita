@@ -1,0 +1,10 @@
+[location trigger] I enter the inn
+[npc trigger] I approach Agent Raven
+[player]: Good evening. You seem like a well-traveled merchant with connections across the land.
+[agent_raven]: Ah, the Rusty Anchor does have its secrets, doesn't it? I'm just a humble trader, always looking for new goods and alliances. What brings you to such an intriguing place?
+[player]: I'm always interested in hearing news from someone as worldly as yourself.
+[agent_raven]: Indeed, there's much to be gleaned from the right conversation. And who knows, perhaps we can do business together someday. What interests you most about our little town?
+[player]: I have coin to spend on valuable information. What can you tell me about the power dynamics in this town?
+[agent_raven]: The balance of power here is a delicate dance, my friend. The Iron Vanguard wields considerable influence, but their grasp isn't always as tight as it seems. There are whispers of dissent among the lower ranks, and the local merchant guild keeps a wary eye on all outsiders. Of course, for a price, I might just share some... insider information. Care to invest in my services?
+[player]: I need to know about any rebel activities and the guard's vulnerabilities. Name your price.
+[agent_raven]: *Agent_raven leans forward, his eyes narrowing.* "Rebel activities and guard weaknesses—interesting requests. In this town, such knowledge is like a whispered secret in the night. You'll have to ensure it's worth my while." *He glances around nervously before lowering his voice.* "How about a week's worth of your finest coin, or perhaps something more... exclusive?"

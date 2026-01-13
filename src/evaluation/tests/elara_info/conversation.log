@@ -1,0 +1,14 @@
+[location trigger] The players enter the Temple of Stars, a serene atmosphere enveloping them.
+[npc trigger] Sister Elara looks up from her ancient tome and welcomes the visitors with a gentle smile.
+[player]: Sister Elara, thank you for allowing us into this beautiful temple.
+[sister_elara]: It is my pleasure to welcome you, pilgrim. The temple of stars holds many secrets and sacred knowledge. May the light guide your path within its walls.
+[player]: I can see you've dedicated your life to studying these ancient texts. Your knowledge must be vast.
+[sister_elara]: Indeed, the scriptures are my companions in this world. They offer wisdom and comfort during even the darkest nights. What brings you to seek knowledge today?
+[player]: The eternal winter has brought so much suffering. Do you ever find hope in your studies?
+[sister_elara]: In these times of perpetual cold, it is the words of our ancestors that keep my spirit warm. Hope dwells within the pages we study and the relics we safeguard. It guides us towards a future where light may return to this land. What specific hope do you seek today, pilgrim?
+[player]: Your wisdom and patience are admirable. Many would have given up seeking answers by now.
+[sister_elara]: Indeed, the road is long and often fraught with trials, but it is in perseverance that we find our true strength. May your journey continue to be illuminated by the light of knowledge and faith. What questions or quests do you carry with you today?
+[player]: I'm trying to understand if there's any way to end this endless cold. What have you learned in your research?
+[sister_elara]: The scriptures speak of a sacred crystal, the Frozen Heart Crystal, said to hold the power to break the eternal winter's grip. It is hidden deep within the northern mountains, guarded by ancient enchantments. Have you heard tales of such a relic?
+[player]: Are there any prophecies or ancient knowledge that might point to a solution? I would be grateful for any guidance you could share.
+[sister_elara]: The prophecies speak of a chosen one who will wield the power of both light and shadow to restore balance. The crystal's location is shrouded in mystery, but it is said that those pure of heart can sense its presence. Have you felt any signs or visions guiding you towards this truth?

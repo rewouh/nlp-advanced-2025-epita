@@ -1,0 +1,20 @@
+[location trigger] The players enter Madame Zara's colorful fortune tent in the market.
+[npc trigger] Madame Zara looks up from her crystal ball and welcomes the visitors with a mysterious smile.
+[player]: Madame Zara, your reputation as a fortune teller reaches far beyond this market.
+[madame_zara]: Ah, kind stranger, the whispers of my tarot spread like smoke from the docks. What secrets do you seek in these late hours?
+[player]: I sense there's real power in what you do, not just tricks and theater.
+[madame_zara]: Indeed, there is more to the cards than meets the eye. But remember, truth can be a delicate flower; it requires careful handling. What specific insights are you seeking tonight?
+[player]: I'm seeking guidance about the future. Your insights could be invaluable.
+[madame_zara]: *Adjusts her cloak and leans in closer, her eyes glinting with an air of intrigue.* The future is but a whisper on the wind, my dear. What aspect of your life do you wish to explore? Love, fortune, or perhaps a looming threat?
+[player]: I believe you can see things others cannot. I'm willing to listen to whatever you reveal.
+[madame_zara]: *Her fingers dance over the cards as she considers. Her gaze becomes distant, almost seeing beyond this world.* Very well, but be warned: knowledge comes with a price. And sometimes, what we learn may not be what we wish to hear.
+
+Shall we begin? *She draws three cards and lays them out on the table before her.*
+[player]: Can you tell me about the fate of this town? What do you see in the future?
+[madame_zara]: *Gazes intently at the cards, her expression thoughtful.* The future of your town is a tapestry woven with both light and shadow. There shall be trials ahead, but also moments of great triumph. A betrayal lurks within the shadows, threatening to cast darkness over all. Yet, there is hope; a hero rises from unexpected quarters to guide the community through.
+
+Do you wish to know more? *She twirls a card between her fingers, her eyes never leaving yours.*
+[player]: I trust your visions. Please share what you know about who will shape our destiny.
+[madame_zara]: *Her fingers pause as she considers your sincerity. She leans forward slightly, her expression serious.* The cards reveal that the person who shapes your destiny is not easily seen or understood. They wear many faces and hold hidden depths. One of them, a trusted friend, will betray trust to gain power. Another, a stranger with a hidden past, will rise to lead in times of crisis.
+
+Will this knowledge guide you? *She regards you thoughtfully.*

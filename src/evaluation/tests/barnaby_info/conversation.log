@@ -1,0 +1,14 @@
+[location trigger] The players approach the lighthouse at the frozen harbor.
+[npc trigger] Old Barnaby opens the lighthouse door and looks at the visitors with weary, haunted eyes.
+[player]: Barnaby, you've maintained this lighthouse faithfully despite the difficult conditions.
+[old_barnaby]: Thank you for the kind words. The light must stay steady; it's more than a job—it's a duty. What brings you to the lighthouse tonight?
+[player]: I can see this place weighs heavily on you. You seem troubled.
+[old_barnaby]: The weight of responsibility is indeed heavy, especially when haunted by specters from the past. But I must keep up the vigilance, for the sake of those at sea. What troubles you, stranger?
+[player]: If there's anything supernatural happening here, I want you to know I believe you.
+[old_barnaby]: *Sighs deeply, looking out over the stormy waters.* Thank you for your understanding. The supernatural is a fact of life in these parts. It’s just... harder on some than others.
+[player]: Sometimes the dead have things to tell the living. Have you experienced anything... unusual?
+[old_barnaby]: The whispers of the past echo through these walls, but I keep my ear to the ground and my eye to the horizon. There are times when the line between life and death blurs. Do you seek answers or simply a story?
+[player]: What secrets does this lighthouse hold? I'm here to listen without judgment.
+[old_barnaby]: The lighthouse holds many secrets, some whispered by the wind, others locked in the very stones of its walls. If you're ready to hear them, let's sit and listen together. But beware—some secrets are better left undisturbed.
+[player]: If there are spirits here, what have they shown you? What do they want you to know?
+[old_barnaby]: The spirits speak in riddles, often leading me back to the old keeper’s journal hidden within the lighthouse. They whisper of a treasure buried beneath the frozen ships, but the path is fraught with peril. They seem to want me to keep watch, not seek the treasure. The past haunts us all, and sometimes it's best left undisturbed.

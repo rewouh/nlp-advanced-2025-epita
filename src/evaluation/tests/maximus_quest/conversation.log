@@ -1,0 +1,10 @@
+[location trigger] I enter the arena
+[npc trigger] I approach Maximus Bloodsand
+[player]: Champion Maximus! Your legendary victories in the arena are known throughout the land.
+[maximus_bloodsand]: Heh, victories and defeats, they all blend into a single scar on my skin. What brings you to talk of such things at this hour?
+[player]: I've come to learn from the greatest gladiator. Your combat prowess is unmatched.
+[maximus_bloodsand]: Hmph. I may be old, but I still have some tricks left in me. What do you want to know?
+[player]: I'm seeking a challenge worthy of my skills. Do you have any arena trials for me?
+[maximus_bloodsand]: The Rusty Anchor hasn't hosted any official trials lately. But if you're looking for a fight, the underground level might have something... interesting waiting for you. Be careful though; it's not for the faint of heart.
+[player]: What quests or challenges can the arena offer to prove my worth in combat?
+[maximus_bloodsand]: The Rusty Anchor doesn't host official quests these days, but there are always illegal fights and brawls that might interest you. The underground level could have some unique opponents—maybe even a rival gladiator seeking his own glory. Be prepared for anything; it's a dark place where the rules aren't as clear.

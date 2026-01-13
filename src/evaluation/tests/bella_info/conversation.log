@@ -1,0 +1,10 @@
+[location trigger] I go to the town square
+[npc trigger] I approach Bella the Graceful
+[player]: Bella, your performances are wonderful! You bring joy to everyone who watches.
+[bella_the_acrobat]: Thank you so much! It's all I can do to keep spirits up around here. How've you been holding up?
+[player]: I always stop to enjoy your acrobatics. You're incredibly talented.
+[bella_the_acrobat]: Why, thank you! Every bit of appreciation keeps the heart light. What brings you out so late tonight?
+[player]: You must see everything that happens in the square, day and night.
+[bella_the_acrobat]: Indeed, I spend a lot of time there practicing my routines. It's hard to miss much with all the people coming and going. Is there something specific you're curious about?
+[player]: Have you noticed anything suspicious happening around here, especially near the mayor's office?
+[bella_the_acrobat]: Hmm, you know, I've seen folks sneaking around at night, but nothing too out of the ordinary. Just a lot of tension lately. Why do you ask?

@@ -1,0 +1,10 @@
+[location trigger] I enter the collection office
+[npc trigger] I approach Viktor the Collector
+[player]: Viktor, you're known as a fair but thorough professional. I respect that about you.
+[viktor_the_collector]: Thank you for the compliment. Fairness is important, but don't let it slow me down when debts need to be collected. What can I assist you with tonight?
+[player]: Your knowledge of everyone's financial situation must be comprehensive.
+[viktor_the_collector]: Indeed, keeping track of every debt in town is a task that requires vigilance and persistence. It helps me maintain the integrity of my work and ensure justice is served. How might this information benefit you today?
+[player]: I'm looking to invest in local businesses. I need to know who's truly solvent and who's failing.
+[viktor_the_collector]: Understanding solvency is crucial for any investment. I can provide you with a summary of financial standings, but remember, only those who owe me directly are listed in full detail. Can I gather this information for you?
+[player]: Tell me about the financial状况 of the merchants and nobles. Who's really in trouble?
+[viktor_the_collector]: I understand your interest, but revealing such sensitive information would compromise my integrity as a collector. However, if you can provide specific names or circumstances, I might offer general insights without compromising exact details. Can we work on that basis?

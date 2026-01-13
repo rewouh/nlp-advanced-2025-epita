@@ -1,0 +1,10 @@
+[location trigger] I find the rebel hideout
+[npc trigger] I approach Scarlet Flame
+[player]: Scarlet, I've heard of your fight against the oppressive government. Your cause is just.
+[scarlet_flame]: Thank you for seeing through the lies and supporting the revolution. It's not easy, but we must keep fighting for a better future.
+[player]: The nobles hoard resources while common people freeze and starve. This cannot continue.
+[scarlet_flame]: I hear your anger, and it fuels my resolve. Every day they hold power is one too many. We need to strike soon—before more lives are lost. Have you considered joining the resistance? Your passion could be our greatest asset.
+[player]: I believe in freedom and equality. I want to help bring change to this town.
+[scarlet_flame]: That's a noble goal, friend. The Rusty Anchor can be your starting point—here, listen closely. We need all the support we can get, and you have skills that could be crucial. Think about it; every moment wasted is another day of oppression.
+[player]: What can I do to join your rebellion? Give me a mission to prove my commitment.
+[scarlet_flame]: Very well. Your first mission will test your resolve and resourcefulness. Go to the old mill just outside town at midnight. There, you'll find a hidden cache containing supplies we need. Make sure no one sees you; stealth is key. If successful, return here by dawn with what you can carry. Failure isn't an option—every bit helps our cause.

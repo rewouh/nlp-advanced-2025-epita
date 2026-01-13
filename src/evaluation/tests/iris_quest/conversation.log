@@ -1,0 +1,16 @@
+[location trigger] The players enter Iris's Cartography Shop, maps covering every wall.
+[npc trigger] Iris Mapmaker looks up from her work and greets the visitors with a friendly smile.
+[player]: Iris, your maps are incredibly detailed. This is masterful cartography work.
+[iris_mapmaker]: Thank you for the kind words! I've spent years perfecting my craft. What area would you like me to focus on next?
+[player]: Having accurate maps can save lives. Your work is truly valuable.
+[iris_mapmaker]: Indeed, a good map can mean the difference between safety and peril. If you have any specific areas in mind that need mapping or updating, let me know!
+[player]: I'm an experienced explorer with a good sense of direction and keen observation.
+[iris_mapmaker]: That's excellent to hear! With your skills, we could explore some uncharted territories together. What regions interest you most for a new map? Perhaps the northern forests or the mysterious islands beyond the horizon?
+[player]: I imagine there are still areas that haven't been properly mapped yet.
+[iris_mapmaker]: Absolutely! There are always corners of our world waiting to be explored and documented. The southern swamps, in particular, hold many secrets—both natural and... less benign. What do you think about starting there?
+[player]: I'd be interested in helping you fill in the blank spaces on your charts.
+[iris_mapmaker]: That sounds like a rewarding endeavor. Let's start by gathering some basic information and perhaps even a few preliminary sketches. The southern swamps are full of dangers, so we should take our time to ensure safety first. Shall we set a date for our next meeting?
+[player]: What unexplored regions need mapping? I'm ready to venture into dangerous territory for your work.
+[iris_mapmaker]: The southern swamps are notorious for their treacherous terrain and unpredictable weather, but they also hide valuable resources and untold mysteries. The northern mountains, where few dare to venture due to the harsh climate, might yield fascinating geological insights. And then there's always the mysterious islands beyond the horizon—rumored to be inhabited by strange creatures and ancient ruins.
+
+Which region do you think we should tackle first?

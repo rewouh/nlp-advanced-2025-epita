@@ -1,0 +1,10 @@
+[location trigger] I visit the hunters lodge
+[npc trigger] I approach Marcus Van Helsing
+[player]: Marcus Van Helsing, your family's legacy of hunting vampires is renowned.
+[van_helsing_jr]: Indeed, my lineage was forged in the fires of eternal conflict against the undead. My father taught me well, and I swear to carry on his work to protect the living from those dark creatures that haunt our dreams.
+[player]: The undead are a plague on this world. Your work is essential.
+[van_helsing_jr]: I thank you for your understanding. The threat of vampires grows ever more pressing, and every night brings new dangers. We must remain vigilant.
+[player]: I'm not afraid of monsters. I want to help purge the vampire threat.
+[van_helsing_jr]: Then let's make sure we're ready for whatever comes our way. I've heard the Iron Vanguard is recruiting. Perhaps they can use a man with your resolve and skills.
+[player]: What hunts do you have planned? I'm ready to join you in destroying the undead.
+[van_helsing_jr]: The Iron Vanguard has been tracking signs of vampire activity near the old ironworks. We'll head there tonight, but you must be prepared for anything—vampires are cunning and their allies might be lurking nearby. Are you truly ready for this?

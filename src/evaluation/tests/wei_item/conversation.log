@@ -1,0 +1,10 @@
+[location trigger] I visit the monastery ruins
+[npc trigger] I approach Master Wei
+[player]: Master Wei, I seek wisdom and inner peace. Your discipline is inspiring.
+[master_oakenheart]: Ah, a seeker of tranquility among us. Discipline can indeed lead to great calmness in one's heart. In shipbuilding, each piece must be placed with precision, much like the steps you speak of. Would you care for a tour of our current projects? It might inspire your quest for peace.
+[player]: I wish to learn the ways of meditation and martial balance. Will you teach me?
+[master_oakenheart]: Meditation and martial arts are both paths I respect, but they lie outside my realm of expertise. My focus lies in the mastery of wood and iron, not the cultivation of inner peace or physical prowess. Perhaps you should seek out a monk or warrior for such teachings. However, if you're truly interested in discipline, perhaps I can show you how to apply that principle in our craft. Would you like to see our workshop?
+[player]: The path to enlightenment calls to me. I'm ready to dedicate myself to your teachings.
+[master_oakenheart]: Very well, but remember, the path of a shipwright is not for the faint of heart. It requires patience and unwavering focus. Follow me if you are truly committed. We'll start with the basics: understanding the materials we use and why each piece must be crafted just so.
+[player]: Please, share your knowledge with me. I would be honored to receive one of your meditation scrolls.
+[master_oakenheart]: Hmm, a scroll from my hands? That's an honor indeed. However, such treasures are not given lightly. First, you must prove yourself worthy by demonstrating the discipline and focus that are the cornerstone of our trade. Tonight, as we work on repairing the old trading ship, show me what you've learned about the materials and their properties. If your dedication is true, then perhaps I'll share more with you in due time.

@@ -1,0 +1,10 @@
+[location trigger] I go to the survivor camp
+[npc trigger] I approach Thomas the Survivor
+[player]: Thomas, your survival is remarkable. You're an inspiration to everyone.
+[thomas_survivor]: Thank you... I just tried to do what needed to be done. We all did. The real heroes are the ones we lost.
+[player]: I'm grateful you're helping others survive and sharing your knowledge.
+[thomas_survivor]: I try my best, but it's a daily struggle. We're in this together, after all.
+[player]: The frost plague has been devastating. I want to understand what really happened.
+[thomas_survivor]: I know the questions weigh heavy on you. The truth is, many believe the plague was no accident—strange figures spread it deliberately. It's hard to accept, but knowing can help us prepare better.
+[player]: You were there when it started. What did you see? Was the plague natural?
+[thomas_survivor]: I saw it unfold, and something didn't feel right. The sickening way people fell ill so quickly... too orderly, too precise. It's hard to shake that feeling that someone or something had a hand in it. But we'll stick together, figure this out, one step at a time.

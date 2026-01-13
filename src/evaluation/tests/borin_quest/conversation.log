@@ -1,0 +1,14 @@
+[location trigger] The players descend into the Frozen Depths Mines.
+[npc trigger] Borin Deepdelver stops his work and greets the visitors, wiping sweat from his brow.
+[player]: Borin, the work you do down here is dangerous and important. You're a brave man.
+[borin_deepdelver]: Thanks for the kind words, mate. The work's hard, but it keeps my family fed. And who doesn't like a good challenge?
+[player]: I can see you're a hard worker. The town depends on miners like you.
+[borin_deepdelver]: Aye, and I ain't about to let down me friends or my own skin. What brings you to the mines tonight? You don't look like one of the usual folk here.
+[player]: I'm experienced in dealing with dangerous situations and creatures.
+[borin_deepdelver]: Well met then. The mines can get a bit... lively at times. Best keep your wits about you down there. What kind of deals are you interested in?
+[player]: Have you encountered any problems in the deeper tunnels that need addressing?
+[borin_deepdelver]: *Flickers of concern pass over Borin's weathered face.* "Deeper tunnels can be tricky, mate. I've run into some nasty critters and a few collapses. But it's all part of the job."
+[player]: If there's anything threatening the mining operation, I'd be happy to help handle it.
+[borin_deepdelver]: Well, that's good to hear. *Nods appreciatively* If anythin' gets too hairy down below, you know where to find me. I could use a hand now and again, especially if there's treasure involved.
+[player]: What challenges are you facing down here? I'm ready to take on difficult tasks.
+[borin_deepdelver]: Borin looks around nervously, his eyes scanning the dimly lit tavern for any signs of trouble. "There's always something down there," he says, his voice low and cautious. "Goblins, bandits, and who knows what else. Then there's the dark... it can get in your head." He pauses, considering whether to share more. "But that's why I'm here now, waiting for someone like you—someone ready to face whatever comes our way."

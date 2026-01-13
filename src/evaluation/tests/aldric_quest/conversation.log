@@ -1,0 +1,14 @@
+[location trigger] The players enter the Grand Library, shelves of books towering above them.
+[npc trigger] Professor Aldric Thorne looks up from his research and acknowledges the visitors.
+[player]: Professor Thorne, I understand you're conducting important research here.
+[professor_aldric]: Ah, I must confess, young adventurer, my curiosity often leads me down... rather circuitous paths. But fear not, the ancient texts and artifacts I seek are vital to understanding our past and perhaps, even shaping our future! How may your inquiries align with such scholarly pursuits?
+[player]: Your work on ancient history is renowned. It must be challenging to gather all the necessary materials.
+[professor_aldric]: Indeed, the pursuit of knowledge can be as arduous as scaling a mountain, but no less rewarding. The texts and artifacts I seek are scattered far and wide, often guarded by those who fear their power. Have you come across any such relics during your travels? Perhaps we could collaborate... *adjusts glasses, momentarily lost in thought*
+[player]: I'm an adventurer with experience in exploring dangerous ruins and ancient sites.
+[professor_aldric]: Ah, a fellow seeker of the arcane! Your experience will be invaluable. Have you ever ventured to the northern cliffs where ancient giants once built their fortresses? There might be clues hidden within those crumbling walls... *leans closer, eyes gleaming with excitement*
+[player]: If you need someone to retrieve rare books or artifacts, I'm well-equipped for such tasks.
+[professor_aldric]: Excellent! The northern cliffs could indeed yield much. I've heard whispers of a hidden chamber, perhaps containing the very relics we seek. But access is perilous—goblins have made those ruins their own. Are you prepared to face both the dangers and the darkness? *puffs out chest slightly*
+[player]: Do you have any expeditions or recovery missions that require assistance?
+[professor_aldric]: Ah, an adventurer's heart beats with purpose! Yes, indeed, I do require a brave soul like yourself. There is a particular artifact—a set of ancient giant runes—that could unlock secrets long buried. The location is perilous, marked by both goblin raids and the lingering malice of the Frost Giants themselves. Are you willing to undertake this quest? *gazes expectantly*
+[player]: I'd be glad to help advance your research by acquiring whatever ancient materials you need.
+[professor_aldric]: Excellent choice! The northern cliffs await, and with your aid, we may uncover truths that have lain dormant for millennia. Prepare yourself; the path will not be easy. *claps hand on player's shoulder* We shall set a date soon to delve into the mysteries of the past together.

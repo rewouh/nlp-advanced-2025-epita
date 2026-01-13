@@ -1,0 +1,18 @@
+[location trigger] The players enter the Temple of Stars, a serene atmosphere enveloping them.
+[npc trigger] Sister Elara looks up from her ancient tome and welcomes the visitors with a gentle smile.
+[player]: Sister Elara, your temple is a beacon of knowledge and peace in these dark times.
+[sister_elara]: Thank you for the kind words. The temple strives to guide those seeking light through these troubled times. May I assist you with anything tonight?
+[player]: I can see you're devoted to preserving ancient wisdom and sacred traditions.
+[sister_elara]: Indeed, it is a solemn duty to safeguard the knowledge passed down through ages. Do you seek enlightenment or perhaps guidance on a path of your own?
+[player]: I'm an adventurer who respects holy places and would be honored to serve a higher purpose.
+[sister_elara]: Then you are well suited to our cause. The eternal winter has brought much hardship, and we seek those brave enough to seek the Light. Do you think you might be willing to take on such a quest?
+[player]: Are there any sacred sites or relics that need to be recovered or protected?
+[sister_elara]: Indeed, many holy sites and relics lie hidden in the shadows of this winter's wrath. There are several shrines that require protection, and I have knowledge of their locations. Would you be willing to undertake such a journey for the sake of our faith?
+[player]: If you have need of someone to venture into dangerous places to retrieve holy items, I'm willing.
+[sister_elara]: Very well, then we shall trust in your valor and seek your aid. There is one particular place I must warn you about—near the edge of the frozen lake, where darkness seems to gather more thickly than elsewhere. The shrine there holds a relic that can restore our hope, but it also harbors dangers not yet fully understood.
+
+Will you set out tomorrow at first light? We shall prepare what supplies and blessings we can for your journey.
+[player]: What kind of quests or missions does the temple need assistance with? I'm ready to help.
+[sister_elara]: The temple needs adventurers like yourself for various missions, mostly centered around retrieving holy relics and protecting sacred sites from those who would seek to desecrate them. There's a particular shrine near the edge of the frozen lake that requires your attention; it holds a relic crucial for our faith, but the journey will be fraught with peril.
+
+Will you set out at first light tomorrow? We can prepare what supplies and blessings we have for your journey.

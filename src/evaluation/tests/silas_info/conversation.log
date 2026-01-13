@@ -1,0 +1,12 @@
+[location trigger] I enter the cemetery
+[npc trigger] I approach Silas Gravesend
+[player]: Good day, Silas. Your work maintaining the cemetery must be lonely but important.
+[silas_gravesend]: The company of the dead is solitude indeed, yet it teaches patience and respect for what we leave behind. *Adjusts his cloak as the evening breeze picks up.* Can I assist you with something today?
+[player]: I respect how you honor the dead with such care and dedication.
+[silas_gravesend]: Thank you. It's a solemn duty, but one that must be performed with reverence. *Looks around cautiously* Are you here for a particular reason? The dusk brings its share of shadows to watch out for.
+[player]: I've heard stories that there are old passages beneath the cemetery. Do you know anything about that?
+[silas_gravesend]: Ah, whispers of hidden ways below the earth do circulate among the tombstones. *Pauses thoughtfully* I have knowledge of such things, but it comes with a price and a warning. *Gazes at the player intently* Are you prepared to hear truths that might unsettle you?
+[player]: The catacombs must hold many secrets. Could you tell me how to access them?
+[silas_gravesend]: The entrance is not without its hazards, as you may find yourself face-to-face with those who have chosen the path of undeath. *Silas runs a hand over his chin, considering* If I were to guide you, it would be under the condition that you approach this knowledge with caution and respect for what lies within.
+
+Do you feel ready to hear more?

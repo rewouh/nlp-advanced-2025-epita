@@ -1,0 +1,14 @@
+[location trigger] The players enter the Shrine of Memories, surrounded by historical artifacts.
+[npc trigger] Keeper Malachi greets the visitors warmly, eager to share his knowledge.
+[player]: Keeper Malachi, this shrine is incredible. You've preserved so much history here.
+[keeper_malachi]: Ah, greetings traveler. Indeed, these walls hold stories of ages past. What brings you to the Memory Shrine tonight?
+[player]: Your dedication to maintaining these records is admirable. The past must not be forgotten.
+[keeper_malachi]: Indeed, it is a sacred duty to remember the truths of old. Many seek knowledge here, but few truly understand its weight. What secret drives your interest in the past?
+[player]: I can see each artifact here has a story. You must know them all.
+[keeper_malachi]: Each artifact whispers tales of valor and tragedy, love and loss. I've listened to their stories for centuries, keeping them alive. Would you like to hear one in particular?
+[player]: The Great Blizzard changed everything, but I feel like we've lost the full story over the years.
+[keeper_malachi]: Ah, the Great Blizzard was a formidable foe, indeed. It reshaped not only the landscape but also the very fabric of our society. Many details have faded with time, but let me see if I can piece together what remains...
+[player]: Someone with your knowledge must understand what truly happened. Would you share what you know about the beginning of the eternal winter?
+[keeper_malachi]: The Great Blizzard was no ordinary storm, traveler. It began with an unusual celestial alignment, which disrupted the natural balance of our world. The cold winds gathered for days before finally unleashing their fury upon us. Legends speak of a comet that appeared in the sky just before it struck, its passage foretelling the coming darkness. Can you imagine the terror and confusion as the snow fell like ash from the heavens?
+[player]: Are there any historical secrets that have been forgotten by most? I'm eager to learn the complete truth.
+[keeper_malachi]: The Great Blizzard harbors many secrets, some of which have slipped through the cracks of common lore. For instance, tales of a hidden sanctuary where survivors sought refuge, or whispers of magical artifacts used in desperate attempts to stem the icy tide. Would you like me to delve into these lesser-known aspects?

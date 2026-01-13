@@ -1,0 +1,22 @@
+[location trigger] The players arrive at the Iron Keep Barracks.
+[npc trigger] Captain Hilda Ironforge looks up from her tactical map and acknowledges the visitors.
+[player]: Captain Ironforge, I'm an experienced fighter and I'd like to offer my services.
+[captain_hilda]: I see you've got some grit, soldier. The Iron Vanguard is always in need of reliable hands. What's your name, and what can you bring to the table?
+[player]: The town guard does important work. Is there anything I can do to assist?
+[captain_hilda]: *Captain Hilda eyes the player with a mix of suspicion and respect.* Ah, it's good to have loyal hearts among us. There's been talk of goblin raids on the northern farms. If you're keen, we could use your strength to patrol those areas and keep the villagers safe.
+[player]: I have combat experience and would be honored to help protect the citizens.
+[captain_hilda]: Very well. We'll put you to good use then. Follow me, and I'll brief you on our patrol routes.
+[player]: Are there any dangerous areas that need patrolling or threats that need addressing?
+[captain_hilda]: The northern farms are particularly vulnerable. The lighthouse has been acting strange lately, and some say it's drawing unwanted attention. We've had reports of eerie noises at night, almost like whispers in the wind. Stay alert; we don't know what might be out there.
+[player]: If you have any missions related to town security, I'm ready to serve.
+[captain_hilda]: Captain Hilda nods, her expression stern but acknowledging. "Very well. Besides patrolling the northern farms, we've had some reports of suspicious activities around the docks. The stranger who arrived this morning has been acting peculiarly, and there are whispers that he might be involved with the Frost Giants."
+
+"Do you have any specific tasks in mind for tonight?" she asks, her gaze sharp as she waits for your response.
+
+*She turns to leave, heading towards the training yard where a group of guards is gathered.*
+[player]: What kind of support does the guard need right now? I'm prepared to take on challenging assignments.
+[captain_hilda]: The town's stability hangs in the balance tonight. We've got eyes on the stranger at the docks and whispers about Frost Giant dealings, but no concrete evidence yet. The northern farms need watchful patrols; goblin raids have villagers on edge. And those eerie sounds from the lighthouse... they demand our attention.
+
+We could use a sharp mind like yours to help us piece together what's going on. Can you start by joining the patrol of the northern farms? It'll be dark, and the path is winding through unfamiliar territory. Then, maybe you can head over to the lighthouse after your shift ends. We need someone who can keep an eye out for anything strange.
+
+Do you think you're up for it?

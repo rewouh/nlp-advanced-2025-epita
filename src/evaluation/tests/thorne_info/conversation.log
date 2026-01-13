@@ -1,0 +1,10 @@
+[location trigger] I approach the inquisition tower
+[npc trigger] I speak to Inquisitor Thorne
+[player]: Inquisitor Thorne, your work protecting us from dark magic is crucial for the town's safety.
+[inquisitor_thorne]: Thank you, but remember, not all shadows are evil. We must be careful not to taint the innocent with suspicion.
+[player]: I share your concerns about witchcraft being behind the eternal winter.
+[inquisitor_thorne]: The cold has a way of bringing out the worst in people. But let us not jump to conclusions until we have concrete evidence.
+[player]: If there are practitioners of dark magic in the area, we must root them out.
+[inquisitor_thorne]: I agree, but we must proceed with caution. We need solid proof before taking any drastic actions. Suspicion alone is not enough to justify accusations or hunts.
+[player]: What have your investigations revealed? Where are the witches hiding?
+[inquisitor_thorne]: *Sighs heavily, looking around as if ensuring no one else can overhear.* Our scouts have reported strange gatherings in the old forest at night. But I fear we may be walking into a trap. The location of that coven you seek... it's near the old mine on the outskirts. Yet, we must tread carefully; innocent lives could be lost if we're wrong.

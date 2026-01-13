@@ -1,0 +1,18 @@
+[location trigger] The players cautiously approach the Wolf Den in the wilderness.
+[npc trigger] Fenris Wolfheart emerges from the den, wolves at his side, and regards the newcomers calmly.
+[player]: Fenris, I come in peace. I have great respect for the wild and its creatures.
+[fenris_wolfheart]: Ah, a kindred spirit. What brings you to these parts? The air is thick with tension tonight, more than usual.
+[player]: Your bond with these wolves is remarkable. You must understand the wilderness better than anyone.
+[fenris_wolfheart]: Indeed, the woods whisper secrets to me. They teach patience and strength. But not everyone understands their language. What do you seek in the wild, stranger?
+[player]: I would never harm the wildlife here. I seek knowledge, not trophies.
+[fenris_wolfheart]: Then perhaps we can share a story or two around this fire. Knowledge is power, but it must be used wisely. Tell me of your journey so far, and what you hope to find in these lands.
+[player]: I'm trying to learn about the dangerous creatures in this region to avoid them, not hunt them.
+[fenris_wolfheart]: That's a wise approach. The woods are full of both beauty and peril. Have you heard tales of the shadow wolves or the sea monster that guards our coast? Knowledge can indeed keep you safe as well as guide your steps in the wild.
+[player]: What can you tell me about the legendary beasts that roam these frozen lands?
+[fenris_wolfheart]: The legend of the shadow wolves is a tale both revered and feared. They are said to be the spirits of fallen warriors, their howls echoing through the night with a chilling power. As for the sea monster that guards our coast... it's said to be an ancient beast, born from the very depths of the ocean itself. It appears when the winds grow wild and the waves rise high. Both are creatures of the old magic, guardians of secrets and mysteries.
+
+Do you seek their destruction or merely knowledge?
+[player]: I'm particularly interested in the most powerful creatures - the ones that command respect and awe.
+[fenris_wolfheart]: The Frost Wolf alpha commands such awe and respect; it is said to be the apex predator in these lands, a creature of ice and fury. Its lair lies deep within the frozen tundra, near where the river meets the sea. You must tread carefully if you wish to seek knowledge from its presence.
+
+And the sea monster? It is said to patrol the coast at night, its roar shaking the very foundations of the rocks. To face such creatures is a daunting task, but the rewards are great for those who dare to venture into their domains.

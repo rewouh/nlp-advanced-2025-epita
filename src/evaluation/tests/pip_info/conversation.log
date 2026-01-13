@@ -1,0 +1,16 @@
+[location trigger] The players spot Pip in the busy market district.
+[npc trigger] Pip Quickfingers notices the visitors and approaches with a cheeky grin.
+[player]: Hey Pip! You look like someone who knows their way around these streets.
+[pip_quickfingers]: Ah, hello there! I try my best to navigate them... mostly for survival. What brings you to these parts?
+[player]: Here, take this coin. You've got to be hungry. Get yourself something warm to eat.
+[pip_quickfingers]: *Accepts the coin with a grateful nod.* Thanks for the coin and offer! I appreciate it. Haven't had much luck finding anything substantial today. Got any recommendations on where to get some good grub around here?
+[player]: A clever kid like you must see and hear everything that happens in this city.
+[pip_quickfingers]: Well, I do my best to stay out of trouble and keep my ears open. Might not know everything, but I've picked up a few things here and there. What's got your curiosity piqued?
+[player]: I bet you know shortcuts and secrets that even the guards don't know about.
+[pip_quickfingers]: Ah, now that's where your instincts are sharp! I do have my little secrets. But mind you, not everyone can handle the knowledge of hidden passages and dead ends. Care to share a meal with me? Might just spill some beans over good food.
+[player]: I'm looking for information, and I'm willing to pay for good intel. What have you seen or heard?
+[pip_quickfingers]: *Leans in closer, lowering her voice.* Alright, alright. I've got my ears tuned to the right places. Goblins have been raiding those northern farms more often than usual. And rumor has it, the Iron Vanguard is looking for tough souls to take on a dangerous mission. Might cost you more than just a coin or two though...
+[player]: Tell me about the secret passages and the things people think nobody notices.
+[pip_quickfingers]: *Whispers conspiratorially.* So, you're interested in the shadows, huh? Well, there's an old passage behind the Black Cat Inn that leads right to the docks without going through the main streets. People say it's haunted, but I’ve been down there a few times myself. And as for unnoticed things... have you seen the way the street urchins slip past guards in the market? They see and hear more than they let on.
+
+But mind your step, not everyone is as lucky or as quick as me. If you venture into those passages, make sure to know where you’re going. And remember, some secrets are best left buried.

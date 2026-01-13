@@ -1,0 +1,10 @@
+[location trigger] I visit the shipyard
+[npc trigger] I approach Master Roderick Oakenheart
+[player]: Master Oakenheart, your dedication to shipbuilding despite the frozen harbor is inspiring.
+[master_oakenheart]: Thank you for your kind words. The traditions of our craft must endure, even in these trying times. Have you come seeking knowledge or perhaps a vessel of your own?
+[player]: The craftsmanship of your vessels is legendary. You're keeping the shipwright tradition alive.
+[master_oakenheart]: Indeed, it is a testament to the skill and artistry that passes from father to son. My work is not just building ships; it's preserving a way of life. What brings you to my shipyard tonight?
+[player]: I believe the ice will break eventually, and your ships will sail again.
+[master_oakenheart]: *Fingers tapping on the wooden table, I gaze out at the darkening waters.* The ice may thaw in time, but there are other challenges we must face now. Are you here to offer aid or perhaps seek a ship of your own? The future is uncertain, and preparation is key.
+[player]: What materials do you need to complete your greatest work? I can help acquire them.
+[master_oakenheart]: I am preparing the plans for a vessel that could navigate even the iciest of waters. Precise timbers, enchanted with cold-resistance runes, are essential. Also, special alloys and enchanted ropes will ensure her strength against the harsh elements. Would you be willing to journey far to find such rare materials?

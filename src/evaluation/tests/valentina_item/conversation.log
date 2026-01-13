@@ -1,0 +1,10 @@
+[location trigger] I enter the apothecary
+[npc trigger] I approach Valentina Nightshade
+[player]: Valentina, your knowledge of toxins and antidotes is unparalleled in this region.
+[valentina_nightshade]: Ah, the secrets I've gathered over years spent behind these apothecary shelves. You never know when such knowledge might be... useful. What brings you to me tonight?
+[player]: I've heard you can cure ailments that no other apothecary can treat.
+[valentina_nightshade]: Indeed, there are certain maladies that require a touch of the arcane and the forbidden. But be warned, not all cures come without a price or consequence. What ailment do you seek to remedy?
+[player]: I'm venturing into dangerous areas where frost poison is common. I need protection.
+[valentina_nightshade]: I see. Frost poison can indeed be quite insidious. For such a condition, we might consider a mix of counterpoisons and protective tonics. However, the path you tread is not without risk. Are you prepared to face what lies ahead?
+[player]: Can you provide me with an antidote? I have coin and discretion.
+[valentina_nightshade]: Certainly, but let's ensure this is necessary. Frost poison can be deadly, especially if it's taken in quantity or over time. Have you been exposed recently, or do you anticipate such a threat?

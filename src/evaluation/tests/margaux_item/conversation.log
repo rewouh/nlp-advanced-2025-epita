@@ -1,0 +1,10 @@
+[location trigger] I enter the fine restaurant
+[npc trigger] I approach Chef Margaux
+[player]: Chef Margaux! Your culinary creations are legendary. The flavors, the presentation - perfection!
+[chef_margaux]: Ah, my dear! It's always a joy to hear such kind words. How can I dazzle your taste buds tonight? *glances around suspiciously* But be warned, not everyone appreciates my magic in the kitchen... *nods towards an uneasy-looking group at another table*
+[player]: I've never tasted anything as exquisite as your dishes. You're a true artist.
+[chef_margaux]: Why, thank you! *smiles warmly but looks around cautiously* Art and cuisine go hand in hand, don't they? *leans in slightly* Speaking of which, have you heard about the strange happenings at the lighthouse lately? Something tells me it's not just ghosts making those eerie noises...
+[player]: I'm fascinated by the special properties some of your dishes seem to have. How do you achieve such effects?
+[chef_margaux]: Ah, my dear! You're getting right to the heart of the matter. *leans in conspiratorially* It's a mix of ancient recipes and secret ingredients passed down through generations. Not everyone can appreciate the nuances... *glances around suspiciously* But if you ever find yourself in need of a little boost—strength, agility, or perhaps a bit of luck—my kitchen might just have what you're looking for. *smiles mischievously*
+[player]: Would you be willing to share one of your secret recipes with someone who truly appreciates your craft?
+[chef_margaux]: Hmm... *taps chin thoughtfully, then glances towards the suspicious-looking group again* I suppose there's always room for a special apprentice. But remember, this isn't just any recipe; it's a part of my legacy. *leans in conspiratorially* You must prove yourself worthy first—test your skills and show me you truly understand the artistry behind every dish. What do you say? *winks*

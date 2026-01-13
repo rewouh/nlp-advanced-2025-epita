@@ -1,0 +1,10 @@
+[location trigger] I approach the necromancer tower
+[npc trigger] I speak to Mordecai Shadowbind
+[player]: Mordecai Shadowbind, your mastery of death magic is legendary among those who know.
+[mordecai_shadowbind]: Hmm... Legend can be a fickle thing. Some might say I command the dead, but let's not get ahead of ourselves. What brings you to my tower tonight?
+[player]: I'm not afraid of forbidden knowledge. I seek to understand the mysteries of death.
+[mordecai_shadowbind]: Ah, curiosity leads the way to great power—or grave danger. What secrets are you prepared to uncover for your quest into the abyss?
+[player]: The power you wield over life and death fascinates me. I want to learn.
+[mordecai_shadowbind]: *Leaning back in my chair, a cryptic smile forms on my lips.* Knowledge comes with a price, young one. Are you prepared to pay it?
+[player]: Tell me, how does one raise the dead permanently? I must know this dark secret.
+[mordecai_shadowbind]: *The corners of Mordecai's mouth twitch into a sinister grin as he leans forward, his eyes gleaming with dark intent.* Raising the dead is not for the faint of heart or mind. It requires... sacrifices, and understanding the true nature of existence itself. Are you sure you're ready to delve so deep?

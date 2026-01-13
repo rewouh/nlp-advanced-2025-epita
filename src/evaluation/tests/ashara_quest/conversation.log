@@ -1,0 +1,10 @@
+[location trigger] I visit the exile manor
+[npc trigger] I approach Duchess Ashara
+[player]: Duchess Ashara, your exile from your homeland is a grave injustice.
+[duchess_ashara]: Ah, to speak of it brings back much sorrow and anger. I have been cast out unjustly, but that only fuels my resolve. What can you tell me about the Iron Vanguard's recruitment? Do they seek allies in this troubled time?
+[player]: Someone of your noble bearing doesn't deserve to live in isolation like this.
+[duchess_ashara]: *Sighs deeply, looking around the dimly lit tavern with a mix of nostalgia and bitterness.* The world has turned its back on me, but I won't rest until my name is cleared and justice is served. What do you know about these goblin raids? Are they part of some greater threat?
+[player]: I can see the pain in your eyes. I want to help restore your honor.
+[duchess_ashara]: *takes a long sip from her mug, considering* Your intentions may be pure, but I've learned that trust is hard-earned in these uncertain times. Still, if you truly wish to aid me, share what you know of the Iron Vanguard's recruitment and any leads on those goblin raids. Knowledge might just be the key to my redemption.
+[player]: What can I do to help clear your name or assist in your cause?
+[duchess_ashara]: *Gazes at you with a mix of gratitude and wariness.* Gathering intelligence is crucial, but be careful. The path to justice is fraught with danger. Start by investigating the goblin raids; there might be a pattern or connection that could lead us closer to the truth. And keep an eye on the Iron Vanguard's activities—they may hold answers about your homeland as well.

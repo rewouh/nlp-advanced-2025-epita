@@ -1,0 +1,18 @@
+[location trigger] The players arrive at the ancient ruins excavation site.
+[npc trigger] Dr. Helena Voss looks up from examining an artifact and greets the visitors with intense curiosity.
+[player]: Dr. Voss, your excavation work here is fascinating. You're uncovering important history.
+[dr_helena_voss]: Indeed, every artifact we find brings us closer to understanding our past. What brings you to the excavation site tonight? Are you interested in what we've unearthed so far?
+[player]: The artifacts you've found could teach us so much about life before the Blizzard.
+[dr_helena_voss]: Indeed, each shard and relic holds secrets from a time long gone. It's both thrilling and daunting to peel back the layers of history. Care to join me for some tea in the nearby tavern? I might have something that could interest you further.
+[player]: I'm an experienced explorer, skilled at navigating dangerous ruins and recovering valuable items.
+[dr_helena_voss]: That skill would be invaluable here. Perhaps we could collaborate on future excavations. What do you think about joining forces? We could uncover more than just artifacts—maybe even hidden knowledge or lost technologies.
+[player]: Your research is important. Is there anything I can do to help advance your work?
+[dr_helena_voss]: Of course! Your skills as an explorer would be incredibly valuable here. Perhaps you could assist in mapping the site and ensuring our safety while we dig deeper. Every piece of information you gather will bring us closer to understanding what happened before the Great Blizzard. What do you say?
+[player]: Are there any artifacts or sites you need explored but haven't had the resources to investigate?
+[dr_helena_voss]: Indeed, there are several sites that hold great promise but lack the necessary funding and manpower. The ancient ruins of Eldoria, for instance, are said to contain artifacts that could rewrite our understanding of pre-blizzard civilizations. However, they're perilous and require seasoned explorers like yourself to navigate the treacherous terrain.
+
+Would you be interested in leading an expedition there? It would not only advance my research but also ensure the safety of everyone involved. What do you think?
+[player]: I'd be honored to assist in your archaeological endeavors. What quests do you have available?
+[dr_helena_voss]: Excellent choice, explorer. The ruins of Eldoria are ripe with history waiting to be uncovered. We should start by surveying the immediate area around the site, mapping out any potential hazards and identifying key entry points.
+
+Do you think you could gather a small team to help us prepare for our expedition? I have some resources we can use for initial reconnaissance and supplies.

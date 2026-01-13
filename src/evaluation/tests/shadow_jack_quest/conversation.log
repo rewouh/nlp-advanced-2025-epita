@@ -1,0 +1,14 @@
+[location trigger] The players slip into the Shadow Alley, darkness surrounding them.
+[npc trigger] Shadow Jack emerges from the shadows, assessing the newcomers with a calculating gaze.
+[player]: Shadow Jack, I've heard you're the one to see for... special assignments.
+[shadow_jack]: Ah, the shadows bring you again. What secrets do you seek to uncover tonight?
+[player]: I'm discreet, capable, and looking for work that requires a certain level of secrecy.
+[shadow_jack]: Indeed, discretion is key in our line of business. I have a few inquiries that might interest you. Care to hear about them?
+[player]: My skills include stealth, information gathering, and handling sensitive situations.
+[shadow_jack]: Excellent qualities for the tasks at hand. I've heard whispers of political intrigue involving the mayor's dealings. Might be something for someone with your talents.
+[player]: I understand you have connections throughout the city and sometimes need operatives.
+[shadow_jack]: Precisely. And I can offer more than just leads; I have the means to verify information and ensure it reaches those who need it most. Are we in agreement?
+[player]: If you have any covert missions that need doing, I can be trusted to handle them professionally.
+[shadow_jack]: *A faint smile plays on my lips as I consider your offer.* I do trust your abilities, but know that this world is full of its own hidden dangers. Very well, we shall see if the shadows align tonight. Meet me in shadow alley after the market closes—there's a matter of... delicate persuasion you might assist with.
+[player]: What kind of intelligence work or secret operations do you currently need assistance with?
+[shadow_jack]: In shadow alley, after the market closes, I'll brief you on something that requires both stealth and precision. For now, let's leave it at that. The night is young, and secrets are just beginning to surface.

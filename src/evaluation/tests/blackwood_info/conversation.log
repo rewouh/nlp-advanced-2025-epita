@@ -1,0 +1,20 @@
+[location trigger] The players approach Captain Blackwood's frozen ship in the harbor.
+[npc trigger] Captain Elias Blackwood stands on the deck and calls out to the visitors below.
+[player]: Captain Blackwood! Your ship is magnificent, even frozen as it is.
+[captain_blackwood]: Aye, she's old but still got teeth. What brings ye to the Rusty Anchor? Need some cargo or just looking for a good tale?
+[player]: You must have sailed to incredible places before the harbor froze over.
+[captain_blackwood]: Aye, I've seen more ports than you can shake a log at. But this winter's been colder 'n usual. What do you make of it? Heard whispers about strange lights in the sky and shadows on the ice.
+[player]: A captain with your experience must know these waters better than anyone.
+[captain_blackwood]: I've sailed these seas long enough to know where not to go, laddie. The ice is thicker this year, and it ain't just the cold workin' overtime. There's somethin' afoot, and I wouldn't be surprised if there were more to those whispers than meets the ear.
+[player]: I'm fascinated by tales of the sea. What discoveries have you made in your travels?
+[captain_blackwood]: Aye, well, I've seen wonders that would make your eyes pop, but most are best left untold. There be islands with treasures buried under snow and ice, and ports where the air whispers secrets if ye listen close enough. But mind yer step on those lands; they're not always what they seem.
+[player]: I've heard rumors of uncharted islands and mysterious creatures. What have you witnessed out there?
+[captain_blackwood]: Mmm, uncharted islands and mysterious creatures... Aye, I've seen things that challenge the mind and stir the soul. There be an island to the south-west where the trees grow in circles like some dark forest sorcery. And as for creatures, well, best not mention a certain sea monster by name, or it'll draw closer than you'd like.
+
+But enough of that nonsense. What brings ye to ask such questions? Do you have a tale of your own to share, or are you just curious?
+[player]: Please, share your knowledge of the sea. I want to hear about the places you've been and the things you've seen.
+[captain_blackwood]: *Sighs heavily, leaning back in his chair.* Aye, well, the world's a vast ocean with many untold stories. There be lands where the sun never sets, and others where it stays hidden behind an eternal curtain of clouds. I've sailed through waters so deep they whisper secrets only fish can hear, and seas where the wind sings songs that make even the bravest sailor weep.
+
+But let me tell you 'bout a place close to home—those islands to the southwest. They're like a twisted mirror, where the trees grow in perfect circles as if nature's trying to tell us something. And then there be the sea monster, a beast so large and so old it's said to watch over those waters from the depths.
+
+Now, mind ye, I wouldn't bring up these tales to just anyone. They're best left for a time when the world needs them most. But you seem curious, like a young cub eager to explore the world. What do you hope to find out there?

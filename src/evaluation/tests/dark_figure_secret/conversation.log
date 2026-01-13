@@ -1,0 +1,14 @@
+[location trigger] The players enter the tavern and notice a mysterious figure in the corner.
+[npc trigger] The Dark Figure looks up from the shadows and acknowledges the players with a mysterious gaze.
+[player]: Greetings, traveler. This is quite an unusual atmosphere in here tonight.
+[dark_figure]: Ah, the curious always find their way through the mist. What brings you to the Rusty Anchor on such a stormy night?
+[player]: You have the bearing of someone who has seen many things. I'm curious about the stories you might know.
+[dark_figure]: Mighty tales are but whispers in the wind, traveler. Have you sought knowledge before, or do these shores offer your first foray into the secrets of old?
+[player]: The eternal winter weighs heavily on all of us. You seem like someone who understands things beyond the surface.
+[dark_figure]: Indeed, beneath the ice and snow, ancient truths lie dormant. Do you seek to uncover them, or merely observe from a distance?
+[player]: I sense great wisdom in you. May I ask how long you've been observing this town?
+[dark_figure]: The townsfolk have changed much since my last visit, though the nights remain as they always were. I've seen many winters pass, each one colder than the last.
+[player]: Your presence here feels... significant. I wonder if you might share some of the deeper truths you've witnessed.
+[dark_figure]: Significance is a heavy cloak to wear, traveler. The deeper truths are like shadows in a mirror—easily seen by none but those who truly look. Why do you seek such knowledge?
+[player]: I've been trying to understand the nature of this endless cold. Someone with your knowledge might have insights into what's really happening.
+[dark_figure]: The frost whispers its secrets to the wise, but silence often brings clearer visions. Have you considered seeking counsel from those who live closest to the icy border? Sometimes, direct observation can offer more than ancient lore.

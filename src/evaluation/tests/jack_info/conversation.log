@@ -1,0 +1,10 @@
+[location trigger] I find the gambling den
+[npc trigger] I approach Lucky Jack
+[player]: Lucky Jack! I've heard you run the best games in town. The stakes here are legendary.
+[lucky_jack]: Ah, welcome to my den of dice and danger. What sort of game do you think you can handle? High stakes, remember?
+[player]: I appreciate an honest game of chance. You seem like a fair dealer.
+[lucky_jack]: Fair enough. But in this place, the house always wins something. Let's see how much you're willing to lose tonight.
+[player]: I bet you hear all sorts of interesting confessions when people are drinking and gambling.
+[lucky_jack]: Indeed, the Rusty Anchor is where secrets spill like cheap coins on a losing streak. But remember, some things are better left unsaid. What brings you here tonight?
+[player]: Tell me, who in this town is in serious debt to dangerous people? I might be able to help.
+[lucky_jack]: Hmm, now that's an interesting proposition. In this town, debts can lead to trouble. There's a local blacksmith named Thorne who owes money to the shady characters around the docks. He’s been pretty quiet lately, though. Can you handle a bit of heat?

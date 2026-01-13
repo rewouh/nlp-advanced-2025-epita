@@ -1,0 +1,10 @@
+[location trigger] I enter the tattoo parlor
+[npc trigger] I approach Inkmaster Shen
+[player]: Inkmaster Shen, your tattoo work is extraordinary. The symbols seem to come alive on skin.
+[inkmaster_shen]: *Gently touches the edge of a nearby tattoo, feeling its intricate lines.* Indeed, each stroke is meant to awaken and protect. What symbol would you like to see brought to life today?
+[player]: I've heard your magical inks grant special abilities. That's incredible craftsmanship.
+[inkmaster_shen]: *Eyes gleam with a hint of pride as I lean closer to examine the area around me.* The magic is subtle, weaving into the skin to serve its purpose. Are you seeking such a tattoo, or do you merely wish to observe?
+[player]: I'm interested in getting a tattoo that could help protect me on my journeys.
+[inkmaster_shen]: *Consider for a moment before speaking, your hands slightly trembling with anticipation.* A protector's mark would indeed be fitting. What kind of journey do you undertake, and what dangers might you face? The design will reflect the challenges you encounter.
+[player]: Could you provide me with some of your enchanted ink? I'd pay well for such a rare commodity.
+[inkmaster_shen]: *Frown deepens as you scrutinize the player's request.* Such items are not traded lightly, especially to those who seek power without purpose. What noble cause do you serve that would warrant such magic?

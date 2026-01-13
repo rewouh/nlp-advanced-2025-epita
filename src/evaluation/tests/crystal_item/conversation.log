@@ -1,0 +1,10 @@
+[location trigger] I visit the ice gallery
+[npc trigger] I approach Crystal Frost
+[player]: Crystal, your ice sculptures are breathtaking. True works of art.
+[crystal_frost]: Thank you... I try my best to capture the beauty that surrounds us in fleeting form. The cold always lends itself so willingly to my creations.
+[player]: The way you capture beauty in such an ephemeral medium is profound.
+[crystal_frost]: Indeed, the ice whispers secrets of its own when sculpted with care. It's a dance between my will and the substance's nature.
+[player]: I'm fascinated by how you work with ice magic. It's an incredible skill.
+[crystal_frost]: Thank you for your kind words. Ice magic is both a blessing and a burden, allowing me to create yet reminding me of the transient nature of all things.
+[player]: Would you be willing to give me one of your enchanted sculpting tools? I'd treasure it.
+[crystal_frost]: I understand how much such a gift would mean to you, but my tools are intimately tied to my magic and my artistry. They are not something easily shared or given away. Perhaps if you prove yourself worthy through your own dedication and creativity... who knows?
