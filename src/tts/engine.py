@@ -269,11 +269,10 @@ class TTSEngine:
             default_speaker_path = Path("/tmp/xtts_default_speaker.wav")
             
             if default_speaker_path.exists():
-                logger.info(f"Using existing default speaker: {default_speaker_path}")
+                logger.debug(f"Using existing default speaker: {default_speaker_path}")
                 return str(default_speaker_path)
             
             if hasattr(self, 'piper_voice') and self.piper_voice:
-                logger.info("Generating default speaker using Piper...")
                 audio_chunks = list(self.piper_voice.synthesize("Hello, this is a default voice."))
                 if audio_chunks:
                     audio_data = b''.join(chunk.audio_int16_bytes for chunk in audio_chunks)
@@ -286,7 +285,7 @@ class TTSEngine:
                         wf.setframerate(sample_rate)
                         wf.writeframes(audio_data)
                     
-                    logger.info(f"Default speaker created: {default_speaker_path}")
+                    logger.debug(f"Default speaker created: {default_speaker_path}")
                     return str(default_speaker_path)
             
             logger.warning("Cannot generate default speaker_wav without Piper")

@@ -96,8 +96,6 @@ class TriggerDetector:
         if world_lore:
             self._extract_npc_info()
         
-        logger.info(f"Trigger Detector initialized with {len(self.npc_names)} NPCs (Sticky Context Mode)")
-    
     def _extract_npc_info(self):
         """Extract NPC names and associated keywords from world lore."""
         if not self.world_lore:
