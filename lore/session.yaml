@@ -1,0 +1,12 @@
+current_time: "Late Evening"
+current_location: "The Rusty Anchor Tavern"
+current_mood: "Tense"
+
+active_quests:
+  - "missing_supplies"
+
+world_events:
+  - "A mysterious stranger arrived at the docks this morning"
+  - "The Iron Vanguard is recruiting mercenaries for a dangerous mission"
+  - "Rumors of goblin raids on the northern farms have people worried"
+  - "The lighthouse has been making strange sounds at night"
