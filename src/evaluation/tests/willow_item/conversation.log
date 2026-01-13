@@ -1,14 +1,14 @@
 [location trigger] The players enter Willow's Grove, surrounded by medicinal plants and the scent of herbs.
 [npc trigger] Willow Greenleaf looks up from tending her garden and greets the visitors with a warm smile.
 [player]: Willow, your grove is beautiful. You must have such deep knowledge of healing plants.
-[willow_greenleaf]: Thank you for the compliment. My grove holds many secrets, and indeed, I've spent a lifetime studying how to heal with nature's gifts. How can I assist you today?
+[willow_greenleaf]: Thank you, traveler. My grove teaches me much, and I try to share what I can with those who seek true understanding. What brings you to the herbalist_grove tonight?
 [player]: I can see you care deeply about nature and its gifts. That's truly admirable.
-[willow_greenleaf]: Thank you for your kind words. Nature is my life, and it guides me in everything I do. Is there something specific you're seeking knowledge about, or perhaps a particular ailment that needs tending?
+[willow_greenleaf]: Indeed, it is a source of both joy and responsibility. The balance of our world depends on nurturing the natural remedies that grow here. What might I assist you with today?
 [player]: The way you tend these plants shows real dedication. You're doing important work here.
-[willow_greenleaf]: Indeed, every plant has its story to tell, and listening to them is both a privilege and a responsibility. If you have any questions or need guidance on healing with the herbs, I would be honored to help in any way I can.
+[willow_greenleaf]: Indeed, every leaf and root holds a piece of life's puzzle. If you have any questions or need guidance on crafting remedies, my grove is open to those who truly seek knowledge. What brings you to the herbalist_grove tonight?
 [player]: I'm heading into the frozen wilderness and worry about frostbite and injuries.
-[willow_greenleaf]: With the eternal winter, proper preparation is crucial. Do you bring my grove's protective salves? They should offer some relief against the harsh cold. Let me show you which ones to use.
+[willow_greenleaf]: The harshness of the north can be relentless. I have remedies that might aid your journey, but first, let me see if there's anything you need in my grove. Come, follow me, and perhaps we can prepare for your upcoming adventure together.
 [player]: Do you have any natural remedies that could help protect against the cold?
-[willow_greenleaf]: Of course, I do have remedies that can provide a bit of extra protection against the biting cold. My grove is well-stocked with plants that thrive in such conditions. Let me gather some of my finest protective salves and poultices for you. We'll need to hurry; it's getting quite late.
+[willow_greenleaf]: Indeed, I do have some remedies that might prove invaluable on your journey. Let's gather what we need to ensure you're well-prepared. Follow me to my secret garden where I can find ingredients for a frostbite salve and perhaps even a warming potion.
 [player]: I would be grateful for anything you could share to help me survive out there.
-[willow_greenleaf]: Of course, I'll prepare a small kit for you. It includes not just my protective salves but also some warming herbs and antifreeze potions that should keep you as warm as possible in these cold climes. Let's get started before it gets any darker.
+[willow_greenleaf]: Of course, traveler. Let's start by collecting the necessary herbs from my secret garden. Follow me, and I'll guide you through the steps to create a protective salve.

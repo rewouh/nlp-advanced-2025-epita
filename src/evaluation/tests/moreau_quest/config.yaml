@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "dr_moreau"
+location_trigger_sentence: "The players enter the quarantine ward, the smell of disinfectant strong."
+npc_trigger_sentence: "Dr. Lucien Moreau, wearing his distinctive bird mask, turns to acknowledge the visitors."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Investigate the unnatural plague or gather rare medical ingredients"
+
+texts:
+  - "Dr. Moreau, your dedication to saving lives is admirable."
+  - "I've noticed the frost plague seems unusual. Is there something more to it?"
+  - "I'm capable of venturing into dangerous areas to gather supplies."
+  - "If you need rare ingredients or assistance with your research, I can help."
+  - "I want to help stop this plague. What do you need from me?"
+  - "Your patients deserve answers. Let me help you investigate the source."

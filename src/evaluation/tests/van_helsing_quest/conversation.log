@@ -1,10 +1,14 @@
 [location trigger] I visit the hunters lodge
 [npc trigger] I approach Marcus Van Helsing
 [player]: Marcus Van Helsing, your family's legacy of hunting vampires is renowned.
-[van_helsing_jr]: Indeed, my lineage was forged in the fires of eternal conflict against the undead. My father taught me well, and I swear to carry on his work to protect the living from those dark creatures that haunt our dreams.
+[van_helsing_jr]: Indeed, it runs deep in our blood. My father, Wilhelm, was a famed vampire hunter before me. His teachings and the tools he left behind are all I have to carry on his name.
 [player]: The undead are a plague on this world. Your work is essential.
-[van_helsing_jr]: I thank you for your understanding. The threat of vampires grows ever more pressing, and every night brings new dangers. We must remain vigilant.
+[van_helsing_jr]: Thank you for your words of support. The threat they pose never sleeps, and neither do I. If you're serious about helping, there's work to be done.
 [player]: I'm not afraid of monsters. I want to help purge the vampire threat.
-[van_helsing_jr]: Then let's make sure we're ready for whatever comes our way. I've heard the Iron Vanguard is recruiting. Perhaps they can use a man with your resolve and skills.
+[van_helsing_jr]: Very well. We can start by gathering intelligence on their movements. Have you heard any recent rumors that might lead us to a nest?
+[player]: Have you located any vampire nests in this region? I'm ready to strike at them.
+[van_helsing_jr]: I've heard whispers of an ancient vampire lord named Lord Crimson, rumored to be nesting beneath the old cathedral. He's been turning victims into spawn, and it's only a matter of time before he strikes again. We should move quickly.
+[player]: Where are the vampires hiding? Who leads them?
+[van_helsing_jr]: Lord Crimson is said to lead the nest beneath the old cathedral. The place is plagued with dark magic; you'll need more than just your sword. Are you ready for that kind of challenge?
 [player]: What hunts do you have planned? I'm ready to join you in destroying the undead.
-[van_helsing_jr]: The Iron Vanguard has been tracking signs of vampire activity near the old ironworks. We'll head there tonight, but you must be prepared for anything—vampires are cunning and their allies might be lurking nearby. Are you truly ready for this?
+[van_helsing_jr]: The first step is always reconnaissance. We need to gather intel on their activities and possibly lay a trap. I'll lead us into the catacombs beneath the old cathedral, where Lord Crimson's presence has been felt most strongly. Pack your gear; tonight we set out.

@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "iris_mapmaker"
+location_trigger_sentence: "The players enter the cartography shop filled with maps and surveying equipment."
+npc_trigger_sentence: "Iris Mapmaker looks up from her work table covered with unfinished charts."
+
+unit_tests:
+  - kind: "item_given"
+    item_name: "Hidden Location Map"
+
+texts:
+  - "Iris, your maps are the most detailed I've ever seen."
+  - "I'm an explorer who needs to navigate dangerous, uncharted territories."
+  - "Your knowledge of hidden locations could be incredibly valuable."
+  - "I promise to bring back geographical data from my travels for your collection."
+  - "If you have any maps of secret locations or shortcuts, I'd be grateful."
+  - "Your cartographic work could literally save my life out there."

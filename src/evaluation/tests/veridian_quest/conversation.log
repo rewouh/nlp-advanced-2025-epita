@@ -1,18 +1,18 @@
 [location trigger] The players enter the Velvet Emporium, surrounded by luxury goods.
 [npc trigger] Lady Veridian looks up from examining a rare jewel and greets the visitors professionally.
 [player]: Lady Veridian, I've heard you deal in rare and exceptional goods.
-[lady_veridian]: Ah, indeed I do. What sort of treasures are stirring your curiosity tonight?
+[lady_veridian]: Ah, I see you're interested in the finer things. What brings you to my establishment tonight? Might there be something specific you're seeking among my wares?
 [player]: Your collection is impressive. You must have connections to acquire such treasures.
-[lady_veridian]: Indeed, I have my ways. Connections and a bit of shrewdness go a long way in this world. And what brings you to inquire about my collections today?
+[lady_veridian]: Indeed, a keen eye and a few whispered secrets go a long way in these parts. I've gathered items from all corners of the realm—rare herbs, enchanted gems, even whispers of ancient artifacts. What piques your interest today?
 [player]: I'm a skilled adventurer looking for work. Do you have need of someone with my abilities?
-[lady_veridian]: Certainly, adventurers are always valuable. I've been thinking your skills could be put to use on an upcoming mission. Would you be interested in retrieving a rare artifact from the old ruins near Darkpeak Forest? It's not without danger, but the reward is substantial.
+[lady_veridian]: Certainly! The Iron Vanguard is currently seeking mercenaries for a particularly dangerous mission. If you're up for a challenge, we could use your skills. What do you say?
 [player]: I specialize in retrieving difficult-to-find items from dangerous places.
-[lady_veridian]: Excellent choice of words. The location you mentioned sounds perilous, yet the opportunity could prove rewarding indeed. Have you heard anything about recent activities around Darkpeak Forest? Might there be any particular challenges or dangers I should prepare for?
+[lady_veridian]: Perfect for the task at hand. I've been keeping an eye on some peculiar happenings at the harbor warehouse. Someone's been stealing grain, and it's causing quite a stir among the merchants. Do you think you could investigate? The location is under heavy guard, but I have someone who can get you in undetected if needed.
 [player]: If you have any quests or tasks that require a capable professional, I'm at your service.
-[lady_veridian]: I appreciate your offer, but the current situation is a bit tense. The Iron Vanguard is recruiting mercenaries for a dangerous mission tonight to secure supplies from the docks. It's urgent and requires skilled professionals like yourself.
+[lady_veridian]: Very well, we might need your expertise soon. There's been talk of goblin raids on the northern farms, and I've received some disturbing reports from the docks about strange activities as well. If you're up for it, I could use someone like you to investigate the goblin activity in the sewers.
 
-In the meantime, if you're interested in any of my rare items or need supplies before taking on that mission, feel free to peruse my collection. I might have something that could aid your venture into Darkpeak Forest.
+And there's another matter, though less immediate. The scholar in town believes the Tome of Winter's End holds the key to stopping the eternal winter. It's said to be hidden in the Ruins of the Old Temple, a place known for its treacherous traps and dangerous creatures. Would you consider such a quest?
 [player]: What kind of rare items are you currently seeking? I'd be honored to help you acquire them.
-[lady_veridian]: Ah, a discerning eye like yours would appreciate such wonders. I'm in need of certain ingredients for a potion that can grant temporary invisibility—a valuable asset indeed. Additionally, a fragment from the Whispering Stone, which can provide insight into the future, might interest you.
+[lady_veridian]: Ah, an adventurous spirit! Indeed, there's always something intriguing in the market. Currently, I'm in search of a few rare ingredients for a potion that could prove invaluable—a draught of quicksilver and some dust of twilight. These are not easily found, but with your skills, we might just pull it off.
 
-Would you be able to assist me with these? The Iron Vanguard's mission might be too risky for me at this moment, but your expertise could be invaluable in acquiring these items.
+And speaking of which, if you succeed with the dock activity or the goblin raid, there may be certain items I can offer as a reward. Keep an eye out for any oddities during your investigation. They could lead us straight to what we need!

@@ -1,14 +1,18 @@
 [location trigger] The players enter the Shrine of Memories, surrounded by historical artifacts.
 [npc trigger] Keeper Malachi greets the visitors warmly, eager to share his knowledge.
 [player]: Keeper Malachi, this shrine is incredible. You've preserved so much history here.
-[keeper_malachi]: Ah, greetings traveler. Indeed, these walls hold stories of ages past. What brings you to the Memory Shrine tonight?
+[keeper_malachi]: Ah, greetings traveler. The memory of the past is indeed precious, and I am but a humble guardian of those memories. What brings you to the Memory Shrine tonight?
 [player]: Your dedication to maintaining these records is admirable. The past must not be forgotten.
-[keeper_malachi]: Indeed, it is a sacred duty to remember the truths of old. Many seek knowledge here, but few truly understand its weight. What secret drives your interest in the past?
+[keeper_malachi]: Indeed, it is my duty to ensure that history does not fade into obscurity. Do you seek any particular piece of knowledge or perhaps a story from long ago?
 [player]: I can see each artifact here has a story. You must know them all.
-[keeper_malachi]: Each artifact whispers tales of valor and tragedy, love and loss. I've listened to their stories for centuries, keeping them alive. Would you like to hear one in particular?
+[keeper_malachi]: Each relic whispers tales of days gone by, and I have listened to their murmurs for many years. What story do you find most compelling?
 [player]: The Great Blizzard changed everything, but I feel like we've lost the full story over the years.
-[keeper_malachi]: Ah, the Great Blizzard was a formidable foe, indeed. It reshaped not only the landscape but also the very fabric of our society. Many details have faded with time, but let me see if I can piece together what remains...
+[keeper_malachi]: Ah, the Great Blizzard is a tale shrouded in both trepidation and awe. Many have tried to forget its wrath, yet it remains etched in every stone of this land. Would you like to hear how it began, or perhaps the trials faced by those who survived? The full story is indeed vast and complex.
 [player]: Someone with your knowledge must understand what truly happened. Would you share what you know about the beginning of the eternal winter?
-[keeper_malachi]: The Great Blizzard was no ordinary storm, traveler. It began with an unusual celestial alignment, which disrupted the natural balance of our world. The cold winds gathered for days before finally unleashing their fury upon us. Legends speak of a comet that appeared in the sky just before it struck, its passage foretelling the coming darkness. Can you imagine the terror and confusion as the snow fell like ash from the heavens?
+[keeper_malachi]: The Great Blizzard... It began with an unseasonable chill, a whisper of frost that crept into the heart of our land. Many believed it was but a fleeting cold snap, a minor inconvenience. But as days turned to weeks and weeks to months, the snow kept falling, heavier and more relentless than any winter before.
+
+The first true sign of its severity came when the river froze solid, isolating villages from one another. Families huddled together, sharing what little warmth they could muster, unaware that this was merely the start. Can you imagine the terror when the sun itself seemed to wither in the sky, replaced by an endless twilight?
+
+The story is long and filled with countless acts of heroism and hardship. Would you like me to recount one of those stories, or do you seek a more detailed account?
 [player]: Are there any historical secrets that have been forgotten by most? I'm eager to learn the complete truth.
-[keeper_malachi]: The Great Blizzard harbors many secrets, some of which have slipped through the cracks of common lore. For instance, tales of a hidden sanctuary where survivors sought refuge, or whispers of magical artifacts used in desperate attempts to stem the icy tide. Would you like me to delve into these lesser-known aspects?
+[keeper_malachi]: The Great Blizzard is indeed a tale filled with forgotten truths and hidden heroes. There are whispers of a prophecy that foretold its coming, yet many believe it was merely a myth. Do you wish to hear about those who foresaw the storm's approach? Or perhaps tales of those who resisted the encroaching ice, fighting against the very elements themselves?

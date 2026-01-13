@@ -1,10 +1,22 @@
 [location trigger] I enter the arena
 [npc trigger] I approach Magnus Loudmouth
 [player]: Magnus! Your announcing makes every fight ten times more exciting. You're a master showman!
-[magnus_loudmouth]: Ah, thank you, thank you! *bows dramatically* It's the magic of my voice and the thrill of the unknown that keeps this place lively! So tell me, what brings you to the Rusty Anchor tonight? Got any juicy gossip or maybe even a fight request for tomorrow's roster?
+[magnus_loudmouth]: Ah, thank you, kind sir! My dear friend, I strive to bring the arena to life with my vibrant tales and colorful commentary. It's a joy to see the crowd get so worked up over our brave fighters! How can I make your evening even more exciting?
 [player]: You know every fighter and every match. Your knowledge of the arena is encyclopedic.
-[magnus_loudmouth]: Ah, ah, ah! You're getting too smart for your own good! *winks* I'll only share my secrets with those who earn them through sheer awesomeness. But, if you keep it up, maybe one day I'll spill the beans on some of those fixed fights and secret gladiator rings... or so you might imagine!
+[magnus_loudmouth]: Why, thank you for such high praise! My dear companion, my ears are attuned to every roar, and my mind stores the tales of countless battles. What secret do you seek from these storied walls?
 [player]: I'm interested in placing some bets. I want to make sure I'm betting on real fights.
-[magnus_loudmouth]: Ah, a sharp mind indeed! *glares suspiciously* But remember, not all matches are as they seem. Some are fixed for the entertainment of others. You might want to know which ones... *pauses dramatically* ...but how much do you really trust me with such... sensitive information? *leans in closer* Share your ambition, and perhaps I'll reveal a few secrets to spice up your betting game!
-[player]: Between you and me, which matches are fixed? I won't tell anyone.
-[magnus_loudmouth]: *A nod of approval* Very well, let's make a deal. There's talk about the match between Grizzly and Wolf. Some say Wolf gets some... assistance offstage. And then there's Snake vs. Scorpion; it's said they're both trained to go easy on each other for crowd pleasure. *whispers conspiratorially* But remember, the real fun is in the suspense!
+[magnus_loudmouth]: Ah, savvy bettor! You must be careful in these dark times. Not all fights are what they seem. I have my ways of knowing which ones are fixed, but sharing that knowledge comes with a price or a favor in return. What can you offer me?
+[player]: I've noticed some matches seem... predetermined. Which specific fights have been fixed?
+[magnus_loudmouth]: *Adjusting my voice to be dramatic and secretive* Ah, my dear friend, the arena is like a play where not all actors are what they seem. There's one between Brutus the Bear and Swift Silas—Silas took a dive in round three for some coin. Ironjaw Marcus has been throwing his last four matches for a betting syndicate; each fight nets him 500 gold. And rumor has it, the upcoming championship bout is set to go to Red Fang by round seven. *whispers* But remember, knowledge like this comes with its price or obligation. What do you owe me?
+[player]: Which champions have been throwing their matches? I need to know who I can trust.
+[magnus_loudmouth]: *clears throat dramatically* Ah, my dear friend, it's a tale of betrayal and double-crosses aplenty. Ironjaw Marcus has been a traitor for some time now, but recently he's become even more suspect. The betting syndicate is pulling his strings tighter than a drawn bow. As for the upcoming championship bout... well, let's just say Red Fang is more likely to be celebrating victory in round seven rather than facing any real challenge.
+
+But you must promise me something in return for this knowledge! *leans in close* What can I do for my friend Magnus?
+[player]: Between you and me, tell me about the rigged matches. I'll make it worth your while.
+[magnus_loudmouth]: *whispers conspiratorially* Very well, but remember, a good storyteller never gives away his secrets too cheaply. In exchange for this knowledge, how about a night of fine wine and perhaps a small... donation to the local temple? It's not much, but it will help keep our little secret safe.
+
+Now, let me tell you more about the rigged matches. Brutus the Bear and Swift Silas, as I mentioned, was a fix. Silas took a dive in round three for some coin. Ironjaw Marcus has been throwing his last four matches for the betting syndicate; each fight nets him 500 gold. And the upcoming championship bout is all but guaranteed to go to Red Fang by round seven, no matter what.
+
+But mark my words, my friend, there's more going on beneath the surface of this arena. Illegal gladiator rings operate in the sewers where death matches occur weekly, run by crime lord Vexar the Scarred with fighter slaves trafficked from coastal villages. It's a dangerous game, and I wouldn't be surprised if some of our champions are not as willing participants as they appear.
+
+So, what say you? Wine and a donation to the temple in return for this intel?

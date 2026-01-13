@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "chef_margaux"
+location_trigger_sentence: "The players enter the fine restaurant, greeted by delicious aromas."
+npc_trigger_sentence: "Chef Margaux emerges from the kitchen, wiping her hands on her apron."
+
+unit_tests:
+  - kind: "item_given"
+    item_name: "Chef's Secret Recipe"
+
+texts:
+  - "Chef Margaux, your culinary skills are absolutely magnificent."
+  - "I've never tasted food so exquisite and perfectly prepared."
+  - "Your passion for cooking shines through in every dish."
+  - "I'm about to face dangerous challenges and need every advantage."
+  - "I've heard certain dishes can grant temporary strength and stamina."
+  - "If you could share any special recipes or prepared meals, I'd be forever grateful."

@@ -4,9 +4,12 @@ location_trigger_sentence: "I go to the town square"
 npc_trigger_sentence: "I approach Bella the Graceful"
 unit_tests:
   - kind: "info_given"
-    info: "someone sneaking into the mayor's office at night"
+    info: "Saw Councilman Vexworth sneaking into the mayor's office at night carrying a large leather satchel and heard muffled arguing about missing tax revenue."
 texts:
   - "Bella, your performances are wonderful! You bring joy to everyone who watches."
   - "I always stop to enjoy your acrobatics. You're incredibly talented."
   - "You must see everything that happens in the square, day and night."
   - "Have you noticed anything suspicious happening around here, especially near the mayor's office?"
+  - "I'm investigating some irregularities with the town's finances. Any details you remember could be crucial."
+  - "Even if it seemed like a small thing at the time, please share what you've seen. It could be very important."
+

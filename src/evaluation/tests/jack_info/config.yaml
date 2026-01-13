@@ -4,9 +4,12 @@ location_trigger_sentence: "I find the gambling den"
 npc_trigger_sentence: "I approach Lucky Jack"
 unit_tests:
   - kind: "info_given"
-    info: "who owes money to dangerous people"
+    info: "The blacksmith Magnus owes 5000 gold pieces to the Crimson Hand crime syndicate, Lady Veridian is in debt for 10,000 gold to loan shark Viktor Bloodworth."
 texts:
   - "Lucky Jack! I've heard you run the best games in town. The stakes here are legendary."
   - "I appreciate an honest game of chance. You seem like a fair dealer."
   - "I bet you hear all sorts of interesting confessions when people are drinking and gambling."
-  - "Tell me, who in this town is in serious debt to dangerous people? I might be able to help."
+  - "I'm looking to collect on some debts, or maybe help those in financial trouble."
+  - "Tell me, who in this town is in serious debt to dangerous people? I might be able to help settle matters."
+  - "What secrets have you heard at your tables? Sometimes the truth comes out over cards and dice."
+

@@ -5,12 +5,14 @@ npc_trigger_sentence: "Pip Quickfingers notices the visitors and approaches with
 
 unit_tests:
   - kind: "info_given"
-    info: "Knows all the secret passages in the city. Has overheard conversations about criminal activities and political schemes."
+    info: "the tunnel from the old bakery to the docks, the smuggler's route through the sewer grates near market square"
 
 texts:
   - "Hey Pip! You look like someone who knows their way around these streets."
   - "Here, take this coin. You've got to be hungry. Get yourself something warm to eat."
   - "A clever kid like you must see and hear everything that happens in this city."
   - "I bet you know shortcuts and secrets that even the guards don't know about."
-  - "I'm looking for information, and I'm willing to pay for good intel. What have you seen or heard?"
+  - "I'm looking for information about secret passages in the city. Can you show me the hidden routes?"
+  - "What about criminal activities? I've heard the Thieves Guild is planning something. What have you overheard?"
   - "Tell me about the secret passages and the things people think nobody notices."
+

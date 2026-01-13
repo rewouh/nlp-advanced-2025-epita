@@ -4,9 +4,12 @@ location_trigger_sentence: "I find the hidden shrine"
 npc_trigger_sentence: "I approach Brother Erasmus"
 unit_tests:
   - kind: "info_given"
-    info: "cult is planning a ritual to make the winter permanent"
+    info: "ritual on the winter solstice to make the winter permanent: they will sacrifice seven warm-blooded souls at the Winter God's altar"
 texts:
   - "Brother Erasmus, I've heard of your devotion to understanding the Winter God's will."
   - "The eternal winter must have deep spiritual meaning. I want to understand it better."
   - "What can you tell me about the Winter God's plans for this land?"
-  - "I sense great changes coming. What rituals or events are being prepared by your followers?"
+  - "I sense great changes coming. What specific rituals or events are being prepared by your followers?"
+  - "When will the ritual take place and what does it require? I want to understand the sacred mysteries."
+  - "Tell me about the Winter God's demands. What must be done to honor the divine will?"
+

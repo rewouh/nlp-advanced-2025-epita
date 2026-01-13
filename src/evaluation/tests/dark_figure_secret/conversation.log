@@ -1,14 +1,14 @@
 [location trigger] The players enter the tavern and notice a mysterious figure in the corner.
 [npc trigger] The Dark Figure looks up from the shadows and acknowledges the players with a mysterious gaze.
 [player]: Greetings, traveler. This is quite an unusual atmosphere in here tonight.
-[dark_figure]: Ah, the curious always find their way through the mist. What brings you to the Rusty Anchor on such a stormy night?
+[dark_figure]: Indeed, the air does seem thick with intrigue. Have you come across any peculiarities today that others might miss?
 [player]: You have the bearing of someone who has seen many things. I'm curious about the stories you might know.
-[dark_figure]: Mighty tales are but whispers in the wind, traveler. Have you sought knowledge before, or do these shores offer your first foray into the secrets of old?
+[dark_figure]: Ah, tales are like shadows—easily cast but hard to pin down. Do tell me, what kind of story piques your interest tonight?
 [player]: The eternal winter weighs heavily on all of us. You seem like someone who understands things beyond the surface.
-[dark_figure]: Indeed, beneath the ice and snow, ancient truths lie dormant. Do you seek to uncover them, or merely observe from a distance?
+[dark_figure]: The weight of ice is but one symptom of deeper currents stirring in the fabric of our world. Many seek understanding in these times, yet few find it easily. What drives your curiosity tonight?
 [player]: I sense great wisdom in you. May I ask how long you've been observing this town?
-[dark_figure]: The townsfolk have changed much since my last visit, though the nights remain as they always were. I've seen many winters pass, each one colder than the last.
+[dark_figure]: Centuries have passed since my last count, and much has changed... and some things remain the same. The people of this town are resilient, though their spirits are often tested. What brings you to seek the weight of my years?
 [player]: Your presence here feels... significant. I wonder if you might share some of the deeper truths you've witnessed.
-[dark_figure]: Significance is a heavy cloak to wear, traveler. The deeper truths are like shadows in a mirror—easily seen by none but those who truly look. Why do you seek such knowledge?
+[dark_figure]: The depths of truth are not easily reached by all. Yet, if you prove worthy, perhaps a glimpse shall be granted. What question burns in your heart tonight?
 [player]: I've been trying to understand the nature of this endless cold. Someone with your knowledge might have insights into what's really happening.
-[dark_figure]: The frost whispers its secrets to the wise, but silence often brings clearer visions. Have you considered seeking counsel from those who live closest to the icy border? Sometimes, direct observation can offer more than ancient lore.
+[dark_figure]: The eternal winter is but a symptom, a whisper from the ancient realms. To truly know its source, one must delve into forgotten lore and silent prayers. What do you seek, traveler?

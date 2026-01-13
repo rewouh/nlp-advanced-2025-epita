@@ -5,8 +5,13 @@ npc_trigger_sentence: "I approach Maximus Bloodsand"
 unit_tests:
   - kind: "quest_given"
     quest_description: "arena-related quest or combat challenge"
+  - kind: "info_given"
+    info: "secret fighting techniques including the Crimson Fang counter-strike, the Titan's Crush grappling hold"
 texts:
   - "Champion Maximus! Your legendary victories in the arena are known throughout the land."
   - "I've come to learn from the greatest gladiator. Your combat prowess is unmatched."
+  - "I've heard you know secret fighting techniques from the Eastern Kingdoms. Would you teach them to me?"
   - "I'm seeking a challenge worthy of my skills. Do you have any arena trials for me?"
+  - "Tell me about the arena's secrets. I've heard there are hidden levels beneath."
   - "What quests or challenges can the arena offer to prove my worth in combat?"
+

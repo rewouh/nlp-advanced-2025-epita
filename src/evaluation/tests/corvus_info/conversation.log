@@ -1,22 +1,18 @@
 [location trigger] The players enter the Oracle's Cave, mystical energy filling the air.
 [npc trigger] Blind Seer Corvus turns his sightless eyes toward the visitors, somehow perceiving their presence.
 [player]: Seer Corvus, I come seeking your wisdom. Your reputation reaches far beyond this cave.
-[blind_seer_corvus]: Ah, a seeker of knowledge... What winds bring you to the Oracle's lair at such an hour? May I learn your name and purpose here?
+[blind_seer_corvus]: Ah, a seeker of knowledge indeed. Step closer, let the shadows embrace us. What winds blow you to my ancient hearth tonight?
 [player]: They say you can see what others cannot. I respect the gift you possess.
-[blind_seer_corvus]: Indeed, whispers travel far. And so do those who seek truths hidden in shadows. Why do you gaze upon this cave with such earnestness? What secrets dost thou wish to uncover tonight?
+[blind_seer_corvus]: Indeed, the whispers of fate are but faint echoes in this world. Tell me, traveler, why do you seek insight into the unseen?
 [player]: I'm willing to listen carefully to whatever guidance you might offer, even if it comes in riddles.
-[blind_seer_corvus]: Then hear this: The path ahead is shrouded in mist, yet signs of the coming storm are clear as moonlight on water. Seek the heart of the storm, and you may find your way illuminated. But beware—the shadows hold their own counsel.
+[blind_seer_corvus]: Then listen well. The winds of destiny blow fierce and unpredictable. Seek the heartwood of the ancient tree before the night's end, for there lies a truth that may guide your path. But beware, for not all who seek find what they desire.
 [player]: The eternal winter troubles us all. Your insight could illuminate the path forward.
-[blind_seer_corvus]: The Winter God whispers its demands in the dead of night. To appease it, one must understand its heart—cold and unyielding yet vital to the cycle of life. Approach with caution, for not all truths are meant to be spoken.
+[blind_seer_corvus]: The Winter God stirs in its eternal slumber, and when it awakens, none can predict its will. Approach the ancient tree with a pure heart and a silent mind; your questions may be answered by the spirits that dwell within.
 [player]: I seek to understand the deeper truth behind this frozen curse. What can you tell me about its true nature?
-[blind_seer_corvus]: The Winter God is an ancient force, born from the primal cold that binds the world in ice and snow. It is not merely a manifestation of frost and despair; it is a necessary balance, a reminder of the cyclical nature of life and death.
+[blind_seer_corvus]: The frost binds not just the land but the very souls of those who dare to challenge it. The Winter God is an entity shrouded in ancient magic, a force that balances the natural cycles of life and death. To appease it, one must understand the balance—find what is lost and return it to the world.
 
-To truly understand the Winter God, one must delve into the heart of its domain—a place where time seems to stand still, and the line between reality and illusion blurs. Legends speak of a cave hidden within the heart of the northern wastes, where the god resides in slumber. Only those who have faced their deepest fears and found inner strength can venture there.
-
-But beware, for only by understanding its purpose can you hope to appease it. The Winter God demands respect, not merely fear or offerings of warmth. In this, lies both your challenge and your reward.
-   
-Do you dare to seek the cave where the Winter God sleeps?
+Tell me, do you know the true name of the deity? For only through such knowledge can you truly begin your quest.
 [player]: If you know how we might end this suffering, I beg you to share your knowledge. I will heed whatever wisdom you offer.
-[blind_seer_corvus]: The path to appeasing the Winter God is fraught with peril, seeker. You must first journey into your own heart and emerge as a changed man. Only then may you hope to find the true nature of its demands. But know this: in seeking to end the suffering, you may awaken forces far more ancient than you can imagine.
+[blind_seer_corvus]: The path to appeasing the Winter God is fraught with peril and sacrifice. You must journey to the heart of the Frostlands where the ancient tree stands. There, in the presence of the deity's essence, you shall find a riddle that only your purest intentions can solve.
 
-Do you still wish to hear more?
+But remember, the frost binds not just the land but the hearts of those who seek to break its hold. Are you truly prepared to face what lies ahead?

@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "willow_greenleaf"
+location_trigger_sentence: "The players enter the peaceful grove where Willow lives among the trees."
+npc_trigger_sentence: "Willow Greenleaf emerges from her cottage, surrounded by the scent of herbs."
+
+unit_tests:
+  - kind: "item_given"
+    item_name: "Moonflower Salve"
+
+texts:
+  - "Willow, your connection to nature is truly remarkable."
+  - "The healing herbs you cultivate are unlike anything I've seen."
+  - "I respect the natural world deeply and would never harm it."
+  - "I'm heading into the frozen wastes and worry about frostbite and injuries."
+  - "Your knowledge of medicinal plants could save lives. Could you help me?"
+  - "I would be so grateful for any healing remedies you could share."

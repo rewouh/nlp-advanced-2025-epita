@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "captain_blackwood"
+location_trigger_sentence: "The players walk onto the frozen harbor where ships are trapped in ice."
+npc_trigger_sentence: "Captain Elias Blackwood stands on the deck of his frozen vessel, looking out to sea."
+
+unit_tests:
+  - kind: "quest_given"
+    quest_description: "Help break the ship free from ice or deal with the sea monster"
+
+texts:
+  - "Captain Blackwood, it must be frustrating to be trapped here."
+  - "I'm an adventurer with experience dealing with dangerous situations."
+  - "If you need help getting your ship free, I have resources and connections."
+  - "I've heard tales of a sea monster. I'm not afraid to face such creatures."
+  - "What would it take to get you sailing again? I'm willing to help."
+  - "Your knowledge of the seas would be valuable. Let's find a way to free your ship."

@@ -1,0 +1,16 @@
+scenario_id: "base"
+npc_id: "crystal_frost"
+location_trigger_sentence: "The players enter the ice gallery filled with beautiful frozen sculptures."
+npc_trigger_sentence: "Crystal Frost turns from her latest creation, her hands glowing with cold magic."
+
+unit_tests:
+  - kind: "item_given"
+    item_name: "Enchanted Sculpting Tool"
+
+texts:
+  - "Crystal, your ice sculptures are absolutely breathtaking."
+  - "The way you channel winter magic into art is truly unique."
+  - "I can see your deep connection to the ice and cold."
+  - "I'm facing a challenge that requires understanding winter magic."
+  - "Your tools and techniques could help me in my quest."
+  - "If you could share any of your magical implements, I would treasure them."

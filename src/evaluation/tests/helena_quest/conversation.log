@@ -1,18 +1,23 @@
 [location trigger] The players arrive at the ancient ruins excavation site.
 [npc trigger] Dr. Helena Voss looks up from examining an artifact and greets the visitors with intense curiosity.
 [player]: Dr. Voss, your excavation work here is fascinating. You're uncovering important history.
-[dr_helena_voss]: Indeed, every artifact we find brings us closer to understanding our past. What brings you to the excavation site tonight? Are you interested in what we've unearthed so far?
+[dr_helena_voss]: Indeed, every piece of the past tells a story that deserves to be heard. What brings you to the Rusty Anchor tonight? Are you interested in what we've found so far?
 [player]: The artifacts you've found could teach us so much about life before the Blizzard.
-[dr_helena_voss]: Indeed, each shard and relic holds secrets from a time long gone. It's both thrilling and daunting to peel back the layers of history. Care to join me for some tea in the nearby tavern? I might have something that could interest you further.
+[dr_helena_voss]: I couldn't agree more, but we must be cautious. The deeper we dig, the more dangerous it becomes. Have you heard of the strange occurrences at the lighthouse lately? It's as if something is watching us.
 [player]: I'm an experienced explorer, skilled at navigating dangerous ruins and recovering valuable items.
-[dr_helena_voss]: That skill would be invaluable here. Perhaps we could collaborate on future excavations. What do you think about joining forces? We could uncover more than just artifacts—maybe even hidden knowledge or lost technologies.
+[dr_helena_voss]: That skill could be invaluable. I've encountered some peculiarities in my dig—perhaps they might interest you. Would you like to see what we’ve unearthed so far?
 [player]: Your research is important. Is there anything I can do to help advance your work?
-[dr_helena_voss]: Of course! Your skills as an explorer would be incredibly valuable here. Perhaps you could assist in mapping the site and ensuring our safety while we dig deeper. Every piece of information you gather will bring us closer to understanding what happened before the Great Blizzard. What do you say?
+[dr_helena_voss]: Of course, assistance would be greatly appreciated. With the current manpower, progress has been slow. Perhaps you could help with some of the documentation or even assist during the excavation if you're comfortable in the field. What tasks do you think you could handle?
 [player]: Are there any artifacts or sites you need explored but haven't had the resources to investigate?
-[dr_helena_voss]: Indeed, there are several sites that hold great promise but lack the necessary funding and manpower. The ancient ruins of Eldoria, for instance, are said to contain artifacts that could rewrite our understanding of pre-blizzard civilizations. However, they're perilous and require seasoned explorers like yourself to navigate the treacherous terrain.
+[dr_helena_voss]: Certainly, there are several areas that remain unexplored due to lack of manpower and supplies. One site in particular, an ancient temple complex just north of here, holds promise based on some cryptic inscriptions I've decoded. It could yield groundbreaking artifacts if we can secure the funding and personnel to mount another expedition.
 
-Would you be interested in leading an expedition there? It would not only advance my research but also ensure the safety of everyone involved. What do you think?
+Would you be interested in leading such a mission? With your skills, it would greatly increase our chances of success.
 [player]: I'd be honored to assist in your archaeological endeavors. What quests do you have available?
-[dr_helena_voss]: Excellent choice, explorer. The ruins of Eldoria are ripe with history waiting to be uncovered. We should start by surveying the immediate area around the site, mapping out any potential hazards and identifying key entry points.
+[dr_helena_voss]: Excellent choice! We've encountered some peculiarities that could use an expert eye. First, there's the matter of securing the site at night; it seems we're not alone here.
 
-Do you think you could gather a small team to help us prepare for our expedition? I have some resources we can use for initial reconnaissance and supplies.
+*Dr. Voss glances around nervously.* 
+
+Can you take charge of setting up a watch while I and my team finalize our findings? We'll need to ensure no one—or something—disturbs our work tonight.
+*She hands over a small, ancient-looking lantern she had prepared earlier.*
+
+Here, take this lantern. It's not just any light; it has a peculiar enchantment that might help in the dark.

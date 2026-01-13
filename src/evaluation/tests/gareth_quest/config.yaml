@@ -5,8 +5,13 @@ npc_trigger_sentence: "I speak to Sir Gareth Ironshield"
 unit_tests:
   - kind: "quest_given"
     quest_description: "protect the nobility or investigate threats"
+  - kind: "info_given"
+    info: "the Shadow Hand assassin guild has been contracted for 50,000 gold to kill Lord Pemberton during the Winter Ball"
 texts:
   - "Sir Gareth, your dedication to duty is exemplary. A true knight."
   - "The realm is fortunate to have someone of your honor protecting the palace."
   - "I'm a capable warrior. If there are threats to the nobility, I can help."
+  - "Have you heard of any specific plots against Lord Pemberton? Assassination attempts perhaps?"
+  - "Are there any threats you're tracking that I could help investigate?"
   - "What missions or quests can I undertake to serve the lord and protect the realm?"
+

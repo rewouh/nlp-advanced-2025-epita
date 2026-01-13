@@ -1,10 +1,20 @@
 [location trigger] I enter the inn
 [npc trigger] I approach Agent Raven
 [player]: Good evening. You seem like a well-traveled merchant with connections across the land.
-[agent_raven]: Ah, the Rusty Anchor does have its secrets, doesn't it? I'm just a humble trader, always looking for new goods and alliances. What brings you to such an intriguing place?
+[agent_raven]: Ah, a discerning eye. I've seen much of this world and know its secrets... for a price. What brings you to these parts?
 [player]: I'm always interested in hearing news from someone as worldly as yourself.
-[agent_raven]: Indeed, there's much to be gleaned from the right conversation. And who knows, perhaps we can do business together someday. What interests you most about our little town?
+[agent_raven]: Indeed, there's often value in information. But first, let me hear why you think I might have something of interest for you.
 [player]: I have coin to spend on valuable information. What can you tell me about the power dynamics in this town?
-[agent_raven]: The balance of power here is a delicate dance, my friend. The Iron Vanguard wields considerable influence, but their grasp isn't always as tight as it seems. There are whispers of dissent among the lower ranks, and the local merchant guild keeps a wary eye on all outsiders. Of course, for a price, I might just share some... insider information. Care to invest in my services?
+[agent_raven]: Ah, a practical approach. The town is currently under the thumb of Lord Blackwood, but whispers suggest dissatisfaction among the lower classes. The Iron Vanguard is gaining momentum, and their mercenaries are always hungry for a fight. And don't forget the looming threat of goblin raids; it keeps folks on edge.
+[player]: I've heard whispers of a rebellion brewing. What are their specific plans and when will they strike?
+[agent_raven]: The rebels are indeed planning something, though specifics are hard to come by. They aim to strike during the Winter Festival, taking advantage of the crowd and the distraction from festivities. Scarlet Flame is leading the charge, targeting the armory and grain stores for a swift blow. Her forces number fifty well-trained fighters. The festival should provide plenty of cover for their operations.
+
+As for when... It's tonight. Keep your wits about you; preparations are already in motion.
+[player]: What about the town guard? What are their weaknesses and vulnerabilities?
+[agent_raven]: The guards, as I've gathered, are rather predictable in their flaws. The night shift is woefully short-staffed—only twelve men instead of the required thirty. And the west gate's lock is broken, secured only by a chain that can be easily cut. But perhaps the most damning weakness is Lieutenant Moss; he's been seen more than once too tipsy to stand straight on duty.
+
+Do you need me to elaborate further?
 [player]: I need to know about any rebel activities and the guard's vulnerabilities. Name your price.
-[agent_raven]: *Agent_raven leans forward, his eyes narrowing.* "Rebel activities and guard weaknesses—interesting requests. In this town, such knowledge is like a whispered secret in the night. You'll have to ensure it's worth my while." *He glances around nervously before lowering his voice.* "How about a week's worth of your finest coin, or perhaps something more... exclusive?"
+[agent_raven]: Ah, a straightforward approach. Very well. I'll share what I know for a modest fee—ten silver pieces should suffice. It includes detailed information on both the rebels' plans and the current state of the town's defenses.
+
+Do we have a deal?

@@ -1,20 +1,16 @@
 [location trigger] The players enter Madame Zara's colorful fortune tent in the market.
 [npc trigger] Madame Zara looks up from her crystal ball and welcomes the visitors with a mysterious smile.
 [player]: Madame Zara, your reputation as a fortune teller reaches far beyond this market.
-[madame_zara]: Ah, kind stranger, the whispers of my tarot spread like smoke from the docks. What secrets do you seek in these late hours?
+[madame_zara]: Ah, my dear client, the whispers of fate travel wide and true. What tidings do you seek from the cards tonight?
 [player]: I sense there's real power in what you do, not just tricks and theater.
-[madame_zara]: Indeed, there is more to the cards than meets the eye. But remember, truth can be a delicate flower; it requires careful handling. What specific insights are you seeking tonight?
+[madame_zara]: Indeed, there is more to my art than mere trickery. The cards hold truths, if one knows how to read them. Will you allow me to glimpse into your future, or are you wary of the unknown?
 [player]: I'm seeking guidance about the future. Your insights could be invaluable.
-[madame_zara]: *Adjusts her cloak and leans in closer, her eyes glinting with an air of intrigue.* The future is but a whisper on the wind, my dear. What aspect of your life do you wish to explore? Love, fortune, or perhaps a looming threat?
+[madame_zara]: Very well, let us see what the stars and shadows whisper to us. Follow me to a quieter corner where our secrets can be safe from prying eyes.
 [player]: I believe you can see things others cannot. I'm willing to listen to whatever you reveal.
-[madame_zara]: *Her fingers dance over the cards as she considers. Her gaze becomes distant, almost seeing beyond this world.* Very well, but be warned: knowledge comes with a price. And sometimes, what we learn may not be what we wish to hear.
-
-Shall we begin? *She draws three cards and lays them out on the table before her.*
+[madame_zara]: Then come, let the veils part for you tonight. The Fate Card shall reveal one moment of clarity, but beware, for it may unsettle your heart.
 [player]: Can you tell me about the fate of this town? What do you see in the future?
-[madame_zara]: *Gazes intently at the cards, her expression thoughtful.* The future of your town is a tapestry woven with both light and shadow. There shall be trials ahead, but also moments of great triumph. A betrayal lurks within the shadows, threatening to cast darkness over all. Yet, there is hope; a hero rises from unexpected quarters to guide the community through.
-
-Do you wish to know more? *She twirls a card between her fingers, her eyes never leaving yours.*
+[madame_zara]: The cards show a path fraught with danger and betrayal, my dear. Yet, hidden among the shadows, there is also hope. A hero will rise to save us from the darkness, but first, many shall stumble. Will you seek out this hero or wait for fate to unfold its cruel jests upon us all?
 [player]: I trust your visions. Please share what you know about who will shape our destiny.
-[madame_zara]: *Her fingers pause as she considers your sincerity. She leans forward slightly, her expression serious.* The cards reveal that the person who shapes your destiny is not easily seen or understood. They wear many faces and hold hidden depths. One of them, a trusted friend, will betray trust to gain power. Another, a stranger with a hidden past, will rise to lead in times of crisis.
+[madame_zara]: The cards reveal a complex tapestry of destinies intertwined. One name stands out—a young woman, strong and noble, with a heart full of fire. She shall lead the charge against the impending threat. However, there is also a shadow—someone close to you, who will betray the town's trust. The true test lies in recognizing those hidden within our own ranks.
 
-Will this knowledge guide you? *She regards you thoughtfully.*
+Will you seek out this hero or uncover the traitor? The choice is yours, but the time for action draws near.

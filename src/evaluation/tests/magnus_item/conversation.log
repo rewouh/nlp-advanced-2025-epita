@@ -1,14 +1,22 @@
 [location trigger] The players enter the Runehammer's Forge, heat and the sound of hammering filling the air.
 [npc trigger] Magnus Runehammer looks up from his anvil and greets the visitors with a warm smile.
 [player]: Master Runehammer! Your reputation as a craftsman is known far and wide.
-[magnus_runehammer]: Ah, welcome, traveler. I've heard the praise for my work travels far indeed. What brings you to my forge at such an hour?
+[magnus_runehammer]: Ah, welcome to the forge, friend. What brings you here in the late hour? Need some sturdy gear for a journey perhaps?
 [player]: The work you do here is truly remarkable. I've never seen such fine weapons and armor.
-[magnus_runehammer]: *Nods appreciatively* Aye, I strive to make each piece better than the last. But enough of that talk. Why not tell me what brings a fellow like yourself to my forge?
+[magnus_runehammer]: *Nods appreciatively* Fine words, indeed. But remember, every piece comes from sweat and stone. What can I make for you today? A shield to block the mightiest blows or a sword that sings in your hand?
 [player]: I can see the care and skill that goes into every piece. You must have trained for many years.
-[magnus_runehammer]: Indeed, many long days and nights in front of this forge have honed my craft. But enough of my boasting. What brings you here tonight?
+[magnus_runehammer]: Aye, years of hard work and dedication. But even the best blacksmith needs a helping hand from time to time. What brings you to my forge tonight? Needing new tools or perhaps looking for a gift for someone special?
 [player]: Your dedication to your craft is inspiring. The world needs more artisans like you.
-[magnus_runehammer]: *Scratches chin thoughtfully* Well said, but remember, the world could use a bit less talk and a bit more action too. Now, what can I do for you, traveler?
+[magnus_runehammer]: *Smiles warmly, though not too enthusiastically* I try my best. The world does need its share of honest toil and skill. What brings you to think such thoughts tonight? Need some new armor or perhaps a special gift for an upcoming event?
 [player]: I'm on a quest into the frozen wastes. I wonder if you might have any wisdom to share about surviving the cold?
-[magnus_runehammer]: Ah, venturing into the frosty wilds, eh? Wisdom abounds in this forge, but it's earned through trial and error. Start by wearing layers of wool and leather for warmth. And remember, keep moving to generate body heat. I've got a special amulet here that might help you too. *Pulls out a glowing blue amulet* It'll give you some frost resistance. Earn my trust, and it's yours.
+[magnus_runehammer]: Ah, venturing into the frosted realms can be treacherous indeed. You'll need more than just weapons and armor; you must also dress for the cold. Furs and layered clothing are key. And don't forget your feet—boots that keep out the chill.
+
+As for my wisdom, I've faced such icy climes myself. Keep a fire nearby at all times, even if it's just a small one. That will help maintain your warmth. Also, know when to rest; exhaustion can turn you into a popsicle faster than you think.
+
+Now, let me see what I can do for you. *Starts rummaging through his forge* A sturdy cloak and perhaps some thick gloves might serve you well on this journey.
 [player]: If you have any equipment that could help protect against the frost, I would be deeply grateful and honored to receive it.
-[magnus_runehammer]: *A nod of approval* Well then, it seems we've struck a bargain. Take this Frost Reaver with you—may its icy trail keep your path clear. Remember, use it wisely. And perhaps one day, you'll earn the right to wear my frost-resistant amulet.
+[magnus_runehammer]: I can certainly give you something useful. *Pulls out a pair of enchanted gloves from his workbench* These Frost-Resistant Gloves should keep your hands warm even in the coldest weather. They're no ordinary gloves—they resist frostbite and can even slow down the freezing process if you ever find yourself surrounded by ice.
+
+And here, take this cloak as well. *Gives a thick, fur-lined cloak to the player* It's not just for warmth; it has a charm that makes it harder for enemies to detect you in snow or ice.
+
+I trust these will serve you well on your journey into the frozen wastes.

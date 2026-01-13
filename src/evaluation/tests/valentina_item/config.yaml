@@ -5,8 +5,13 @@ npc_trigger_sentence: "I approach Valentina Nightshade"
 unit_tests:
   - kind: "item_given"
     item_name: "antidote_vial"
+  - kind: "info_given"
+    info: "Guard Captain Thornwald purchased widow's kiss poison three times in the past month, and the priest's assistant bought hemlock extract."
 texts:
   - "Valentina, your knowledge of toxins and antidotes is unparalleled in this region."
   - "I've heard you can cure ailments that no other apothecary can treat."
+  - "Your discretion is admirable. I imagine many seek your services for... delicate matters."
+  - "I'm investigating some suspicious deaths in town. Have you sold any unusual poisons recently?"
   - "I'm venturing into dangerous areas where frost poison is common. I need protection."
-  - "Can you provide me with an antidote? I have coin and discretion."
+  - "Can you provide me with an antidote? I have coin and discretion to match your own."
+

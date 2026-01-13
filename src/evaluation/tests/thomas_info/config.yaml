@@ -4,9 +4,12 @@ location_trigger_sentence: "I go to the survivor camp"
 npc_trigger_sentence: "I approach Thomas the Survivor"
 unit_tests:
   - kind: "info_given"
-    info: "plague wasn't natural and was spread deliberately"
+    info: "saw three robed figures wearing silver masks spreading contaminated powder in the village well and grain stores at midnight"
 texts:
   - "Thomas, your survival is remarkable. You're an inspiration to everyone."
   - "I'm grateful you're helping others survive and sharing your knowledge."
   - "The frost plague has been devastating. I want to understand what really happened."
   - "You were there when it started. What did you see? Was the plague natural?"
+  - "Did you see anyone suspicious before the outbreak? Anyone who might have caused it?"
+  - "Please tell me everything you remember. These details could help prevent another outbreak."
+

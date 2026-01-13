@@ -1,18 +1,16 @@
 [location trigger] The players cautiously approach the Wolf Den in the wilderness.
 [npc trigger] Fenris Wolfheart emerges from the den, wolves at his side, and regards the newcomers calmly.
 [player]: Fenris, I come in peace. I have great respect for the wild and its creatures.
-[fenris_wolfheart]: Ah, a kindred spirit. What brings you to these parts? The air is thick with tension tonight, more than usual.
+[fenris_wolfheart]: Ah, a kindred spirit then. Many travelers pass through these parts seeking fortune or glory, but few truly understand the balance we must maintain. What brings you here tonight?
 [player]: Your bond with these wolves is remarkable. You must understand the wilderness better than anyone.
-[fenris_wolfheart]: Indeed, the woods whisper secrets to me. They teach patience and strength. But not everyone understands their language. What do you seek in the wild, stranger?
+[fenris_wolfheart]: Indeed, my bond runs deep. The wilds whisper to me, guiding my steps and teaching me their ways. But understanding comes at a price—preserving that balance isn't always easy. What do you seek in the heart of this untamed land?
 [player]: I would never harm the wildlife here. I seek knowledge, not trophies.
-[fenris_wolfheart]: Then perhaps we can share a story or two around this fire. Knowledge is power, but it must be used wisely. Tell me of your journey so far, and what you hope to find in these lands.
+[fenris_wolfheart]: That's a noble intention. The woods and their inhabitants will share much with you if you earn it. Have you heard of the Frost Wolf alpha? Legends say its howls can calm even the wildest storms.
 [player]: I'm trying to learn about the dangerous creatures in this region to avoid them, not hunt them.
-[fenris_wolfheart]: That's a wise approach. The woods are full of both beauty and peril. Have you heard tales of the shadow wolves or the sea monster that guards our coast? Knowledge can indeed keep you safe as well as guide your steps in the wild.
+[fenris_wolfheart]: Wise words indeed. The Frost Wolf is but one of many threats out there. You should also watch for goblins and bandits who roam the northern woods. And let not your guard drop near the lighthouse—strange things are said to stir in its depths. But fear not, with knowledge comes protection.
 [player]: What can you tell me about the legendary beasts that roam these frozen lands?
-[fenris_wolfheart]: The legend of the shadow wolves is a tale both revered and feared. They are said to be the spirits of fallen warriors, their howls echoing through the night with a chilling power. As for the sea monster that guards our coast... it's said to be an ancient beast, born from the very depths of the ocean itself. It appears when the winds grow wild and the waves rise high. Both are creatures of the old magic, guardians of secrets and mysteries.
+[fenris_wolfheart]: The legends of these lands echo with tales of formidable creatures. The Frost Wolf is but one, its howls like ice slicing through the night, said to conjure cold and snow from thin air. Then there's the Shadow Stalker, a beast of darkness that can blend into the shadows and strike without warning. And do not forget the Leviathan haunting the coast—rumors speak of a sea monster that pulls sailors to their doom.
 
-Do you seek their destruction or merely knowledge?
+But knowledge is power, my friend. The more you understand about these beasts, the better you'll fare against them. Would you like to hear more, or perhaps learn how to defend yourself?
 [player]: I'm particularly interested in the most powerful creatures - the ones that command respect and awe.
-[fenris_wolfheart]: The Frost Wolf alpha commands such awe and respect; it is said to be the apex predator in these lands, a creature of ice and fury. Its lair lies deep within the frozen tundra, near where the river meets the sea. You must tread carefully if you wish to seek knowledge from its presence.
-
-And the sea monster? It is said to patrol the coast at night, its roar shaking the very foundations of the rocks. To face such creatures is a daunting task, but the rewards are great for those who dare to venture into their domains.
+[fenris_wolfheart]: The Frost Wolf and the Leviathan are certainly among the most fearsome. The Frost Wolf is known for its icy breath and eerie howls, while the Leviathan roams the cold waters off the coast, said to be a creature of mythic proportions. Both are rarely seen but always feared. Would you like me to tell you more about them, or perhaps offer some advice on how to survive an encounter with either?
