@@ -23,7 +23,7 @@ logging.getLogger("langchain").setLevel(logging.ERROR)
 FOLDER = Path(__file__).parent
 TESTS_FOLDER = FOLDER / "tests"
 
-TEST_CHECKER_MODEL = "qwen2.5:3b"
+TEST_CHECKER_MODEL = "qwen2.5:7b"
 
 def p(msg: str):
     print(f"{msg}{Style.RESET_ALL}{Style.NORMAL}")
@@ -135,7 +135,7 @@ def check_tests(whole_conversation: List[str], unit_tests: List[Union[
             prompt = prompt_item_given_test(whole_conversation, unit_test)
         elif isinstance(unit_test, UnitTestInfoGiven):
             prompt = prompt_info_given_test(whole_conversation, unit_test)
-        elif isinstance(unit_test, UnitTestAttacked):
+        elif isinstance(unit_test, UnitTestAttacked):   
             prompt = prompt_attacked_test(whole_conversation, unit_test)
         elif isinstance(unit_test, UnitTestStoppedConversation):
             prompt = prompt_stopped_conversation_test(whole_conversation, unit_test)
@@ -307,6 +307,8 @@ def run_tests():
                         text=response,
                         npc_id=npc_id,
                     )
+                    
+                    pipeline.trigger_detector.update_state_after_speech(npc_id)
                 else:
                     warning(f"npc not triggered or not in scene. triggered: {trigger_result.triggered_npc}, active: {context.active_npcs}")
             

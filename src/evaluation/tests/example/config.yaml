@@ -5,7 +5,12 @@ npc_trigger_sentence: "Joe greets the players warmly."
 
 unit_tests:
   - kind: "info_given"
-    info: "There is a secret passage behind the bookshelf of Willowrest's library."
+    info: "Knows the location of a hidden treasure map in the tavern cellar. Also knows about the secret smuggling tunnel to the docks."
 
 texts:
-  - "Hi there, Joe!"
+  - "Hi there, Joe! How's business today?"
+  - "This tavern has such a warm atmosphere. You must take great pride in running it!"
+  - "I've heard you're one of the most knowledgeable folks in town. How long have you been working here?"
+  - "You seem like someone who knows all the interesting stories around here."
+  - "I really appreciate your hospitality. Say, I'm curious about something... have you ever heard tales of any hidden treasures around these parts?"
+  - "I'm actually seeking a treasure. Given how helpful you've been, I was wondering if you might know anything about it?"
