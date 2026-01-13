@@ -1,38 +1,14 @@
 #!/usr/bin/env python3
-"""
-Main entry point for the Overhearing Agents system.
-
-This module initializes and runs the complete real-time NPC conversation system
-for tabletop RPGs. It orchestrates all components:
-- Voice Activity Detection (VAD) for continuous listening
-- Speech-to-Text (STT) for transcription
-- Context management and trigger detection
-- NPC orchestration with RAG-based knowledge retrieval
-- Text-to-Speech (TTS) with emotion support
-
-The system runs in a multi-threaded architecture to ensure real-time performance,
-with separate threads for audio capture, transcription, and conversation analysis.
-
-Usage:
-    COQUI_TOS_AGREED=1 uv run python -m src.main
-    python -m src.main --eval
-
-Requirements:
-    - Ollama with qwen2.5:3b model installed
-    - CUDA-capable GPU for TTS (Coqui XTTS v2)
-    - Microphone input device
-"""
-
 import logging
 import sys
 import signal
 import argparse
 import os
 import subprocess
+import warnings
 
 from pathlib import Path
 
-import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 warnings.filterwarnings("ignore", message=".*pkg_resources.*")

@@ -1,42 +1,16 @@
-"""
-Speech-to-Text (STT) Engine using faster-whisper with hotword support.
-
-This module provides real-time audio transcription optimized for tabletop RPGs.
-It uses faster-whisper (a CTranslate2-optimized version of OpenAI Whisper) for
-low-latency transcription with GPU acceleration. The engine supports custom
-vocabulary (hotwords) extracted from game world lore to improve recognition
-accuracy for proper nouns, locations, NPC names, and RPG-specific terms.
-
-Key features:
-- GPU-accelerated transcription using faster-whisper
-- Custom vocabulary (hotwords) from world lore
-- Automatic device selection (CUDA/CPU)
-- Optimized parameters for accuracy and speed
-- Singleton pattern for efficient resource usage
-
-The HotwordExtractor class extracts relevant terms from WorldLore objects,
-including NPC names, locations, items, factions, and common RPG vocabulary.
-These hotwords are formatted as an initial prompt for Whisper to improve
-recognition of domain-specific terms.
-
-Usage:
-    engine = create_stt_engine(world_lore=world, model_size="large-v3")
-    transcription = engine.transcribe(audio_path, language="en")
-"""
-
 import logging
+import numpy as np
+
 from pathlib import Path
 from typing import Optional, List, Union
-import numpy as np
+from src.rag.models import WorldLore
 
 try:
     from faster_whisper import WhisperModel
     FASTER_WHISPER_AVAILABLE = True
 except ImportError:
     FASTER_WHISPER_AVAILABLE = False
-    import whisper  # Fallback to standard whisper
-
-from src.rag.models import WorldLore
+    import whisper
 
 logger = logging.getLogger(__name__)
 
@@ -57,36 +31,28 @@ class HotwordExtractor:
         """
         hotwords = set()
         
-        # NPC names
         for npc in world_lore.npcs:
             hotwords.add(npc.name)
             if npc.id:
                 hotwords.add(npc.id.replace("_", " ").title())
         
-        # Locations
         for location in world_lore.locations:
             hotwords.add(location.name)
             if location.id:
                 hotwords.add(location.id.replace("_", " ").title())
         
-        # Items
         for item in world_lore.items:
             hotwords.add(item.name)
         
-        # Factions
         for faction in world_lore.factions:
             hotwords.add(faction.name)
         
-        # Historical events (key terms)
         for event in world_lore.history:
             hotwords.add(event.event)
         
-        # Quests (extract key nouns - simple approach)
         for quest in world_lore.quests:
-            # You could enhance this with NLP extraction
             pass
         
-        # Add common RPG vocabulary
         rpg_vocab = [
             "drink", "drinks", "ale", "beer", "tavern", "inn", "quest", "quests",
             "gold", "silver", "coin", "coins", "sword", "shield", "armor",
@@ -94,10 +60,8 @@ class HotwordExtractor:
         ]
         hotwords.update(rpg_vocab)
         
-        # Filter and clean
         cleaned = []
         for word in hotwords:
-            # Remove empty, too short, or generic words
             if word and len(word) > 2 and word.lower() not in ["the", "and", "for"]:
                 cleaned.append(word)
         
@@ -105,16 +69,7 @@ class HotwordExtractor:
     
     @staticmethod
     def format_for_whisper(hotwords: List[str]) -> str:
-        """
-        Format hotwords for Whisper's prompt parameter.
-        
-        Args:
-            hotwords: List of words to emphasize
-            
-        Returns:
-            Comma-separated string of hotwords
-        """
-        return ", ".join(hotwords[:50])  # Limit to 50 most important
+        return ", ".join(hotwords[:50])
 
 
 class STTEngine:
@@ -152,13 +107,11 @@ class STTEngine:
         else:
             self.use_faster_whisper = True
             
-            # Auto-detect best device and compute type
             if device == "auto":
                 import torch
                 device = "cuda" if torch.cuda.is_available() else "cpu"
             
             if compute_type == "auto":
-                # Use float16 on CUDA, int8 on CPU for best performance
                 compute_type = "float16" if device == "cuda" else "int8"
             
             logger.info(
@@ -166,8 +119,6 @@ class STTEngine:
                 f"device={device}, compute_type={compute_type}"
             )
             
-            # faster-whisper supports HuggingFace model IDs directly
-            # e.g., "openai/whisper-large-v3-turbo" or standard sizes like "large-v3"
             self.model = WhisperModel(
                 model_size,
                 device=device,
@@ -203,6 +154,7 @@ class STTEngine:
         """
         if cls._instance is None:
             cls._instance = cls(model_size, device, compute_type, hotwords)
+
         return cls._instance
     
     def transcribe(
@@ -213,8 +165,6 @@ class STTEngine:
         vad_filter: bool = True,
     ) -> str:
         """
-        Transcribe audio to text.
-        
         Args:
             audio: Audio file path or numpy array (16kHz)
             language: Language code (en, fr, etc.)
@@ -236,11 +186,7 @@ class STTEngine:
         temperature: float,
         vad_filter: bool,
     ) -> str:
-        """Transcribe using faster-whisper."""
-        # Build initial prompt with hotwords for better recognition
         initial_prompt = self.hotword_prompt if self.hotword_prompt else None
-        
-        # Use better parameters for accuracy
         segments, info = self.model.transcribe(
             audio,
             language=language,
@@ -251,16 +197,15 @@ class STTEngine:
             best_of=5,
             patience=1.0,
             length_penalty=1.0,
-            repetition_penalty=1.2,  # Slightly higher to avoid repetitions
-            no_repeat_ngram_size=3,  # Prevent 3-gram repetitions
+            repetition_penalty=1.2,
+            no_repeat_ngram_size=3,
             compression_ratio_threshold=2.4,
             log_prob_threshold=-1.0,
             no_speech_threshold=0.6,
-            condition_on_previous_text=True,  # Better context
-            word_timestamps=False,  # Faster
+            condition_on_previous_text=True,
+            word_timestamps=False,
         )
         
-        # Collect all segments
         text_parts = []
         for segment in segments:
             text_parts.append(segment.text.strip())
@@ -273,7 +218,6 @@ class STTEngine:
         language: str,
         temperature: float,
     ) -> str:
-        """Fallback to standard whisper."""
         result = self.model.transcribe(
             str(audio),
             language=language,
@@ -284,8 +228,6 @@ class STTEngine:
     
     def set_hotwords(self, hotwords: List[str]):
         """
-        Update hotwords list.
-        
         Args:
             hotwords: New list of custom vocabulary
         """
@@ -295,8 +237,6 @@ class STTEngine:
     
     def add_hotwords(self, new_hotwords: List[str]):
         """
-        Add hotwords to existing list.
-        
         Args:
             new_hotwords: Additional custom vocabulary
         """
@@ -327,7 +267,7 @@ def create_stt_engine(
     hotwords = []
     if world_lore:
         hotwords = HotwordExtractor.extract_from_world(world_lore)
-        logger.info(f"Extracted {len(hotwords)} hotwords from world lore")
+        logger.debug(f"Extracted {len(hotwords)} hotwords from world lore")
     
     return STTEngine.get_instance(
         model_size=model_size,

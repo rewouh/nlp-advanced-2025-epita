@@ -1,44 +1,9 @@
-"""
-Text-to-Speech (TTS) Engine with emotion and voice cloning support.
-
-This module provides TTS synthesis using Coqui XTTS v2, which supports:
-- Emotion control (neutral, happy, sad, angry, fearful, surprised, disgusted)
-- Voice cloning via speaker reference audio (speaker_wav)
-- Multi-language support
-- Prosody and speed control
-
-The engine generates unique voices for each NPC based on their ID and gender,
-creating consistent but distinct voice characteristics. It uses a default
-speaker generated with Piper TTS as a base, then creates variations for
-each NPC using XTTS voice cloning.
-
-Key features:
-- GPU-accelerated synthesis (CUDA required)
-- Emotion mapping from NPC disposition (hostile -> angry, friendly -> happy)
-- Automatic voice gender detection from NPC name/backstory
-- Speaker caching for performance
-- PyTorch 2.5+ compatibility workarounds
-
-The Emotion enum maps NPC relationship dispositions to TTS emotions,
-allowing NPCs to sound appropriately based on their relationship with
-the player.
-
-Usage:
-    engine = TTSEngine(use_coqui=True)
-    audio = engine.synthesize(
-        text="Hello, traveler!",
-        emotion=Emotion.FRIENDLY,
-        speaker_wav="/path/to/speaker.wav"
-    )
-    engine.play(audio, sample_rate=22050)
-"""
-
 import logging
+import numpy as np
+
 from enum import Enum
 from pathlib import Path
 from typing import Optional
-
-import numpy as np
 
 try:
     from TTS.api import TTS
@@ -279,7 +244,6 @@ class TTSEngine:
             else:
                 audio_array = audio_array.astype(np.float32)
             
-            # Speed adjustment (simple resampling)
             if speed != 1.0:
                 try:
                     from scipy import signal
@@ -308,7 +272,6 @@ class TTSEngine:
                 logger.info(f"Using existing default speaker: {default_speaker_path}")
                 return str(default_speaker_path)
             
-            # Use Piper to generate a default speaker audio (if available)
             if hasattr(self, 'piper_voice') and self.piper_voice:
                 logger.info("Generating default speaker using Piper...")
                 audio_chunks = list(self.piper_voice.synthesize("Hello, this is a default voice."))
@@ -316,7 +279,6 @@ class TTSEngine:
                     audio_data = b''.join(chunk.audio_int16_bytes for chunk in audio_chunks)
                     sample_rate = audio_chunks[0].sample_rate
                     
-                    # Save as WAV file
                     import wave
                     with wave.open(str(default_speaker_path), 'wb') as wf:
                         wf.setnchannels(1)
@@ -327,7 +289,6 @@ class TTSEngine:
                     logger.info(f"Default speaker created: {default_speaker_path}")
                     return str(default_speaker_path)
             
-            # Cannot use XTTS to generate speaker (circular dependency - XTTS needs speaker_wav)
             logger.warning("Cannot generate default speaker_wav without Piper")
             logger.warning("XTTS v2 will try to work, but may require speaker_wav for each synthesis")
             return None
@@ -386,7 +347,6 @@ class TTSEngine:
                 emotion=Emotion.NEUTRAL.value,
             )
             
-            # Copy to final location
             import shutil
             shutil.copy(str(temp_output), str(speaker_path))
             temp_output.unlink()
@@ -396,22 +356,7 @@ class TTSEngine:
             
         except Exception as e:
             logger.warning(f"Failed to generate speaker for {npc_id}: {e}")
-            # Fallback to default speaker
             return self.default_speaker_wav
-    
-    def play(self, audio: np.ndarray, sample_rate: int = 22050):
-        """
-        Play audio.
-        
-        Args:
-            audio: Audio array
-            sample_rate: Sample rate
-        """
-        try:
-            sd.play(audio, samplerate=sample_rate)
-            sd.wait()
-        except Exception as e:
-            logger.error(f"Audio playback error: {e}")
     
     def synthesize_and_play(
         self,
@@ -422,9 +367,15 @@ class TTSEngine:
         speed: float = 1.0,
     ):
         audio = self.synthesize(text, emotion, speaker_wav, language, speed)
-        if audio is not None:
-            self.play(audio)
 
+        if audio is None:
+            return
+
+        try:
+            sd.play(audio, samplerate=22050)
+            sd.wait()
+        except Exception as e:
+            logger.error(f"Audio playback error: {e}")
 
 def emotion_from_disposition(disposition: str) -> Emotion:
     """
@@ -444,24 +395,3 @@ def emotion_from_disposition(disposition: str) -> Emotion:
         "trusting": Emotion.HAPPY,
     }
     return mapping.get(disposition, Emotion.NEUTRAL)
-
-
-def create_tts_engine(
-    use_coqui: bool = True,
-    piper_fallback_path: Optional[Path] = None,
-) -> TTSEngine:
-    """
-    Factory function to create TTS engine.
-    
-    Args:
-        use_coqui: Use Coqui XTTS if available
-        piper_fallback_path: Path to Piper model for fallback
-        
-    Returns:
-        TTSEngine instance
-    """
-    return TTSEngine(
-        use_coqui=use_coqui,
-        piper_voice_path=piper_fallback_path,
-    )
-
