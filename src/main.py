@@ -124,7 +124,7 @@ def run_pipeline():
         pipeline = OverhearingPipeline(
             world_path=world_path,
             session_path=session_path if session_path.exists() else None,
-            model="qwen2.5:3b",
+            model="qwen2.5:7b",
             stt_model="base",
             tts_callback=tts_callback,
         )
