@@ -1,5 +1,46 @@
-shell.nix
-.venv/
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Virtual environments
+.venv/
+.env/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Project-specific
+data/chroma/
 *.log
-*.png
+overhearing.log
+/tmp/
+*.wav
+*.mp3
+
+# Development files
+sujet.txt
+debug_audio.py
+clean_code.py
+demo.py
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+{
+  "background": "/static/guard-barracks-bg.png",
+  "people": {
+    "hilda": {
+      "image": "/static/hilda.png",
+      "x": "52%",
+      "y": "-2%",
+      "width": "350px"
+    }
+  }
+}

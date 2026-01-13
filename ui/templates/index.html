@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Taverne Interactive</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div id="scene"></div>
+
+<script>
+let currentScene = null;
+
+async function refresh() {
+    const r = await fetch("/state");
+    const state = await r.json();
+
+    if (!state.scene) return;
+
+    if (JSON.stringify(state.scene) !== JSON.stringify(currentScene)) {
+        renderScene(state.scene);
+        currentScene = state.scene;
+    }
+
+    for (const name in state.scene.people) {
+        const bubbleText = document.querySelector(`#${name} .bubble-text`);
+        const bubble = document.querySelector(`#${name} .bubble`);
+        if (!bubble || !bubbleText) continue;
+
+        if (state.speaker === name && state.dialogue?.trim()) {
+            bubbleText.innerText = state.dialogue;
+            bubble.classList.add("visible");
+        } else {
+            bubbleText.innerText = "";
+            bubble.classList.remove("visible");
+        }
+    }
+}
+
+function renderScene(scene) {
+    const root = document.getElementById("scene");
+    root.innerHTML = "";
+
+    const bg = document.createElement("img");
+    bg.id = "bg";
+    bg.src = scene.background;
+    root.appendChild(bg);
+
+    for (const name in scene.people) {
+        const p = scene.people[name];
+
+        const div = document.createElement("div");
+        div.className = "person";
+        div.id = name;
+        div.style.left = p.x;
+        div.style.bottom = p.y;
+
+        if (p.width) div.style.width = p.width;
+
+        div.innerHTML = `
+            <img src="${p.image}">
+            <div class="bubble">
+                <span class="bubble-text"></span>
+                <div class="bubble-tail"></div>
+            </div>
+        `;
+
+        root.appendChild(div);
+    }
+}
+
+setInterval(refresh, 300);
+</script>
+</body>
+</html>
