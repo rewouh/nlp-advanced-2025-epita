@@ -339,11 +339,9 @@ First, a single player–NPC exchange (one message each) uses, on average, 654 p
 
 Second, the majority of tokens are consumed by the prompt. This is expected, as the model's responses are relatively short, typically one or two sentences.
 
-Another interesting analysis is the time everything takes.
+We also analyzed response times.
 
 <img src="./src/evaluation/response_time_distribution.png" />
-
-We also analyzed response times.
 
 Since all computations are performed locally, these results should be interpreted with caution, as performance is highly dependent on the hardware. The test suite was ran on a `RTX 3070 (desktop)`.
 
